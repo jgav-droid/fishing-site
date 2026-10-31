@@ -20,6 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import METADATA, SODA, _http, content_hash_ids, load, now_iso, save, update_source_status  # noqa: E402
 
+MIN_KEEP_FRACTION = 0.5   # window rows can shrink slowly as old plants age out, never halve at once
 FIELDS = ["release_start_date", "release_end_date", "release_location", "county", "species_type", "species",
           "number_released", "number_of_fish_per_pound", "total_pounds", "lifestage", "facility", "geo_code",
           "agency", "stock", "origin", "run", "brood_year", "release_year", "release_month"]
@@ -64,6 +65,15 @@ def main(data_dir=None, window_days=400, today=None):
     except Exception as e:  # keep last-known data
         update_source_status(data_dir, "stocking", False, e)
         print("stocking refresh FAILED; keeping last-known data:", e)
+        return 1
+    # A "successful" response that is suspiciously small (e.g. an empty result during an
+    # upstream outage) must not replace good data: treat it as a failed refresh.
+    prev = load("stocking_events.json", data_dir)
+    prev_n = len(prev["events"]) if prev else 0
+    if prev_n >= 20 and len(rows) < prev_n * MIN_KEEP_FRACTION:
+        update_source_status(data_dir, "stocking", False,
+                             f"suspicious drop: {len(rows)} rows vs {prev_n} previously; kept last-known data")
+        print(f"stocking refresh REJECTED ({len(rows)} vs {prev_n} rows); keeping last-known data")
         return 1
     retrieved = now_iso()
     events = []

@@ -1,4 +1,6 @@
-# Washington Stocked Lake Finder: MVP v0.1
+# Shorelio MVP v0.1 (https://shorelio.com)
+
+*Find a fishing spot you can actually use.* Stocking, shore access, rules & conditions.
 
 Answers: **"Which recently stocked lake can I realistically fish from shore, and what
 do I need to know before driving there?"**
@@ -121,5 +123,29 @@ Phone-width check:
 (cd mvp/dist && python3 -m http.server 8811) & node mvp/tests/mobile_check.js http://127.0.0.1:8811
 ```
 
-Deployment: `.github/workflows/mvp-site.yml` refreshes, tests, builds and
-deploys to GitHub Pages every 6 hours. See `LAUNCH_CHECKLIST.md`.
+Production verification without committing a contact address:
+
+```bash
+python3 mvp/site/build_site.py --production --config /path/to/temp-config.json --out /tmp/prod_dist
+```
+
+## Deployment
+
+`.github/workflows/mvp-site.yml`:
+
+- Runs every 6 hours, **from the default branch only**, and **only once the
+  repository variable `MVP_PRODUCTION=true` is set**. It can also be run by
+  hand (`workflow_dispatch`).
+- **Deploys only** when `MVP_PRODUCTION=true` and the run is on the default
+  branch.
+- If tests fail or the production guard refuses, the job stops before
+  upload and the live site stays as it was.
+- If a source refresh fails, the job deploys last-known data marked STALE.
+- A suspicious drop in stocking rows counts as a failed refresh.
+- It commits the four refreshed data files back (`stocking_events.json`,
+  `notices.json`, `source_status.json`, `review_queue.json`). That step is
+  non-fatal.
+- No `CNAME` file is used: GitHub ignores it for custom Actions workflows,
+  and the domain is set in Settings → Pages.
+
+Launch steps: `LAUNCH_CHECKLIST.md`.

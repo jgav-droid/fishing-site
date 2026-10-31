@@ -3,8 +3,10 @@
 
   python3 mvp/site/build_site.py [--date YYYY-MM-DD] [--data-dir DIR] [--out DIR] [--production]
 
---production refuses to build with placeholder settings (base_url, contact) and makes the
-site indexable. Without it, every page carries noindex and robots.txt disallows crawling.
+--production refuses to build unless base_url is a real https domain and contact_email is
+a plausible monitored address, and makes the site indexable. Without it, every page carries
+noindex and robots.txt disallows crawling. --config points at another config file (used to
+verify the production path without committing a contact address).
 """
 import argparse
 import html
@@ -61,12 +63,13 @@ def miles(k):
 
 
 class Site:
-    def __init__(self, data_dir, out, trip, production):
-        self.cfg = json.loads((MVP / "config.json").read_text())
+    def __init__(self, data_dir, out, trip, production, config_path=None):
+        self.cfg = json.loads(Path(config_path or MVP / "config.json").read_text())
         self.production = production
         if production:
-            if "example.invalid" in self.cfg["base_url"] or not self.cfg["contact_email"]:
-                raise SystemExit("production build needs config.json base_url and contact_email")
+            problems = production_config_problems(self.cfg)
+            if problems:
+                raise SystemExit("production build refused: " + "; ".join(problems))
         self.base = self.cfg["base_url"].rstrip("/")
         self.tz = ZoneInfo(self.cfg["timezone"]) if ZoneInfo else timezone.utc
         self.out = Path(out)
@@ -125,6 +128,10 @@ class Site:
         c = w["lake_centre"]
         best = min(self.places, key=lambda p: km(c["lat"], c["lon"], p["lat"], p["lon"]))
         return best["name"], miles(km(c["lat"], c["lon"], best["lat"], best["lon"]))
+
+    def lake_name_differs(self, w):
+        norm = lambda x: re.sub(r"[^a-z]", "", re.sub(r"\(.*?\)", "", x.lower()).replace("lake", ""))
+        return norm(w["wdfw_name"]) != norm(w["display_name"])
 
     def url(self, path):
         return self.base + path
@@ -219,18 +226,18 @@ class Site:
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{E(canon)}">
 {robots}{gsv}
-<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{E(canon)}"><meta property="og:type" content="website">
+<meta property="og:site_name" content="{E(self.cfg["site_name"])}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{E(canon)}"><meta property="og:type" content="website">
 <link rel="stylesheet" href="/assets/style.css">
 <meta name="theme-color" content="#1f4d3a">
 {ld}{extra_head}{ga}
 </head>
 <body>
-<header class="top"><a class="brand" href="/">{E(self.cfg["site_name"])}</a>
+<header class="top"><a class="brand" href="/">{E(self.cfg["site_name"])}</a>{f'<span class="tagline">{E(self.cfg["tagline"])}</span>' if path == "/" else ""}
 <nav><a href="/">Trip finder</a><a href="/recently-stocked/">Recently stocked</a><a href="/lakes/">Lakes</a><a href="/methodology/">How it works</a></nav></header>
 <main id="main">
 {body}
 </main>
-<footer class="foot"><p>Independent site; not affiliated with WDFW or any land manager. Stocking data: WDFW Fish Plants (data.wa.gov). Access facts come from each official manager's pages and are linked on every lake page.
+<footer class="foot"><p><b>{E(self.cfg["site_name"])}</b>: {E(self.cfg.get("descriptor", ""))}</p><p>Independent site; not affiliated with WDFW or any land manager. Stocking data: WDFW Fish Plants (data.wa.gov). Access facts come from each official manager's pages and are linked on every lake page.
 Always check posted signs and the <a href="https://www.eregulations.com/washington/fishing/" rel="noopener">WDFW sport fishing rules</a>.</p>
 <p><a href="/methodology/">Methodology &amp; sources</a> · <a href="/data-quality/">Data quality &amp; corrections</a> · Built {E(self.local(self.built_at.isoformat()))}</p></footer>
 <script src="/assets/site.js" defer></script>
@@ -363,7 +370,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <div id="others" class="cards">{"".join(self.card(w) for w in rest)}</div></section>
 {self.freshness_block()}
 """
-        self.page("/", f"Recently Stocked Lakes for Shore Fishing in Washington | {self.cfg['site_name']}",
+        self.page("/", f"Recently Stocked Lakes in Washington With Shore Access | {self.cfg['site_name']}",
                   "Find Washington lakes with recently stocked catchable trout and documented shore access, with parking, pass, hours and notice details from official sources.",
                   body, extra_head='<script src="/assets/finder.js" defer></script>',
                   jsonld={"@context": "https://schema.org", "@type": "WebSite", "name": self.cfg["site_name"], "url": self.url("/")})
@@ -480,7 +487,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                 f"({', '.join(w['counties'])} County, WA), with official sources.")
         body = f"""<nav class="crumbs"><a href="/">Trip finder</a> › <a href="/lakes/">Lakes</a> › {E(w["display_name"])}</nav>
 <h1>{E(w["display_name"])} Fishing — Stocking &amp; Shore Access</h1>
-<p class="lede">{E(", ".join(w["counties"]))} County, WA · nearest Census place: {E(np_name)} (~{np_mi:.0f} mi) · main access managed by {E(prim["manager"])}</p>
+<p class="lede">{E(", ".join(w["counties"]))} County, WA{(" · WDFW name: " + E(w["wdfw_name"])) if self.lake_name_differs(w) else ""} · nearest Census place: {E(np_name)} (~{np_mi:.0f} mi) · main access managed by {E(prim["manager"])}</p>
 <section class="decision" aria-label="Trip decision summary">
 {before}
 {above}
@@ -685,6 +692,22 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         return report
 
 
+def production_config_problems(cfg):
+    """Launch guard. Never satisfied by placeholders: a missing contact stays a blocker."""
+    out = []
+    u = urlparse(cfg.get("base_url", ""))
+    if u.scheme != "https" or not u.netloc or re.search(r"example\.|\.invalid$|localhost|127\.0\.0\.1|\.local$|github\.io$", u.netloc):
+        out.append(f"base_url must be the real https production domain (got {cfg.get('base_url')!r})")
+    if u.path not in ("", "/"):
+        out.append("base_url must not contain a path")
+    em = cfg.get("contact_email", "")
+    if not re.fullmatch(r"[^@\s]+@[^@\s]+\.[a-z]{2,}", em or "", re.I) or re.search(r"@(example\.|.*\.invalid$)", em or ""):
+        out.append("contact_email must be a real, monitored address (config.json contact_email is empty or a placeholder)")
+    if not cfg.get("site_name"):
+        out.append("site_name missing")
+    return out
+
+
 CAT = {"regulation": "Rule", "physical_access": "Access", "health": "Health", "data": "Data"}
 
 
@@ -694,11 +717,12 @@ def main():
     ap.add_argument("--data-dir")
     ap.add_argument("--out", default=str(MVP / "dist"))
     ap.add_argument("--production", action="store_true")
+    ap.add_argument("--config")
     a = ap.parse_args()
-    cfg = json.loads((MVP / "config.json").read_text())
+    cfg = json.loads(Path(a.config or MVP / "config.json").read_text())
     tz = ZoneInfo(cfg["timezone"]) if ZoneInfo else timezone.utc
     trip = date.fromisoformat(a.date) if a.date else datetime.now(tz).date()
-    rep = Site(a.data_dir, a.out, trip, a.production).build()
+    rep = Site(a.data_dir, a.out, trip, a.production, a.config).build()
     print(f"built {len(rep['pages'])} indexable pages ({rep['lake_pages']} lakes); qualifying today: {len(rep['qualifying_lakes'])}; "
           f"city pages: {[d['city'] for d in rep['city_pages'] if d['published']]}; stale: {rep['stale_sources'] or 'none'}")
 

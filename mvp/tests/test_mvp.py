@@ -24,9 +24,13 @@ DATA = MVP / "data"
 TRIP = date(2026, 10, 31)
 
 
-def built(trip=TRIP, data_dir=None, production=False):
+CONFIG = json.loads((MVP / "config.json").read_text())
+BASE = CONFIG["base_url"]
+
+
+def built(trip=TRIP, data_dir=None, production=False, config_path=None):
     out = Path(tempfile.mkdtemp(prefix="mvp-dist-"))
-    site = build_site.Site(str(data_dir or DATA), out, trip, production)
+    site = build_site.Site(str(data_dir or DATA), out, trip, production, config_path)
     site.build()
     return out, site
 
@@ -53,9 +57,10 @@ class Build(unittest.TestCase):
             p = self.out / "lakes" / w["slug"] / "index.html"
             self.assertTrue(p.exists(), w["slug"])
             s = p.read_text()
-            t = re.search(r"<title>(.*?)</title>", s).group(1)
+            t = html.unescape(re.search(r"<title>(.*?)</title>", s).group(1))
             d = re.search(r'<meta name="description" content="(.*?)">', s).group(1)
-            self.assertIn(f'<link rel="canonical" href="https://example.invalid/lakes/{w["slug"]}/">', s)
+            self.assertIn(f'<link rel="canonical" href="{BASE}/lakes/{w["slug"]}/">', s)
+            self.assertTrue(t.startswith(f"{w['display_name']} Fishing — Stocking & Shore Access") and t.endswith("| Shorelio"), t)
             self.assertIn(f"/lakes/{w['slug']}/</loc>", sitemap)
             self.assertGreater(len(d), 80)
             titles.add(t)
@@ -66,10 +71,36 @@ class Build(unittest.TestCase):
         self.assertNotIn("?", sitemap.replace('<?xml version="1.0" encoding="UTF-8"?>', ""))
 
     def test_non_production_is_noindex_and_production_refuses_placeholders(self):
-        self.assertIn('content="noindex"', (self.out / "index.html").read_text())
+        for f in self.out.rglob("*.html"):
+            self.assertIn('content="noindex"', f.read_text(), f)
         self.assertIn("Disallow: /", (self.out / "robots.txt").read_text())
-        with self.assertRaises(SystemExit):
-            built(production=True)
+        if not CONFIG["contact_email"]:          # the committed config must still be refused
+            with self.assertRaises(SystemExit):
+                built(production=True)
+        bad = build_site.production_config_problems
+        ok = {"site_name": "Shorelio", "base_url": "https://shorelio.com", "contact_email": "help@shorelio.com"}
+        self.assertEqual(bad(ok), [])
+        for k, v in (("base_url", "http://shorelio.com"), ("base_url", "https://example.invalid"),
+                     ("base_url", "https://jgav-droid.github.io"), ("base_url", "http://localhost:8000"),
+                     ("base_url", "https://shorelio.com/site"), ("contact_email", ""),
+                     ("contact_email", "x@example.com"), ("contact_email", "not-an-email")):
+            self.assertTrue(bad({**ok, k: v}), (k, v))
+
+    def test_branding(self):
+        home = (self.out / "index.html").read_text()
+        self.assertIn("<title>Recently Stocked Lakes in Washington With Shore Access | Shorelio</title>", home)
+        self.assertIn("Find a fishing spot you can actually use.", home)
+        self.assertNotIn("Find a fishing spot you can actually use.", (self.out / "lakes/ward-lake/index.html").read_text())
+        for f in self.out.rglob("*.html"):
+            t = f.read_text()
+            self.assertIn('content="Shorelio"', t)            # og:site_name
+            self.assertNotIn("Washington Stocked Lake Finder", t)
+
+    def test_martha_is_confirmed_lynnwood_entity(self):
+        m = text(self.out / "lakes/martha-lake-lynnwood/index.html")
+        self.assertIn("WDFW name: Martha Alderwood Manor", m)
+        self.assertIn("https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor", (self.out / "lakes/martha-lake-lynnwood/index.html").read_text())
+        self.assertNotIn("martha-lake-snohomish", (self.out / "lakes/martha-lake-lynnwood/index.html").read_text())
 
     def test_decision_block_precedes_long_content(self):
         s = (self.out / "lakes/battle-ground-lake/index.html").read_text()
@@ -146,6 +177,59 @@ class Build(unittest.TestCase):
                 self.assertTrue((self.out / "near" / c.lower() / "index.html").exists())
 
 
+class Production(unittest.TestCase):
+    """Production path, verified with a temporary config whose only change is a test-only
+    contact address (never committed, never deployed)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cfg = dict(CONFIG, contact_email="launch-check@shorelio.test")
+        cls.cfg_path = Path(tempfile.mkdtemp()) / "config.json"
+        cls.cfg_path.write_text(json.dumps(cfg))
+        cls.out, cls.site = built(production=True, config_path=cls.cfg_path)
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def test_indexable_with_production_urls(self):
+        self.assertEqual(BASE, "https://shorelio.com")
+        robots = (self.out / "robots.txt").read_text()
+        self.assertIn("Allow: /", robots)
+        self.assertNotIn("Disallow", robots)
+        self.assertIn("Sitemap: https://shorelio.com/sitemap.xml", robots)
+        locs = re.findall(r"<loc>(.*?)</loc>", (self.out / "sitemap.xml").read_text())
+        self.assertEqual(len(locs), len(set(locs)))
+        for loc in locs:
+            self.assertTrue(loc.startswith("https://shorelio.com/") and "?" not in loc and "#" not in loc, loc)
+            f = self.out / loc[len("https://shorelio.com/"):] / "index.html" if loc.endswith("/") else self.out / loc[len("https://shorelio.com/"):]
+            t = f.read_text()
+            self.assertNotIn("noindex", t, loc)
+            self.assertIn(f'<link rel="canonical" href="{loc}">', t)
+            self.assertIn(f'<meta property="og:url" content="{loc}">', t)
+        paths = {l[len("https://shorelio.com"):] for l in locs}
+        for must in ("/", "/recently-stocked/", "/lakes/", "/methodology/", "/data-quality/",
+                     "/near/seattle/", "/near/tacoma/", "/near/vancouver/", "/near/olympia/"):
+            self.assertIn(must, paths)
+        self.assertNotIn("/near/puyallup/", paths)
+        self.assertNotIn("/404.html", paths)
+        self.assertEqual(sum(p.startswith("/lakes/") and p != "/lakes/" for p in paths), 20)
+
+    def test_no_dev_or_placeholder_urls_in_output(self):
+        for f in list(self.out.rglob("*.html")) + [self.out / "sitemap.xml", self.out / "robots.txt"]:
+            t = f.read_text()
+            for bad in ("example.invalid", "localhost", "127.0.0.1", "github.io", "http://shorelio", "Washington Stocked Lake Finder"):
+                self.assertNotIn(bad, t, (f, bad))
+
+    def test_finder_state_never_creates_urls(self):
+        js = (MVP / "site/static/finder.js").read_text()
+        self.assertIn('history.replaceState(null, "", "#"', js)
+        self.assertNotRegex(js, r"location\.search|pushState|\?from=")
+        home = (self.out / "index.html").read_text()
+        self.assertIn('<link rel="canonical" href="https://shorelio.com/">', home)
+        self.assertNotRegex(home, r'href="/\?')
+
+
 class Identity(unittest.TestCase):
     def setUp(self):
         self.aliases = json.loads((DATA / "aliases.json").read_text())
@@ -196,6 +280,18 @@ class Identity(unittest.TestCase):
         q = json.loads((tmp / "review_queue.json").read_text())["items"]
         self.assertEqual([i["release_location"] for i in q], ["LONGS PD NORTH (THUR)"])   # excluded LONG LK not re-queued
         shutil.rmtree(tmp)
+
+    def test_martha_decision_recorded(self):
+        conf = {a["alias"]: a for a in self.aliases}
+        am, wb = conf["MARTHA LK (AM) (SNOH)"], conf["MARTHA LK (WB) (SNOH)"]
+        self.assertEqual(am["human_decision"]["status"], "confirmed")
+        self.assertEqual(am["human_decision"]["decision"], "Martha Lake = Martha Lake (Alderwood Manor / Lynnwood), Snohomish County")
+        self.assertTrue(am["evidence"])                       # evidence preserved
+        self.assertEqual(wb["status"], "excluded")
+        self.assertIsNone(wb["water_id"])
+        w = {x["slug"]: x for x in json.loads((DATA / "waters.json").read_text())}["martha-lake-lynnwood"]
+        self.assertEqual(w["wdfw_geo_code"], "L3217")
+        self.assertIn("confirmed by the product owner", w["identity_decision"])
 
     def test_live_snapshot_has_no_excluded_or_unconfirmed_rows(self):
         ev = json.loads((DATA / "stocking_events.json").read_text())["events"]
@@ -251,6 +347,25 @@ class Freshness(unittest.TestCase):
         self.assertIn("STALE", home)
         self.assertIn("latest refresh failed", home)
         shutil.rmtree(out)
+        shutil.rmtree(tmp)
+
+    def test_suspicious_drop_is_treated_as_failure(self):
+        tmp = Path(tempfile.mkdtemp())
+        for f in DATA.glob("*.json"):
+            shutil.copy(f, tmp / f.name)
+        before = (tmp / "stocking_events.json").read_text()
+        prev = json.loads((tmp / "source_status.json").read_text())["stocking"]["last_success"]
+        orig_soda, orig_get = refresh_stocking.soda, refresh_stocking._http.get_json
+        refresh_stocking.soda = lambda params: ([], "https://data.wa.gov/fixture")   # "successful" empty result
+        refresh_stocking._http.get_json = lambda *a, **k: ({"status": 200, "error": None}, {"rowsUpdatedAt": 1793432004})
+        try:
+            self.assertEqual(refresh_stocking.main(str(tmp), today=TRIP), 1)
+        finally:
+            refresh_stocking.soda, refresh_stocking._http.get_json = orig_soda, orig_get
+        st = json.loads((tmp / "source_status.json").read_text())["stocking"]
+        self.assertEqual((st["status"], st["last_success"]), ("failed", prev))
+        self.assertIn("suspicious drop", st["error"])
+        self.assertEqual((tmp / "stocking_events.json").read_text(), before)
         shutil.rmtree(tmp)
 
     def test_old_success_is_stale_even_without_failure(self):

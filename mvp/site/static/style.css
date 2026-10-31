@@ -87,3 +87,6 @@ tr.catchable td:last-child{color:var(--yes);font-weight:600}
 .finder .more:not([open]){padding:0}
 .flag ul a.src,.sources a.src,.quotes a.src,.alts a{white-space:normal}
 .flag,.quotes li,.sources li,dd{overflow-wrap:anywhere}
+.tagline{flex-basis:100%;order:2;font-size:.85rem;color:var(--mute);margin-top:-.2rem}
+.top nav{order:3}
+@media (min-width:700px){.tagline{flex-basis:auto;order:0;margin:0}}

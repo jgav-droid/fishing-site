@@ -112,7 +112,13 @@
    "Official page Geo Code L3217 equals the alias's stocking geo_code L3217; county Snohomish",
    "Page lists rainbow + cutthroat; the alias's 112 plants are 94 rainbow / 17 cutthroat / 1 brown",
    "WDFW GIS shore points 'Martha Alderwood Manor' (2 public piers) and the WDFW access 'Martha Lake' (Snohomish) lie 0.23 km from the page centre"
-  ]
+  ],
+  "human_decision": {
+   "decided_by": "product owner",
+   "decided_at": "2026-10-31",
+   "decision": "Martha Lake = Martha Lake (Alderwood Manor / Lynnwood), Snohomish County",
+   "status": "confirmed"
+  }
  },
  {
   "alias": "WARD LK (THUR)",
@@ -353,7 +359,7 @@
  {
   "alias": "MARTHA LK (WB) (SNOH)",
   "collides_with": "wa-w-martha-alderwood-manor",
-  "reason": "Warm Beach Lake Martha (page code L3218, stocking code L3219); a different water from the Lynnwood Martha Lake.",
+  "reason": "Warm Beach Lake Martha (page code L3218, stocking code L3219); a different water from the Lynnwood Martha Lake. Excluded from the initial MVP (product-owner decision, 2026-10-31).",
   "raw_names": [
    "MARTHA LK (WB) (SNOH)"
   ],

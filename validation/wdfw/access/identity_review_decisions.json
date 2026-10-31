@@ -1,6 +1,6 @@
 {
  "reviewed_at": "2026-10-31",
- "reviewer": "validating agent (Claude); human confirmation recommended for the MVP Martha choice",
+ "reviewer": "validating agent (Claude); Martha Lake MVP choice confirmed by the product owner on 2026-10-31",
  "decisions": [
   {
    "alias": "MARTHA LK (AM) (SNOH)",
@@ -12,7 +12,13 @@
     "Page lists rainbow + cutthroat; the alias's 112 plants are 94 rainbow / 17 cutthroat / 1 brown",
     "WDFW GIS shore points 'Martha Alderwood Manor' (2 public piers) and the WDFW access 'Martha Lake' (Snohomish) lie 0.23 km from the page centre"
    ],
-   "mvp_decision": "The MVP item 'Martha Lake (Snohomish County)' = this water (Lynnwood; Martha Lake Park fishing piers). Bank-fishing relevance and metro location make it the intended MVP lake; confirm with the product owner."
+   "mvp_decision": "CONFIRMED by product owner: the MVP 'Martha Lake (Snohomish County)' is this water (Lynnwood; WDFW 'Martha Alderwood Manor', code L3217).",
+   "human_decision": {
+    "decided_by": "product owner",
+    "decided_at": "2026-10-31",
+    "decision": "Martha Lake = Martha Lake (Alderwood Manor / Lynnwood), Snohomish County",
+    "status": "confirmed"
+   }
   },
   {
    "alias": "MARTHA LK (WB) (SNOH)",
@@ -23,7 +29,13 @@
     "Page species include brown trout; brown trout appear in this alias's plants (28 of 105) and not in the AM alias's",
     "Official page Geo Code L3218 != stocking geo_code L3219, and no stocking row uses L3218: an official-source inconsistency. The alias is pinned by name, place and species, not by code"
    ],
-   "mvp_decision": "Separate water; not in the MVP set. It is resolved so its plants are never shown under the Lynnwood lake."
+   "mvp_decision": "Separate water; not in the MVP set. It is resolved so its plants are never shown under the Lynnwood lake.",
+   "human_decision": {
+    "decided_by": "product owner",
+    "decided_at": "2026-10-31",
+    "decision": "Warm Beach Lake Martha is a different water and is excluded from the initial MVP",
+    "status": "excluded_from_mvp"
+   }
   },
   {
    "alias": "LONGS PD (THUR)",

@@ -49,7 +49,7 @@ SITE = {  # site slug, display name; WDFW slugs kept as the official id
 EXCLUSIONS = [
     {"alias": "LONG LK (THUR)", "collides_with": "wa-w-longs-pond", "reason": "Carries Long's Pond's geo_code L2818 but is Long Lake (Thurston), 308 acres; manual override to long-lake-thurston (not in MVP)."},
     {"alias": "LACEY DERBY (LACEY)", "collides_with": None, "reason": "Event name; carries Long Lake's code L2807. Not an MVP water."},
-    {"alias": "MARTHA LK (WB) (SNOH)", "collides_with": "wa-w-martha-alderwood-manor", "reason": "Warm Beach Lake Martha (page code L3218, stocking code L3219); a different water from the Lynnwood Martha Lake."},
+    {"alias": "MARTHA LK (WB) (SNOH)", "collides_with": "wa-w-martha-alderwood-manor", "reason": "Warm Beach Lake Martha (page code L3218, stocking code L3219); a different water from the Lynnwood Martha Lake. Excluded from the initial MVP (product-owner decision, 2026-10-31)."},
     {"alias": "MORTON DERBY (LEWI)", "collides_with": "wa-w-mineral-lake", "reason": "Derby event sharing Mineral Lake's geo_code L3300; not attributed to Mineral Lake without review."},
     {"alias": "KLINELINE PD E (CLAR)", "collides_with": "wa-w-klineline-pond", "reason": "Separate pond (code L38454), no official page."},
     {"alias": "KLINELINE PD W (CLAR)", "collides_with": "wa-w-klineline-pond", "reason": "Separate pond (code L38533), no official page."},
@@ -89,6 +89,8 @@ def main():
             "primary_access_manager": prim["manager"], "access_reviewed_at": REVIEWED_AT,
             "emergency_rules_url": rec["fishing_rule_sources"]["emergency_rules_for_this_lake"],
             "identity_status": "confirmed",
+            "identity_decision": ("Martha Lake = Martha Lake (Alderwood Manor / Lynnwood), Snohomish County; "
+                                  "confirmed by the product owner 2026-10-31" if wid == "wa-w-martha-alderwood-manor" else None),
             # names that may attach an external advisory (e.g. Ecology algae table) by name:
             # only if the normalised name is held by exactly one of all official entities
             "unique_name_keys": sorted({k for k in (parse_official(rec["canonical_name"])["name_key"],
@@ -106,7 +108,8 @@ def main():
                             "stocking_geo_codes": sorted(g for g in locs[a]["geo_codes"] if g),
                             "status": "confirmed", "level": level,
                             "method": d["level"] if d else m["method"],
-                            "evidence": d["evidence"] if d else [m["evidence"]]})
+                            "evidence": d["evidence"] if d else [m["evidence"]],
+                            **({"human_decision": d["human_decision"]} if d and d.get("human_decision") else {})})
     for x in EXCLUSIONS:
         x = dict(x, raw_names=sorted(locs[x["alias"]]["raw_names"]) if x["alias"] in locs else [],
                  stocking_geo_codes=sorted(g for g in locs.get(x["alias"], {}).get("geo_codes", {}) if g))

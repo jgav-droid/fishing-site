@@ -1,37 +1,77 @@
-# Refresh WDFW stocking + notices, test, build and deploy the MVP static site.
-# Scheduled runs only fire from the default branch. Production (indexable) builds need the
-# repository variable MVP_PRODUCTION=true and a filled-in mvp/config.json (base_url, contact_email).
+# Shorelio (https://shorelio.com): refresh WDFW stocking + notices, run tests, build, deploy to GitHub Pages.
+#
+# Safety rules (see mvp/LAUNCH_CHECKLIST.md):
+# * Scheduled runs fire only from the repository's DEFAULT branch (GitHub behaviour) and do
+#   nothing at all until the repository variable MVP_PRODUCTION is "true".
+# * Deployment happens only when MVP_PRODUCTION == "true" AND the run is on the default branch.
+#   A non-production (noindex) build can never replace the live site.
+# * If tests fail or the production config guard refuses (e.g. missing contact_email), the job
+#   fails before upload: the existing deployment stays live, unchanged.
+# * A failed source refresh keeps last-known data, marks it STALE on the pages, and still deploys
+#   (the deployment then honestly shows the staleness). A refresh that succeeds but returns a
+#   suspiciously small result is treated as a failure by mvp/pipeline/refresh_stocking.py.
+# * No CNAME file is needed: with a custom Actions workflow, GitHub ignores CNAME files; the
+#   custom domain is set in Settings -> Pages.
 name: mvp-site
 on:
   schedule:
-    - cron: "17 */6 * * *"       # every 6 hours (UTC)
-  workflow_dispatch:
+    - cron: "17 */6 * * *"          # every 6 hours (UTC), default branch only
+  workflow_dispatch: {}
 permissions:
-  contents: write
-  pages: write
-  id-token: write
-concurrency: { group: mvp-site, cancel-in-progress: false }
+  contents: read
+concurrency:
+  group: mvp-site
+  cancel-in-progress: false
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' || vars.MVP_PRODUCTION == 'true'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write                 # only for committing refreshed data files back
+    outputs:
+      deployable: ${{ steps.gate.outputs.deployable }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+        with:
+          python-version: "3.12"
       - name: Refresh, test, build
         run: python3 mvp/run.py ${{ vars.MVP_PRODUCTION == 'true' && '--production' || '' }}
-      - name: Persist refreshed data (last-known state survives a failed later run)
+      - name: Deploy gate
+        id: gate
         run: |
-          git config user.name "mvp-refresh-bot"
-          git config user.email "mvp-refresh-bot@users.noreply.github.com"
+          if [ "${{ vars.MVP_PRODUCTION }}" = "true" ] && { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.ref_name }}" = "${{ github.event.repository.default_branch }}" ]; }; then
+            echo "deployable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deployable=false" >> "$GITHUB_OUTPUT"
+            echo "Not deploying: MVP_PRODUCTION is not 'true' or this run is not on the default branch."
+          fi
+      - name: Upload Pages artifact
+        if: steps.gate.outputs.deployable == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: mvp/dist
+      - name: Persist refreshed data (last-known state for the next run)
+        if: steps.gate.outputs.deployable == 'true'
+        continue-on-error: true         # a push conflict must never block the deployment
+        run: |
+          git config user.name "shorelio-refresh-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add mvp/data/stocking_events.json mvp/data/notices.json mvp/data/source_status.json mvp/data/review_queue.json
-          git diff --cached --quiet || (git commit -m "data: refresh $(date -u +%FT%TZ)" && git push)
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: mvp/dist }
+          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
+          git commit -m "data: scheduled refresh $(date -u +%FT%TZ)"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
   deploy:
     needs: build
+    if: needs.build.outputs.deployable == 'true'
     runs-on: ubuntu-latest
-    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: d
+      - id: deployment
         uses: actions/deploy-pages@v4
