@@ -1,14 +1,3 @@
 {
- "items": [
-  {
-   "kind": "access_source_unreachable",
-   "url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
-   "water_ids": [
-    "wa-w-lake-bradley"
-   ],
-   "error": "HTTP None timed out",
-   "detected_at": "2026-10-31T17:34:21+00:00",
-   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
-  }
- ]
+ "items": []
 }
