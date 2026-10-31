@@ -198,11 +198,6 @@ class Site:
         return "unknown", ("No Discover Pass needed; parking fee not stated" if p["state"] == "NO"
                            else f"Pass not stated by {self.manager_word(ap)}; no day-use fee listed")
 
-    def row(self, ic, label, cls, word, detail, sources=()):
-        s = "".join(f" {self.src(u)}" for u in dict.fromkeys(sources))
-        return (f'<div class="fact {cls}"><dt>{icon(ic)}{E(label)}</dt><dd><strong>{E(word)}</strong>'
-                f'{(" " + E(detail)) if detail else ""}{("<span class=srcs>" + s + "</span>") if s else ""}</dd></div>')
-
     def prov_urls(self, f):
         return [p["source_url"].split(" (")[0] for p in f.get("provenance", [])]
 
@@ -232,8 +227,8 @@ class Site:
 {ld}{extra_head}{ga}
 </head>
 <body>
-<header class="top"><a class="brand" href="/">{E(self.cfg["site_name"])}</a>{f'<span class="tagline">{E(self.cfg["tagline"])}</span>' if path == "/" else ""}
-<nav><a href="/">Trip finder</a><a href="/recently-stocked/">Recently stocked</a><a href="/lakes/">Lakes</a><a href="/methodology/">How it works</a></nav></header>
+<header class="top"><a class="brand" href="/" data-home-reset><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor"/><path d="M6 19c3 0 3-2 6-2s3 2 6 2 3-2 6-2 2 1 2 1M6 23c3 0 3-2 6-2s3 2 6 2 3-2 6-2 2 1 2 1" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M10 13c2-3 6-4 9-2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>{E(self.cfg["site_name"])}</a>{f'<span class="tagline">{E(self.cfg["tagline"])}</span>' if path == "/" else ""}
+<nav><a href="/" data-home-reset>Trip finder</a><a href="/recently-stocked/">Recently stocked</a><a href="/lakes/">Lakes</a><a href="/methodology/">How it works</a></nav></header>
 <main id="main">
 {body}
 </main>
@@ -285,43 +280,53 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                 "restricted": st["restricted"]}
 
     def card(self, w, dist_mi=None, compact=False):
+        """Homepage/area result card. Presentation only: the flags, stocking summary and
+        card_data are computed exactly as before (eligibility.lake_status)."""
         wid = w["water_id"]
         st, a = self.st[wid], self.access[wid]
         prim = next(x for x in a["access_points"] if x["primary"])
         stg = st["stocking"]
         if stg["recent"]:
-            rec = f'{stg["recent_total"]:,} {"/".join(s.lower() for s in stg["recent_species"])} · {el.fmt_range([r["date"] for r in stg["recent"]])}'
-            rec_cls = "yes"
+            stock = (f'<strong>{stg["recent_total"]:,} {E("/".join(s.lower() for s in stg["recent_species"]))}</strong> '
+                     f'stocked {E(el.fmt_range([r["date"] for r in stg["recent"]]))}')
+            stock_cls = "good"
         else:
             lc = stg["last_catchable"]
-            rec = "No catchable-size stocking reported in the last 30 days" + (f' (last: {lc["date"]:%b %-d, %Y})' if lc else "")
-            rec_cls = "unknown"
+            stock = "No catchable-size stocking reported in the last 30 days" + (f' (last: {lc["date"]:%b %-d, %Y})' if lc else "")
+            stock_cls = "quiet"
         shore = self.field(a["bank_fishing_status"], None, True)
+        shore_txt = {"yes": "Shore access", "limited": "Limited shore access", "no": "No shore access",
+                     "unknown": "Shore access not stated"}[shore[0]]
         dock = self.field(a["fishing_pier_or_dock"], None, True)
+        dock_txt = dock[1] + (f" · {dock[2]}" if dock[1] == "Closed" else "")
         park = self.field(prim["parking_available"], self.manager_word(prim))
         pf = self.pass_fee_short(prim)
         hrs = self.field(prim["operating_hours"], self.manager_word(prim))
-        flags = [f for f in st["flags"] if f["level"] in ("blocking", "warn", "restricted") and not f.get("windows")]
-        flag_html = "".join(f'<li class="flag {E(f["level"])} cat-{E(f["cat"])}" data-key="{E(f["key"])}"><span class="cat">{E(CAT[f["cat"]])}</span> {E(f["text"])}</li>' for f in flags)
-        win_html = "".join(f'<li class="flag {E(f["level"])} cat-{E(f["cat"])}" data-win="{i}"{"" if f["level"] in ("blocking", "warn", "restricted") else " hidden"}><span class="cat">{E(CAT[f["cat"]])}</span> <span class="t">{E(f["text"])}</span></li>'
-                           for i, f in enumerate([f for f in st["flags"] if f.get("windows")]))
-        flag_html += win_html
-        none_hidden = any(f["level"] in ("blocking", "warn", "restricted") for f in st["flags"])
+        hrs_txt = hrs[2] if hrs[0] != "unknown" else hrs[1]
+        alert_lv = ("blocking", "warn", "restricted")
+        statics = [f for f in st["flags"] if f["level"] in alert_lv and not f.get("windows")]
+        wins = [f for f in st["flags"] if f.get("windows")]
+        items = "".join(f'<li class="flag {E(f["level"])} cat-{E(f["cat"])}" data-key="{E(f["key"])}"><span class="cat">{E(CAT[f["cat"]])}</span> {E(f["text"])}</li>' for f in statics)
+        items += "".join(f'<li class="flag {E(f["level"])} cat-{E(f["cat"])}" data-win="{i}"{"" if f["level"] in alert_lv else " hidden"}><span class="cat">{E(CAT[f["cat"]])}</span> <span class="t">{E(f["text"])}</span></li>'
+                         for i, f in enumerate(wins))
+        active = [f for f in st["flags"] if f["level"] in alert_lv]
+        sev = "sev-block" if any(f["level"] == "blocking" for f in active) else "sev-warn"
         alt = self.alternatives(w, 1)
         dd = json.dumps(self.card_data(w), separators=(",", ":"))
+        rows = (("Parking", park[0], park[1]), ("Pass / fee", pf[0], pf[1]), ("Pier / dock", dock[0], dock_txt), ("Hours", hrs[0], hrs_txt))
+        facts = "".join(f'<div class="row{" unk" if c == "unknown" else ""}"><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for k, c, v in rows)
+        url = f"/lakes/{E(w['slug'])}/"
         return f"""<article class="card" id="lake-{E(w['slug'])}" data-lake='{E(dd)}' data-slug="{E(w['slug'])}">
-<h3><a class="js-track" data-track="lake_result_click" href="/lakes/{E(w['slug'])}/">{E(w['display_name'])}</a> <span class="where">{E(", ".join(w['counties']))} Co.<span class="dist">{f" · ~{dist_mi:.0f} mi straight-line" if dist_mi is not None else ""}</span></span></h3>
-<dl class="facts">
-<div class="fact {rec_cls}" data-role="recent"><dt>{icon("fish")}Recently stocked</dt><dd><strong>{E(rec)}</strong></dd></div>
-<div class="fact {shore[0]}"><dt>{icon("shore")}Shore fishing</dt><dd><strong>{E(shore[1])}</strong></dd></div>
-<div class="fact {dock[0]}"><dt>{icon("dock")}Pier / dock</dt><dd><strong>{E(dock[1])}</strong>{(" " + E(dock[2])) if dock[0] in ("yes", "no") and "CLOSED" in dock[2] else ""}</dd></div>
-<div class="fact {park[0]}"><dt>{icon("park")}Parking</dt><dd><strong>{E(park[1])}</strong></dd></div>
-<div class="fact {pf[0]}"><dt>{icon("pass")}Pass / fee</dt><dd><strong>{E(pf[1])}</strong></dd></div>
-<div class="fact {hrs[0]}"><dt>{icon("clock")}Hours</dt><dd><strong>{E(hrs[2] if hrs[0] != "unknown" else hrs[1])}</strong></dd></div>
-</dl>
-<ul class="flags" data-role="flags">{flag_html}<li class="flag none" data-role="noflags"{" hidden" if none_hidden else ""}>No current issues identified from monitored official sources</li></ul>
-<p class="why" data-role="why">{("Why it appears: " + E("; ".join(st["why"]))) if st["qualifies"] else ""}</p>
-{f'<p class="alt">Nearby alternative: <a class="js-track" data-track="alternative_click" href="/lakes/{E(alt[0][0]["slug"])}/">{E(alt[0][0]["display_name"])}</a> (~{alt[0][1]:.0f} mi)</p>' if alt else ""}
+<div class="c-top"><h3 class="c-name"><a class="js-track" data-track="lake_result_click" href="{url}">{E(w['display_name'])}</a></h3>
+<p class="c-meta">{E(", ".join(w['counties']))} County<span class="dist">{f" · ~{dist_mi:.0f} mi straight-line" if dist_mi is not None else ""}</span></p></div>
+<p class="c-stock {stock_cls}" data-role="recent">{stock}</p>
+<p class="c-shore"><span class="badge {shore[0]}">{E(shore_txt)}</span></p>
+<div class="c-status">
+<div class="c-before {sev}" data-role="before"{"" if active else " hidden"}><p class="c-before-h">Before you go</p><ul class="flags">{items}</ul></div>
+<p class="c-ok" data-role="noflags"{" hidden" if active else ""}>No current issues found in monitored official sources</p>
+</div>
+<dl class="c-facts">{facts}</dl>
+<div class="c-foot">{f'<span class="alt">Nearby: <a class="js-track" data-track="alternative_click" href="/lakes/{E(alt[0][0]["slug"])}/">{E(alt[0][0]["display_name"])}</a> <span class="mi">~{alt[0][1]:.0f} mi</span></span>' if alt else '<span></span>'}<a class="c-go js-track" data-track="lake_result_click" href="{url}">Lake details <span aria-hidden="true">→</span></a></div>
 </article>"""
 
     def alternatives(self, w, n=4):
@@ -348,32 +353,101 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         rest = [w for w in self.ranked(self.waters) if not self.st[w["water_id"]]["qualifies"]]
         places = json.dumps([[p["name"], round(p["lat"], 4), round(p["lon"], 4)] for p in self.places], separators=(",", ":"))
         opts = "".join(f'<option value="{E(p["name"])}">' for p in self.places)
-        body = f"""<section class="intro"><h1>Recently stocked lakes you can fish from shore</h1>
-<p>Catchable trout reported stocked by WDFW in the last 30 days, plus documented public shore access, parking, passes and current notices. {len(self.waters)} validated Washington lakes.</p></section>
-<form id="finder" class="finder" onsubmit="return false" aria-label="Trip finder" data-trip="{self.trip.isoformat()}" data-data-date="{self.data_date.isoformat()}">
-<div class="from"><label>From <input id="f-place" list="places" placeholder="Town, e.g. Tacoma" autocomplete="off"><datalist id="places">{opts}</datalist></label>
-<button type="button" id="f-geo" class="btn-sec">Use my location</button></div>
+        body = f"""<section class="hero" aria-labelledby="hero-h">
+<h1 id="hero-h">Recently stocked lakes you can fish from shore</h1>
+<p class="hero-sub">Catchable trout stocked in the last 30 days, with documented shore access, passes and current notices. {len(self.waters)} Washington lakes.</p>
+<form id="finder" class="finder" aria-label="Trip finder" data-trip="{self.trip.isoformat()}" data-data-date="{self.data_date.isoformat()}">
+<div class="f-from"><label for="f-place">Starting from</label>
+<div class="f-inline"><input id="f-place" list="places" placeholder="Town, e.g. Tacoma" autocomplete="off"><datalist id="places">{opts}</datalist>
+<button type="button" id="f-geo" class="btn-geo" aria-label="Use my location">{icon("access")}<span>Use my location</span></button></div></div>
+<div class="f-row">
 <label>Trip date <input id="f-date" type="date" value="{self.trip.isoformat()}" min="{self.trip.isoformat()}" max="{date.fromordinal(self.trip.toordinal() + 21).isoformat()}"></label>
 <label>Max distance <select id="f-max"><option value="10">10 mi</option><option value="25" selected>25 mi</option><option value="40">40 mi</option><option value="60">60 mi</option><option value="999">Any</option></select></label>
+</div>
 <details class="more"><summary>More filters</summary>
 <label class="chk"><input id="f-shore" type="checkbox" checked> Shore/bank access required</label>
 <label>Pier/dock <select id="f-dock"><option value="any">Any</option><option value="prefer">Prefer</option><option value="require">Required</option></select></label>
 <label class="chk"><input id="f-hide-restricted" type="checkbox"> Hide waters restricted to juveniles/seniors/disabled anglers</label>
 </details>
+<button type="submit" class="btn-go">Show lakes</button>
 </form>
+</section>
 <script id="places-data" type="application/json">{places}</script>
-<p class="note">Distances are straight-line miles, not driving distance.</p>
-<p id="f-status" class="status" role="status">Showing lakes for {E(self.trip.strftime("%a %b %-d, %Y"))}, newest catchable stocking first. Add a starting place to sort by distance.</p>
-<section><h2 id="r-h">Recently stocked + shore access <span id="r-count">({len(q)})</span></h2>
-<div id="results" class="cards">{"".join(self.card(w) for w in q)}</div></section>
-<section><h2>Other validated lakes <span class="sub">(no catchable stocking reported in the last 30 days, or no documented shore access)</span></h2>
-<div id="others" class="cards">{"".join(self.card(w) for w in rest)}</div></section>
-{self.freshness_block()}
+<section class="results" aria-labelledby="r-h">
+<div class="r-head"><h2 id="r-h">Lakes to consider <span id="r-count" class="count">{len(q)}</span></h2>
+<p id="f-status" class="status" role="status">For {E(self.trip.strftime("%a %b %-d"))}, newest catchable stocking first. Add a starting place to sort by distance (straight-line).</p></div>
+<div id="results" class="cards">{"".join(self.card(w) for w in q)}</div>
+</section>
+<details class="others" id="others-wrap"><summary><span><b id="o-count">{len(rest)}</b> other validated lakes are tracked but don't currently have recent catchable stocking and documented shore access.</span> <span class="show">Show</span></summary>
+<div id="others" class="cards compact">{"".join(self.card(w) for w in rest)}</div>
+<p class="all-lakes"><a href="/lakes/">All {len(self.waters)} validated lakes</a></p></details>
+<section class="fresh-wrap" aria-label="Data freshness"><h2>Data freshness</h2>{self.freshness_block(compact=True)}
+<p class="note"><a href="/methodology/">How Shorelio decides what to show</a> · <a href="/data-quality/">Data quality</a></p></section>
 """
         self.page("/", f"Recently Stocked Lakes in Washington With Shore Access | {self.cfg['site_name']}",
                   "Find Washington lakes with recently stocked catchable trout and documented shore access, with parking, pass, hours and notice details from official sources.",
                   body, extra_head='<script src="/assets/finder.js" defer></script>',
                   jsonld={"@context": "https://schema.org", "@type": "WebSite", "name": self.cfg["site_name"], "url": self.url("/")})
+
+    # ---------- lake page: presentation helpers (wording only; states/values unchanged) ----------
+    SHORE_TAG = {"yes": "Public shore fishing", "limited": "Limited shore access", "no": "No public shore access"}
+    ALERT_ORDER = {"blocking": 0, "restricted": 1, "warn": 2}
+
+    @staticmethod
+    def tidy(v):
+        """Tiny formatting only: WDFW's '1 lot(s)' -> '1 parking lot'."""
+        m = re.fullmatch(r"(\d+) lot\(s\)", v or "")
+        return (f"{m.group(1)} parking lot" + ("" if m.group(1) == "1" else "s")) if m else v
+
+    def plain(self, label, f, who, lake_level=False):
+        """(cls, main_html, note) for a fact row. Shows the sourced explanation, never a bare
+        category: 'Hours not stated by WDFW', 'WDFW access lists no fishing platform', 'Closed · …'."""
+        cls, word, detail = self.field(f, who, lake_level)
+        if cls == "unknown":
+            if word.startswith("Unclear"):
+                return cls, f"<strong>{E(word)}</strong>", detail
+            return cls, E(f"{label} not stated by {word[len('Not stated by '):]}"), detail
+        if word == "Closed":
+            return "no", f"<strong>Closed</strong> · {E(detail)}", ""
+        return cls, E(self.tidy(detail) or word), ""
+
+    def shore_html(self, f):
+        cls, word, detail = self.field(f, None, True)
+        if cls == "unknown":
+            return self.plain("Shore access", f, None, True)
+        return cls, f'{E(detail or word)} <span class="badge {cls}">{E(self.SHORE_TAG[cls])}</span>', ""
+
+    def pass_fee_html(self, ap):
+        cls, word, detail = self.pass_fee(ap)
+        if word in ("Required", "None required"):
+            return cls, f"<strong>{E(word)}</strong>" + (f" · {E(detail)}" if detail else ""), ""
+        return cls, E(detail or word), ""
+
+    def fact_row(self, label, cls, main, note=""):
+        n = f'<span class="n">{E(note)}</span>' if note else ""
+        return f'<div class="row {E(cls)}"><dt>{E(label)}</dt><dd><span class="v">{main}</span>{n}</dd></div>'
+
+    def src_links(self, urls):
+        """One compact, de-duplicated list of official links (label = agency, plus page when repeated)."""
+        urls = list(dict.fromkeys(u for u in urls if u))
+        seen, out = {}, []
+        for u in urls:
+            ag = self.agency(u)
+            seen[ag] = seen.get(ag, 0) + 1
+        for u in urls:
+            ag = self.agency(u)
+            tail = urlparse(u).path.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")[:40]
+            out.append(self.src(u, f"{ag}: {tail}" if seen[ag] > 1 and tail else ag))
+        return " · ".join(out)
+
+    def evidence(self, items):
+        """items: (label, field). Verbatim official quotes with their source link."""
+        li = []
+        for label, f in items:
+            for p in f.get("provenance", []):
+                if p.get("quote"):
+                    li.append(f'<li><span class="ev-l">{E(label)}</span> “{E(p["quote"])}” {self.src(p["source_url"].split(" (")[0])}</li>')
+        return li
 
     def lake(self, w):
         wid = w["water_id"]
@@ -382,21 +456,101 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         stg = st["stocking"]
         mgr = self.manager_word(prim)
         np_name, np_mi = self.near_place[wid]
-        shore = self.field(a["bank_fishing_status"], None, True)
-        dock = self.field(a["fishing_pier_or_dock"], None, True)
-        park = self.field(prim["parking_available"], mgr)
-        pf = self.pass_fee(prim)
-        hrs = self.field(prim["operating_hours"], mgr)
-        seas = self.field(prim["seasonal_access"], mgr)
-        if stg["recent"]:
-            rec_word = f'{stg["recent_total"]:,} {"/".join(s.lower() for s in stg["recent_species"])}'
-            rec_detail = f'{el.fmt_range([r["date"] for r in stg["recent"]])} (catchable size)'
-            rec_cls = "yes"
+        trip_day = self.trip.strftime("%a %b %-d")
+        STOCK_URL = "https://data.wa.gov/dataset/WDFW-Fish-Plants/6fex-3r7d"
+
+        # ---- layer 1: trip decision (same flags, same levels as before; one grouped panel) ----
+        alerts = sorted((f for f in st["flags"] if f["level"] in self.ALERT_ORDER), key=lambda f: self.ALERT_ORDER[f["level"]])
+        oks = [f for f in st["flags"] if f["level"] == "ok"]
+        dnotes = [f for f in st["flags"] if f["cat"] == "data" and f["level"] == "info"]
+        stale_keys = [("stocking", "Stocking"), ("wdfw_emergency_rules", "WDFW emergency rules"), ("ecology_toxic_algae", "Ecology toxic-algae list")]
+        if any(x["manager_type"] == "state_park" for x in a["access_points"]):
+            stale_keys.append(("wa_state_parks_alerts", "State Parks alerts"))
+        stale = [(lbl, why) for k, lbl in stale_keys for bad, why in [self.stale(k)] if bad]
+        if alerts:
+            sev = "sev-block" if any(f["level"] == "blocking" for f in alerts) else "sev-warn"
+            items = "".join(f'<li class="flag {E(f["level"])} cat-{E(f["cat"])}"><span class="cat">{E(CAT[f["cat"]])}</span> {E(f["text"])}</li>' for f in alerts)
+            status = (f'<div class="trip-alert {sev}" role="note"><p class="ta-h">Before you go · {E(trip_day)}</p>'
+                      f'<ul class="flags">{items}</ul><p class="ta-more"><a href="#notices">Notice details &amp; sources</a></p></div>')
         else:
-            rec_word = "None in the last 30 days"
+            status = f'<p class="trip-ok">No current issues found in monitored official sources for {E(trip_day)}</p>'
+        if oks:
+            status += '<ul class="trip-oks">' + "".join(f'<li>{E(f["text"])}</li>' for f in oks) + "</ul>"
+        if stale:
+            status += ('<p class="trip-stale"><span class="stalewarn">STALE</span> Some data may be out of date: '
+                       + "; ".join(f"{E(l)} ({E(y)})" for l, y in stale) + '. <a href="#sources">Freshness</a></p>')
+        if dnotes:
+            status += (f'<p class="trip-notes"><a href="#notices">{len(dnotes)} data note{"s" if len(dnotes) > 1 else ""}</a> '
+                       f'about conflicting or incomplete official sources</p>')
+
+        # ---- layer 2: quick facts (primary access point, as before) ----
+        if stg["recent"]:
+            stock_main = (f'<strong>{stg["recent_total"]:,} {E("/".join(s.lower() for s in stg["recent_species"]))}</strong>'
+                          f' · {E(el.fmt_range([r["date"] for r in stg["recent"]]))}')
+            stock_cls, stock_note = "yes", "Catchable size, reported by WDFW"
+        else:
             lc = stg["last_catchable"]
-            rec_detail = f'Last catchable-size plant: {lc["date"]:%b %-d, %Y}' if lc else "No catchable-size plant in the last 12 months"
-            rec_cls = "unknown"
+            stock_main = "None in the last 30 days"
+            stock_cls = "unknown"
+            stock_note = f'Last catchable-size plant: {lc["date"]:%b %-d, %Y}' if lc else "No catchable-size plant in the last 12 months"
+        shore = self.shore_html(a["bank_fishing_status"])
+        dock = self.plain("Pier or dock", a["fishing_pier_or_dock"], None, True)
+        if dock[0] == "unknown" and dock[1].startswith("<strong>Unclear"):
+            dock = (dock[0], dock[1], "See the data notes below")
+        park = self.plain("Parking", prim["parking_available"], mgr)
+        pf_short = self.pass_fee_short(prim)
+        hrs = self.plain("Hours", prim["operating_hours"], mgr)
+        seas = self.plain("Access season", prim["seasonal_access"], mgr)
+        brief = lambda t: (t[0], t[1], t[2] if t[1].startswith("<strong>Unclear") else "")   # long notes stay in the details
+        qrows = [self.fact_row("Recent stocking", stock_cls, stock_main, stock_note),
+                 self.fact_row("Shore access", *shore),
+                 self.fact_row("Pier / dock", *brief(dock)),
+                 self.fact_row("Parking", *brief(park)),
+                 self.fact_row("Pass / fee", pf_short[0], E(re.sub(r"^Not stated by", "Pass / fee not stated by", pf_short[1]))),
+                 self.fact_row("Hours", *brief(hrs))]
+        if prim["seasonal_access"]["state"] != "UNKNOWN":
+            qrows.append(self.fact_row("Access season", *brief(seas)))
+        q_urls = [STOCK_URL] + self.prov_urls(a["bank_fishing_status"]) + self.prov_urls(a["fishing_pier_or_dock"])
+        for k in ("parking_available", "pass_required", "parking_or_access_fee", "operating_hours", "seasonal_access"):
+            q_urls += self.prov_urls(prim[k])
+        agencies = list(dict.fromkeys(self.agency(u) for u in q_urls))
+        others = len(a["access_points"]) - 1
+        q_src = (f'<p class="qf-src">Main access: <b>{E(prim["name"])}</b> ({E(prim["manager"])})'
+                 + (f' · <a href="#access">{others} more access point{"s" if others > 1 else ""}</a>' if others else "")
+                 + f'<br>From official sources: {E(", ".join(agencies))} · <a href="#sources">Sources &amp; evidence</a></p>')
+
+        # ---- layer 3: full details & evidence ----
+        rows = []
+        for r in stg["all"][:40]:
+            rows.append(f'<tr class="{E(r["class"])}"><td>{r["date"]:%b %-d, %Y}</td><td>{E(r["species"] or "")}</td>'
+                        f'<td class="num">{r["number_released"]:,}</td><td class="num">{"" if r["number_of_fish_per_pound"] is None else f"{r["number_of_fish_per_pound"]:g}"}</td>'
+                        f'<td>{E(el.LABEL[r["class"]])}</td></tr>')
+        stock_tbl = (f'<details class="more-d"><summary>All {len(rows)} reported release{"s" if len(rows) != 1 else ""}, last 12 months</summary>'
+                     '<div class="tblwrap"><table><thead><tr><th>Date</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>'
+                     + "".join(rows) + "</tbody></table></div></details>") if rows else "<p>No reported plants in the last 12 months.</p>"
+        pts = a.get("shore_fishing_points", [])
+        pts_html = "".join(f'<li>{E(p["description"])}: <a class="js-track" data-track="source_click" href="https://www.google.com/maps/search/?api=1&amp;query={p["lat"]:.5f},{p["lon"]:.5f}" rel="noopener" target="_blank">open point in maps</a> (WDFW shore-fishing site)</li>' for p in pts)
+        shore_ev = self.evidence([("Shore", a["bank_fishing_status"]), ("Pier / dock", a["fishing_pier_or_dock"])])
+        ap_html = ""
+        for ap in a["access_points"]:
+            m = self.manager_word(ap)
+            coords = ap.get("access_coordinates")
+            fields = [("Parking", "parking_available"), ("Pass", "pass_required"), ("Fee", "parking_or_access_fee"),
+                      ("Hours", "operating_hours"), ("Season", "seasonal_access"), ("Fishing platform", "fishing_platform")]
+            ap_rows = (self.fact_row("Parking", *self.plain("Parking", ap["parking_available"], m))
+                       + self.fact_row("Pass / fee", *self.pass_fee_html(ap))
+                       + self.fact_row("Hours", *self.plain("Hours", ap["operating_hours"], m))
+                       + self.fact_row("Seasonal access", *self.plain("Seasonal access", ap["seasonal_access"], m))
+                       + (self.fact_row("Fishing platform", *self.plain("Fishing platform", ap["fishing_platform"], m)) if "fishing_platform" in ap else ""))
+            ev = self.evidence([(lbl, ap[k]) for lbl, k in fields if k in ap])
+            ap_urls = [ap["url"]] + [u for _, k in fields if k in ap for u in self.prov_urls(ap[k])]
+            ap_html += (f'<section class="ap"><h3>{E(ap["name"])} <span class="sub">({E(ap["manager"])}{", main access" if ap["primary"] else ""})</span></h3>'
+                        f'<dl class="rows">{ap_rows}</dl>'
+                        f'<p class="ap-links">{self.src(ap["url"], "Official page")}'
+                        + (f' · <a class="js-track" data-track="source_click" href="https://www.google.com/maps/search/?api=1&amp;query={coords["lat"]:.5f},{coords["lon"]:.5f}" rel="noopener" target="_blank">Open documented access point in maps</a>' if coords else "")
+                        + "</p>"
+                        + (f'<details class="ev"><summary>Sources &amp; quotes for {E(ap["name"])}</summary><p class="ev-srcs">Sources: {self.src_links(ap_urls)}</p><ul class="quotes">{"".join(ev)}</ul></details>')
+                        + "</section>")
         cats = {"regulation": [], "physical_access": [], "health": [], "data": []}
         for f in st["flags"]:
             if f["level"] != "inactive":
@@ -420,45 +574,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                 body_ = '<li class="flag none">None identified from monitored official sources</li>'
             else:
                 body_ = "".join(flag_li(f) for f in items)
-            notices_html += f'<h3>{E(title)}</h3><ul class="flags">{body_}</ul>'
-        above = f"""<dl class="facts big">
-{self.row("fish", "Recently stocked", rec_cls, rec_word, rec_detail, ["https://data.wa.gov/dataset/WDFW-Fish-Plants/6fex-3r7d"])}
-{self.row("shore", "Shore fishing", shore[0], shore[1], shore[2], self.prov_urls(a["bank_fishing_status"]))}
-{self.row("dock", "Pier / dock", dock[0], dock[1], dock[2], self.prov_urls(a["fishing_pier_or_dock"]))}
-{self.row("access", "Main access", "yes", prim["name"], f"managed by {prim['manager']}", [prim["url"]])}
-{self.row("park", "Parking", park[0], park[1], park[2], self.prov_urls(prim["parking_available"]))}
-{self.row("pass", "Pass / fee", pf[0], pf[1], pf[2], self.prov_urls(prim["pass_required"]) + self.prov_urls(prim["parking_or_access_fee"]))}
-{self.row("clock", "Hours", hrs[0], hrs[1], hrs[2], self.prov_urls(prim["operating_hours"]))}
-{self.row("season", "Seasonal access", seas[0], seas[1], seas[2], self.prov_urls(prim["seasonal_access"]))}
-</dl>"""
-        top_flags = [f for f in st["flags"] if f["level"] in ("blocking", "warn", "restricted")]
-        crit = [f for f in st["flags"] if f["level"] in ("blocking", "restricted") or (f["cat"] == "health" and f["level"] == "warn")]
-        before = (f'<div class="before" role="note"><b>Before you go ({E(self.trip.strftime("%a %b %-d"))}):</b><ul>'
-                  + "".join(f'<li>{E(f["text"])}</li>' for f in crit) + "</ul></div>") if crit else ""
-        issues = ("".join(f'<li class="flag {E(f["level"])}"><span class="cat">{E(CAT[f["cat"]])}</span> {E(f["text"])}</li>' for f in top_flags)
-                  or '<li class="flag none">None identified from monitored official sources</li>')
-        rows = []
-        for r in stg["all"][:40]:
-            rows.append(f'<tr class="{E(r["class"])}"><td>{r["date"]:%b %-d, %Y}</td><td>{E(r["species"] or "")}</td>'
-                        f'<td class="num">{r["number_released"]:,}</td><td class="num">{"" if r["number_of_fish_per_pound"] is None else f"{r["number_of_fish_per_pound"]:g}"}</td>'
-                        f'<td>{E(el.LABEL[r["class"]])}</td></tr>')
-        stock_tbl = ('<div class="tblwrap"><table><thead><tr><th>Date</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>'
-                     + "".join(rows) + "</tbody></table></div>") if rows else "<p>No reported plants in the last 12 months.</p>"
-        shore_quotes = "".join(f'<li>“{E(p["quote"])}” {self.src(p["source_url"].split(" (")[0])}</li>' for p in a["bank_fishing_status"]["provenance"])
-        pts = a.get("shore_fishing_points", [])
-        pts_html = "".join(f'<li>{E(p["description"])}: <a class="js-track" data-track="source_click" href="https://www.google.com/maps/search/?api=1&amp;query={p["lat"]:.5f},{p["lon"]:.5f}" rel="noopener" target="_blank">open point in maps</a> (WDFW shore-fishing site)</li>' for p in pts)
-        ap_html = ""
-        for ap in a["access_points"]:
-            m = self.manager_word(ap)
-            pf2 = self.pass_fee(ap)
-            coords = ap.get("access_coordinates")
-            ap_html += f"""<section class="ap"><h3>{E(ap["name"])} <span class="sub">({E(ap["manager"])}{", main access" if ap["primary"] else ""})</span></h3><dl class="facts">
-{self.row("park", "Parking", *self.field(ap["parking_available"], m), self.prov_urls(ap["parking_available"]))}
-{self.row("pass", "Pass / fee", *pf2, self.prov_urls(ap["pass_required"]) + self.prov_urls(ap["parking_or_access_fee"]))}
-{self.row("clock", "Hours", *self.field(ap["operating_hours"], m), self.prov_urls(ap["operating_hours"]))}
-{self.row("season", "Seasonal access", *self.field(ap["seasonal_access"], m), self.prov_urls(ap["seasonal_access"]))}
-{self.row("dock", "Fishing platform", *self.field(ap["fishing_platform"], m), self.prov_urls(ap["fishing_platform"])) if "fishing_platform" in ap else ""}
-</dl><p>{self.src(ap["url"], "Official page")}{f' · <a class="js-track" data-track="source_click" href="https://www.google.com/maps/search/?api=1&amp;query={coords["lat"]:.5f},{coords["lon"]:.5f}" rel="noopener" target="_blank">Open documented access point in maps</a>' if coords else ""}</p></section>"""
+            notices_html += f'<div class="ncat"><h3>{E(title)}</h3><ul class="flags">{body_}</ul></div>'
         rules = "".join(f'<li>“{E(n["quote"])}” {self.src(n["source_url"])}</li>' for n in a["rule_notes"])
         alts = self.alternatives(w)
         alt_html = "".join(self.alt_li(o, d, s) for o, d, s in alts) or "<li>No other validated lake within 25 miles.</li>"
@@ -474,7 +590,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         for n in a["rule_notes"]:
             srcs[n["source_url"]] = n.get("retrieved_at")
         srcs[w["official_wdfw_url"]] = srcs.get(w["official_wdfw_url"])
-        srcs["https://data.wa.gov/dataset/WDFW-Fish-Plants/6fex-3r7d"] = self.status.get("stocking", {}).get("last_success")
+        srcs[STOCK_URL] = self.status.get("stocking", {}).get("last_success")
         srcs[w["emergency_rules_url"]] = self.status.get("wdfw_emergency_rules", {}).get("last_success")
         srcs["https://www.eregulations.com/washington/fishing/"] = None
         srcs["https://www.nwtoxicalgae.org/"] = self.status.get("ecology_toxic_algae", {}).get("last_success")
@@ -486,31 +602,36 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                 f"{STATE_WORD[a['fishing_pier_or_dock']['state']].lower()}. Parking, pass, hours and notices for {w['display_name']} "
                 f"({', '.join(w['counties'])} County, WA), with official sources.")
         body = f"""<nav class="crumbs"><a href="/">Trip finder</a> › <a href="/lakes/">Lakes</a> › {E(w["display_name"])}</nav>
-<h1>{E(w["display_name"])} Fishing — Stocking &amp; Shore Access</h1>
+<h1 class="lake-h"><span class="h-lake">{E(w["display_name"])}</span> <span class="h-rest">Fishing — Stocking &amp; Shore Access</span></h1>
 <p class="lede">{E(", ".join(w["counties"]))} County, WA{(" · WDFW name: " + E(w["wdfw_name"])) if self.lake_name_differs(w) else ""} · nearest Census place: {E(np_name)} (~{np_mi:.0f} mi) · main access managed by {E(prim["manager"])}</p>
 <section class="decision" aria-label="Trip decision summary">
-{before}
-{above}
-<h2 class="issues-h">Current issues for {E(self.trip.strftime("%a %b %-d"))}</h2><ul class="flags">{issues}</ul>
-{self.freshness_block(wid, compact=True)}
+<h2 class="vh">Trip status for {E(trip_day)}</h2>
+{status}
+<h2 class="vh">Quick facts</h2>
+<dl class="rows qf">{"".join(qrows)}</dl>
+{q_src}
 </section>
-<section><h2>Recent stocking</h2>
-<p>Completed releases reported by WDFW (Fish Plants dataset), last 12 months. Only <b>catchable-size</b> trout/kokanee (3 or fewer fish per pound, WDFW's own threshold) count toward "recently stocked". Smaller fish are listed but not counted.</p>
+<div class="details">
+<section class="dsec" id="stocking"><h2>Recent stocking</h2>
+<p class="note">Completed releases reported by WDFW (Fish Plants dataset), last 12 months. Only <b>catchable-size</b> trout/kokanee (3 or fewer fish per pound, WDFW's own threshold) count toward "recently stocked". Smaller fish are listed but not counted.</p>
 {f'<p class="note">{E(stg["data_limit_note"])}.</p>' if stg["data_limit_note"] else ""}
 {stock_tbl}</section>
-<section><h2>Shore access</h2>
-<p><strong>{E(shore[1])}</strong>{(": " + E(shore[2])) if shore[2] else ""}</p>
-<ul class="quotes">{shore_quotes}</ul>
-{f'<h3>WDFW-documented shore fishing points</h3><ul>{pts_html}</ul>' if pts_html else '<p class="note">No WDFW-documented shore-fishing points for this lake; see the official pages for where to fish.</p>'}
+<section class="dsec" id="shore"><h2>Shore &amp; pier access</h2>
+<dl class="rows">{self.fact_row("Shore access", *shore)}{self.fact_row("Pier / dock", *dock)}</dl>
+{f'<h3>WDFW-documented shore fishing points</h3><ul class="pts">{pts_html}</ul>' if pts_html else '<p class="note">No WDFW-documented shore-fishing points for this lake; see the official pages for where to fish.</p>'}
+{f'<details class="ev"><summary>What the official sources say</summary><ul class="quotes">{"".join(shore_ev)}</ul></details>' if shore_ev else ""}
 </section>
-<section><h2>Access points, parking, passes &amp; hours</h2>{ap_html}</section>
-<section><h2>Current notices</h2><p class="note">Kept separate on purpose: a fishing rule, a park closure and a health advisory are different facts. This site does not declare a lake "open" or "closed".</p>{notices_html}
+<section class="dsec" id="access"><h2>Access points, parking, passes &amp; hours</h2>{ap_html}</section>
+<section class="dsec" id="notices"><h2>Current notices</h2><p class="note">Kept separate on purpose: a fishing rule, a park closure and a health advisory are different facts. This site does not declare a lake "open" or "closed".</p>{notices_html}
 {f'<h3>Lake rules from WDFW</h3><ul class="quotes">{rules}</ul>' if rules else ""}
-<p>Full rules: {self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")} · {self.src(w["emergency_rules_url"], "WDFW emergency rules for this lake")}</p></section>
-<section><h2>Nearby alternatives</h2><ul class="alts">{alt_html}</ul></section>
-<p class="note"><a href="/data-quality/">All known data issues and how to report a correction</a></p>
-<section><h2>Sources</h2><ul class="sources">{src_html}</ul>
-<p class="note">Official WDFW lake page: {self.src(w["official_wdfw_url"])}. Stocking matched via release location “{E(", ".join(x["alias"] for x in self.aliases if x["water_id"] == wid))}” (confirmed).</p></section>
+<p class="note">Full rules: {self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")} · {self.src(w["emergency_rules_url"], "WDFW emergency rules for this lake")}</p></section>
+<section class="dsec" id="nearby"><h2>Nearby alternatives</h2><ul class="alts">{alt_html}</ul></section>
+<section class="dsec" id="sources"><h2>Sources &amp; freshness</h2>
+{self.freshness_block(wid)}
+<p class="note">Official WDFW lake page: {self.src(w["official_wdfw_url"])}. Stocking matched via release location “{E(", ".join(x["alias"] for x in self.aliases if x["water_id"] == wid))}” (confirmed).</p>
+<details class="ev"><summary>All {len(srcs)} official sources used on this page</summary><ul class="sources">{src_html}</ul></details>
+<p class="note"><a href="/data-quality/">All known data issues and how to report a correction</a></p></section>
+</div>
 """
         jsonld = [{"@context": "https://schema.org", "@type": "LakeBodyOfWater", "name": w["display_name"],
                    "geo": {"@type": "GeoCoordinates", "latitude": w["lake_centre"]["lat"], "longitude": w["lake_centre"]["lon"]},

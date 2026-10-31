@@ -105,7 +105,7 @@ class Build(unittest.TestCase):
     def test_decision_block_precedes_long_content(self):
         s = (self.out / "lakes/battle-ground-lake/index.html").read_text()
         self.assertLess(s.index('class="decision"'), s.index("<h2>Recent stocking</h2>"))
-        self.assertLess(s.index("Shore fishing"), s.index("<h2>Sources</h2>"))
+        self.assertLess(s.index("Shore access"), s.index("<h2>Sources &amp; freshness</h2>"))
 
     def test_unknown_never_becomes_no(self):
         g = text(self.out / "lakes/green-lake-seattle/index.html")
@@ -127,9 +127,12 @@ class Build(unittest.TestCase):
         k = text(self.out / "lakes/lake-kapowsin/index.html")
         self.assertIn("Unclear: official sources conflict", k)
         b = (self.out / "lakes/battle-ground-lake/index.html").read_text()
-        self.assertRegex(b, r"Shore fishing</dt><dd><strong>Limited</strong>")   # WDFW rating says "Good"
+        # our LIMITED classification is shown (WDFW's rating says "Good"), next to its sourced explanation
+        self.assertRegex(b, r'Shore access</dt><dd><span class="v">Limited bank access; a trail around the lake leads to shore spots '
+                            r'<span class="badge limited">Limited shore access</span>')
+        self.assertNotIn(">Good<", b)
         sp = (self.out / "lakes/spanaway-lake/index.html").read_text()
-        self.assertRegex(sp, r"Pier / dock</dt><dd><strong>Closed</strong>")
+        self.assertRegex(sp, r'Pier / dock</dt><dd><span class="v"><strong>Closed</strong>')
 
     def test_fry_do_not_count_as_recent_catchable(self):
         st = self.site.st["wa-w-american-lake"]
@@ -175,6 +178,198 @@ class Build(unittest.TestCase):
             if d["published"]:
                 self.assertGreaterEqual(d["lakes"], 3)
                 self.assertTrue((self.out / "near" / c.lower() / "index.html").exists())
+
+
+class HomepageRedesign(unittest.TestCase):
+    """Presentation-only redesign: cards are simpler, but every warning they showed before
+    is still rendered, grouped in one 'Before you go' area."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.home = (cls.out / "index.html").read_text()
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def card_html(self, slug):
+        m = re.search(rf'<article class="card" id="lake-{slug}".*?</article>', self.home, re.S)
+        self.assertIsNotNone(m, slug)
+        return m.group(0)
+
+    def test_every_active_warning_still_on_its_card(self):
+        for w in self.site.waters:
+            c = html.unescape(self.card_html(w["slug"]))
+            for f in self.site.st[w["water_id"]]["flags"]:
+                if f["level"] in ("blocking", "warn", "restricted"):
+                    self.assertIn(f["text"], c, (w["slug"], f["text"]))
+            active = any(f["level"] in ("blocking", "warn", "restricted") for f in self.site.st[w["water_id"]]["flags"])
+            self.assertEqual('data-role="before" hidden' in c, not active, w["slug"])
+            self.assertEqual('data-role="noflags" hidden' in c, active, w["slug"])
+
+    def test_known_warnings_visible(self):
+        self.assertIn("Before you go", self.card_html("ward-lake"))
+        self.assertIn("outside its listed open dates", html.unescape(self.card_html("ward-lake")))
+        self.assertIn("sev-block", self.card_html("ward-lake"))
+        self.assertIn("juvenile anglers", html.unescape(self.card_html("longs-pond")))
+        sp = html.unescape(self.card_html("spanaway-lake"))
+        self.assertIn("closed to vehicles", sp)
+        self.assertIn("Toxic algae", sp)
+        self.assertIn("No current issues found", self.card_html("battle-ground-lake"))
+
+    def test_cards_drop_status_tile_grid(self):
+        res = self.home.split('id="results"', 1)[1]
+        self.assertNotIn('class="fact ', res)          # no six-tile grid on the homepage
+        self.assertNotIn('class="why"', res)
+
+    def test_other_lakes_are_collapsed_and_light(self):
+        self.assertRegex(self.home, r'<details class="others" id="others-wrap"><summary>')
+        self.assertIn('<div id="others" class="cards compact">', self.home)
+        n_q = sum(self.site.st[w["water_id"]]["qualifies"] for w in self.site.waters)
+        self.assertIn(f'<b id="o-count">{20 - n_q}</b> other validated lakes', self.home)
+
+    def test_no_distance_without_location(self):
+        self.assertNotRegex(self.home, r'class="dist">[^<]+<')   # empty until the user gives a place
+
+    def test_home_links_are_plain_and_resettable(self):
+        self.assertIn('<a class="brand" href="/" data-home-reset>', self.home)
+        self.assertNotRegex(self.home, r'href="/#')
+
+    def test_url_state_unit_tests_pass(self):
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("node not installed")
+        import subprocess
+        r = subprocess.run([node, "--test", str(MVP / "tests/url_state.test.js")], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+
+class LakeDetailRedesign(unittest.TestCase):
+    """Presentation-only redesign of lake pages: trip decision first, quick facts in plain
+    language, evidence secondary. Every fact, warning and source must still be on the page."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.waters = json.loads((DATA / "waters.json").read_text())
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def page(self, slug):
+        return (self.out / "lakes" / slug / "index.html").read_text()
+
+    def decision(self, slug):
+        s = self.page(slug)
+        return s[s.index('<section class="decision"'):s.index('<div class="details">')]
+
+    def rows(self, html_):
+        out = {}
+        for k, v in re.findall(r'<div class="row [a-z]+"><dt>(.*?)</dt><dd><span class="v">(.*?)</span>', html_):
+            out[html.unescape(k)] = html.unescape(re.sub(r"<[^>]+>", "", v)).strip()
+        return out
+
+    def test_quick_facts_are_never_a_bare_category(self):
+        bare = {"Yes", "No", "Limited", "Unknown", "Not stated", "Closed", "Required", "See details"}
+        for w in self.waters:
+            q = self.rows(self.decision(w["slug"]))
+            self.assertEqual(list(q)[:6], ["Recent stocking", "Shore access", "Pier / dock", "Parking", "Pass / fee", "Hours"], w["slug"])
+            for k, v in q.items():
+                self.assertNotIn(v, bare, (w["slug"], k))
+                self.assertGreater(len(v), 8, (w["slug"], k, v))
+
+    def test_shore_and_dock_show_sourced_explanation(self):
+        for w in self.waters:
+            a = self.site.access[w["water_id"]]
+            q = self.rows(self.decision(w["slug"]))
+            shore, dock = a["bank_fishing_status"], a["fishing_pier_or_dock"]
+            if shore["state"] != "UNKNOWN":
+                self.assertTrue(q["Shore access"].startswith(shore["value"]), w["slug"])
+                tag = {"YES": "Public shore fishing", "LIMITED": "Limited shore access", "NO": "No public shore access"}[shore["state"]]
+                self.assertTrue(q["Shore access"].endswith(tag), w["slug"])
+            if dock["state"] in ("YES", "NO"):
+                self.assertIn(dock["value"], q["Pier / dock"], w["slug"])
+            elif "CONFLICT" in dock["value"]:
+                self.assertEqual(q["Pier / dock"], "Unclear: official sources conflict")
+            else:
+                self.assertEqual(q["Pier / dock"], "Pier or dock not stated by official sources", w["slug"])
+        self.assertEqual(self.rows(self.decision("ward-lake"))["Hours"], "Hours not stated by WDFW")
+        self.assertEqual(self.rows(self.decision("ward-lake"))["Parking"], "1 parking lot")
+        self.assertTrue(self.rows(self.decision("spanaway-lake"))["Pier / dock"].startswith("Closed · "))
+        self.assertEqual(self.rows(self.decision("longs-pond"))["Pass / fee"], "Pass / fee not stated by City of Lacey")
+
+    def test_unknown_is_never_presented_as_no(self):
+        for w in self.waters:
+            a = self.site.access[w["water_id"]]
+            prim = next(x for x in a["access_points"] if x["primary"])
+            q = self.rows(self.decision(w["slug"]))
+            for label, f in (("Parking", prim["parking_available"]), ("Hours", prim["operating_hours"]),
+                             ("Pier / dock", a["fishing_pier_or_dock"])):
+                if f["state"] == "UNKNOWN":
+                    self.assertTrue(re.search(r"not stated by|^Unclear", q[label]), (w["slug"], label, q[label]))
+
+    def test_every_active_warning_is_in_the_trip_decision(self):
+        for w in self.waters:
+            st, d = self.site.st[w["water_id"]], self.decision(w["slug"])
+            active = [f for f in st["flags"] if f["level"] in ("blocking", "warn", "restricted")]
+            for f in active:
+                self.assertIn(html.escape(f["text"]), d, (w["slug"], f["key"]))
+            self.assertEqual('class="trip-alert' in d, bool(active), w["slug"])
+            self.assertEqual("No current issues found" in d, not active, w["slug"])
+            if any(f["level"] == "blocking" for f in active):
+                self.assertIn("trip-alert sev-block", d)
+        self.assertIn("outside its listed open dates", self.decision("ward-lake"))
+        sp = self.decision("spanaway-lake")
+        self.assertIn("Fantasy Lights", sp)
+        self.assertIn("Toxic algae", sp)
+        self.assertIn("juvenile anglers", self.decision("longs-pond"))
+        self.assertIn("juvenile anglers", self.decision("bradley-lake"))
+
+    def test_warnings_not_hidden_in_collapsed_sections(self):
+        for w in self.waters:
+            s = self.page(w["slug"])
+            for blk in re.findall(r"<details.*?</details>", s, re.S):
+                self.assertNotIn('class="flag', blk, w["slug"])
+            n = s[s.index('id="notices"'):s.index('id="nearby"')]
+            for f in self.site.st[w["water_id"]]["flags"]:
+                if f["level"] != "inactive":
+                    self.assertIn(html.escape(f["text"]), n, (w["slug"], f["key"]))
+
+    def test_sources_are_secondary_but_all_reachable(self):
+        for w in self.waters:
+            s, d = self.page(w["slug"]), self.decision(w["slug"])
+            self.assertNotIn('class="src', d, w["slug"])              # no inline source links in the decision layer
+            self.assertIn('href="#sources"', d)
+            self.assertNotIn('class="fresh', d)                        # freshness lives in Sources & freshness
+            a = self.site.access[w["water_id"]]
+            urls = [p["source_url"].split(" (")[0] for k in ("bank_fishing_status", "fishing_pier_or_dock") for p in a[k]["provenance"]]
+            for ap in a["access_points"]:
+                urls.append(ap["url"])
+                urls += [p["source_url"].split(" (")[0] for v in ap.values() if isinstance(v, dict) for p in v.get("provenance", [])]
+            for u in set(urls):
+                self.assertIn(f'href="{html.escape(u)}"', s, (w["slug"], u))
+            for p in a["bank_fishing_status"]["provenance"]:
+                self.assertIn(html.escape(p["quote"]), s)               # verbatim evidence still on the page
+            self.assertIn('id="sources"', s)
+            self.assertLess(s.index('class="decision"'), s.index('id="sources"'))
+
+    def test_stale_data_is_flagged_in_the_decision_layer(self):
+        tmp = Path(tempfile.mkdtemp())
+        for f in DATA.glob("*.json"):
+            shutil.copy(f, tmp / f.name)
+        st = json.loads((tmp / "source_status.json").read_text())
+        st["ecology_toxic_algae"]["last_success"] = "2026-10-20T00:00:00+00:00"
+        (tmp / "source_status.json").write_text(json.dumps(st))
+        out, _ = built(data_dir=tmp)
+        s = (out / "lakes/battle-ground-lake/index.html").read_text()
+        d = s[s.index('<section class="decision"'):s.index('<div class="details">')]
+        self.assertIn("STALE", d)
+        self.assertIn("Ecology toxic-algae list", d)
+        self.assertNotIn("STALE", self.decision("battle-ground-lake"))
+        shutil.rmtree(out)
+        shutil.rmtree(tmp)
 
 
 class Production(unittest.TestCase):
@@ -223,7 +418,7 @@ class Production(unittest.TestCase):
 
     def test_finder_state_never_creates_urls(self):
         js = (MVP / "site/static/finder.js").read_text()
-        self.assertIn('history.replaceState(null, "", "#"', js)
+        self.assertIn('history.replaceState(null, "", s ? clean + "#" + s : clean)', js)
         self.assertNotRegex(js, r"location\.search|pushState|\?from=")
         home = (self.out / "index.html").read_text()
         self.assertIn('<link rel="canonical" href="https://shorelio.com/">', home)
