@@ -1,0 +1,50 @@
+{
+ "reviewed_at": "2026-10-31",
+ "reviewer": "validating agent (Claude); human confirmation recommended for the MVP Martha choice",
+ "decisions": [
+  {
+   "alias": "MARTHA LK (AM) (SNOH)",
+   "decision": "wdfw-lowland:martha-alderwood-manor",
+   "level": "C_reviewed",
+   "evidence": [
+    "Official page text: 'Martha is located In Lynnwood, two miles northeast of Alderwood Manor' ('AM' = Alderwood Manor)",
+    "Official page Geo Code L3217 equals the alias's stocking geo_code L3217; county Snohomish",
+    "Page lists rainbow + cutthroat; the alias's 112 plants are 94 rainbow / 17 cutthroat / 1 brown",
+    "WDFW GIS shore points 'Martha Alderwood Manor' (2 public piers) and the WDFW access 'Martha Lake' (Snohomish) lie 0.23 km from the page centre"
+   ],
+   "mvp_decision": "The MVP item 'Martha Lake (Snohomish County)' = this water (Lynnwood; Martha Lake Park fishing piers). Bank-fishing relevance and metro location make it the intended MVP lake; confirm with the product owner."
+  },
+  {
+   "alias": "MARTHA LK (WB) (SNOH)",
+   "decision": "wdfw-lowland:martha-lake-snohomish",
+   "level": "D_reviewed",
+   "evidence": [
+    "Official 'Lake Martha (Snohomish County)' page: '10.5 miles northwest of Marysville', centre 48.169,-122.341 (Warm Beach area; 'WB' = Warm Beach)",
+    "Page species include brown trout; brown trout appear in this alias's plants (28 of 105) and not in the AM alias's",
+    "Official page Geo Code L3218 != stocking geo_code L3219, and no stocking row uses L3218: an official-source inconsistency. The alias is pinned by name, place and species, not by code"
+   ],
+   "mvp_decision": "Separate water; not in the MVP set. It is resolved so its plants are never shown under the Lynnwood lake."
+  },
+  {
+   "alias": "LONGS PD (THUR)",
+   "decision": "wdfw-lowland:longs-pond",
+   "level": "C_reviewed",
+   "evidence": [
+    "Official 'Long's Pond' page Geo Code L2818 equals the stocking geo_code; county Thurston; Woodland Creek Community Park (Lacey)",
+    "Plant sizes fit an 8.9-acre pond: median 500 fish/plant, timed around spring break and summer as the page describes",
+    "Long's Pond is a restricted water: 'Open for juvenile anglers, senior anglers and anglers with a disability who possess a designated harvester companion card only.'"
+   ]
+  },
+  {
+   "alias": "LONG LK (THUR)",
+   "decision": "wdfw-lowland:long-lake-thurston",
+   "level": "D_reviewed (manual override of the geo_code)",
+   "evidence": [
+    "Name + county = 'Long Lake (Thurston County)' (307.9 acres; WDFW access with boat launch)",
+    "Its 286 plants carry L2818 (Long's Pond's code); median 4,234 fish/plant fits a 308-acre lake, not an 8.9-acre pond",
+    "Long Lake's own page code L2807 appears only on 'LACEY DERBY (LACEY)'"
+   ],
+   "note": "WDFW's own Long's Pond page queries geo_code L2818 and so lists Long Lake's plants as Long's Pond's. Report this to WDFW if desired. The product must never join on geo_code alone here."
+  }
+ ]
+}

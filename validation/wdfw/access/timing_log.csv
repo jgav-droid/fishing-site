@@ -1,0 +1,8 @@
+task,lake,phase,start_utc,end_utc
+identity,_,resolve_martha_longs,2026-10-31T11:26:16Z,
+identity,_,resolve_martha_longs+spotcheck,,2026-10-31T11:28:18Z
+family,wdfw_access_sites,template_parser,2026-10-31T11:30:42Z,
+family,manager_pages,fetch_extract,2026-10-31T11:42:34Z,
+family,wdfw_gis_shore_join,join,2026-10-31T11:46:52Z,
+family,state_parks_template,test,2026-10-31T11:52:34Z,
+family,assembly,dataset+trip_outputs,,2026-10-31T11:55:23Z

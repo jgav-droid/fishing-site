@@ -1,0 +1,166 @@
+{
+ "lakes": 20,
+ "per_field": {
+  "bank_fishing_status": {
+   "known": 20,
+   "unknown": 0,
+   "of": 20,
+   "states": {
+    "LIMITED": 13,
+    "YES": 7
+   }
+  },
+  "fishing_pier_or_dock": {
+   "known": 17,
+   "unknown": 3,
+   "of": 20,
+   "states": {
+    "NO": 6,
+    "UNKNOWN": 3,
+    "YES": 11
+   }
+  },
+  "public_access": {
+   "known": 20,
+   "unknown": 0,
+   "of": 20,
+   "states": {
+    "YES": 20
+   }
+  },
+  "parking_available": {
+   "known": 19,
+   "unknown": 1,
+   "of": 20,
+   "states": {
+    "LIMITED": 1,
+    "UNKNOWN": 1,
+    "YES": 18
+   }
+  },
+  "pass_required": {
+   "known": 12,
+   "unknown": 8,
+   "of": 20,
+   "states": {
+    "NO": 2,
+    "UNKNOWN": 8,
+    "YES": 10
+   }
+  },
+  "parking_or_access_fee": {
+   "known": 15,
+   "unknown": 5,
+   "of": 20,
+   "states": {
+    "NO": 2,
+    "UNKNOWN": 5,
+    "YES": 13
+   }
+  },
+  "pass_or_fee": {
+   "known": 15,
+   "unknown": 5,
+   "of": 20,
+   "states": {
+    "KNOWN": 15,
+    "UNKNOWN": 5
+   }
+  },
+  "operating_hours": {
+   "known": 10,
+   "unknown": 10,
+   "of": 20,
+   "states": {
+    "UNKNOWN": 10,
+    "YES": 10
+   }
+  },
+  "seasonal_access": {
+   "known": 15,
+   "unknown": 5,
+   "of": 20,
+   "states": {
+    "LIMITED": 2,
+    "UNKNOWN": 5,
+    "YES": 13
+   }
+  },
+  "closure_channel": {
+   "known": 20,
+   "unknown": 0,
+   "of": 20,
+   "states": {
+    "LIMITED": 14,
+    "YES": 6
+   }
+  },
+  "emergency_rule_monitoring": {
+   "known": 20,
+   "unknown": 0,
+   "of": 20,
+   "states": {
+    "YES": 20
+   }
+  },
+  "fishing_rule_source": {
+   "known": 20,
+   "unknown": 0,
+   "of": 20,
+   "states": {
+    "YES": 20
+   }
+  },
+  "access_coordinates": {
+   "known": 17,
+   "unknown": 3,
+   "of": 20,
+   "states": {
+    "UNKNOWN": 3,
+    "YES": 17
+   }
+  }
+ },
+ "overall_useful_field_coverage": 0.846,
+ "core_field_coverage": 0.925,
+ "core_fields": [
+  "bank_fishing_status",
+  "public_access",
+  "parking_available",
+  "pass_or_fee"
+ ],
+ "lakes_with_all_core_fields_known": 15,
+ "decision_ready_lakes": [
+  "wa-w-battle-ground-lake",
+  "wa-w-lacamas-lake",
+  "wa-w-klineline-pond",
+  "wa-w-martha-alderwood-manor",
+  "wa-w-ward-lake",
+  "wa-w-american-lake",
+  "wa-w-alder-lake",
+  "wa-w-mineral-lake",
+  "wa-w-spanaway-lake",
+  "wa-w-lake-kapowsin",
+  "wa-w-lake-whitman",
+  "wa-w-tanwax-lake",
+  "wa-w-clear-lake-pierce",
+  "wa-w-bonney-lake",
+  "wa-w-rapjohn-lake"
+ ],
+ "evidence_quotes_verified": 203,
+ "data_conflicts": {
+  "wa-w-lacamas-lake": [
+   "The boat-ramp shore area (GIS) is not on the Clark County park page; its manager is not identified in sources used."
+  ],
+  "wa-w-lake-meridian": [
+   "WDFW lists the boat ramp as a WDFW water access area (Discover Pass/VAP), while Kent sells an $8/day launch pass at the same lake. WDFW notes that some WDFW-owned sites are managed by other agencies under their rules. Which pass or fee applies at the ramp needs confirmation."
+  ],
+  "wa-w-longs-pond": [
+   "WDFW's first sentence says 'juveniles-only (age 14 and under)' but its special restriction also admits seniors and disabled anglers.",
+   "The City of Lacey page says 'No fishing license is required'. That is a regulatory claim from a non-regulator, so it is NOT used; WDFW rules govern."
+  ],
+  "wa-w-lake-kapowsin": [
+   "Dock: GIS 'Public dock' vs access-site 'Fishing platforms: None' (possibly a boarding dock). Needs human review."
+  ]
+ }
+}

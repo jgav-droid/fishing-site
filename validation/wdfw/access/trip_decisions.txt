@@ -1,0 +1,172 @@
+BATTLE GROUND LAKE  (Clark County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  Oct 27  1,080 Rainbow (2.6 fish/lb)
+  Oct 26  1,000 Rainbow (2.6 fish/lb)
+Shore fishing:   Limited: Limited bank access; a trail around the lake leads to shore spots
+Pier/dock:       Yes: Dock at the boat ramp
+Main access:     Battle Ground Lake State Park (Washington State Parks)
+Parking:         Yes: Park parking; Discover Pass required
+Pass:            Yes: Discover Pass (not needed if staying in a registered campsite)
+Fees:            Yes: Discover Pass $10/day or $45/yr; watercraft launch $7/day
+Hours:           Yes: Summer 6:30 a.m.-dusk; winter 8:00 a.m.-dusk
+Access season:   Battle Ground Lake State Park: Off-season changes are on a separate Winter Schedule page (not captured)
+Rules (WDFW):
+  - Fishing for or retaining grass carp is prohibited.
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72369
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - Klineline Pond (17 km): stocked Oct 26 (2,000 Rainbow); shore yes, dock yes
+  - Lacamas Lake (22 km): stocked Oct 27 (4,000 Rainbow); shore limited, dock unknown
+Official sources behind this record (7 pages):
+  https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0
+  https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park
+  https://parks.wa.gov/passes-permits/get-park-pass/discover-pass
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72369
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://www.eregulations.com/washington/fishing/
+
+------------------------------------------------------------------------------
+
+KLINELINE POND  (Clark County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  Oct 26  2,000 Rainbow (2.6 fish/lb)
+Shore fishing:   Yes: Great bank access in the park
+Pier/dock:       Yes: Fishing/observation platforms (3 WDFW pier points)
+Main access:     Salmon Creek Regional Park/Klineline Pond (Clark County Parks)
+Parking:         Yes: Parking incl. ADA
+Pass:            No: No Discover Pass; Discover Pass is not accepted (pay the county fee)
+Fees:            Yes: $5/day vehicle parking fee (or $40 county annual pass); 12 fee-free days in 2026
+Hours:           Yes: 7 a.m. to dusk
+Rules (WDFW):
+  - floating devices on the pond are restricted
+  - Fishing for or retaining grass carp is prohibited.
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72374
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - Battle Ground Lake (17 km): stocked Oct 27 (1,080 Rainbow); shore limited, dock yes
+  - Lacamas Lake (21 km): stocked Oct 27 (4,000 Rainbow); shore limited, dock unknown
+Official sources behind this record (7 pages):
+  https://clark.wa.gov/public-works/parking-fees
+  https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond
+  https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72374
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://www.eregulations.com/washington/fishing/
+
+------------------------------------------------------------------------------
+
+SPANAWAY LAKE  (Pierce County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  none in the last 45 days
+Shore fishing:   Yes: Good shoreline access in Spanaway Park
+Pier/dock:       Yes: Fishing pier exists but is CLOSED for reconstruction (county: reopening 2027)
+Main access:     Spanaway Park (Pierce County Parks)
+Parking:         Yes: Park parking (seasonal fee); no vehicles during the Fantasy Lights closure
+Pass:            Unknown (not stated by official sources): Not stated
+Fees:            Yes: Seasonal parking $3; boat launch $10
+Hours:           Yes: Seasonal schedule on the park page
+Access season:   Spanaway Park: Closed to vehicles Oct 24-Jan 11 (Fantasy Lights); closed Thanksgiving and Dec 25
+Rules (WDFW): no lake-specific notes on the WDFW page; statewide pamphlet applies
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72005
+Current notices (as retrieved 2026-10-31):
+  ! Spanaway Park will be closed to vehicles, boats, and bikes from Saturday, October 24 through January 11, 2027, during the Fantasy Lights season.  [https://www.piercecountywa.gov/1336/Spanaway-Park]
+  ! Walkers may enter the park daily from 7:00 a.m. to 11:00 a.m.  [https://www.piercecountywa.gov/1336/Spanaway-Park]
+  ! Spanaway Lake 10/27/2026  [https://www.nwtoxicalgae.org/]
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - Long's Pond (27 km): stocked Oct 26 (150 Cutthroat); shore yes, dock yes; RESTRICTED: juvenile/senior/disabled anglers only
+  - Ward Lake (34 km): stocked Oct 26 (306 Cutthroat); shore limited, dock no; WDFW water access area outside its listed season (Apr 25-Sep 30)
+Official sources behind this record (6 pages):
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72005
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://www.eregulations.com/washington/fishing/
+  https://www.nwtoxicalgae.org/
+  https://www.piercecountywa.gov/1336/Spanaway-Park
+
+------------------------------------------------------------------------------
+
+LAKE BRADLEY  (Pierce County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  none in the last 45 days
+Shore fishing:   Yes: Good shoreline access, but ONLY for juveniles (14 and under), seniors (70+) and disabled anglers
+Pier/dock:       Yes: Public pier (same eligibility restriction)
+Main access:     Bradley Lake Park (City of Puyallup)
+Parking:         Yes: Parking listed as a feature
+Pass:            Unknown (not stated by official sources): Not stated
+Fees:            Unknown (not stated by official sources): Not stated
+Hours:           Yes: Oct-Feb 6 a.m.-8 p.m.; Mar-Sep 6 a.m.-10 p.m.
+Access season:   Bradley Lake Park: Seasonal hours (above)
+Rules (WDFW):
+  - Lake Bradley is open year round only for juvenile anglers, senior anglers, and anglers with a disability who possess a designated harvester companion card.
+  - Two-pole fishing is NOT allowed
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71995
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - none in the MVP set
+Official sources behind this record (6 pages):
+  https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71995
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://www.eregulations.com/washington/fishing/
+  https://www.puyallupwa.gov/2503/Bradley-Lake-Park
+
+------------------------------------------------------------------------------
+
+WARD LAKE  (Thurston County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  Oct 26  306 Cutthroat (1.6 fish/lb)
+Shore fishing:   Limited: Around the boat launch; limited by vegetation
+Pier/dock:       No: WDFW access lists no fishing platform
+Main access:     WDFW water access area (WDFW)
+Parking:         Yes: 1 lot(s)
+Pass:            Yes: Discover Pass or WDFW Vehicle Access Pass
+Fees:            Yes: Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)
+Hours:           Unknown (not stated by official sources): WDFW publishes seasonal open dates for access areas but no daily hours
+Access season:   WDFW water access area: '4th Saturday in April - September 30' -> on Oct 31 this is OUTSIDE the listed window (Apr 25-Sep 30) [https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694]
+Rules (WDFW): no lake-specific notes on the WDFW page; statewide pamphlet applies
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72058
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - Long's Pond (7 km): stocked Oct 26 (150 Cutthroat); shore yes, dock yes; RESTRICTED: juvenile/senior/disabled anglers only
+Official sources behind this record (8 pages):
+  https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0
+  https://parks.wa.gov/passes-permits/get-park-pass/discover-pass
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72058
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://wdfw.wa.gov/places-to-go/water-access-sites
+  https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694
+  https://www.eregulations.com/washington/fishing/
+
+------------------------------------------------------------------------------
+
+CLEAR LAKE (PIERCE COUNTY)  (Pierce County)   trip date Sat Oct 31, 2026
+==============================================================================
+Recently stocked, catchable size (<= 3 fish/lb; WDFW Fish Plants 6fex-3r7d, refreshed 2026-10-29):
+  none in the last 45 days
+Shore fishing:   Limited: Limited, from the public launch
+Pier/dock:       No: No fishing platform at the WDFW access
+Main access:     WDFW water access area (WDFW)
+Parking:         Yes: 1 lot(s)
+Pass:            Yes: Discover Pass or WDFW Vehicle Access Pass
+Fees:            Yes: Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)
+Hours:           Unknown (not stated by official sources): WDFW publishes seasonal open dates for access areas but no daily hours
+Access season:   WDFW water access area: Year-round. Open to vehicles only during the regulated sport fishing season(s).
+Rules (WDFW):
+  - Clear Lake is open to fishing from the fourth Saturday in April to October 31.  -> on Oct 31: within that season
+  - Chumming is permitted.
+  Emergency rules for this lake: https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72016
+Nearby recently stocked alternatives (MVP set, 40 km):
+  - none in the MVP set
+Official sources behind this record (7 pages):
+  https://parks.wa.gov/passes-permits/get-park-pass/discover-pass
+  https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce
+  https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72016
+  https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all
+  https://wdfw.wa.gov/places-to-go/water-access-sites
+  https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309
+  https://www.eregulations.com/washington/fishing/

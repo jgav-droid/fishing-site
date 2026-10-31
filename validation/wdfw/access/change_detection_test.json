@@ -1,0 +1,198 @@
+{
+ "summary": {
+  "pages": 27,
+  "raw_hash_changed": 15,
+  "main_text_hash_changed": 0
+ },
+ "pages": [
+  {
+   "url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://cityoflakewood.us/american-lake-park/",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://clark.wa.gov/public-works/parking-fees",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://snohomishcountywa.gov/5281/Passes",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+   "status": 200,
+   "raw_changed": false,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/reservations-fees/",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  },
+  {
+   "url": "https://www.seattle.gov/parks/parks/green-lake-park",
+   "status": 200,
+   "raw_changed": true,
+   "main_changed": false,
+   "first_diff": null
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+[
+ {"water_id":"wa-w-battle-ground-lake","name":"Battle Ground Lake","entity_id":"wdfw-lowland:battle-ground-lake","stocking_aliases":["BATTLE GROUND LK (CLAR)"]},
+ {"water_id":"wa-w-lacamas-lake","name":"Lacamas Lake","entity_id":"wdfw-lowland:lacamas-lake","stocking_aliases":["LACAMAS LK (CLAR)"]},
+ {"water_id":"wa-w-klineline-pond","name":"Klineline Pond","entity_id":"wdfw-lowland:klineline-pond","stocking_aliases":["KLINELINE PD (CLAR)"]},
+ {"water_id":"wa-w-green-lake-king","name":"Green Lake (King County)","entity_id":"wdfw-lowland:green-lake-king","stocking_aliases":["GREEN LK (KING)"]},
+ {"water_id":"wa-w-angle-lake","name":"Angle Lake","entity_id":"wdfw-lowland:angle-lake","stocking_aliases":["ANGLE LK (KING)"]},
+ {"water_id":"wa-w-lake-meridian","name":"Lake Meridian","entity_id":"wdfw-lowland:lake-meridian","stocking_aliases":["LK MERIDIAN (KING)"]},
+ {"water_id":"wa-w-martha-alderwood-manor","name":"Martha Lake (Alderwood Manor)","entity_id":"wdfw-lowland:martha-alderwood-manor","stocking_aliases":["MARTHA LK (AM) (SNOH)"]},
+ {"water_id":"wa-w-ward-lake","name":"Ward Lake","entity_id":"wdfw-lowland:ward-lake","stocking_aliases":["WARD LK (THUR)"]},
+ {"water_id":"wa-w-longs-pond","name":"Long's Pond","entity_id":"wdfw-lowland:longs-pond","stocking_aliases":["LONGS PD (THUR)"]},
+ {"water_id":"wa-w-american-lake","name":"American Lake","entity_id":"wdfw-lowland:american-lake","stocking_aliases":["AMERICAN LK (PIER)"]},
+ {"water_id":"wa-w-alder-lake","name":"Alder Lake","entity_id":"wdfw-lowland:alder-lake","stocking_aliases":["ALDER LK (THUR/PIER)"]},
+ {"water_id":"wa-w-mineral-lake","name":"Mineral Lake","entity_id":"wdfw-lowland:mineral-lake","stocking_aliases":["MINERAL LK (LEWI)"]},
+ {"water_id":"wa-w-lake-bradley","name":"Bradley Lake","entity_id":"wdfw-lowland:lake-bradley","stocking_aliases":["BRADLEY LK (PIER)"]},
+ {"water_id":"wa-w-spanaway-lake","name":"Spanaway Lake","entity_id":"wdfw-lowland:spanaway-lake","stocking_aliases":["SPANAWAY LK (PIER)"]},
+ {"water_id":"wa-w-lake-kapowsin","name":"Lake Kapowsin","entity_id":"wdfw-lowland:lake-kapowsin","stocking_aliases":["LK KAPOWSIN (PIER)"]},
+ {"water_id":"wa-w-lake-whitman","name":"Lake Whitman","entity_id":"wdfw-lowland:lake-whitman","stocking_aliases":["LK WHITMAN (PIER)"]},
+ {"water_id":"wa-w-tanwax-lake","name":"Tanwax Lake","entity_id":"wdfw-lowland:tanwax-lake","stocking_aliases":["TANWAX LK (PIER)"]},
+ {"water_id":"wa-w-clear-lake-pierce","name":"Clear Lake (Pierce County)","entity_id":"wdfw-lowland:clear-lake-pierce","stocking_aliases":["CLEAR LK (PIER)"]},
+ {"water_id":"wa-w-bonney-lake","name":"Bonney Lake","entity_id":"wdfw-lowland:bonney-lake","stocking_aliases":["BONNEY LK (PIER)"]},
+ {"water_id":"wa-w-rapjohn-lake","name":"Rapjohn Lake","entity_id":"wdfw-lowland:rapjohn-lake","stocking_aliases":["RAPJOHN LK (PIER)"]}
+]

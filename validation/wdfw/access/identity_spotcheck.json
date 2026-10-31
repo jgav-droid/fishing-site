@@ -1,0 +1,422 @@
+{
+ "checked_at": "2026-10-31T11:28:03+00:00",
+ "n": 18,
+ "passed": 17,
+ "items": [
+  {
+   "alias": "BATTLE GROUND LK (CLAR)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+   "http": 200,
+   "live_title": "Battle Ground Lake",
+   "live_geo_code": "L333",
+   "step2_geo_code": "L333",
+   "page_counties": [
+    "Clark"
+   ],
+   "census_county_at_page_centre": "Clark",
+   "lat": 45.804756,
+   "lon": -122.494045,
+   "wdfw_join_release_locations": [
+    "BATTLE GROUND LK (CLAR)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "LACAMAS LK (CLAR)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+   "http": 200,
+   "live_title": "Lacamas Lake",
+   "live_geo_code": "L44874",
+   "step2_geo_code": "L44874",
+   "page_counties": [
+    "Clark"
+   ],
+   "census_county_at_page_centre": "Clark",
+   "lat": 45.616843,
+   "lon": -122.425798,
+   "wdfw_join_release_locations": [
+    "LACAMAS LK (CLAR)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "KLINELINE PD (CLAR)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+   "http": 200,
+   "live_title": "Klineline Pond",
+   "live_geo_code": "L38502",
+   "step2_geo_code": "L38502",
+   "page_counties": [
+    "Clark"
+   ],
+   "census_county_at_page_centre": "Clark",
+   "lat": 45.70791,
+   "lon": -122.656174,
+   "wdfw_join_release_locations": [
+    "KLINELINE PD (CLAR)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "GREEN LK (KING)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+   "http": 200,
+   "live_title": "Green Lake (King County)",
+   "live_geo_code": "L1536",
+   "step2_geo_code": "L1536",
+   "page_counties": [
+    "King"
+   ],
+   "census_county_at_page_centre": "King",
+   "lat": 47.678114,
+   "lon": -122.338465,
+   "wdfw_join_release_locations": [
+    "GREEN LK (KING)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "ANGLE LK (KING)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+   "http": 200,
+   "live_title": "Angle Lake",
+   "live_geo_code": "L91",
+   "step2_geo_code": "L91",
+   "page_counties": [
+    "King"
+   ],
+   "census_county_at_page_centre": "King",
+   "lat": 47.427512,
+   "lon": -122.286785,
+   "wdfw_join_release_locations": [
+    "ANGLE LK (KING)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "LK MERIDIAN (KING)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+   "http": 200,
+   "live_title": "Lake Meridian",
+   "live_geo_code": "L3273",
+   "step2_geo_code": "L3273",
+   "page_counties": [
+    "King"
+   ],
+   "census_county_at_page_centre": "King",
+   "lat": 47.362526,
+   "lon": -122.152956,
+   "wdfw_join_release_locations": [
+    "LK MERIDIAN (KING)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "WARD LK (THUR)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+   "http": 200,
+   "live_title": "Ward Lake",
+   "live_geo_code": "L8939",
+   "step2_geo_code": "L8939",
+   "page_counties": [
+    "Thurston"
+   ],
+   "census_county_at_page_centre": "Thurston",
+   "lat": 47.008767,
+   "lon": -122.875442,
+   "wdfw_join_release_locations": [
+    "WARD LK (THUR)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "AMERICAN LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+   "http": 200,
+   "live_title": "American Lake",
+   "live_geo_code": "L35",
+   "step2_geo_code": "L35",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 47.13287,
+   "lon": -122.562286,
+   "wdfw_join_release_locations": [
+    "AMERICAN LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "ALDER LK (THUR/PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+   "http": 200,
+   "live_title": "Alder Lake",
+   "live_geo_code": "L23",
+   "step2_geo_code": "L23",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.772031,
+   "lon": -122.22727,
+   "wdfw_join_release_locations": [
+    "ALDER LK (THUR/PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "MINERAL LK (LEWI)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+   "http": 200,
+   "live_title": "Mineral Lake",
+   "live_geo_code": "L3300",
+   "step2_geo_code": "L3300",
+   "page_counties": [
+    "Lewis"
+   ],
+   "census_county_at_page_centre": "Lewis",
+   "lat": 46.72644,
+   "lon": -122.173647,
+   "wdfw_join_release_locations": [
+    "MINERAL LK (LEWI)",
+    "MORTON DERBY (LEWI)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": false,
+    "geo_code_unchanged": true
+   },
+   "pass": false
+  },
+  {
+   "alias": "BRADLEY LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+   "http": 200,
+   "live_title": "Lake Bradley",
+   "live_geo_code": "L35548",
+   "step2_geo_code": "L35548",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 47.161091,
+   "lon": -122.284218,
+   "wdfw_join_release_locations": [
+    "BRADLEY LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "SPANAWAY LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+   "http": 200,
+   "live_title": "Spanaway Lake",
+   "live_geo_code": "L4266",
+   "step2_geo_code": "L4266",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 47.110228,
+   "lon": -122.448044,
+   "wdfw_join_release_locations": [
+    "SPANAWAY LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "LK KAPOWSIN (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+   "http": 200,
+   "live_title": "Lake Kapowsin",
+   "live_geo_code": "L2668",
+   "step2_geo_code": "L2668",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.972931,
+   "lon": -122.227488,
+   "wdfw_join_release_locations": [
+    "LK KAPOWSIN (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "LK WHITMAN (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+   "http": 200,
+   "live_title": "Lake Whitman",
+   "live_geo_code": "L547",
+   "step2_geo_code": "L547",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.963023,
+   "lon": -122.257368,
+   "wdfw_join_release_locations": [
+    "LK WHITMAN (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "TANWAX LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+   "http": 200,
+   "live_title": "Tanwax Lake",
+   "live_geo_code": "L4578",
+   "step2_geo_code": "L4578",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.950231,
+   "lon": -122.266436,
+   "wdfw_join_release_locations": [
+    "TANWAX LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "CLEAR LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+   "http": 200,
+   "live_title": "Clear Lake (Pierce County)",
+   "live_geo_code": "L4498",
+   "step2_geo_code": "L4498",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.931345,
+   "lon": -122.272744,
+   "wdfw_join_release_locations": [
+    "CLEAR LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "BONNEY LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+   "http": 200,
+   "live_title": "Bonney Lake",
+   "live_geo_code": "L466",
+   "step2_geo_code": "L466",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 47.189008,
+   "lon": -122.185772,
+   "wdfw_join_release_locations": [
+    "BONNEY LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  },
+  {
+   "alias": "RAPJOHN LK (PIER)",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+   "http": 200,
+   "live_title": "Rapjohn Lake",
+   "live_geo_code": "L3838",
+   "step2_geo_code": "L3838",
+   "page_counties": [
+    "Pierce"
+   ],
+   "census_county_at_page_centre": "Pierce",
+   "lat": 46.905177,
+   "lon": -122.342204,
+   "wdfw_join_release_locations": [
+    "RAPJOHN LK (PIER)"
+   ],
+   "checks": {
+    "census_county_matches": true,
+    "wdfw_join_returns_only_alias": true,
+    "geo_code_unchanged": true
+   },
+   "pass": true
+  }
+ ]
+}

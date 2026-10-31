@@ -1,0 +1,4204 @@
+[
+ {
+  "water_id": "wa-w-battle-ground-lake",
+  "canonical_name": "Battle Ground Lake",
+  "counties": [
+   "Clark"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+  "wdfw_geo_code": "L333",
+  "stocking_aliases": [
+   "BATTLE GROUND LK (CLAR)"
+  ],
+  "lake_centre": {
+   "lat": 45.804756,
+   "lon": -122.494045,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited bank access; a trail around the lake leads to shore spots",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+     "quote": "The lake offers limited bank access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10030)",
+     "quote": "Trail around entire lake that leads to shore fishing spots",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Dock at the boat ramp",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+     "quote": "limited bank access and a dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10029)",
+     "quote": "Boat ramp and dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+    "quote": "Fishing for or retaining grass carp is prohibited.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72369",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wa-parks:battle-ground-lake-state-park",
+    "name": "Battle Ground Lake State Park",
+    "manager": "Washington State Parks",
+    "manager_type": "state_park",
+    "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "Lake is inside the state park",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+       "quote": "Located inside Battle Ground Lake State Park",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Park parking; Discover Pass required",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+       "quote": "A Discover Pass is necessary to park at this lake.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Discover Pass $10/day or $45/yr; watercraft launch $7/day",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+       "quote": "Annual Pass: $45 One-day Pass: $10 Watercraft Launch Fee: $7 for the day",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:35+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass (not needed if staying in a registered campsite)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+       "quote": "A Discover Pass is necessary to park at this lake.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+       "quote": "The Discover Pass is not necessary if staying in a registered campsite.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "A Discover Pass is required for parking at Washington State Parks",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "Summer 6:30 a.m.-dusk; winter 8:00 a.m.-dusk",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+       "quote": "Hours Summer: 6:30 a.m. - Dusk Winter: 8:00 a.m. - Dusk",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:35+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "LIMITED",
+     "value": "Off-season changes are on a separate Winter Schedule page (not captured)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+       "quote": "Learn about seasonal closures and operational changes during the off-season on the Winter Schedule page",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:35+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "Structured 'Alerts' block on the State Parks park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+       "quote": "Battle Ground Lake State Park Alerts Burn Ban - Level 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:35+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 45.803395304359235,
+    "lon": -122.49296875102188,
+    "description": "Boat ramp and dock",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10029)"
+   },
+   {
+    "lat": 45.804329303780776,
+    "lon": -122.49247175109622,
+    "description": "Trail around entire lake that leads to shore fishing spots",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10030)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "LIMITED",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "Washington State Parks"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-lacamas-lake",
+  "canonical_name": "Lacamas Lake",
+  "counties": [
+   "Clark"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+  "wdfw_geo_code": "L44874",
+  "stocking_aliases": [
+   "LACAMAS LK (CLAR)"
+  ],
+  "lake_centre": {
+   "lat": 45.616843,
+   "lon": -122.425798,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited public shore access; about 400 ft around the ramp; Round Lake (SE end) has good bank access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+     "quote": "Shore access is limited to the public.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+     "quote": "Round Lake, located at the southeast end of the lake provides good bank access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10291)",
+     "quote": "400 feet of shore fishing around the ramp",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "UNKNOWN",
+   "value": "No official source mentions a fishing pier or dock",
+   "confidence": "NONE",
+   "provenance": []
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [
+   "The boat-ramp shore area (GIS) is not on the Clark County park page; its manager is not identified in sources used."
+  ],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72376",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "clark-county:lacamas-regional-park",
+    "name": "Lacamas Regional Park (Round Lake)",
+    "manager": "Clark County Parks",
+    "manager_type": "county_park",
+    "url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "County regional park with fishing",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+       "quote": "This 312-acre park has fishing, hiking and recreational opportunities",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:40+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "26 spaces + 1 disabled stall",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+       "quote": "26 parking spaces, plus 1 disabled parking stall",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:40+00:00"
+      },
+      {
+       "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10292)",
+       "quote": "Vehicle parking area with access to the shore",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:28:39+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "NO",
+     "value": "Not one of the four Clark County regional parks that charge parking (closed list)",
+     "confidence": "MEDIUM",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/parking-fees",
+       "quote": "Clark County charges daily parking fees year-round at four county regional parks",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:44+00:00"
+      },
+      {
+       "source_url": "https://clark.wa.gov/public-works/parking-fees",
+       "quote": "Lewisville Regional Park, Salmon Creek Regional Park/Klineline Pond and Vancouver Lake Regional Park",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:44+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "7 a.m. to dusk",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+       "quote": "Hours 7 a.m. to dusk (one half-hour after sunset)",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:40+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "Project/closure updates posted on the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/lacamas-regional-park",
+       "quote": "Construction to replace a trail at Lacamas Regional Park is progressing.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:40+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 45.60405830834314,
+    "lon": -122.40855280503456,
+    "description": "400 feet of shore fishing around the ramp",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10291)"
+   },
+   {
+    "lat": 45.60483930758628,
+    "lon": -122.40760880456952,
+    "description": "Vehicle parking area with access to the shore",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10292)"
+   },
+   {
+    "lat": 45.61561330883182,
+    "lon": -122.41964580081519,
+    "description": "Limited shore fishing on either side of the ramp",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10290)"
+   },
+   {
+    "lat": 45.621568308908984,
+    "lon": -122.42896079807318,
+    "description": "Vehicle parking area with access to the shore",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10289)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "UNKNOWN",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "NO",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "UNKNOWN",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "Clark County Parks"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-klineline-pond",
+  "canonical_name": "Klineline Pond",
+  "counties": [
+   "Clark"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+  "wdfw_geo_code": "L38502",
+  "stocking_aliases": [
+   "KLINELINE PD (CLAR)"
+  ],
+  "lake_centre": {
+   "lat": 45.70791,
+   "lon": -122.656174,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Great bank access in the park",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+     "quote": "The lake offers great bank access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing/observation platforms (3 WDFW pier points)",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+     "quote": "fishing/observation platforms",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:42:42+00:00"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10286)",
+     "quote": "Fishing pier",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+    "quote": "floating devices on the pond are restricted",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   },
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+    "quote": "Fishing for or retaining grass carp is prohibited.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72374",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "clark-county:salmon-creek-klineline",
+    "name": "Salmon Creek Regional Park/Klineline Pond",
+    "manager": "Clark County Parks",
+    "manager_type": "county_park",
+    "url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "County regional park",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+       "quote": "Salmon Creek Regional Park/Klineline Pond is a popular spot",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:42+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Parking incl. ADA",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+       "quote": "Parking, including ADA parking",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:42+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "$5/day vehicle parking fee (or $40 county annual pass); 12 fee-free days in 2026",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+       "quote": "A $ 5-per-day vehicle parking fee is charged at the Klineline Pond entrance to the park.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:42+00:00"
+      },
+      {
+       "source_url": "https://clark.wa.gov/public-works/parking-fees",
+       "quote": "An annual pass can be purchased for $40 online or from a fee collector.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:44+00:00"
+      },
+      {
+       "source_url": "https://clark.wa.gov/public-works/parking-fees",
+       "quote": "Twelve parking fee-free days, including some weekdays, some weekend days, some federal holidays and other observances.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:44+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "NO",
+     "value": "No Discover Pass; Discover Pass is not accepted (pay the county fee)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/parking-fees",
+       "quote": "Passes from other agencies, such as the Washington State Parks Discover Pass, are NOT accepted at the four county regional parks listed above.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:44+00:00"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "7 a.m. to dusk",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond",
+       "quote": "Hours 7 a.m. to dusk",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:42+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "Project section on the park page; no dedicated alert block",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 45.707262325626886,
+    "lon": -122.6575607441511,
+    "description": "Fishing pier, this area serves as the open swimming area during the summer",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10285)"
+   },
+   {
+    "lat": 45.70831632567411,
+    "lon": -122.65729574395682,
+    "description": "Fishing pier",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10286)"
+   },
+   {
+    "lat": 45.70925232599699,
+    "lon": -122.6571627442973,
+    "description": "Fishing pier",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10287)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "NO",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "UNKNOWN",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "Clark County Parks"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-green-lake-king",
+  "canonical_name": "Green Lake (King County)",
+  "counties": [
+   "King"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+  "wdfw_geo_code": "L1536",
+  "stocking_aliases": [
+   "GREEN LK (KING)"
+  ],
+  "lake_centre": {
+   "lat": 47.678114,
+   "lon": -122.338465,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "City park surrounds the entire lake",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+     "quote": "extends around the entire lake providing excellent shoreline access to anglers",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing docks on the south, east and northeast shores",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+     "quote": "fishing docks are located at the south, east and northeast shores of the lake",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71868",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "seattle-parks:green-lake-park",
+    "name": "Green Lake Park",
+    "manager": "Seattle Parks and Recreation",
+    "manager_type": "city_park",
+    "url": "https://www.seattle.gov/parks/parks/green-lake-park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "City park",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+       "quote": "Green Lake Park, managed by Seattle Parks and Recreation",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "UNKNOWN",
+     "value": "Not stated on the official park page",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "parking_or_access_fee": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "4 a.m.-11:30 p.m.",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.seattle.gov/parks/parks/green-lake-park",
+       "quote": "4 am-11:30 pm",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:46+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice block observed; page-hash monitoring only",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [],
+  "access_coordinates_status": "UNKNOWN (only lake centre and street address)",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "UNKNOWN",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "UNKNOWN",
+   "pass_or_fee": "UNKNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "UNKNOWN",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "UNKNOWN",
+   "primary_access_manager": "Seattle Parks and Recreation"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-angle-lake",
+  "canonical_name": "Angle Lake",
+  "counties": [
+   "King"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+  "wdfw_geo_code": "L91",
+  "stocking_aliases": [
+   "ANGLE LK (KING)"
+  ],
+  "lake_centre": {
+   "lat": 47.427512,
+   "lon": -122.286785,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Fishing pier and some shoreline",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+     "quote": "fishing pier and some shoreline",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing pier (replacement scheduled; construction from January)",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10012)",
+     "quote": "Public pier",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    },
+    {
+     "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+     "quote": "The fishing pier and boat ramp are scheduled for replacement with construction starting winter 2026",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:42:48+00:00"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [
+   {
+    "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+    "quote": "The boat ramp is currently closed due to damage beyond repair.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31T11:42:48+00:00"
+   }
+  ],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71848",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "seatac:angle-lake-park",
+    "name": "Angle Lake Park",
+    "manager": "City of SeaTac",
+    "manager_type": "city_park",
+    "url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "City park with bank access and pier",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+       "quote": "Anglers can access the lake at Angle Lake Park where there is a boat launch, bank access, and a fishing pier available.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Parking listed as a park feature",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+       "quote": "Picnic Tables Parking Open space Trails Restrooms Boat launch Fishing",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:48+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "Dawn to dusk daily except federal holidays; gate unlocked by 8 a.m.",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+       "quote": "Angle Lake Park is open from dawn until dusk every day, excluding federal holidays.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:48+00:00"
+      },
+      {
+       "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+       "quote": "We unlock the park’s gate by 8 a.m. and lock it every evening.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:48+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "Dated 'Announcement' block on the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+       "quote": "Angle Lake Park Announcement Posted 10/26/2026",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:48+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.427414190908515,
+    "lon": -122.29231544268404,
+    "description": "Public pier",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10012)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "UNKNOWN",
+   "pass_or_fee": "UNKNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "UNKNOWN",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "City of SeaTac"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-lake-meridian",
+  "canonical_name": "Lake Meridian",
+  "counties": [
+   "King"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+  "wdfw_geo_code": "L3273",
+  "stocking_aliases": [
+   "LK MERIDIAN (KING)"
+  ],
+  "lake_centre": {
+   "lat": 47.362526,
+   "lon": -122.152956,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Fishing is from the city park dock; wider shore access not described",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+     "quote": "Fishing pier at public park",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10343)",
+     "quote": "Large public dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Large public dock at the city park",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+     "quote": "go fishing from the dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:42:55+00:00"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [
+   "WDFW lists the boat ramp as a WDFW water access area (Discover Pass/VAP), while Kent sells an $8/day launch pass at the same lake. WDFW notes that some WDFW-owned sites are managed by other agencies under their rules. Which pass or fee applies at the ramp needs confirmation."
+  ],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71871",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "kent:lake-meridian-park",
+    "name": "Lake Meridian Park",
+    "manager": "City of Kent",
+    "manager_type": "city_park",
+    "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "City park; WDFW ramp nearby",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+       "quote": "Both the WDFW and the City of Kent provide access to the lake on the southeast shore via a concrete boat ramp and fishing pier, respectively.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Parking listed as a park feature",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+       "quote": "Features Parking Restrooms",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:55+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "UNKNOWN",
+     "value": "Parking fee not stated; boat launch $8/day (Kent)",
+     "confidence": "NONE",
+     "provenance": [
+      {
+       "source_url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+       "quote": "PUBLIC BOAT LAUNCH FEES: $8.00/Day (daily launch pass)",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:55+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "Dawn to dusk",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+       "quote": "MyKentParks@KentWA.gov Dawn to Dusk",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:55+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "'Park Updates/Announcements' section on the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+       "quote": "Park Updates/Announcements",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:55+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   },
+   {
+    "ap_id": "wdfw-was:lake-meridian-479",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479",
+    "primary": false,
+    "public_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 47.361527178989,
+     "lon": -122.14433883742,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.3593341797572,
+    "lon": -122.14599548099676,
+    "description": "Large public dock",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10343)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "UNKNOWN",
+   "pass_or_fee": "UNKNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "UNKNOWN",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "City of Kent"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-martha-alderwood-manor",
+  "canonical_name": "Martha Alderwood Manor",
+  "counties": [
+   "Snohomish"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+  "wdfw_geo_code": "L3217",
+  "stocking_aliases": [
+   "MARTHA LK (AM) (SNOH)"
+  ],
+  "lake_centre": {
+   "lat": 47.852714,
+   "lon": -122.243454,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Piers at the county park; very limited shore at the WDFW launch",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+     "quote": "Shoreline access at WDFW boat ramp and fishing pier at public park",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10479)",
+     "quote": "Very limited shore fishing at boat launch",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing dock/piers at Martha Lake Park (WDFW says two, the county says 'a fishing dock')",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+     "quote": "two large fishing piers",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+     "quote": "The park includes a fishing dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:43:03+00:00"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+    "quote": "This lake is one of only twelve waters in Snohomish County managed with a seasonal fishing closure.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71885",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "snoco:martha-lake-park",
+    "name": "Martha Lake Park",
+    "manager": "Snohomish County Parks",
+    "manager_type": "county_park",
+    "url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "County park",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+       "quote": "Martha Lake Park (Snohomish County Parks) also offers parking and toilets",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Parking + disabled parking",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+       "quote": "Martha Lake Park (Snohomish County Parks) also offers parking and toilets",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "NO",
+     "value": "Not one of the county parks that charge a day-use fee (closed list: Flowing Lake, Kayak Point, Wenberg)",
+     "confidence": "MEDIUM",
+     "provenance": [
+      {
+       "source_url": "https://snohomishcountywa.gov/5281/Passes",
+       "quote": "Passes can be used at all of our parks that charge a day-use fee ( Flowing Lake Park, Kayak Point",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:51:30+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "7 a.m. to dusk (20 min after sunset)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+       "quote": "Hours 7 a.m. - Dusk (20 minutes after sunset)",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:03+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "LIMITED",
+     "value": "Permanent restroom closed November-March",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+       "quote": "The permanent restroom is winterized and closed November-March.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:03+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "County closure / burn-ban / alerts link from the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+       "quote": "Check for park closure, burn ban info and alerts here.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:03+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   },
+   {
+    "ap_id": "wdfw-was:martha-lake-470",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470",
+    "primary": false,
+    "public_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "4th Saturday in April - October 31",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470",
+       "quote": "Access area open: 4th Saturday in April - October 31",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 47.8507303943,
+     "lon": -122.24252884462,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.85045416316627,
+    "lon": -122.24524535420902,
+    "description": "Public pier",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10477)"
+   },
+   {
+    "lat": 47.8507341622688,
+    "lon": -122.2437453544972,
+    "description": "Public pier",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10478)"
+   },
+   {
+    "lat": 47.85101416291102,
+    "lon": -122.24291535495901,
+    "description": "Very limited shore fishing at boat launch",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10479)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "NO",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "LIMITED",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "Snohomish County Parks"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-ward-lake",
+  "canonical_name": "Ward Lake",
+  "counties": [
+   "Thurston"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+  "wdfw_geo_code": "L8939",
+  "stocking_aliases": [
+   "WARD LK (THUR)"
+  ],
+  "lake_centre": {
+   "lat": 47.008767,
+   "lon": -122.875442,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Around the boat launch; limited by vegetation",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+     "quote": "Bank fishing includes the area around the boat launch on the east side of the lake.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10708)",
+     "quote": "Shore fishing, limited by vegetation",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "WDFW access lists no fishing platform",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72058",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:ward-lake-694",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+       "quote": "Bank fishing includes the area around the boat launch",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "4th Saturday in April - September 30",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+       "quote": "Access area open: 4th Saturday in April - September 30",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 47.00920806892,
+     "lon": -122.87191212377,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.006814273218644,
+    "lon": -122.87340543881885,
+    "description": "Shore fishing, limited by vegetation",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10708)"
+   },
+   {
+    "lat": 47.009264273134264,
+    "lon": -122.87212543939866,
+    "description": "Limited shore fishing at boat launch",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10709)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-longs-pond",
+  "canonical_name": "Long's Pond",
+  "counties": [
+   "Thurston"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+  "wdfw_geo_code": "L2818",
+  "stocking_aliases": [
+   "LONGS PD (THUR)"
+  ],
+  "lake_centre": {
+   "lat": 47.039336,
+   "lon": -122.791497,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Good shore access in Woodland Creek Community Park",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+     "quote": "Woodland Creek community Park provides good shore access and a fishing dock",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing dock, open during park hours",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+     "quote": "Longs Pond features a year-round fishing pond and dock open during normal park hours.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:43:06+00:00"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+    "quote": "Open for juvenile anglers, senior anglers and anglers with a disability who possess a designated harvester companion card only.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   },
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+    "quote": "Two-pole fishing is NOT allowed",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [
+   "WDFW's first sentence says 'juveniles-only (age 14 and under)' but its special restriction also admits seniors and disabled anglers.",
+   "The City of Lacey page says 'No fishing license is required'. That is a regulatory claim from a non-regulator, so it is NOT used; WDFW rules govern."
+  ],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72022",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "lacey:woodland-creek-community-park",
+    "name": "Woodland Creek Community Park",
+    "manager": "City of Lacey",
+    "manager_type": "city_park",
+    "url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "City park",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+       "quote": "with Longs Pond serving as a centerpiece",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:06+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Park parking lot (official history mentions it; capacity not stated)",
+     "confidence": "MEDIUM",
+     "provenance": [
+      {
+       "source_url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+       "quote": "the picnic shelters, restrooms, play equipment, trails, and parking lot were constructed",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:06+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "7 a.m. to dark",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+       "quote": "HOURS: 7AM - Dark",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:06+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round fishing pond",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+       "quote": "Longs Pond features a year-round fishing pond",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:06+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "Project notices on the park page; no alert block",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.0389642628923,
+    "lon": -122.79261544601282,
+    "description": "Public dock, shore fishing around pond, open only to juveniles (14 and younger), seniors (70+), and disabled persons",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10461)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "UNKNOWN",
+   "pass_or_fee": "UNKNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "City of Lacey"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-american-lake",
+  "canonical_name": "American Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+  "wdfw_geo_code": "L35",
+  "stocking_aliases": [
+   "AMERICAN LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 47.13287,
+   "lon": -122.562286,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Large shore area at the WDFW access (400+ ft); docks and 300+ ft at a park",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+     "quote": "The WDFW access area has a large area for shore based fishing.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10009)",
+     "quote": "Over 400 feet of shore fishing at boat launch",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Public docks",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10010)",
+     "quote": "Public docks, over 300 feet of shore fishing",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71992",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:american-lake-244",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+       "quote": "The WDFW access area has a large area for shore based fishing.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 47.122011847301,
+     "lon": -122.56793194825,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244"
+    }
+   },
+   {
+    "ap_id": "lakewood:american-lake-park",
+    "name": "American Lake Park",
+    "manager": "City of Lakewood",
+    "manager_type": "city_park",
+    "url": "https://cityoflakewood.us/american-lake-park/",
+    "primary": false,
+    "public_access": {
+     "state": "YES",
+     "value": "City park with boat launch",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://cityoflakewood.us/american-lake-park/",
+       "quote": "Boat launch fees apply at a single launch rate of $15",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:08+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Boat launch $15 (cards only); parking fee not stated",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://cityoflakewood.us/american-lake-park/",
+       "quote": "Boat launch fees apply at a single launch rate of $15 (CREDIT/DEBIT CARDS ONLY)",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:08+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "Not stated on the park page",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "City news posts; no park alert block",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.12245423622569,
+    "lon": -122.568295464142,
+    "description": "Over 400 feet of shore fishing at boat launch",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10009)"
+   },
+   {
+    "lat": 47.140524234202275,
+    "lon": -122.56110546076054,
+    "description": "Public docks, over 300 feet of shore fishing",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10010)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-alder-lake",
+  "canonical_name": "Alder Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+  "wdfw_geo_code": "L23",
+  "stocking_aliases": [
+   "ALDER LK (THUR/PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.772031,
+   "lon": -122.22727,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Plenty of public shore access along SR 7 and in Tacoma Power parks",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+     "quote": "There is plenty of public shore access along SR 7 and in a few of Tacoma Power's parks, access areas, and campground.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "UNKNOWN",
+   "value": "Not stated",
+   "confidence": "NONE",
+   "provenance": []
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71991",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "tacoma-power:alder-lake-park",
+    "name": "Alder Lake Park",
+    "manager": "Tacoma Power (Tacoma Public Utilities)",
+    "manager_type": "utility_park",
+    "url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "Day-use access to Alder Lake",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+       "quote": "Alder Lake Park offers day-use access to Alder Lake",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:10+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Day-use parking",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+       "quote": "Parking Information Parking fee: $10 on Fridays, Saturdays, Sundays, and holidays between",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:10+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "$10 day-use parking Fri-Sun and holidays, Memorial Day to Labor Day; season pass $70",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+       "quote": "Parking fee: $10 on Fridays, Saturdays, Sundays, and holidays between",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:10+00:00"
+      },
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/reservations-fees/",
+       "quote": "Season day-use parking pass: $70",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:12+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "NO",
+     "value": "Discover Pass not required",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/reservations-fees/",
+       "quote": "A Discover Pass is not required to access Tacoma Power parks, boat launches, or day-use areas.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:12+00:00"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "All Tacoma Power parks closed Dec. 20-Jan. 1; access varies with lake level",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+       "quote": "All parks are closed Dec. 20",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:10+00:00"
+      },
+      {
+       "source_url": "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/",
+       "quote": "Boat launch access, swim areas, and lake levels may vary throughout the year.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:10+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "Notes on the park page plus a lake-level page; no alert block",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [],
+  "access_coordinates_status": "UNKNOWN (only lake centre and street address)",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "UNKNOWN",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "NO",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "UNKNOWN",
+   "primary_access_manager": "Tacoma Power (Tacoma Public Utilities)"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-mineral-lake",
+  "canonical_name": "Mineral Lake",
+  "counties": [
+   "Lewis"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+  "wdfw_geo_code": "L3300",
+  "stocking_aliases": [
+   "MINERAL LK (LEWI)"
+  ],
+  "lake_centre": {
+   "lat": 46.72644,
+   "lon": -122.173647,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Access is limited; most shore fishing is from docks; 150 ft south of the ramp",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+     "quote": "Access is limited.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+     "quote": "Most shore fishing is from public fishing docks at the west end of the lake and docks at Mineral Lake Resort.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10502)",
+     "quote": "150 feet of shore fishing south of the ramp",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Public fishing docks at the west end; 1 platform at the WDFW access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+     "quote": "public fishing docks at the west end of the lake",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+     "quote": "Fishing platforms: 1",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72485",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:mineral-lake-485",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+       "quote": "The state boat launch is small",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "3 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+       "quote": "Parking lots: 3",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "YES",
+     "value": "Fishing platforms: 1",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485",
+       "quote": "Fishing platforms: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.719278239592,
+     "lon": -122.18191026087,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 46.720420219457445,
+    "lon": -122.18206561375288,
+    "description": "150 feet of shore fishing south of the ramp ",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10502)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-lake-bradley",
+  "canonical_name": "Lake Bradley",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+  "wdfw_geo_code": "L35548",
+  "stocking_aliases": [
+   "BRADLEY LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 47.161091,
+   "lon": -122.284218,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Good shoreline access, but ONLY for juveniles (14 and under), seniors (70+) and disabled anglers",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+     "quote": "Good shoreline access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10078)",
+     "quote": "shore fishing, open only to juveniles (14 and younger), seniors (70+), and disabled persons",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Public pier (same eligibility restriction)",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10079)",
+     "quote": "Public pier, open only to juveniles (14 and younger), seniors (70+), and disabled persons",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+    "quote": "Lake Bradley is open year round only for juvenile anglers, senior anglers, and anglers with a disability who possess a designated harvester companion card.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   },
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+    "quote": "Two-pole fishing is NOT allowed",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71995",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "puyallup:bradley-lake-park",
+    "name": "Bradley Lake Park",
+    "manager": "City of Puyallup",
+    "manager_type": "city_park",
+    "url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "City park with fishing areas",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+       "quote": "This park now includes fishing areas",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:44:19+00:00"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Parking listed as a feature",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+       "quote": "Restrooms | Parking | Trails",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:44:19+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "Oct-Feb 6 a.m.-8 p.m.; Mar-Sep 6 a.m.-10 p.m.",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+       "quote": "October - February: 6:00AM - 8:00PM March- September: 6:00AM - 10:00PM",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:44:19+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Seasonal hours (above)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+       "quote": "October - February: 6:00AM - 8:00PM",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:44:19+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "City news flash; no park alert block. The domain moved cityofpuyallup.org -> puyallupwa.gov and the page ID changed",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 47.15978420459359,
+    "lon": -122.28446550263708,
+    "description": "Public pier, open only to juveniles (14 and younger), seniors (70+), and disabled persons",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10079)"
+   },
+   {
+    "lat": 47.16231420472302,
+    "lon": -122.28497550186619,
+    "description": "shore fishing, open only to juveniles (14 and younger), seniors (70+), and disabled persons",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10078)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "UNKNOWN",
+   "pass_or_fee": "UNKNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "City of Puyallup"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-spanaway-lake",
+  "canonical_name": "Spanaway Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+  "wdfw_geo_code": "L4266",
+  "stocking_aliases": [
+   "SPANAWAY LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 47.110228,
+   "lon": -122.448044,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake"
+  },
+  "bank_fishing_status": {
+   "state": "YES",
+   "value": "Good shoreline access in Spanaway Park",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+     "quote": "Shoreline access is good in Spanaway Park",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "YES",
+   "value": "Fishing pier exists but is CLOSED for reconstruction (county: reopening 2027)",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+     "quote": "fishing pier (closed, under construction)",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:43:26+00:00"
+    },
+    {
+     "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+     "quote": "The project is scheduled for completion, with the dock reopening to the public in 2027.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:43:26+00:00"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [
+   {
+    "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+    "quote": "Spanaway Park will be closed to vehicles, boats, and bikes from Saturday, October 24 through January 11, 2027, during the Fantasy Lights season.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31T11:43:26+00:00"
+   },
+   {
+    "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+    "quote": "Walkers may enter the park daily from 7:00 a.m. to 11:00 a.m.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31T11:43:26+00:00"
+   },
+   {
+    "source_url": "https://www.nwtoxicalgae.org/",
+    "quote": "Spanaway Lake 10/27/2026",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31"
+   }
+  ],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72005",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "pierce-county:spanaway-park",
+    "name": "Spanaway Park",
+    "manager": "Pierce County Parks",
+    "manager_type": "county_park",
+    "url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "County park (vehicle closure Oct 24, 2026-Jan 11, 2027)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "Dive into aquatic activities with two swim beaches, a boat launch, and a fishing pier.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+       "quote": "Shoreline access is good in Spanaway Park",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "Park parking (seasonal fee); no vehicles during the Fantasy Lights closure",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "The boat launch and trailer parking are open for public use.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      },
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "Seasonal parking is $3.00",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Seasonal parking $3; boat launch $10",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "Boat Launch is $10.00* Seasonal parking is $3.00",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "UNKNOWN",
+     "value": "Not stated",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "operating_hours": {
+     "state": "YES",
+     "value": "Seasonal schedule on the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "The park will be open during the following hours, unless otherwise posted at the park.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      }
+     ]
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Closed to vehicles Oct 24-Jan 11 (Fantasy Lights); closed Thanksgiving and Dec 25",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "Spanaway Park will be closed to vehicles, boats, and bikes from Saturday, October 24 through January 11, 2027",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "YES",
+     "value": "Dated closure notices at the top of the park page",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+       "quote": "Temporary Park Closure for Fantasy Lights",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:43:26+00:00"
+      }
+     ]
+    },
+    "access_coordinates": null
+   }
+  ],
+  "shore_fishing_points": [],
+  "access_coordinates_status": "UNKNOWN (only lake centre and street address)",
+  "summary": {
+   "bank_fishing_status": "YES",
+   "fishing_pier_or_dock": "YES",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "UNKNOWN",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "YES",
+   "seasonal_access": "YES",
+   "closure_channel": "YES",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "UNKNOWN",
+   "primary_access_manager": "Pierce County Parks"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-lake-kapowsin",
+  "canonical_name": "Lake Kapowsin",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+  "wdfw_geo_code": "L2668",
+  "stocking_aliases": [
+   "LK KAPOWSIN (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.972931,
+   "lon": -122.227488,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Walk-in areas along Oroville Rd; limited shore at the access; trail around the lake",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+     "quote": "There are walk in fishing areas along Oroville Rd.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10326)",
+     "quote": "Public dock, limited shore fishing",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10327)",
+     "quote": "Trail around lake provides additional shore fishing",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "UNKNOWN",
+   "value": "CONFLICT: the GIS shore layer says 'Public dock'; the WDFW access page lists no fishing platforms",
+   "confidence": "LOW",
+   "provenance": [
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10326)",
+     "quote": "Public dock, limited shore fishing",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [
+   "Dock: GIS 'Public dock' vs access-site 'Fishing platforms: None' (possibly a boarding dock). Needs human review."
+  ],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72001",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:lake-kapowsin-437",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+       "quote": "There are walk in fishing areas along Oroville Rd.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.985048402144,
+     "lon": -122.21837502057,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 46.98444420799812,
+    "lon": -122.21876555186873,
+    "description": "Public dock, limited shore fishing",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10326)"
+   },
+   {
+    "lat": 46.98492420819132,
+    "lon": -122.21791555196539,
+    "description": "Trail around lake provides additional shore fishing",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10327)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "UNKNOWN",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-lake-whitman",
+  "canonical_name": "Lake Whitman",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+  "wdfw_geo_code": "L547",
+  "stocking_aliases": [
+   "LK WHITMAN (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.963023,
+   "lon": -122.257368,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited, at the boat launch",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+     "quote": "Shoreline access is limited, but accessible",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10433)",
+     "quote": "Limited shore fishing at boat launch",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "No fishing platform at the WDFW access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72489",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:lake-whitman-717",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+       "quote": "Shoreline access is limited, but accessible",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.960434539929,
+     "lon": -122.25813744847,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 46.960664213424536,
+    "lon": -122.25811555060527,
+    "description": "Limited shore fishing at boat launch",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10433)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-tanwax-lake",
+  "canonical_name": "Tanwax Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+  "wdfw_geo_code": "L4578",
+  "stocking_aliases": [
+   "TANWAX LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.950231,
+   "lon": -122.266436,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited at the WDFW ramp; private resorts also offer dock/bank access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10673)",
+     "quote": "Limited shore fishing access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+     "quote": "Multiple resorts and area around boat ramp provides adequate shoreline fishing access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "No public fishing platform; docks only at private resorts",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    },
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+     "quote": "Two private resorts also provide boat rentals, dock and bank access.",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+    "quote": "Crappie is managed with a 9-inch minimum size and a 10 fish bag limit.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   },
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+    "quote": "Two-pole fishing is NOT allowed",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72007",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:tanwax-lake-666",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW access on the south shore",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+       "quote": "A WDFW access on the south shore provides a paved boat ramp and toilets.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.943266658727,
+     "lon": -122.2741053935,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 46.94350421572434,
+    "lon": -122.27396555075167,
+    "description": "Limited shore fishing access",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10673)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-clear-lake-pierce",
+  "canonical_name": "Clear Lake (Pierce County)",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+  "wdfw_geo_code": "L4498",
+  "stocking_aliases": [
+   "CLEAR LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.931345,
+   "lon": -122.272744,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited, from the public launch",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+     "quote": "Limited shoreline access from public launch",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "No fishing platform at the WDFW access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+    "quote": "Clear Lake is open to fishing from the fourth Saturday in April to October 31.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   },
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+    "quote": "Chumming is permitted.",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72016",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:clear-lake-309",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW access on the northwest shore",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+       "quote": "The WDFW access on the northwest shore has a paved boat ramp with toilets and adequate parking.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round. Open to vehicles only during the regulated sport fishing season(s).",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+       "quote": "Access area open: Year-round. Open to vehicles only during the regulated sport fishing season(s).",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.931868117084,
+     "lon": -122.28075049155,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309"
+    }
+   }
+  ],
+  "shore_fishing_points": [],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-bonney-lake",
+  "canonical_name": "Bonney Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+  "wdfw_geo_code": "L466",
+  "stocking_aliases": [
+   "BONNEY LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 47.189008,
+   "lon": -122.185772,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited shoreline access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+     "quote": "Limited shoreline access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "No fishing platform at the WDFW access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71994",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:bonney-lake-273",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW boat ramp on the northwest shore",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+       "quote": "The lake has a WDFW boat ramp on the northwest shore",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "LIMITED",
+     "value": "Limited parking; no restroom",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+       "quote": "with a shallow gravel ramp, no restroom, and limited parking.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 47.190071975195,
+     "lon": -122.18701349521,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273"
+    }
+   }
+  ],
+  "shore_fishing_points": [],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "LIMITED",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ },
+ {
+  "water_id": "wa-w-rapjohn-lake",
+  "canonical_name": "Rapjohn Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+  "wdfw_geo_code": "L3838",
+  "stocking_aliases": [
+   "RAPJOHN LK (PIER)"
+  ],
+  "lake_centre": {
+   "lat": 46.905177,
+   "lon": -122.342204,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake"
+  },
+  "bank_fishing_status": {
+   "state": "LIMITED",
+   "value": "Limited, at the boat launch",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+     "quote": "Limited shoreline access",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31 (Step 2 crawl)"
+    },
+    {
+     "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10585)",
+     "quote": "Limited shore fishing at boat launch",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31T11:28:39+00:00"
+    }
+   ]
+  },
+  "fishing_pier_or_dock": {
+   "state": "NO",
+   "value": "No fishing platform at the WDFW access",
+   "confidence": "HIGH",
+   "provenance": [
+    {
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+     "quote": "Fishing platforms: None",
+     "verified_in_cache": true,
+     "retrieved_at": "2026-10-31"
+    }
+   ]
+  },
+  "rule_notes": [
+   {
+    "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+    "quote": "Rapjohn Lake is currently open from the fourth Saturday in April through October 31",
+    "verified_in_cache": true,
+    "retrieved_at": "2026-10-31 (Step 2 crawl)"
+   }
+  ],
+  "current_notices": [],
+  "data_conflicts": [],
+  "fishing_rule_sources": {
+   "lake_page": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+   "statewide_pamphlet": "https://www.eregulations.com/washington/fishing/",
+   "emergency_rules_for_this_lake": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72003",
+   "emergency_rules_rss": "https://wdfw.wa.gov/fishing/regulations/emergency-rules/rss"
+  },
+  "access_points": [
+   {
+    "ap_id": "wdfw-was:rapjohn-lake-558",
+    "name": "WDFW water access area",
+    "manager": "WDFW",
+    "manager_type": "wdfw_water_access",
+    "url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+    "primary": true,
+    "public_access": {
+     "state": "YES",
+     "value": "WDFW water access area",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+       "quote": "Limited shoreline access",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31 (Step 2 crawl)"
+      }
+     ]
+    },
+    "parking_available": {
+     "state": "YES",
+     "value": "1 lot(s)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+       "quote": "Parking lots: 1",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "parking_or_access_fee": {
+     "state": "YES",
+     "value": "Pass only: Discover Pass ($10/day, $45/yr) or Vehicle Access Pass (included with many WDFW licenses)",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass",
+       "quote": "The one-day pass is $10.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31T11:42:38+00:00"
+      }
+     ]
+    },
+    "pass_required": {
+     "state": "YES",
+     "value": "Discover Pass or WDFW Vehicle Access Pass",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Discover Pass or Vehicle Access Pass is required at all WDFW recreation lands.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      },
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites",
+       "quote": "A Vehicle Access Pass provides access only to WDFW lands and is provided with the purchase of many hunting and fishing licenses.",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "operating_hours": {
+     "state": "UNKNOWN",
+     "value": "WDFW publishes seasonal open dates for access areas but no daily hours",
+     "confidence": "NONE",
+     "provenance": []
+    },
+    "seasonal_access": {
+     "state": "YES",
+     "value": "Year-round",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+       "quote": "Access area open: Year-round",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "closure_channel": {
+     "state": "LIMITED",
+     "value": "No notice section; detect changes by hashing the access-site page",
+     "confidence": "ASSESSMENT",
+     "provenance": []
+    },
+    "fishing_platform": {
+     "state": "NO",
+     "value": "Fishing platforms: None",
+     "confidence": "HIGH",
+     "provenance": [
+      {
+       "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558",
+       "quote": "Fishing platforms: None",
+       "verified_in_cache": true,
+       "retrieved_at": "2026-10-31"
+      }
+     ]
+    },
+    "access_coordinates": {
+     "lat": 46.905551678837,
+     "lon": -122.34553895323,
+     "source_url": "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558"
+    }
+   }
+  ],
+  "shore_fishing_points": [
+   {
+    "lat": 46.905614225703204,
+    "lon": -122.34516554768389,
+    "description": "Limited shore fishing at boat launch",
+    "source_url": "https://geodataservices.wdfw.wa.gov/arcgis/rest/services/FP_FishMaps/ShoreFishingSites/MapServer/0 (AccessSiteID 10585)"
+   }
+  ],
+  "access_coordinates_status": "YES",
+  "summary": {
+   "bank_fishing_status": "LIMITED",
+   "fishing_pier_or_dock": "NO",
+   "public_access": "YES",
+   "parking_available": "YES",
+   "pass_required": "YES",
+   "parking_or_access_fee": "YES",
+   "pass_or_fee": "KNOWN",
+   "operating_hours": "UNKNOWN",
+   "seasonal_access": "YES",
+   "closure_channel": "LIMITED",
+   "emergency_rule_monitoring": "YES",
+   "fishing_rule_source": "YES",
+   "access_coordinates": "YES",
+   "primary_access_manager": "WDFW"
+  },
+  "last_verified_at": "2026-10-31T12:00:21+00:00"
+ }
+]

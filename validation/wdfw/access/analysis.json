@@ -1,0 +1,790 @@
+{
+ "per_lake": [
+  {
+   "water_id": "wa-w-battle-ground-lake",
+   "name": "Battle Ground Lake",
+   "family": "state_park",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 4,
+   "pages_lake_specific": 2,
+   "pages_shared": 2,
+   "one_source_covers_most_fields": false,
+   "top_agency": "WDFW",
+   "top_agency_share": 0.64,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 15.5
+  },
+  {
+   "water_id": "wa-w-lacamas-lake",
+   "name": "Lacamas Lake",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "Clark County",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 4,
+   "pages_lake_specific": 2,
+   "pages_shared": 2,
+   "one_source_covers_most_fields": false,
+   "top_agency": "Clark County",
+   "top_agency_share": 0.62,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "Clark County: own CMS page (no shared template)",
+   "data_conflicts": 1,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.5,
+    "resolve_inconsistencies": 5.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 20.5
+  },
+  {
+   "water_id": "wa-w-klineline-pond",
+   "name": "Klineline Pond",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "Clark County",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 4,
+   "pages_lake_specific": 2,
+   "pages_shared": 2,
+   "one_source_covers_most_fields": true,
+   "top_agency": "Clark County",
+   "top_agency_share": 0.75,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "Clark County: own CMS page (no shared template)",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 15.5
+  },
+  {
+   "water_id": "wa-w-green-lake-king",
+   "name": "Green Lake (King County)",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "City of Seattle",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 2,
+   "pages_lake_specific": 2,
+   "pages_shared": 0,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 0.75,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 4.0,
+    "populate_static_and_periodic": 9.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 16.5
+  },
+  {
+   "water_id": "wa-w-angle-lake",
+   "name": "Angle Lake",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "City of SeaTac",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 3,
+   "pages_lake_specific": 2,
+   "pages_shared": 1,
+   "one_source_covers_most_fields": false,
+   "top_agency": "City of SeaTac",
+   "top_agency_share": 0.57,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "City of SeaTac: own CMS page (no shared template)",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 15.0
+  },
+  {
+   "water_id": "wa-w-lake-meridian",
+   "name": "Lake Meridian",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "City of Kent",
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 3,
+   "pages_total": 6,
+   "pages_lake_specific": 3,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": false,
+   "top_agency": "WDFW",
+   "top_agency_share": 0.67,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 1,
+   "setup_minutes": {
+    "identify_sources": 4.0,
+    "populate_static_and_periodic": 15.5,
+    "resolve_inconsistencies": 5.0,
+    "establish_monitoring": 4.0
+   },
+   "setup_minutes_total": 28.5
+  },
+  {
+   "water_id": "wa-w-martha-alderwood-manor",
+   "name": "Martha Alderwood Manor",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "Snohomish County",
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 3,
+   "pages_total": 7,
+   "pages_lake_specific": 3,
+   "pages_shared": 4,
+   "one_source_covers_most_fields": false,
+   "top_agency": "WDFW",
+   "top_agency_share": 0.67,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 4.0,
+    "populate_static_and_periodic": 16.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 4.0
+   },
+   "setup_minutes_total": 24.0
+  },
+  {
+   "water_id": "wa-w-ward-lake",
+   "name": "Ward Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 11.0
+  },
+  {
+   "water_id": "wa-w-longs-pond",
+   "name": "Long's Pond",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "City of Lacey",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 2,
+   "pages_lake_specific": 2,
+   "pages_shared": 0,
+   "one_source_covers_most_fields": true,
+   "top_agency": "City of Lacey",
+   "top_agency_share": 0.83,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "City of Lacey: own CMS page (no shared template)",
+   "data_conflicts": 2,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 9.5,
+    "resolve_inconsistencies": 10.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 24.5
+  },
+  {
+   "water_id": "wa-w-american-lake",
+   "name": "American Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "City of Lakewood",
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 3,
+   "pages_total": 6,
+   "pages_lake_specific": 3,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 0.82,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 15.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 4.0
+   },
+   "setup_minutes_total": 21.5
+  },
+  {
+   "water_id": "wa-w-alder-lake",
+   "name": "Alder Lake",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "Tacoma Power",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 3,
+   "pages_lake_specific": 2,
+   "pages_shared": 1,
+   "one_source_covers_most_fields": true,
+   "top_agency": "Tacoma Power",
+   "top_agency_share": 0.83,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "Tacoma Power: own CMS page (no shared template)",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 15.0
+  },
+  {
+   "water_id": "wa-w-mineral-lake",
+   "name": "Mineral Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 11.0
+  },
+  {
+   "water_id": "wa-w-lake-bradley",
+   "name": "Lake Bradley",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "City of Puyallup",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 3,
+   "pages_lake_specific": 2,
+   "pages_shared": 1,
+   "one_source_covers_most_fields": false,
+   "top_agency": "City of Puyallup",
+   "top_agency_share": 0.57,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "City of Puyallup: own CMS page (no shared template)",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 8.0,
+    "populate_static_and_periodic": 10.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 21.0
+  },
+  {
+   "water_id": "wa-w-spanaway-lake",
+   "name": "Spanaway Lake",
+   "family": "local_park",
+   "authoritative_agencies": [
+    "Pierce County",
+    "WA Dept of Ecology",
+    "WDFW"
+   ],
+   "n_agencies": 3,
+   "pages_total": 3,
+   "pages_lake_specific": 2,
+   "pages_shared": 1,
+   "one_source_covers_most_fields": true,
+   "top_agency": "Pierce County",
+   "top_agency_share": 0.89,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "Pierce County: own CMS page (no shared template)",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 2.0,
+    "populate_static_and_periodic": 10.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 15.0
+  },
+  {
+   "water_id": "wa-w-lake-kapowsin",
+   "name": "Lake Kapowsin",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 1,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 5.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 16.0
+  },
+  {
+   "water_id": "wa-w-lake-whitman",
+   "name": "Lake Whitman",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 11.0
+  },
+  {
+   "water_id": "wa-w-tanwax-lake",
+   "name": "Tanwax Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 11.0
+  },
+  {
+   "water_id": "wa-w-clear-lake-pierce",
+   "name": "Clear Lake (Pierce County)",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 4,
+   "pages_lake_specific": 2,
+   "pages_shared": 2,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 7.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 10.5
+  },
+  {
+   "water_id": "wa-w-bonney-lake",
+   "name": "Bonney Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 4,
+   "pages_lake_specific": 2,
+   "pages_shared": 2,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 7.5,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 10.5
+  },
+  {
+   "water_id": "wa-w-rapjohn-lake",
+   "name": "Rapjohn Lake",
+   "family": "wdfw",
+   "authoritative_agencies": [
+    "WA State Parks",
+    "WDFW"
+   ],
+   "n_agencies": 2,
+   "pages_total": 5,
+   "pages_lake_specific": 2,
+   "pages_shared": 3,
+   "one_source_covers_most_fields": true,
+   "top_agency": "WDFW",
+   "top_agency_share": 1.0,
+   "formats": [
+    "ArcGIS REST JSON",
+    "HTML"
+   ],
+   "pdf_or_manual_extraction": false,
+   "template_family": "WDFW lake page (710) + water-access-site page (472) + statewide GIS layers",
+   "data_conflicts": 0,
+   "setup_minutes": {
+    "identify_sources": 0.0,
+    "populate_static_and_periodic": 8.0,
+    "resolve_inconsistencies": 0.0,
+    "establish_monitoring": 3.0
+   },
+   "setup_minutes_total": 11.0
+  }
+ ],
+ "fragmentation": {
+  "median_authoritative_agencies_per_lake": 2.0,
+  "median_pages_per_lake_total": 4.0,
+  "median_lake_specific_pages": 2.0,
+  "pct_covered_primarily_by_one_source": 0.7,
+  "pct_requiring_3plus_agencies": 0.2,
+  "pct_requiring_pdf_or_manual_extraction": 0.0,
+  "primary_family_counts": {
+   "wdfw": 9,
+   "state_park": 1,
+   "local_park": 10
+  },
+  "distinct_land_managers": [
+   "City of Kent",
+   "City of Lacey",
+   "City of Lakewood",
+   "City of Puyallup",
+   "City of SeaTac",
+   "City of Seattle",
+   "Clark County",
+   "Pierce County",
+   "Snohomish County",
+   "Tacoma Power",
+   "WA Dept of Ecology",
+   "WA State Parks",
+   "WDFW"
+  ]
+ },
+ "setup_time": {
+  "basis": "founder-equivalent minutes modeled from counted actions (searches, pages, judgements, conflicts) with the per-action costs in analyze.py; measured agent wall-clock for all 20 lakes was ~29 min",
+  "median_minutes_per_lake": 15.25,
+  "mean_minutes_per_lake": 16.2,
+  "median_by_family": {
+   "wdfw": 11.0,
+   "state_park": 15.5,
+   "local_park": 18.5
+  },
+  "worst_case": {
+   "name": "Lake Meridian",
+   "minutes": 28.5,
+   "why": {
+    "identify_sources": 4.0,
+    "populate_static_and_periodic": 15.5,
+    "resolve_inconsistencies": 5.0,
+    "establish_monitoring": 4.0
+   }
+  },
+  "initial_hours_50": 12.5,
+  "initial_hours_500": 114.2
+ },
+ "field_classes": {
+  "lake_centre_coordinates": "STATIC",
+  "access_coordinates": "STATIC",
+  "bank_fishing_status": "STATIC",
+  "fishing_pier_or_dock (existence)": "STATIC",
+  "public_access": "STATIC",
+  "parking_available": "STATIC",
+  "access_manager / official URLs": "STATIC",
+  "accessibility notes (ADA)": "STATIC",
+  "two-pole / gear rules": "PERIODIC",
+  "parking_or_access_fee": "PERIODIC",
+  "pass_required / pass_type": "PERIODIC",
+  "operating_hours": "PERIODIC",
+  "seasonal_access windows": "PERIODIC",
+  "fishing season & lake-specific rules (annual pamphlet)": "PERIODIC",
+  "angler eligibility restrictions (juvenile-only waters)": "PERIODIC",
+  "temporary closures / construction": "EVENT",
+  "facility status (pier/ramp closed)": "EVENT",
+  "emergency fishing rules": "EVENT",
+  "water-quality (toxic algae) advisories": "EVENT",
+  "lake-level-dependent access (reservoirs)": "EVENT",
+  "stocking events": "HIGH_FREQUENCY (automated, daily feed)"
+ },
+ "field_class_breakdown_pct": {
+  "STATIC": 0.381,
+  "PERIODIC": 0.333,
+  "EVENT": 0.238,
+  "HIGH_FREQUENCY": 0.048
+ },
+ "maintenance": {
+  "20": {
+   "manual_review_hours_per_month": 1.3,
+   "ops_hours_per_month": 2.2,
+   "total_hours_per_month": 3.5,
+   "total_hours_per_week": 0.8,
+   "range_hours_per_week_(0.5x-2x change rate)": [
+    0.65,
+    1.1
+   ],
+   "initial_setup_hours": 5.0
+  },
+  "50": {
+   "manual_review_hours_per_month": 3.3,
+   "ops_hours_per_month": 2.4,
+   "total_hours_per_month": 5.7,
+   "total_hours_per_week": 1.31,
+   "range_hours_per_week_(0.5x-2x change rate)": [
+    0.93,
+    2.06
+   ],
+   "initial_setup_hours": 12.5
+  },
+  "200": {
+   "manual_review_hours_per_month": 11.4,
+   "ops_hours_per_month": 3.7,
+   "total_hours_per_month": 15.0,
+   "total_hours_per_week": 3.47,
+   "range_hours_per_week_(0.5x-2x change rate)": [
+    2.16,
+    6.09
+   ],
+   "initial_setup_hours": 46.9
+  },
+  "500": {
+   "manual_review_hours_per_month": 26.9,
+   "ops_hours_per_month": 6.2,
+   "total_hours_per_month": 33.0,
+   "total_hours_per_week": 7.63,
+   "range_hours_per_week_(0.5x-2x change rate)": [
+    4.53,
+    13.84
+   ],
+   "initial_setup_hours": 114.2
+  }
+ },
+ "assumptions": {
+  "HERE": "/home/user/fishing-site/validation/wdfw/access",
+  "SEARCHES": {
+   "wa-w-battle-ground-lake": 1,
+   "wa-w-klineline-pond": 1,
+   "wa-w-lacamas-lake": 1,
+   "wa-w-green-lake-king": 2,
+   "wa-w-angle-lake": 1,
+   "wa-w-lake-meridian": 2,
+   "wa-w-martha-alderwood-manor": 2,
+   "wa-w-longs-pond": 1,
+   "wa-w-american-lake": 1,
+   "wa-w-alder-lake": 1,
+   "wa-w-lake-bradley": 2,
+   "wa-w-spanaway-lake": 1
+  },
+  "URL_REPAIRS": {
+   "wa-w-lake-bradley": 1
+  },
+  "MIN_SEARCH": 2.0,
+  "MIN_MGR_PAGE": 4.0,
+  "MIN_WDFW_PAGE": 1.0,
+  "MIN_SHARED_PAGE": 0.5,
+  "MIN_JUDGEMENT": 0.5,
+  "MIN_CONFLICT": 5.0,
+  "MIN_URL_REPAIR": 4.0,
+  "MIN_MONITOR": 1.0,
+  "CHANGES_PER_YEAR": {
+   "local_park": 8,
+   "state_park": 4,
+   "wdfw": 2
+  },
+  "NOISE_PER_YEAR": {
+   "local_park": 6,
+   "state_park": 2,
+   "wdfw": 3
+  },
+  "MIN_REVIEW_CHANGE": 6.0,
+  "MIN_NOISE": 1.5,
+  "MIN_ANNUAL_REVERIFY": {
+   "local_park": 5,
+   "state_park": 3,
+   "wdfw": 2
+  },
+  "EMERGENCY_TRIAGE_PER_YEAR": 3,
+  "MIN_EMERGENCY": 2.0,
+  "FIXED_HOURS_PER_MONTH": 2.0,
+  "PER_LAKE_OPS_MIN_PER_MONTH": 0.5,
+  "SCALE_MIX": {
+   "20": null,
+   "50": null,
+   "200": {
+    "wdfw": 0.55,
+    "state_park": 0.1,
+    "local_park": 0.35
+   },
+   "500": {
+    "wdfw": 0.6,
+    "state_park": 0.1,
+    "local_park": 0.3
+   }
+  }
+ }
+}

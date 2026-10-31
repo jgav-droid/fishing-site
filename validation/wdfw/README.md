@@ -13,6 +13,9 @@ for every request made.
 - **Step 2, canonical water identity:** `identity/`. Start with
   `identity/IDENTITY_VALIDATION_REPORT.md` (verdict: CONDITIONAL PASS) and
   `identity/README.md` (how to run it).
+- **Step 3, access layer:** `access/`. Start with
+  `access/ACCESS_VALIDATION_REPORT.md` (verdict: CONDITIONAL PASS) and
+  `access/trip_decisions.txt` (example trip-decision records).
 - **Daily Step 1 monitor (one week):** `monitor/daily_snapshot.py` writes
   `monitor/snapshots/<date>.json` and appends to `monitor/MONITOR_LOG.md`.
   It observes refresh frequency, regenerated row IDs, corrections and
