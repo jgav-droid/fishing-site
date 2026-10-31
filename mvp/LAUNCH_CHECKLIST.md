@@ -3,13 +3,9 @@
 Code, config, tests and the production build path are done. These steps need
 you.
 
-## 1. Corrections email (the only config blocker)
+## 1. Corrections email
 
-1. Create a real, monitored mailbox, for example `corrections@shorelio.com`
-   or `hello@shorelio.com`.
-2. Put it in `mvp/config.json` → `"contact_email"` and commit it.
-
-The production build refuses to run until this is a real address.
+Done: `contact_email` is `hello@shorelio.com`.
 
 ## 2. Default branch
 
