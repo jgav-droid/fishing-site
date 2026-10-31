@@ -1,5 +1,5 @@
 {
- "retrieved_at": "2026-10-31T19:26:32+00:00",
+ "retrieved_at": "2026-10-31T21:34:27+00:00",
  "window_start": "2025-09-26",
  "source_query_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24where=release_location+in+%28%27ALDER+LK+%28THUR%2FPIER%29%27%2C%27AMERICAN+LK+%28PIER%29%27%2C%27ANGLE+LK+%28KING%29%27%2C%27BATTLE+GROUND+LK+%28CLAR%29%27%2C%27BONNEY+LK+%28PIER%29%27%2C%27BRADLEY+LK+%28PIER%29%27%2C%27CLEAR+LK+%28PIER%29%27%2C%27GREEN+LK+%28KING%29%27%2C%27KLINELINE+PD+%28CLAR%29%27%2C%27LACAMAS+LK+%28CLAR%29%27%2C%27LK+KAPOWSIN+%28PIER%29%27%2C%27LK+MERIDIAN+%28KING%29%27%2C%27LK+WHITMAN+%28PIER%29%27%2C%27LONGS+PD+%28THUR%29%27%2C%27MARTHA+LK+%28AM%29+%28SNOH%29%27%2C%27MINERAL+LK+%28LEWI%29%27%2C%27RAPJOHN+LK+%28PIER%29%27%2C%27SPANAWAY+LK+%28PIER%29%27%2C%27TANWAX+LK+%28PIER%29%27%2C%27WARD+LK+%28THUR%29%27%29+AND+release_start_date+%3E%3D+%272025-09-26%27&%24order=release_start_date+DESC&%24limit=50000",
  "source_page": "https://data.wa.gov/dataset/WDFW-Fish-Plants/6fex-3r7d",
@@ -22,7 +22,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "fb10ee55fff3b829e706-1",
@@ -41,7 +41,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "LACAMAS LK (CLAR)",
    "official_geo_code": "L44874",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d5f229242dd9b0984717-1",
@@ -60,7 +60,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f55698b91a265f7d9eb7-1",
@@ -79,7 +79,7 @@
    "facility": "KENDALL CR HATCHERY",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "8a6ae8f1d57330edcfa0-1",
@@ -98,7 +98,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "17be3284280ac7a7db21-1",
@@ -117,7 +117,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "70dc38146821b82bc7ee-1",
@@ -136,7 +136,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c5238b87c78223fec625-1",
@@ -155,7 +155,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "ANGLE LK (KING)",
    "official_geo_code": "L91",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "880ad0887389c4de63ca-1",
@@ -174,7 +174,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "31a054628574e04573a4-1",
@@ -193,7 +193,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "04a1245bfd522e786ab1-1",
@@ -212,7 +212,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "3fbccdc5640d05926679-1",
@@ -231,7 +231,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "b616b8a6aa02feaa6e59-1",
@@ -250,7 +250,7 @@
    "facility": "GARRISON HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "b21ab35f66361e45715c-1",
@@ -269,7 +269,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c939a46400d40503e72d-1",
@@ -288,7 +288,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "8aa6bcbae14d045602c0-1",
@@ -307,7 +307,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d1d1635b52c94393278b-1",
@@ -326,7 +326,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "59521d43da567e8a497e-1",
@@ -345,7 +345,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c376dac5b31cc3a17b99-1",
@@ -364,7 +364,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ca5cfd10caaad7564fb8-1",
@@ -383,7 +383,7 @@
    "facility": "COLUMBIA BASIN HATCHERY",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "583bbbd8c50b8f98ab10-1",
@@ -402,7 +402,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7bf8da598fa2c1f50b09-1",
@@ -421,7 +421,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "3d8ac4b77ff51e7ba6de-1",
@@ -440,7 +440,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "4a81ef998541050ad52c-1",
@@ -459,7 +459,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "73e002dce83a81e75a10-1",
@@ -478,7 +478,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d32dce3746b5402e0899-1",
@@ -497,7 +497,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7db756172ee79127834c-1",
@@ -516,7 +516,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "RAPJOHN LK (PIER)",
    "official_geo_code": "L3838",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "da7376584dc2f930f8b7-1",
@@ -535,7 +535,7 @@
    "facility": "ARLINGTON HATCHERY",
    "official_release_location": "MARTHA LK (AM) (SNOH)",
    "official_geo_code": "L3217",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "4b1fe7a6ac6ef9197a07-1",
@@ -554,7 +554,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "bd09128b7e97b26754a7-1",
@@ -573,7 +573,7 @@
    "facility": "ARLINGTON HATCHERY",
    "official_release_location": "MARTHA LK (AM) (SNOH)",
    "official_geo_code": "L3217",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "bff200562095622f0c97-1",
@@ -592,7 +592,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "15021d4b4f50d92e1b96-1",
@@ -611,7 +611,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "6d85ce03d549a6567d7a-1",
@@ -630,7 +630,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "915ebd761077b9da0b2c-1",
@@ -649,7 +649,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "91a634a6e59eed19a169-1",
@@ -668,7 +668,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "cf9f4df86797a4de3bd6-1",
@@ -687,7 +687,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "CLEAR LK (PIER)",
    "official_geo_code": "L4498",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e176e4adc97d33dc19a7-1",
@@ -706,7 +706,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "814e5adb21814003bbf1-1",
@@ -725,7 +725,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "508f23606e8a47e1ccf0-1",
@@ -744,7 +744,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d3f192a0c83225ea533e-1",
@@ -763,7 +763,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a365ddeabd8c1eef996c-1",
@@ -782,7 +782,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "9202e5a2d3abe6e16bc8-1",
@@ -801,7 +801,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "47c9f6269380a986e3ba-1",
@@ -820,7 +820,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "587fe2142f3bb49b5d65-1",
@@ -839,7 +839,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "45f4b93cc778aa811719-1",
@@ -858,7 +858,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e3e1d2fe9420a7273a71-1",
@@ -877,7 +877,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a6ed2c152d6b661bf706-1",
@@ -896,7 +896,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "77f6b8c4d59ce0ccb451-1",
@@ -915,7 +915,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "b1deaef4cba2e9e49794-1",
@@ -934,7 +934,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "60a295f2a1c7eaa2eee0-1",
@@ -953,7 +953,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "CLEAR LK (PIER)",
    "official_geo_code": "L4498",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "b87503d408e2246606c5-1",
@@ -972,7 +972,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "CLEAR LK (PIER)",
    "official_geo_code": "L4498",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7f337798326ff61997aa-1",
@@ -991,7 +991,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7f337798326ff61997aa-2",
@@ -1010,7 +1010,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d75a16319aa6ac795547-1",
@@ -1029,7 +1029,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "8029059eece2937f7613-1",
@@ -1048,7 +1048,7 @@
    "facility": "ARLINGTON HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ba43080e6459e64dcb42-1",
@@ -1067,7 +1067,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7884b4c3b769e6e4bb28-1",
@@ -1086,7 +1086,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "ANGLE LK (KING)",
    "official_geo_code": "L91",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "6f4368653c37980bb353-1",
@@ -1105,7 +1105,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2d1dbabfc170fdb80609-1",
@@ -1124,7 +1124,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c188138bcf6ccff4c0ba-1",
@@ -1143,7 +1143,7 @@
    "facility": "ARLINGTON HATCHERY",
    "official_release_location": "ANGLE LK (KING)",
    "official_geo_code": "L91",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "12de0d7db12c4615a7f9-1",
@@ -1162,7 +1162,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "546e00cbe36030f34b25-1",
@@ -1181,7 +1181,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e83eee94f7b2ced205af-1",
@@ -1200,7 +1200,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "205510c693b11fc074ed-1",
@@ -1219,7 +1219,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f0382ead00060c3ad058-1",
@@ -1238,7 +1238,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "976d815388d4ca356675-1",
@@ -1257,7 +1257,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "316bd79274cd29bd7fc0-1",
@@ -1276,7 +1276,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e03cd061565c74e2a3ba-1",
@@ -1295,7 +1295,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "CLEAR LK (PIER)",
    "official_geo_code": "L4498",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "cde450560d5aabdcae22-1",
@@ -1314,7 +1314,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "54d2faa160a9c6c9fe96-1",
@@ -1333,7 +1333,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "MARTHA LK (AM) (SNOH)",
    "official_geo_code": "L3217",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "76660b143c77bb779a41-1",
@@ -1352,7 +1352,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "68a1f7e99a9fc2b80e3f-1",
@@ -1371,7 +1371,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "177ea373fb38229be1c9-1",
@@ -1390,7 +1390,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c02e434c94f092db6dfc-1",
@@ -1409,7 +1409,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e2c58469a69b72b40066-1",
@@ -1428,7 +1428,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ef0148750ab4ad843c07-1",
@@ -1447,7 +1447,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "52aa46de52f236074798-1",
@@ -1466,7 +1466,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e36900750ec09cfb2e42-1",
@@ -1485,7 +1485,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "5b72bf26fbb8385ded2c-1",
@@ -1504,7 +1504,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "fb0cde556228fbc9a4df-1",
@@ -1523,7 +1523,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2d4073a4814962bc544d-1",
@@ -1542,7 +1542,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "211cf8d9563e76041444-1",
@@ -1561,7 +1561,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ec300e351809104f1a43-1",
@@ -1580,7 +1580,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "3a8ecbe362a7acf73378-1",
@@ -1599,7 +1599,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "0a3e3c4a6649853256e1-1",
@@ -1618,7 +1618,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "ANGLE LK (KING)",
    "official_geo_code": "L91",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "298db9a74962de4283d4-1",
@@ -1637,7 +1637,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a8636422fd5c3e9bd193-1",
@@ -1656,7 +1656,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e062f1881e95bc6f6a8c-1",
@@ -1675,7 +1675,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "RAPJOHN LK (PIER)",
    "official_geo_code": "L3838",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "fd6e9384359922390993-1",
@@ -1694,7 +1694,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f72535d39f19b12a38ef-1",
@@ -1713,7 +1713,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "LACAMAS LK (CLAR)",
    "official_geo_code": "L44874",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "6d3de6a53ddcb0a67c01-1",
@@ -1732,7 +1732,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7f21684bf743df9b7196-1",
@@ -1751,7 +1751,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "16f46aa543a907f57a81-1",
@@ -1770,7 +1770,7 @@
    "facility": "CHAMBERS CR HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "830372a56b8efa029bc0-1",
@@ -1789,7 +1789,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "461ff53c5c5d796be7f5-1",
@@ -1808,7 +1808,7 @@
    "facility": "ARLINGTON HATCHERY",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "158486ee5c2be5ed7ef0-1",
@@ -1827,7 +1827,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "0da98f5aa62cd5a5c75f-1",
@@ -1846,7 +1846,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BONNEY LK (PIER)",
    "official_geo_code": "L466",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2f5e19fdbb23b2cd3368-1",
@@ -1865,7 +1865,7 @@
    "facility": "BETHEL HS (SPANAWAY)",
    "official_release_location": "SPANAWAY LK (PIER)",
    "official_geo_code": "L4266",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2968e1cd24e9cfe9e406-1",
@@ -1884,7 +1884,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f4502923849a170a98c6-1",
@@ -1903,7 +1903,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "LK WHITMAN (PIER)",
    "official_geo_code": "L547",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "fcd9b45fd55e8240c294-1",
@@ -1922,7 +1922,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c0764e031c4b8e231094-1",
@@ -1941,7 +1941,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "LACAMAS LK (CLAR)",
    "official_geo_code": "L44874",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "22b10055508db2c2e233-1",
@@ -1960,7 +1960,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c7d5c711ff6cdbdc9613-1",
@@ -1979,7 +1979,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "8ae2ae5c9808c71a0c37-1",
@@ -1998,7 +1998,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a053f94ee1796a9accff-1",
@@ -2017,7 +2017,7 @@
    "facility": "COLUMBIA BASIN HATCHERY",
    "official_release_location": "SPANAWAY LK (PIER)",
    "official_geo_code": "L4266",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "5dcd939fad5ea48533a3-1",
@@ -2036,7 +2036,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2f425b12b1125073c173-1",
@@ -2055,7 +2055,7 @@
    "facility": "COLUMBIA BASIN HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ae98004ffbb59690bfb7-1",
@@ -2074,7 +2074,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "54baa284d124ee3aeacf-1",
@@ -2093,7 +2093,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a4c390fa273bae9a966b-1",
@@ -2112,7 +2112,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "1c5dfc6d6af9b10a4bca-1",
@@ -2131,7 +2131,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "12306f1e243172ca5c71-1",
@@ -2150,7 +2150,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "0ff2c79b5bf32faa29d5-1",
@@ -2169,7 +2169,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "4390176df3f3a9804b72-1",
@@ -2188,7 +2188,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7ec669189b133ce6a6b7-1",
@@ -2207,7 +2207,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2cac350d5d3f8a57286c-1",
@@ -2226,7 +2226,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "275928353fb79e545cb4-1",
@@ -2245,7 +2245,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f94fd946214a74bcbb0e-1",
@@ -2264,7 +2264,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e2585260bcdad959984f-1",
@@ -2283,7 +2283,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e4412816fc259a14475a-1",
@@ -2302,7 +2302,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ecd87169bc9dcbbba8c1-1",
@@ -2321,7 +2321,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e9769850348707ceeb2f-1",
@@ -2340,7 +2340,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "1462b788de965583f067-1",
@@ -2359,7 +2359,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d91dbbd4ca4a79af483b-1",
@@ -2378,7 +2378,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "6da9111a7e7125b66208-1",
@@ -2397,7 +2397,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "502f79079320be304917-1",
@@ -2416,7 +2416,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "LACAMAS LK (CLAR)",
    "official_geo_code": "L44874",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "4f9eae6e2082322e1875-1",
@@ -2435,7 +2435,7 @@
    "facility": "KENDALL CR HATCHERY",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c39f3456908e894ee6e3-1",
@@ -2454,7 +2454,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "aa4975c30bf5b28131f9-1",
@@ -2473,7 +2473,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "BONNEY LK (PIER)",
    "official_geo_code": "L466",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "dce0085d5ccd1543b0aa-1",
@@ -2492,7 +2492,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "27030e11c10d2bda60f3-1",
@@ -2511,7 +2511,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f4eba5553f68cc6735f9-1",
@@ -2530,7 +2530,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "fadb4b354f380563e035-1",
@@ -2549,7 +2549,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f7756cc78071ce61b7d8-1",
@@ -2568,7 +2568,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "f19876f4a161471d0c7a-1",
@@ -2587,7 +2587,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "TANWAX LK (PIER)",
    "official_geo_code": "L4578",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a12f177898f1d3904236-1",
@@ -2606,7 +2606,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "94d207a5b0b5dbf45d8c-1",
@@ -2625,7 +2625,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "LONGS PD (THUR)",
    "official_geo_code": "L2818",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "8981c32b1270a68b004e-1",
@@ -2644,7 +2644,7 @@
    "facility": "GOLDENDALE HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "dba13e45e38bd7bcdbc7-1",
@@ -2663,7 +2663,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "2a3ac747752fdc8dd183-1",
@@ -2682,7 +2682,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ac69dd678d8666b4d822-1",
@@ -2701,7 +2701,7 @@
    "facility": "PUYALLUP HATCHERY",
    "official_release_location": "BRADLEY LK (PIER)",
    "official_geo_code": "L35548",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "4ef77baffa3cadeda94a-1",
@@ -2720,7 +2720,7 @@
    "facility": "MOSSYROCK HATCHERY",
    "official_release_location": "MINERAL LK (LEWI)",
    "official_geo_code": "L3300",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "96bcd626639ead3c3c67-1",
@@ -2739,7 +2739,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "BATTLE GROUND LK (CLAR)",
    "official_geo_code": "L333",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "3ca4e602e02901107677-1",
@@ -2758,7 +2758,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a52bf9bb3fbc3bfd3d0c-1",
@@ -2777,7 +2777,7 @@
    "facility": "VANCOUVER HATCHERY",
    "official_release_location": "KLINELINE PD (CLAR)",
    "official_geo_code": "L38502",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "be796332494e9948a53e-1",
@@ -2796,7 +2796,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "c6fc3ad8f60246e4c077-1",
@@ -2815,7 +2815,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "a65a9090271eca40a4b1-1",
@@ -2834,7 +2834,7 @@
    "facility": "TOKUL CR HATCHERY",
    "official_release_location": "LK MERIDIAN (KING)",
    "official_geo_code": "L3273",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "ba7005d42e15bbd44e59-1",
@@ -2853,7 +2853,7 @@
    "facility": "GARRISON HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "0b7cfe7fddaf61e7c18b-1",
@@ -2872,7 +2872,7 @@
    "facility": "GARRISON HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "412e10dccb6f1d93b637-1",
@@ -2891,7 +2891,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "ALDER LK (THUR/PIER)",
    "official_geo_code": "L23",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "e1c1a96848e6d5b02c27-1",
@@ -2910,7 +2910,7 @@
    "facility": "LAKEWOOD HATCHERY",
    "official_release_location": "AMERICAN LK (PIER)",
    "official_geo_code": "L35",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "d97df973a3911e7a3967-1",
@@ -2929,7 +2929,7 @@
    "facility": "WHITEHORSE POND",
    "official_release_location": "GREEN LK (KING)",
    "official_geo_code": "L1536",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "dd1fe1c61aa412132cc4-1",
@@ -2948,7 +2948,7 @@
    "facility": "GEORGE ADAMS HATCHERY",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "919e6b4825c9f3494930-1",
@@ -2967,7 +2967,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   },
   {
    "content_hash_id": "7f14dceb0d306b819318-1",
@@ -2986,7 +2986,7 @@
    "facility": "EELLS SPRINGS",
    "official_release_location": "WARD LK (THUR)",
    "official_geo_code": "L8939",
-   "retrieved_at": "2026-10-31T19:26:32+00:00"
+   "retrieved_at": "2026-10-31T21:34:27+00:00"
   }
  ]
 }
