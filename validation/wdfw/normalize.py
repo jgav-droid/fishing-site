@@ -14,6 +14,7 @@ Outputs:
   samples/quality.json
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -39,6 +40,7 @@ HINTS = {
     "longitude": ["lon", "lng", "long"],
     "water_id": ["wria", "llid", "water_id", "location_id", "waterbody_id", "site_id"],
     "record_id": ["record_id", "release_id", "plant_id", "id"],
+    "stocking_end_date": ["end_date", "release_end"],
 }
 
 
@@ -93,7 +95,7 @@ def normalize(fmap, raw):
     schema_fields = {c["fieldName"] for c in json.loads(SCHEMA.read_text())["columns"]}
     used = []
     for k, v in fmap.items():
-        if k.startswith("_") or v is None:
+        if k.startswith("_") or not v:
             continue
         used += v if isinstance(v, list) else [v]
     missing = [f for f in used if f not in schema_fields]
@@ -104,18 +106,32 @@ def normalize(fmap, raw):
 
     retrieved_at, source_url = raw["retrieved_at"], raw["source_url"]
     records, issues = [], []
+    seen = Counter()
     for i, row in enumerate(raw["rows"]):
-        rec = {"source_record_id": row.get(fmap["record_id"]) if fmap.get("record_id") else row.get(":id"),
-               "source_record_id_kind": "dataset_column" if fmap.get("record_id") else "socrata_row_id",
+        if fmap.get("record_id"):
+            rid, kind = row.get(fmap["record_id"]), "dataset_column"
+        else:
+            # No official row key, and Socrata :id is regenerated on every full
+            # refresh, so derive one from the official columns. Identical rows
+            # (they exist) get an occurrence suffix.
+            content = json.dumps({k: v for k, v in sorted(row.items()) if not k.startswith(":")})
+            h = hashlib.sha256(content.encode()).hexdigest()[:20]
+            seen[h] += 1
+            rid, kind = f"{h}-{seen[h]}", "content_hash"
+        rec = {"source_record_id": rid, "source_record_id_kind": kind,
                "record_kind": fmap["_record_kind"], "source": "WDFW", "source_dataset": "data.wa.gov/6fex-3r7d"}
         for key in ("water_name", "county", "species", "hatchery_or_source", "water_id"):
             if fmap.get(key):
                 rec[key] = clean_text(row.get(fmap[key]))
-        if fmap.get("stocking_date"):
-            raw_v = row.get(fmap["stocking_date"])
-            rec["stocking_date"] = parse_date(raw_v)
-            if raw_v and rec["stocking_date"] is None:
-                issues.append({"row": i, "field": "stocking_date", "issue": "unparseable", "value": raw_v})
+        for key in ("stocking_date", "stocking_end_date"):
+            if fmap.get(key):
+                raw_v = row.get(fmap[key])
+                rec[key] = parse_date(raw_v)
+                if raw_v and rec[key] is None:
+                    issues.append({"row": i, "field": key, "issue": "unparseable", "value": raw_v})
+        if rec.get("stocking_end_date") and rec.get("stocking_date") and rec["stocking_end_date"] < rec["stocking_date"]:
+            issues.append({"row": i, "field": "stocking_end_date", "issue": "before start date",
+                           "value": [rec["stocking_date"], rec["stocking_end_date"]]})
         if fmap.get("quantity"):
             raw_v = row.get(fmap["quantity"])
             rec["quantity"] = parse_int(raw_v)
@@ -128,6 +144,9 @@ def normalize(fmap, raw):
         for key in ("latitude", "longitude"):
             if fmap.get(key):
                 rec[key] = parse_float(row.get(fmap[key]))
+        extra = {f: clean_text(row.get(f)) for f in fmap.get("official_extra") or [] if clean_text(row.get(f))}
+        if extra:
+            rec["official_extra"] = extra
         rec["source_url"] = source_url
         rec["retrieved_at"] = retrieved_at
         records.append(rec)

@@ -4,20 +4,296 @@
 
 | step | status / error | bytes | content-type | redirects | elapsed s | url |
 |---|---|---|---|---|---|---|
-| metadata | egress_proxy_denied: Tunnel connection failed: 403 Forbidden | 0 |  | 0 | 0.192 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.384 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.686 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| coverage:release_start_date | 200 | 81 | application/json;charset=utf-8 | 0 | 0.319 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=min%28release_start_date%29+as+min%2C+max%28release_start_date%29+as+max%2C+count%28release_start_date%29+as+n` |
+| future:release_start_date | 200 | 12 | application/json;charset=utf-8 | 0 | 0.299 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_start_date+%3E+%272026-10-31T23%3A59%3A59%27` |
+| coverage:release_end_date | 200 | 81 | application/json;charset=utf-8 | 0 | 0.302 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=min%28release_end_date%29+as+min%2C+max%28release_end_date%29+as+max%2C+count%28release_end_date%29+as+n` |
+| future:release_end_date | 200 | 12 | application/json;charset=utf-8 | 0 | 0.431 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_end_date+%3E+%272026-10-31T23%3A59%3A59%27` |
+| sample_json | 200 | 156699 | application/json;charset=utf-8 | 0 | 0.348 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200` |
+| sample_csv | 200 | 52292 | text/csv; charset=UTF-8 | 0 | 0.3 | `https://data.wa.gov/resource/6fex-3r7d.csv?%24order=release_start_date+DESC%2C+%3Aid&%24limit=200` |
+| default_page | 200 | 639565 | application/json;charset=utf-8 | 0 | 0.414 | `https://data.wa.gov/resource/6fex-3r7d.json` |
+| page_offset_0 | 200 | 3001 | application/json;charset=utf-8 | 0 | 0.246 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3Aid&%24order=%3Aid&%24limit=100&%24offset=0` |
+| page_offset_100 | 200 | 3001 | application/json;charset=utf-8 | 0 | 0.243 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3Aid&%24order=%3Aid&%24limit=100&%24offset=100` |
+| incremental_by_date | 200 | 14 | application/json;charset=utf-8 | 0 | 0.369 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_start_date+%3E%3D+%272026-10-01%27` |
+| incremental_by_updated_at | 200 | 17 | application/json;charset=utf-8 | 0 | 5.54 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=%3Aupdated_at+%3E%3D+%272026-10-01%27` |
+| updated_at_range | 200 | 66 | application/json;charset=utf-8 | 0 | 0.437 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=max%28%3Aupdated_at%29+as+u%2C+min%28%3Aupdated_at%29+as+l` |
+| bulk_csv | 200 | 2097152 | text/csv; charset=utf-8 | 0 | 0.999 | `https://data.wa.gov/api/views/6fex-3r7d/rows.csv?accessType=DOWNLOAD` |
+| bulk_json_v2 | 200 | 2097152 | application/json; charset=utf-8 | 0 | 3.573 | `https://data.wa.gov/api/views/6fex-3r7d/rows.json?accessType=DOWNLOAD` |
+| bulk_json_v3 | 200 | 2097152 | application/json; charset=utf-8 | 0 | 2.223 | `https://data.wa.gov/api/v3/views/6fex-3r7d/query.json?accessType=DOWNLOAD` |
+| repeat0:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.712 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat0:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.489 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat0:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.294 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
+| repeat1:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.26 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat1:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.376 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat1:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.246 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
+| repeat2:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.542 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat2:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.352 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat2:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.43 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
+| metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.456 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.354 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| coverage:release_start_date | 200 | 81 | application/json;charset=utf-8 | 0 | 0.639 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=min%28release_start_date%29+as+min%2C+max%28release_start_date%29+as+max%2C+count%28release_start_date%29+as+n` |
+| future:release_start_date | 200 | 12 | application/json;charset=utf-8 | 0 | 0.298 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_start_date+%3E+%272026-10-31T23%3A59%3A59%27` |
+| coverage:release_end_date | 200 | 81 | application/json;charset=utf-8 | 0 | 0.367 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=min%28release_end_date%29+as+min%2C+max%28release_end_date%29+as+max%2C+count%28release_end_date%29+as+n` |
+| future:release_end_date | 200 | 12 | application/json;charset=utf-8 | 0 | 0.62 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_end_date+%3E+%272026-10-31T23%3A59%3A59%27` |
+| sample_json | 200 | 156699 | application/json;charset=utf-8 | 0 | 0.455 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200` |
+| sample_csv | 200 | 52292 | text/csv; charset=UTF-8 | 0 | 0.315 | `https://data.wa.gov/resource/6fex-3r7d.csv?%24order=release_start_date+DESC%2C+%3Aid&%24limit=200` |
+| default_page | 200 | 639565 | application/json;charset=utf-8 | 0 | 0.464 | `https://data.wa.gov/resource/6fex-3r7d.json` |
+| page_offset_0 | 200 | 3001 | application/json;charset=utf-8 | 0 | 0.447 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3Aid&%24order=%3Aid&%24limit=100&%24offset=0` |
+| page_offset_100 | 200 | 3001 | application/json;charset=utf-8 | 0 | 0.283 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3Aid&%24order=%3Aid&%24limit=100&%24offset=100` |
+| incremental_by_date | 200 | 14 | application/json;charset=utf-8 | 0 | 0.291 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_start_date+%3E%3D+%272026-10-01%27` |
+| incremental_by_updated_at | 200 | 17 | application/json;charset=utf-8 | 0 | 0.497 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=%3Aupdated_at+%3E%3D+%272026-10-01%27` |
+| updated_at_range | 200 | 66 | application/json;charset=utf-8 | 0 | 0.411 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=max%28%3Aupdated_at%29+as+u%2C+min%28%3Aupdated_at%29+as+l` |
+| bulk_csv | 200 | 22281525 | text/csv; charset=utf-8 | 0 | 12.154 | `https://data.wa.gov/api/views/6fex-3r7d/rows.csv?accessType=DOWNLOAD` |
+| bulk_json_v2 | 200 | 2097152 | application/json; charset=utf-8 | 0 | 0.801 | `https://data.wa.gov/api/views/6fex-3r7d/rows.json?accessType=DOWNLOAD` |
+| bulk_json_v3 | 200 | 2097152 | application/json; charset=utf-8 | 0 | 0.773 | `https://data.wa.gov/api/v3/views/6fex-3r7d/query.json?accessType=DOWNLOAD` |
+| repeat0:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.53 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat0:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.257 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat0:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.225 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
+| repeat1:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.328 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat1:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.341 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat1:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.277 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
+| repeat2:metadata | 200 | 46278 | application/json; charset=utf-8 | 0 | 0.538 | `https://data.wa.gov/api/views/6fex-3r7d.json` |
+| repeat2:count | 200 | 17 | application/json;charset=utf-8 | 0 | 0.267 | `https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n` |
+| repeat2:head5 | 200 | 3236 | application/json;charset=utf-8 | 0 | 0.282 | `https://data.wa.gov/resource/6fex-3r7d.json?%24order=release_start_date+DESC%2C+%3Aid&%24limit=5` |
 
 ## Dataset 6fex-3r7d
 
-**FATAL:** metadata unavailable: egress_proxy_denied Tunnel connection failed: 403 Forbidden
+- name: WDFW-Fish Plants
+- attribution: None
+- timestamps (UTC): `{"createdAt": "2019-05-14T23:00:49+00:00", "publicationDate": "2023-08-30T23:24:08+00:00", "rowsUpdatedAt": "2026-10-29T16:30:49+00:00", "viewLastModified": "2025-06-14T00:21:54+00:00", "indexUpdatedAt": null}`
+- row identifier column: None
+- row count (count(*)): 109527
+- date fields: ['release_start_date', 'release_end_date']; ordering field: {'field': 'release_start_date', 'chosen_by': 'explicit'}
+- date coverage: `{"release_start_date": {"min": "1995-01-04T00:00:00.000", "max": "2026-10-27T00:00:00.000", "n": "109527", "rows_after_today": 0}, "release_end_date": {"min": "1995-01-05T00:00:00.000", "max": "2026-10-27T00:00:00.000", "n": "109527", "rows_after_today": 0}}`
+- default page size (no $limit): 1000
+- offset paging: {'page_sizes': [100, 100], 'overlap': 0}
+- CSV header matches schema: True
+- incremental: `{"by_stocking_date_since": {"since": "2026-10-01", "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=release_start_date+%3E%3D+%272026-10-01%27", "rows": 187, "status": 200, "bytes": 14}, "by_system_updated_at_since": {"since": "2026-10-01", "url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=count%28%2A%29+as+n&%24where=%3Aupdated_at+%3E%3D+%272026-10-01%27", "rows": 109527, "status": 200, "error": null}, "system_updated_at_range": {"u": "2026-10-29T16:30:43.447Z", "l": "2026-10-29T16:30:43.447Z"}}`
+
+### Schema
+
+| fieldName | display name | type | non-null | smallest | largest |
+|---|---|---|---|---|---|
+| `agency` | Agency | text | 109527 | CHEH | YAKA |
+| `facility` | Facility | text | 109527 | 10 MILLION SALMON | YMCA CAMP ORKILA |
+| `release_year` | Release Year | number | 109527 | 1995 | 2026 |
+| `release_month` | Release Month | number | 109527 | 1 | 12 |
+| `release_start_date` | Release Start Date | calendar_date | 109527 | 1995-01-04T00:00:00.000 | 2026-10-27T00:00:00.000 |
+| `release_end_date` | Release End Date | calendar_date | 109527 | 1995-01-05T00:00:00.000 | 2026-10-27T00:00:00.000 |
+| `release_location` | Release Location | text | 109527 | 15 MILE CR   08.0207 | Z LK (LINC) |
+| `county` | County | text | 109527 |  | Yakima       |
+| `elevation` | Elevation | number | 0 |  |  |
+| `geo_code` | Geo Code | text | 108154 | 00.0002 | proposed-Tmp20200707i |
+| `species_type` | Species Type | text | 109527 | Salmon | Warmwater |
+| `species` | Species | text | 109527 | Black Crappie | Yellow Perch |
+| `run` | Run | text | 109527 | Anadromous Coastal | Winter-Late |
+| `brood_year` | Brood Year | number | 109527 | 1989 | 2026 |
+| `origin` | Origin | text | 109526 | CAPTIVE BROOD | WILD |
+| `stock` | Stock | text | 109525 | Abernathy Creek | Yakima River |
+| `number_released` | Number Released | number | 109527 | 0 | 11545821 |
+| `number_of_fish_per_pound` | Number of Fish Per Pound | number | 109527 | 0.0 | 999999.0 |
+| `total_pounds` | Total Pounds | number | 109527 | 0 | 487730 |
+| `lifestage` | Lifestage | text | 109376 | Adult | Zero |
+| `cwt_code` | CWT Code | text | 109527 |  | Blank |
+| `mark_code` | Mark Code | text | 109527 | AD | VIE(RE YEL)+CWT |
+| `number_marked_and_tagged` | Number Marked and Tagged | text | 109526 | 0 | 9999 |
+| `number_marked_only` | Number Marked Only | text | 109526 | 0 | 9999 |
+| `number_tagged_only` | Number Tagged Only | text | 109526 | 0 | 99907 |
+| `number_neither_marked_or` | Number Neither Marked or Tagged | number | 109527 | 0 | 8646351 |
+
+### Bulk exports
+
+- bulk_csv: `{"status": 200, "bytes": 22281525, "rows": 109527, "content_type": "text/csv; charset=utf-8", "error": null}`
+- bulk_json_v2: `{"status": 200, "bytes_read": 2097152, "truncated": true, "content_length": null, "content_type": "application/json; charset=utf-8", "redirects": [], "error": null}`
+- bulk_json_v3: `{"status": 200, "bytes_read": 2097152, "truncated": true, "content_length": null, "content_type": "application/json; charset=utf-8", "redirects": [], "error": null}`
+
+### Repeated reads
+
+| at | statuses | rowsUpdatedAt | column hash | count | rate-limit headers |
+|---|---|---|---|---|---|
+| 2026-10-31T01:40:48+00:00 | [200, 200, 200] | 2026-10-29T16:30:49+00:00 | 9f66c1ef9c7a294c | 109527 | {} |
+| 2026-10-31T01:40:59+00:00 | [200, 200, 200] | 2026-10-29T16:30:49+00:00 | 9f66c1ef9c7a294c | 109527 | {} |
+| 2026-10-31T01:41:10+00:00 | [200, 200, 200] | 2026-10-29T16:30:49+00:00 | 9f66c1ef9c7a294c | 109527 | {} |
 
 ## HTML pages
 
 ### plants — `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all`
-- egress_proxy_denied ua=honest 0B  challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all`
-- egress_proxy_denied ua=browser 0B  challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all`
+- 200 ua=honest 134961B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all`
+- 200 ua=honest 135305B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=1`
+- 200 ua=honest 135676B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=2`
+- 200 ua=honest 135501B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=3`
+- 200 ua=honest 135655B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=4`
+- 200 ua=honest 135610B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=5`
+- 200 ua=honest 135637B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=6`
+- 200 ua=honest 135612B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=7`
+- 200 ua=honest 135504B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=8`
+- 200 ua=honest 135591B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=9`
+- 200 ua=honest 135548B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=10`
+- 200 ua=honest 135544B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=11`
+- 200 ua=honest 135523B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=12`
+- 200 ua=honest 135544B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=13`
+- 200 ua=honest 135611B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=14`
+- 200 ua=honest 135457B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=15`
+- 200 ua=honest 135622B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=16`
+- 200 ua=honest 135534B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=17`
+- 200 ua=honest 135560B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=18`
+- 200 ua=honest 135630B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=19`
+- 200 ua=honest 135587B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=20`
+- 200 ua=honest 135528B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=21`
+- 200 ua=honest 135610B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=22`
+- 200 ua=honest 135458B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=23`
+- 200 ua=honest 135470B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=24`
+- 200 ua=honest 135418B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=25`
+- 200 ua=honest 135489B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=26`
+- 200 ua=honest 135430B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=27`
+- 200 ua=honest 135492B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=28`
+- 200 ua=honest 135638B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=29`
+- 200 ua=honest 135565B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=30`
+- 200 ua=honest 135544B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=31`
+- 200 ua=honest 135588B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=32`
+- 200 ua=honest 135557B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=33`
+- 200 ua=honest 135578B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=34`
+- 200 ua=honest 135467B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=35`
+- 200 ua=honest 135512B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=36`
+- 200 ua=honest 135646B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=37`
+- 200 ua=honest 135580B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=38`
+- 200 ua=honest 135497B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=39`
+- 200 ua=honest 135208B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=40`
+- 200 ua=honest 117868B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all?page=41`
+- table header ['Lake', 'Stock date', 'Species', 'Number', 'Fish per pound', 'Hatchery', 'Notes']; rows seen 1041; dates 2026-01-02 .. 2026-10-27; unparsed []
 
 ### plan — `https://wdfw.wa.gov/fishing/reports/stocking/statewide`
-- egress_proxy_denied ua=honest 0B  challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/statewide`
-- egress_proxy_denied ua=browser 0B  challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/statewide`
+- 200 ua=honest 40719B text/html; charset=utf-8 challenge=[] `https://wdfw.wa.gov/fishing/reports/stocking/statewide`
 
-Repeats: plants=egress_proxy_denied, plan=egress_proxy_denied
+Repeats: plants=200, plan=200, plants=200, plan=200
+
+## Normalization quality
+
+```json
+{
+  "records": 200,
+  "row_level_issues": [],
+  "row_level_issue_count": 0,
+  "null_counts": {
+    "county": 12,
+    "hatchery_or_source": 0,
+    "official_extra": 0,
+    "quantity": 0,
+    "record_kind": 0,
+    "retrieved_at": 0,
+    "size_or_weight": 0,
+    "source": 0,
+    "source_dataset": 0,
+    "source_record_id": 0,
+    "source_record_id_kind": 0,
+    "source_url": 0,
+    "species": 0,
+    "stocking_date": 0,
+    "stocking_end_date": 0,
+    "water_name": 0
+  },
+  "stocking_date_range_in_sample": [
+    "2026-09-29",
+    "2026-10-27"
+  ],
+  "quantity": {
+    "min": 11,
+    "max": 196118,
+    "zero_or_negative": 0
+  },
+  "duplicate_source_ids": [],
+  "duplicate_content_rows": [
+    [
+      "ROSES LK (CHEL)",
+      "2026-10-12",
+      "Rainbow",
+      4440
+    ],
+    [
+      "ROSES LK (CHEL)",
+      "2026-10-12",
+      "Rainbow",
+      4125
+    ]
+  ],
+  "distinct": {
+    "water_name": 124,
+    "county": 28,
+    "species": 8,
+    "hatchery_or_source": 24
+  },
+  "species_values": [
+    "Brown Trout",
+    "Chinook",
+    "Cutthroat",
+    "Golden Trout",
+    "Kokanee",
+    "Rainbow",
+    "Steelhead",
+    "Tiger Trout"
+  ],
+  "county_values": [
+    "Chelan",
+    "Clark",
+    "Columbia",
+    "Cowlitz",
+    "Douglas",
+    "Ferry",
+    "Grant",
+    "Grays Harbor",
+    "Jefferson",
+    "King",
+    "Kitsap",
+    "Kittitas",
+    "Lewis",
+    "Lincoln",
+    "Mason",
+    "Okanogan",
+    "Pend Oreille",
+    "Pierce",
+    "Skagit",
+    "Skamania",
+    "Snohomish",
+    "Spokane",
+    "Stevens",
+    "Thurston",
+    "Whatcom",
+    "Whitman",
+    "Yakima"
+  ],
+  "water_names_with_parenthetical_or_codes": [
+    "ALDER LK (THUR/PIER)",
+    "ALDRICH LK (MASO)",
+    "AMERICAN LK (PIER)",
+    "ANGLE LK (KING)",
+    "BADGER LK (SPOK)",
+    "BALLINGER LK (SNOH)",
+    "BANKS LK (GRAN)",
+    "BATTLE GROUND LK (CLAR)",
+    "BAYLEY LK (STEV)",
+    "BEAVER LKS (KING) T24",
+    "BENSON LK (MASO)",
+    "BLACK LK (STEV)",
+    "BLACKMANS LK (SNOH)",
+    "BLUE LK (COLU)",
+    "BROWNS LK (PEND)",
+    "BUCK LK (KITS)",
+    "CADY LK (MASO)",
+    "CLARA LK (MASO)",
+    "CLEAR LK (SKAG) T34",
+    "CLEAR LK (SPOK)",
+    "CURLEW LK (FERR)",
+    "DAVIS LK (FERR)",
+    "DAVIS LK (PEND)",
+    "DEEP LK (STEV)",
+    "DEER LK (STEV)",
+    "DEER SPRINGS LK (LINC)",
+    "DEVEREAUX LK (MASO)",
+    "FISH LK (CHEL)",
+    "FISHTRAP LK (LINC/SPOK)",
+    "FRANKS POND (CHEL)"
+  ]
+}
+```
+future-dated records in sample: 0

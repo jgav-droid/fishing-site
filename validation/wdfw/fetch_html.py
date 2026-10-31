@@ -119,12 +119,14 @@ def probe(name, url, max_pages, delay):
     p.feed(ok["body"].decode("utf-8", "replace"))
     page_links = sorted({l for l in p.links if re.search(r"[?&]page=\d+", l)})
     out["pager_links"] = page_links[:20]
+    # Drupal pager is 0-based; the "last" link gives the final page index
+    last_page = max((int(m.group(1)) for l in page_links if (m := re.search(r"page=(\d+)", l))), default=0)
+    out["last_page_index"] = last_page
     tables = p.tables
-    # follow the pager (?page=1, 2, ...) for a few pages only
+    prev_rows = [t["rows"] for t in p.tables]
+    # follow the pager (?page=1, 2, ...) up to the last linked page or max_pages
     pages_fetched = 1
-    for n in range(1, max_pages):
-        if not page_links:
-            break
+    for n in range(1, min(max_pages, last_page + 1)):
         time.sleep(delay)
         nxt = _http.get(f"{url}?{urllib.parse.urlencode({'page': n})}", ua=ua, accept="text/html")
         out["attempts"].append(summarize_attempt(nxt))
@@ -134,6 +136,10 @@ def probe(name, url, max_pages, delay):
         q.feed(nxt["body"].decode("utf-8", "replace"))
         if not q.tables or not any(t["rows"] for t in q.tables):
             break
+        if [t["rows"] for t in q.tables] == prev_rows:
+            out["stopped_on_repeated_page"] = n
+            break
+        prev_rows = [t["rows"] for t in q.tables]
         for t, extra in zip(tables, q.tables):
             t["rows"].extend(extra["rows"])
         pages_fetched += 1
@@ -151,6 +157,10 @@ def probe(name, url, max_pages, delay):
                                                 if r.get(h) and not parse_date(r[h])})[:10]}
         out["tables"].append(info)
         sample_tables.append({**info, "rows": rows[:200]})
+    OUT.mkdir(exist_ok=True)
+    (OUT / f"html_{name}_all.json").write_text(json.dumps(
+        {"retrieved_at": ok["requested_at"], "source_url": url,
+         "tables": [{"header": t["header"], "rows": t["rows"]} for t in tables]}))
     SAMPLES.mkdir(exist_ok=True)
     (SAMPLES / f"html_{name}_sample.json").write_text(json.dumps(
         {"retrieved_at": ok["requested_at"], "source_url": url, "user_agent": ok["user_agent"],
@@ -160,7 +170,7 @@ def probe(name, url, max_pages, delay):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-pages", type=int, default=3)
+    ap.add_argument("--max-pages", type=int, default=3, help="cap; the pager's last link also bounds it")
     ap.add_argument("--delay", type=float, default=3.0)
     ap.add_argument("--repeat", type=int, default=2, help="re-request each first page N extra times")
     args = ap.parse_args()

@@ -4,10 +4,9 @@ Isolated technical check of whether Washington fish-stocking data can be
 fetched and normalized from official sources. No site, UI or production
 code lives here.
 
-**Current status: blocked, not yet validated.** See `VALIDATION_REPORT.md`.
-The session that wrote these scripts could not reach `data.wa.gov` or
-`wdfw.wa.gov` because of its own sandbox network policy. These scripts are
-ready to run from any machine with normal internet access.
+**Status (2026-10-31): CONDITIONAL PASS.** Run with open internet access.
+See `VALIDATION_REPORT.md` for the verdict and findings, and `RUN_RESULTS.md`
+for every request made.
 
 ## Files
 
@@ -17,12 +16,12 @@ ready to run from any machine with normal internet access.
 | `fetch_dataset.py` | probes dataset `6fex-3r7d`: metadata/schema, `count(*)`, date coverage, newest-N JSON + CSV sample, paging, incremental queries, capped bulk exports, repeated reads |
 | `fetch_html.py` | probes the two WDFW HTML pages (current-year plants, statewide plan); extracts tables generically |
 | `normalize.py` | applies `field_map.json` to `samples/raw_sample.json` → `samples/normalized_sample.json` + `samples/quality.json` |
-| `field_map.json` | official fieldName → normalized key. **Empty until the real schema is retrieved** |
+| `field_map.json` | official fieldName → normalized key, reviewed against the real schema |
 | `report.py` | renders `RUN_RESULTS.md` (facts only) from the probe outputs |
-| `RUN_RESULTS.md` | generated; currently shows the blocked run |
+| `RUN_RESULTS.md` | generated from the latest run |
 | `VALIDATION_REPORT.md` | human-written findings and verdict |
 | `out/` | full logs and optional full export (gitignored) |
-| `samples/` | small committed samples (created by a successful run) |
+| `samples/` | schema, newest-200 raw sample (JSON + CSV), normalized sample, quality checks, HTML sample, plan PDF excerpt |
 
 Requirements: Python 3.9+, standard library only.
 
@@ -32,18 +31,14 @@ Requirements: Python 3.9+, standard library only.
 cd validation/wdfw
 ```
 
-```bash
-python3 fetch_dataset.py --sample 200 --repeat 3
-```
-
-If more than one date-typed column exists, the script says so. Re-run it with the stocking-date column named explicitly:
+The dataset has two date columns (`release_start_date`, `release_end_date`), so name the stocking-date column explicitly:
 
 ```bash
-python3 fetch_dataset.py --date-field <fieldName> --sample 200 --repeat 3
+python3 fetch_dataset.py --date-field release_start_date --sample 200 --repeat 3
 ```
 
 ```bash
-python3 fetch_html.py --max-pages 3 --repeat 2
+python3 fetch_html.py --max-pages 60 --repeat 2
 ```
 
 ```bash

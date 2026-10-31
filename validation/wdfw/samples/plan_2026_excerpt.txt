@@ -1,0 +1,65 @@
+# Excerpt of official source (verbatim text via pdftotext -layout), retrieved 2026-10-31
+# Plan page: https://wdfw.wa.gov/fishing/reports/stocking/statewide
+# Publication: https://wdfw.wa.gov/publications/02693  (Published: March 2026)
+# PDF: https://wdfw.wa.gov/sites/default/files/publications/02693/wdfw02693.pdf  (Last-Modified: Wed, 04 Mar 2026 23:39:22 GMT, 531704 bytes, 17 pages)
+
+Appendix A: 2026 Statewide Trout and Kokanee Stocking Plan (Does not include high lake fry and fingerling plants)
+
+Stocking allotments and timing are subject to change without notice
+
+Stocking Month: Exact dates are not known at this time. Stocking timing will be left to the convenience of the hatcheries.
+Fish Species: CT=cutthroat trout, LCT=lahontan cutthroat BT=brown trout, EBT=eastern brook trout, TEBT = triploid eastern brook trout, RB=rainbow trout, TRB=triploid rainbow trout, KOK=kokanee, TT=tiger trout and GT=golden trout
+Fishing Season: OD= 4th Saturday in April, YR=Year-Round ( regardless of the season listed it is the Anglers responsibility to check the "Fishing in Washington " pamphlet to assure compliance with the regulations.
+Catchables: Trout that have been reared at WDFW facilities and are 2.0 to 2.5 fish per pound in size. ** Denotes sterile trout.
+Put, Grow &Take: Trout that have been reared at WDFW facilities and are 2.6 to 10 fish per pound in size.
+Jumbos: Trout that have been reared at WDFW facilities that weigh 1 pound or more each. Note: includes brood fish.
+Triploids: Triploid trout that have been purchased by the WDFW. Each fish weighs about 1.5 pounds.
+Fry/Fingerling: Trout or kokanee that have been reared at WDFW facilities that were released at 10 to 600 fish per pound. Trout fry/fingerlings released in 2025 will harvestable in 2026. Kokanee fry/fingerlings released in 2025 will be
+harvestable in fall 2027/spring 2028.
+
+
+ASOTIN COUNTY
+                                                                                                         Catchables                       Put, Grow & Take                         Jumbos                            Triploids                 Fry/Fingerlings (2025)
+
+                                        Surface Area
+Lake Name                                  (acres)       Fishing Season        Species         Number         Stocking Month         Number        Stocking Month        Number        Stocking Month        Number      Stocking Month       Number      Stocking Month
+Golf Course Pond                             2.0               YR                RB            16,000             Feb-June                                                 300            Feb-April
+West Evans Pond                              2.0               YR                RB            16,000             Feb-June                                                 300            Feb-April
+Silcott Pond                                                   YR                RB             1,000              March                                                   50               March
+ADAMS COUNTY
+                                                                                                         Catchables                       Put, Grow & Take                         Jumbos                            Triploids                 Fry/Fingerlings (2025)
+
+                                        Surface Area
+Lake Name                                  (acres)       Fishing Season        Species         Number         Stocking Month         Number        Stocking Month        Number        Stocking Month        Number      Stocking Month       Number      Stocking Month
+Quail Lake                                   12                YR                RB                                                                                                                                                            1,200            May
+Sprague lake                                1,860              YR                RB                                                                                                                                                            81,358           Mar
+
+BENTON COUNTY
+                                                                                                         Catchables                       Put, Grow & Take                         Jumbos                            Triploids                 Fry/Fingerlings (2025)
+
+                                        Surface Area
+Lake Name                                  (acres)       Fishing Season        Species         Number         Stocking Month         Number        Stocking Month        Number        Stocking Month        Number      Stocking Month       Number      Stocking Month
+Columbia Park Pd.                             7                YR                RB             6,000          February-April                                             4,200          March-April
+
+CHELAN COUNTY
+                                                                                                         Catchables                       Put, Grow & Take                         Jumbos                            Triploids                 Fry/Fingerlings (2025)
+
+                                        Surface Area
+Lake Name                                  (acres)       Fishing Season        Species         Number         Stocking Month         Number        Stocking Month        Number        Stocking Month        Number      Stocking Month       Number      Stocking Month
+Antilon Lake (Upper)                         46                YR                BT                                                   1,000              Oct                                                                                   4,500            Jun
+                                                                                TEBT                                                  1,000              Oct                                                                                   1,000            Oct
+Antilon lake (Lower)                          50               YR                BT                                                   2,000              Oct                                                                                   5,500            May
+                                                                                 TT                                                   2,000              Oct
+Beehive Lake                                  12               OD                RB             25,000                Apr
+                                                                                TRB                                                                                         350              Apr
+Black Lake                                    33               OD                BT                                                                                                                                                            1,000            May
+                                                                                 TT                                                                                                                                                            1,000            May
+                                                                                 RB             1,500                 Apr
+                                                                                TRB                                                                                         100            Apr-May
+Blackbird Island Pond                        0.3               OD                CT             2,000                 Jun
+Clear Lake                                    5                OD                RB             8,000                 Apr
+                                                                                TRB                                                                                         150              Apr
+Dry                                      81              YR              BT                                         1,000          Oct
+                                                                         TT                                        1,000           Oct
+Fish Lake                               530              YR              RB      15,000                 Apr        50,000          Oct                                                              180,342         Apr/May
+                                                                        TRB                                                                    500               Apr

@@ -1,15 +1,17 @@
 {
-  "_record_kind": "UNCONFIRMED",
-  "_notes": "Every value must be a fieldName from samples/schema_6fex-3r7d.json, or null. Not yet filled: the official schema could not be retrieved from this environment. Run `normalize.py --propose`, review, then fill.",
+  "_record_kind": "reported_plant",
+  "_notes": "Reviewed 2026-10-31 against samples/schema_6fex-3r7d.json. The dataset publishes no column descriptions, so semantics come from column names plus the HTML cross-check in VALIDATION_REPORT.md. No lat/long column exists. There is no official record key, so source_record_id is a content hash. geo_code is undocumented and kept verbatim in official_extra, not used as a water id.",
   "record_id": null,
-  "water_name": null,
-  "county": null,
-  "stocking_date": null,
-  "species": null,
-  "quantity": null,
-  "size_or_weight": null,
-  "hatchery_or_source": null,
+  "water_name": "release_location",
+  "county": "county",
+  "stocking_date": "release_start_date",
+  "stocking_end_date": "release_end_date",
+  "species": "species",
+  "quantity": "number_released",
+  "size_or_weight": ["number_of_fish_per_pound", "total_pounds", "lifestage"],
+  "hatchery_or_source": "facility",
   "latitude": null,
   "longitude": null,
-  "water_id": null
+  "water_id": null,
+  "official_extra": ["species_type", "agency", "geo_code", "origin", "stock"]
 }

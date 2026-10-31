@@ -1,0 +1,1828 @@
+{
+  "retrieved_at": "2026-10-31T01:46:59+00:00",
+  "source_url": "https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all",
+  "user_agent": "honest",
+  "pages_fetched": 42,
+  "tables": [
+    {
+      "header": [
+        "Lake",
+        "Stock date",
+        "Species",
+        "Number",
+        "Fish per pound",
+        "Hatchery",
+        "Notes"
+      ],
+      "row_count_seen": 1041,
+      "date_columns": [
+        "Stock date"
+      ],
+      "min_date": "2026-01-02",
+      "max_date": "2026-10-27",
+      "unparsed_date_values": [],
+      "rows": [
+        {
+          "Lake": "BATTLE GROUND LK (CLAR) Clark - Region 5",
+          "Stock date": "Oct 27, 2026",
+          "Species": "Rainbow",
+          "Number": "1,080",
+          "Fish per pound": "2.60",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LACAMAS LK (CLAR) Clark - Region 5",
+          "Stock date": "Oct 27, 2026",
+          "Species": "Rainbow",
+          "Number": "4,000",
+          "Fish per pound": "2.60",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BATTLE GROUND LK (CLAR) Clark - Region 5",
+          "Stock date": "Oct 26, 2026",
+          "Species": "Rainbow",
+          "Number": "1,000",
+          "Fish per pound": "2.60",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KLINELINE PD (CLAR) Clark - Region 5",
+          "Stock date": "Oct 26, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "2.60",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LONGS PD (THUR) Thurston - Region 6",
+          "Stock date": "Oct 26, 2026",
+          "Species": "Cutthroat",
+          "Number": "150",
+          "Fish per pound": "1.60",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "WARD LK (THUR) Thurston - Region 6",
+          "Stock date": "Oct 26, 2026",
+          "Species": "Cutthroat",
+          "Number": "306",
+          "Fish per pound": "1.60",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "SARGE HUBBARD PD (YAKI) Yakima - Region 3",
+          "Stock date": "Oct 22, 2026",
+          "Species": "Rainbow",
+          "Number": "11",
+          "Fish per pound": "0.10",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SARGE HUBBARD PD (YAKI) Yakima - Region 3",
+          "Stock date": "Oct 22, 2026",
+          "Species": "Rainbow",
+          "Number": "49",
+          "Fish per pound": "0.20",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TIMS PD (YAKI) Yakima - Region 3",
+          "Stock date": "Oct 22, 2026",
+          "Species": "Rainbow",
+          "Number": "49",
+          "Fish per pound": "0.20",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TIMS PD (YAKI) Yakima - Region 3",
+          "Stock date": "Oct 22, 2026",
+          "Species": "Rainbow",
+          "Number": "11",
+          "Fish per pound": "0.10",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BEAVER LKS (KING) T24 King - Region 4",
+          "Stock date": "Oct 19, 2026",
+          "Species": "Rainbow",
+          "Number": "1,250",
+          "Fish per pound": "0.47",
+          "Hatchery": "ISSAQUAH HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LELAND LK (JEFF) Jefferson - Region 6",
+          "Stock date": "Oct 16, 2026",
+          "Species": "Cutthroat",
+          "Number": "450",
+          "Fish per pound": "1.62",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLACKMANS LK (SNOH) Snohomish - Region 4",
+          "Stock date": "Oct 15, 2026",
+          "Species": "Rainbow",
+          "Number": "450",
+          "Fish per pound": "0.60",
+          "Hatchery": "TOKUL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK DESIRE (KING) King - Region 4",
+          "Stock date": "Oct 15, 2026",
+          "Species": "Rainbow",
+          "Number": "905",
+          "Fish per pound": "0.60",
+          "Hatchery": "TOKUL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLACKMANS LK (SNOH) Snohomish - Region 4",
+          "Stock date": "Oct 14, 2026",
+          "Species": "Rainbow",
+          "Number": "450",
+          "Fish per pound": "0.60",
+          "Hatchery": "TOKUL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ALICE (KING) King - Region 4",
+          "Stock date": "Oct 14, 2026",
+          "Species": "Rainbow",
+          "Number": "540",
+          "Fish per pound": "0.60",
+          "Hatchery": "TOKUL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GREEN LK (KING) King - Region 4",
+          "Stock date": "Oct 13, 2026",
+          "Species": "Rainbow",
+          "Number": "1,632",
+          "Fish per pound": "0.85",
+          "Hatchery": "WHITEHORSE POND",
+          "Notes": ""
+        },
+        {
+          "Lake": "HATCH LK (STEV) Stevens - Region 1",
+          "Stock date": "Oct 12, 2026",
+          "Species": "Rainbow",
+          "Number": "834",
+          "Fish per pound": "0.65",
+          "Hatchery": "FORD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ROSES LK (CHEL) Chelan - Region 2",
+          "Stock date": "Oct 12, 2026",
+          "Species": "Rainbow",
+          "Number": "22,630",
+          "Fish per pound": "2.75",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "WILLIAMS LK (STEV) Stevens - Region 1",
+          "Stock date": "Oct 12, 2026",
+          "Species": "Rainbow",
+          "Number": "1,000",
+          "Fish per pound": "0.65",
+          "Hatchery": "FORD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BALLINGER LK (SNOH) Snohomish - Region 4",
+          "Stock date": "Oct 7, 2026",
+          "Species": "Rainbow",
+          "Number": "1,275",
+          "Fish per pound": "0.85",
+          "Hatchery": "WHITEHORSE POND",
+          "Notes": ""
+        },
+        {
+          "Lake": "HOG (CANYON) LK (SPOK) Spokane - Region 1",
+          "Stock date": "Oct 7, 2026",
+          "Species": "Rainbow",
+          "Number": "1,600",
+          "Fish per pound": "0.65",
+          "Hatchery": "FORD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SILVER LK (SNOH) T28 Snohomish - Region 4",
+          "Stock date": "Oct 7, 2026",
+          "Species": "Rainbow",
+          "Number": "1,275",
+          "Fish per pound": "0.85",
+          "Hatchery": "WHITEHORSE POND",
+          "Notes": ""
+        },
+        {
+          "Lake": "W MEDICAL LK (SPOK) Spokane - Region 1",
+          "Stock date": "Oct 7, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "0.64",
+          "Hatchery": "FORD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "Oct 6, 2026",
+          "Species": "Rainbow",
+          "Number": "3,360",
+          "Fish per pound": "2.80",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "NAHWATZEL LK (MASO) Mason - Region 6",
+          "Stock date": "Oct 6, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "0.80",
+          "Hatchery": "SATSOP SPRINGS PONDS",
+          "Notes": ""
+        },
+        {
+          "Lake": "FISH LK (CHEL) Chelan - Region 2",
+          "Stock date": "Oct 5, 2026",
+          "Species": "Rainbow",
+          "Number": "7,000",
+          "Fish per pound": "2.80",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KITSAP LK (KITS) Kitsap - Region 6",
+          "Stock date": "Oct 2, 2026",
+          "Species": "Rainbow",
+          "Number": "1,900",
+          "Fish per pound": "0.93",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PUTTERS PD (DOUG) Douglas - Region 2",
+          "Stock date": "Oct 2, 2026",
+          "Species": "Rainbow",
+          "Number": "3,240",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PUTTERS PD (DOUG) Douglas - Region 2",
+          "Stock date": "Oct 2, 2026",
+          "Species": "Rainbow",
+          "Number": "1,890",
+          "Fish per pound": "2.70",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KITSAP LK (KITS) Kitsap - Region 6",
+          "Stock date": "Sep 30, 2026",
+          "Species": "Rainbow",
+          "Number": "2,103",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "NAHWATZEL LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 30, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "0.80",
+          "Hatchery": "SATSOP SPRINGS PONDS",
+          "Notes": ""
+        },
+        {
+          "Lake": "CADY LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "300",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "GIBBS LK (JEFF) Jefferson - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "350",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ISLAND LK (KITS) Kitsap - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "800",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LAKE TAHUYA (KITS) Kitsap - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "460",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "LAKE TAHUYA (KITS) Kitsap - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "1,540",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LELAND LK (JEFF) Jefferson - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "1,510",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PUTTERS PD (DOUG) Douglas - Region 2",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "7,250",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TEAL LK (JEFF) Jefferson - Region 6",
+          "Stock date": "Sep 29, 2026",
+          "Species": "Rainbow",
+          "Number": "150",
+          "Fish per pound": "1.00",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLUE LK (GRAN) Grant - Region 2",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "53,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ISLAND LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "0.95",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "LOST LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "0.95",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "NAHWATZEL LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "PARK LK (GRAN) Grant - Region 2",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "35,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPENCER LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "2,534",
+          "Fish per pound": "0.95",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPENCER LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "1,466",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "TRAILS END LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "95",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "TRAILS END LK (MASO) Mason - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "605",
+          "Fish per pound": "0.95",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "WYE LK (KITS) Kitsap - Region 6",
+          "Stock date": "Sep 28, 2026",
+          "Species": "Rainbow",
+          "Number": "404",
+          "Fish per pound": "0.80",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "SNAG LK (PACI) Pacific - Region 6",
+          "Stock date": "Sep 23, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "0.83",
+          "Hatchery": "FORKS CREEK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "WESTERN LK (PACI) Pacific - Region 6",
+          "Stock date": "Sep 23, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "0.83",
+          "Hatchery": "FORKS CREEK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BONAPARTE LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 22, 2026",
+          "Species": "Rainbow",
+          "Number": "3,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MOLSON LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 18, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PATTERSON LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 18, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SIDLEY LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 18, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "AENEAS LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 17, 2026",
+          "Species": "Brown Trout",
+          "Number": "930",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLUE LK (OKAN) T37 Okanogan - Region 2",
+          "Stock date": "Sep 17, 2026",
+          "Species": "Brown Trout",
+          "Number": "500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BONAPARTE LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 17, 2026",
+          "Species": "Rainbow",
+          "Number": "2,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BONAPARTE LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 17, 2026",
+          "Species": "Tiger Trout",
+          "Number": "962",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LEADER LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 16, 2026",
+          "Species": "Brown Trout",
+          "Number": "2,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PATTERSON LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 16, 2026",
+          "Species": "Brown Trout",
+          "Number": "2,150",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ANTILON LK - SOUTH (LOWER) (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 15, 2026",
+          "Species": "Tiger Trout",
+          "Number": "2,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "RAT LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Sep 15, 2026",
+          "Species": "Brown Trout",
+          "Number": "1,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ROSES LK (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 15, 2026",
+          "Species": "Tiger Trout",
+          "Number": "2,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ANTILON LK - NORTH (UPPER) (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 14, 2026",
+          "Species": "Brown Trout",
+          "Number": "850",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ANTILON LK - SOUTH (LOWER) (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 14, 2026",
+          "Species": "Brown Trout",
+          "Number": "2,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "DRY LK (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 14, 2026",
+          "Species": "Brown Trout",
+          "Number": "1,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ROSES LK (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 14, 2026",
+          "Species": "Brown Trout",
+          "Number": "2,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "NACHES SPORTSMANS PD (YAKI) Yakima - Region 3",
+          "Stock date": "Sep 12, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "1.60",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN (CHEL) Chelan - Region 2",
+          "Stock date": "Sep 9, 2026",
+          "Species": "Rainbow",
+          "Number": "11,250",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "Sep 9, 2026",
+          "Species": "Rainbow",
+          "Number": "4,250",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ FIRST CR Chelan - Region 2",
+          "Stock date": "Sep 9, 2026",
+          "Species": "Rainbow",
+          "Number": "7,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "Sep 8, 2026",
+          "Species": "Rainbow",
+          "Number": "3,400",
+          "Fish per pound": "2.58",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "HATCHERY CR 41.1199 Grant - Region 2",
+          "Stock date": "Sep 2, 2026",
+          "Species": "Rainbow",
+          "Number": "900",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK KOKANEE (MASO) Mason - Region 6",
+          "Stock date": "Sep 1, 2026",
+          "Species": "Rainbow",
+          "Number": "2,605",
+          "Fish per pound": "1.13",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TIMS PD (YAKI) Yakima - Region 3",
+          "Stock date": "Aug 31, 2026",
+          "Species": "Rainbow",
+          "Number": "1,000",
+          "Fish per pound": "1.60",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Aug 25, 2026",
+          "Species": "Rainbow",
+          "Number": "2,220",
+          "Fish per pound": "1.11",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Aug 19, 2026",
+          "Species": "Rainbow",
+          "Number": "2,320",
+          "Fish per pound": "1.16",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "COUGAR LK (OKAN) Okanogan - Region 2",
+          "Stock date": "Aug 18, 2026",
+          "Species": "Cutthroat",
+          "Number": "300",
+          "Fish per pound": "0.70",
+          "Hatchery": "CHELAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Aug 11, 2026",
+          "Species": "Rainbow",
+          "Number": "2,520",
+          "Fish per pound": "1.26",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Aug 5, 2026",
+          "Species": "Rainbow",
+          "Number": "1,534",
+          "Fish per pound": "1.17",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Aug 5, 2026",
+          "Species": "Rainbow",
+          "Number": "971",
+          "Fish per pound": "1.41",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 29, 2026",
+          "Species": "Rainbow",
+          "Number": "2,660",
+          "Fish per pound": "1.33",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 21, 2026",
+          "Species": "Rainbow",
+          "Number": "2,800",
+          "Fish per pound": "1.40",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 14, 2026",
+          "Species": "Rainbow",
+          "Number": "2,500",
+          "Fish per pound": "1.25",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MINERAL LK (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 14, 2026",
+          "Species": "Brown Trout",
+          "Number": "1,688",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MINERAL LK (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 14, 2026",
+          "Species": "Rainbow",
+          "Number": "1,063",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "RAINEY CR 26.0651 Lewis - Region 5",
+          "Stock date": "Jul 14, 2026",
+          "Species": "Rainbow",
+          "Number": "2,750",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK MERWIN (COWL) Cowlitz - Region 5",
+          "Stock date": "Jul 13, 2026",
+          "Species": "Rainbow",
+          "Number": "1,647",
+          "Fish per pound": "0.30",
+          "Hatchery": "MERWIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK MERWIN (COWL) Cowlitz - Region 5",
+          "Stock date": "Jul 13, 2026",
+          "Species": "Rainbow",
+          "Number": "3,464",
+          "Fish per pound": "0.70",
+          "Hatchery": "MERWIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPRING CR 30.0106 Klickitat - Region 5",
+          "Stock date": "Jul 11, 2026",
+          "Species": "Rainbow",
+          "Number": "496",
+          "Fish per pound": "2.48",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 9, 2026",
+          "Species": "Rainbow",
+          "Number": "2,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 8, 2026",
+          "Species": "Rainbow",
+          "Number": "3,120",
+          "Fish per pound": "1.56",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MINERAL LK (LEWI) Lewis - Region 5",
+          "Stock date": "Jul 8, 2026",
+          "Species": "Brown Trout",
+          "Number": "3,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLACKBIRD ISLAND PONDS Chelan - Region 2",
+          "Stock date": "Jul 2, 2026",
+          "Species": "Cutthroat",
+          "Number": "2,123",
+          "Fish per pound": "1.88",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK KOKANEE (MASO) Mason - Region 6",
+          "Stock date": "Jul 1, 2026",
+          "Species": "Rainbow",
+          "Number": "2,615",
+          "Fish per pound": "1.58",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 30, 2026",
+          "Species": "Rainbow",
+          "Number": "3,320",
+          "Fish per pound": "1.66",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KIWANAS PD (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 29, 2026",
+          "Species": "Rainbow",
+          "Number": "605",
+          "Fish per pound": "2.20",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KIWANAS PD (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 29, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "0.70",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SWIFT POWER CANAL (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 29, 2026",
+          "Species": "Rainbow",
+          "Number": "1,400",
+          "Fish per pound": "1.20",
+          "Hatchery": "MERWIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPRING CR 30.0106 Klickitat - Region 5",
+          "Stock date": "Jun 27, 2026",
+          "Species": "Rainbow",
+          "Number": "1,125",
+          "Fish per pound": "1.50",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "COUNCIL LK (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 23, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.20",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "HATCHERY CR 41.1199 Grant - Region 2",
+          "Stock date": "Jun 23, 2026",
+          "Species": "Rainbow",
+          "Number": "750",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 23, 2026",
+          "Species": "Rainbow",
+          "Number": "2,980",
+          "Fish per pound": "1.49",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "RAINEY CR 26.0651 Lewis - Region 5",
+          "Stock date": "Jun 23, 2026",
+          "Species": "Rainbow",
+          "Number": "2,500",
+          "Fish per pound": "2.50",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "AMERICAN LK (PIER) Pierce - Region 6",
+          "Stock date": "Jun 22, 2026",
+          "Species": "Rainbow",
+          "Number": "1,929",
+          "Fish per pound": "2.00",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BRADLEY LK (PIER) Pierce - Region 6",
+          "Stock date": "Jun 22, 2026",
+          "Species": "Rainbow",
+          "Number": "1,600",
+          "Fish per pound": "2.00",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CRESCENT LK (PIER) T17 Pierce - Region 6",
+          "Stock date": "Jun 22, 2026",
+          "Species": "Rainbow",
+          "Number": "4,000",
+          "Fish per pound": "2.00",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLUE LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 18, 2026",
+          "Species": "Rainbow",
+          "Number": "1,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPRING LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 18, 2026",
+          "Species": "Rainbow",
+          "Number": "1,860",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLUE LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 17, 2026",
+          "Species": "Rainbow",
+          "Number": "1,625",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "RAINBOW LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 17, 2026",
+          "Species": "Rainbow",
+          "Number": "2,550",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TAKHLAKH LK (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 17, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.12",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TAKHLAKH LK (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 17, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.33",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BENNINGTON LK (WALL) Walla Walla - Region 1",
+          "Stock date": "Jun 16, 2026",
+          "Species": "Rainbow",
+          "Number": "2,825",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 16, 2026",
+          "Species": "Rainbow",
+          "Number": "3,560",
+          "Fish per pound": "1.78",
+          "Hatchery": "GEORGE ADAMS HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TAKHLAKH LK (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 16, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BENNINGTON LK (WALL) Walla Walla - Region 1",
+          "Stock date": "Jun 12, 2026",
+          "Species": "Rainbow",
+          "Number": "2,825",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FISHTRAP CR 01.0210 Whatcom - Region 4",
+          "Stock date": "Jun 12, 2026",
+          "Species": "Rainbow",
+          "Number": "75",
+          "Fish per pound": "0.25",
+          "Hatchery": "KENDALL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FISHTRAP CR 01.0210 Whatcom - Region 4",
+          "Stock date": "Jun 12, 2026",
+          "Species": "Rainbow",
+          "Number": "1,235",
+          "Fish per pound": "1.80",
+          "Hatchery": "KENDALL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ABERDEEN (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 12, 2026",
+          "Species": "Rainbow",
+          "Number": "762",
+          "Fish per pound": "1.86",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GARFIELD PD (WHIT) Whitman - Region 1",
+          "Stock date": "Jun 11, 2026",
+          "Species": "Rainbow",
+          "Number": "1,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CHAMBERS LK (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 10, 2026",
+          "Species": "Brown Trout",
+          "Number": "1,000",
+          "Fish per pound": "2.60",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GOOSE LK (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 10, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.30",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 10, 2026",
+          "Species": "Rainbow",
+          "Number": "1,764",
+          "Fish per pound": "1.75",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 10, 2026",
+          "Species": "Rainbow",
+          "Number": "1,900",
+          "Fish per pound": "1.91",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ABERDEEN (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 9, 2026",
+          "Species": "Rainbow",
+          "Number": "241",
+          "Fish per pound": "0.30",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "VANCE CR ADLT PD 22.0478 Grays Harbor - Region 6",
+          "Stock date": "Jun 9, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.30",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "VANCE CR JV PD 22.0478 Grays Harbor - Region 6",
+          "Stock date": "Jun 9, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.30",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "WATSON LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 9, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ABERDEEN (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 8, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.30",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "PANHANDLE LK (MASO) Mason - Region 6",
+          "Stock date": "Jun 8, 2026",
+          "Species": "Rainbow",
+          "Number": "5",
+          "Fish per pound": "0.47",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "PANHANDLE LK (MASO) Mason - Region 6",
+          "Stock date": "Jun 8, 2026",
+          "Species": "Rainbow",
+          "Number": "150",
+          "Fish per pound": "1.60",
+          "Hatchery": "EELLS SPRINGS",
+          "Notes": ""
+        },
+        {
+          "Lake": "SWIFT POWER CANAL (SKAM) Skamania - Region 5",
+          "Stock date": "Jun 8, 2026",
+          "Species": "Rainbow",
+          "Number": "2,100",
+          "Fish per pound": "1.54",
+          "Hatchery": "MERWIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "W EVANS PD (ASOT) Asotin - Region 1",
+          "Stock date": "Jun 8, 2026",
+          "Species": "Rainbow",
+          "Number": "2,650",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FRANKS POND (CHEL) Chelan - Region 2",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "300",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FRANKS POND (CHEL) Chelan - Region 2",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "50",
+          "Fish per pound": "1.00",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK LOUISE (PIER) Pierce - Region 6",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "1.67",
+          "Hatchery": "CHAMBERS CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK LOUISE (PIER) Pierce - Region 6",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "326",
+          "Fish per pound": "1.00",
+          "Hatchery": "LAKEWOOD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "RAINBOW LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "2,150",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SYLVIA LK (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "0.20",
+          "Hatchery": "SATSOP SPRINGS PONDS",
+          "Notes": ""
+        },
+        {
+          "Lake": "W EVANS PD (ASOT) Asotin - Region 1",
+          "Stock date": "Jun 5, 2026",
+          "Species": "Rainbow",
+          "Number": "2,650",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BLUE LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,950",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CURL LK (LANDLOCKED) Columbia - Region 1",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "2,550",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FIO RITO LK-N (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "210",
+          "Fish per pound": "0.70",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FIO RITO LK-N (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "3,220",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GISSBURG PD NORTH (SNOH) Snohomish - Region 4",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "504",
+          "Fish per pound": "1.80",
+          "Hatchery": "ARLINGTON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GISSBURG PD SOUTH (SNOH) Snohomish - Region 4",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,008",
+          "Fish per pound": "1.80",
+          "Hatchery": "ARLINGTON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "INDIAN FLAT PD (YAKI) Yakima - Region 3",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "862",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,872",
+          "Fish per pound": "1.85",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,860",
+          "Fish per pound": "1.88",
+          "Hatchery": "MCKERNAN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "QUARTZ C POND-NACHES Kittitas - Region 3",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "621",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPEARFISH LK (KLIC) Klickitat - Region 5",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.23",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPRING LK (COLU) Columbia - Region 1",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,950",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TIMS PD (YAKI) Yakima - Region 3",
+          "Stock date": "Jun 3, 2026",
+          "Species": "Rainbow",
+          "Number": "1,311",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CARNEY LK (PIER/KITS) Pierce - Region 6",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "1,810",
+          "Fish per pound": "1.00",
+          "Hatchery": "LAKEWOOD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KNUPPENBURG LK (LEWI) Lewis - Region 5",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Brown Trout",
+          "Number": "780",
+          "Fish per pound": "2.60",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LAVENDAR LK (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "2,300",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LAVENDAR LK (KITT) Kittitas - Region 3",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "402",
+          "Fish per pound": "0.70",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ABERDEEN (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "200",
+          "Fish per pound": "0.34",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SYLVIA LK (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "250",
+          "Fish per pound": "0.34",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "VANCE CR JV PD 22.0478 Grays Harbor - Region 6",
+          "Stock date": "Jun 2, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "1.86",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CLEAR LK (YAKI) Yakima - Region 3",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "3,335",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "DOG LK (YAKI) Yakima - Region 3",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "3,335",
+          "Fish per pound": "2.30",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "JACKSON LK (PIER) Pierce - Region 6",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "1,796",
+          "Fish per pound": "1.67",
+          "Hatchery": "CHAMBERS CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KLINELINE PD (CLAR) Clark - Region 5",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "3,258",
+          "Fish per pound": "1.90",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK ABERDEEN (GRAY) Grays Harbor - Region 6",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "800",
+          "Fish per pound": "1.86",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "ROWLAND LK (KLIC) Klickitat - Region 5",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.30",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "VANCE CR ADLT PD 22.0478 Grays Harbor - Region 6",
+          "Stock date": "Jun 1, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "1.86",
+          "Hatchery": "LK ABERDEEN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BENNINGTON LK (WALL) Walla Walla - Region 1",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "100",
+          "Fish per pound": "0.67",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BENNINGTON LK (WALL) Walla Walla - Region 1",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "1,300",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "HATCHERY CR 41.1199 Grant - Region 2",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "500",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "HEART LK (SKAG) T35 Skagit - Region 4",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "97",
+          "Fish per pound": "0.80",
+          "Hatchery": "KENDALL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "HEART LK (SKAG) T35 Skagit - Region 4",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "1,235",
+          "Fish per pound": "1.80",
+          "Hatchery": "KENDALL CR HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "POTHOLES RES (GRAN) Grant - Region 2",
+          "Stock date": "May 29, 2026",
+          "Species": "Rainbow",
+          "Number": "250",
+          "Fish per pound": "2.50",
+          "Hatchery": "COLUMBIA BASIN HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "AMERICAN LK (PIER) Pierce - Region 6",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "4,000",
+          "Fish per pound": "2.20",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "CLEAR LK (YAKI) Yakima - Region 3",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "2,080",
+          "Fish per pound": "2.60",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FRANKS POND (CHEL) Chelan - Region 2",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "25",
+          "Fish per pound": "1.00",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "FRANKS POND (CHEL) Chelan - Region 2",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "425",
+          "Fish per pound": "2.50",
+          "Hatchery": "CHELAN PUD HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LEWIS CO PRK PD-S (LEWI) Lewis - Region 5",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "1,080",
+          "Fish per pound": "2.70",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LIONS PARK PD (WALL) Walla Walla - Region 1",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "438",
+          "Fish per pound": "2.50",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LIONS PARK PD (WALL) Walla Walla - Region 1",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "25",
+          "Fish per pound": "0.67",
+          "Hatchery": "TUCANNON HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "May 28, 2026",
+          "Species": "Cutthroat",
+          "Number": "16,350",
+          "Fish per pound": "3.00",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "4,860",
+          "Fish per pound": "2.70",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "MAYFIELD RES (LEWI) Lewis - Region 5",
+          "Stock date": "May 28, 2026",
+          "Species": "Rainbow",
+          "Number": "5,940",
+          "Fish per pound": "2.70",
+          "Hatchery": "MOSSYROCK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GOOSE LK (SKAM) Skamania - Region 5",
+          "Stock date": "May 27, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.50",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GOOSE LK (SKAM) Skamania - Region 5",
+          "Stock date": "May 27, 2026",
+          "Species": "Rainbow",
+          "Number": "2,000",
+          "Fish per pound": "1.86",
+          "Hatchery": "VANCOUVER HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "May 27, 2026",
+          "Species": "Cutthroat",
+          "Number": "11,310",
+          "Fish per pound": "2.90",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ GOLF COURSE Chelan - Region 2",
+          "Stock date": "May 27, 2026",
+          "Species": "Cutthroat",
+          "Number": "11,745",
+          "Fish per pound": "2.90",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK LAWRENCE (THUR) Thurston - Region 6",
+          "Stock date": "May 27, 2026",
+          "Species": "Rainbow",
+          "Number": "5,000",
+          "Fish per pound": "2.20",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "SPEARFISH LK (KLIC) Klickitat - Region 5",
+          "Stock date": "May 27, 2026",
+          "Species": "Rainbow",
+          "Number": "450",
+          "Fish per pound": "0.33",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "TIMS PD (YAKI) Yakima - Region 3",
+          "Stock date": "May 27, 2026",
+          "Species": "Rainbow",
+          "Number": "1,248",
+          "Fish per pound": "2.40",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "BRADLEY LK (PIER) Pierce - Region 6",
+          "Stock date": "May 26, 2026",
+          "Species": "Rainbow",
+          "Number": "300",
+          "Fish per pound": "0.60",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "COOPER LK (KITT) Kittitas - Region 3",
+          "Stock date": "May 26, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.40",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "GOOSE LK (SKAM) Skamania - Region 5",
+          "Stock date": "May 26, 2026",
+          "Species": "Rainbow",
+          "Number": "3,000",
+          "Fish per pound": "2.44",
+          "Hatchery": "GOLDENDALE HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "KIWANAS PD (KITT) Kittitas - Region 3",
+          "Stock date": "May 26, 2026",
+          "Species": "Rainbow",
+          "Number": "600",
+          "Fish per pound": "2.40",
+          "Hatchery": "NACHES HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK BOREN (KING) King - Region 4",
+          "Stock date": "May 26, 2026",
+          "Species": "Rainbow",
+          "Number": "1,350",
+          "Fish per pound": "2.20",
+          "Hatchery": "PUYALLUP HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ D MORSE PRK Chelan - Region 2",
+          "Stock date": "May 26, 2026",
+          "Species": "Cutthroat",
+          "Number": "2,900",
+          "Fish per pound": "2.90",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        },
+        {
+          "Lake": "LK CHELAN @ GOLF COURSE Chelan - Region 2",
+          "Stock date": "May 26, 2026",
+          "Species": "Cutthroat",
+          "Number": "22,620",
+          "Fish per pound": "2.90",
+          "Hatchery": "EASTBANK HATCHERY",
+          "Notes": ""
+        }
+      ]
+    }
+  ]
+}

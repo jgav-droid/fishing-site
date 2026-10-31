@@ -1,0 +1,5602 @@
+[
+  {
+    "source_record_id": "bebe12d2c620941ef5ad-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BATTLE GROUND LK (CLAR)",
+    "county": "Clark",
+    "species": "Rainbow",
+    "hatchery_or_source": "VANCOUVER HATCHERY",
+    "stocking_date": "2026-10-27",
+    "stocking_end_date": "2026-10-27",
+    "quantity": 1080,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.6",
+      "total_pounds": "415",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L333",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f46aaf75bda624c38931-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LACAMAS LK (CLAR)",
+    "county": "Clark",
+    "species": "Rainbow",
+    "hatchery_or_source": "VANCOUVER HATCHERY",
+    "stocking_date": "2026-10-27",
+    "stocking_end_date": "2026-10-27",
+    "quantity": 4000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.6",
+      "total_pounds": "1538",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L44874",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "37c1f576e545de5804be-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "FRANKS POND (CHEL)",
+    "county": "Chelan",
+    "species": "Cutthroat",
+    "hatchery_or_source": "CHELAN HATCHERY",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 3385,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "75.0",
+      "total_pounds": "45",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L51099",
+      "origin": "HATCHERY",
+      "stock": "Twin Lakes"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2047bd20ba2b3521722b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WARD LK (THUR)",
+    "county": "Thurston",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 306,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.6",
+      "total_pounds": "191",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8939",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "0adeb766ba8a5a838997-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BATTLE GROUND LK (CLAR)",
+    "county": "Clark",
+    "species": "Rainbow",
+    "hatchery_or_source": "VANCOUVER HATCHERY",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 1000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.6",
+      "total_pounds": "385",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L333",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "7948ebb9c18f7ef5ea2e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GREEN LK (KING)",
+    "county": "King",
+    "species": "Brown Trout",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 14688,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "51.0",
+      "total_pounds": "288",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1536",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b2fe087ca0076c009cd7-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MARTHA LK (WB) (SNOH)",
+    "county": "Snohomish",
+    "species": "Brown Trout",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 3860,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "51.0",
+      "total_pounds": "76",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3219",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "554fe88f60fb778e53f8-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KLINELINE PD (CLAR)",
+    "county": "Clark",
+    "species": "Rainbow",
+    "hatchery_or_source": "VANCOUVER HATCHERY",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.6",
+      "total_pounds": "769",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L38502",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1a9f02396615284df778-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LONGS PD (THUR)",
+    "county": "Thurston",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-26",
+    "stocking_end_date": "2026-10-26",
+    "quantity": 150,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.6",
+      "total_pounds": "94",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2818",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "19128fa208b4059a4773-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MARSHALL LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 38745,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "205.0",
+      "total_pounds": "189",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3213",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1d21f540e7ea2cdf261e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MYSTIC LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 4100,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "205.0",
+      "total_pounds": "20",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3396",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6e3f5fa2518311af5c92-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BROWNS LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 14145,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "205.0",
+      "total_pounds": "69",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L512",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "35f5228c323be1972af6-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "NONAME LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 7175,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "205.0",
+      "total_pounds": "35",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3445",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "26e471a50a402f3241d5-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "HALFMOON LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 1025,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "205.0",
+      "total_pounds": "5",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1664",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "110bd4d777b6ae818129-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SAMISH LK (WHAT)",
+    "county": "Whatcom",
+    "species": "Kokanee",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-23",
+    "stocking_end_date": "2026-10-23",
+    "quantity": 68333,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "110.0",
+      "total_pounds": "621",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4130",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f7aa89e2d095cb22c89d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SKAG) T34",
+    "county": "Skagit",
+    "species": "Cutthroat",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 10350,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "83.0",
+      "total_pounds": "125",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L833",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "33e2faf2aac7e2f98b96-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DEER LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 6160,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.6",
+      "total_pounds": "350",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1058",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a68b4cc21a39474cc384-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEAD KING LKS (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 3015,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "15",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8530",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "c5a87852bb1e7e3d7806-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TIMS PD (YAKI)",
+    "county": "Yakima",
+    "species": "Rainbow",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 11,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.1",
+      "total_pounds": "110",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L28093",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b808f0d8659654546596-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "POTHOLES RES (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "COLUMBIA BASIN HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 12899,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "23.2",
+      "total_pounds": "556",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L44508",
+      "origin": "HATCHERY",
+      "stock": "Mount Whitney"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3e1e94d928a4ee886a6b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TWIN LKS LTL (STEV)",
+    "county": "Stevens",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 12060,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "60",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8153",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f2581f643fd7ab5753b2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TIMS PD (YAKI)",
+    "county": "Yakima",
+    "species": "Rainbow",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 30,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.2",
+      "total_pounds": "150",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L28093",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f135bf1cdaaa89ac83c7-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SARGE HUBBARD PD (YAKI)",
+    "county": "Yakima",
+    "species": "Rainbow",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 11,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.1",
+      "total_pounds": "110",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L50002",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e8243e48636feb07da19-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TIMS PD (YAKI)",
+    "county": "Yakima",
+    "species": "Rainbow",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 19,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.2",
+      "total_pounds": "95",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L28093",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e0c5418afb48c53b2d25-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SARGE HUBBARD PD (YAKI)",
+    "county": "Yakima",
+    "species": "Rainbow",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-22",
+    "stocking_end_date": "2026-10-22",
+    "quantity": 49,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.2",
+      "total_pounds": "245",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L50002",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "c21fec6a124d2a8efd56-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SILVER LK (WHAT) 01",
+    "county": "Whatcom",
+    "species": "Cutthroat",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 10300,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "83.0",
+      "total_pounds": "124",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4200",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "4b32d3d80013912e0728-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LANGLOIS LK (KING)",
+    "county": "King",
+    "species": "Kokanee",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 4000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "54.0",
+      "total_pounds": "74",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2881",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e36179a6686dc4f17e32-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ANGLE LK (KING)",
+    "county": "King",
+    "species": "Kokanee",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 10000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "54.0",
+      "total_pounds": "185",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L91",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "9c138a786f09cb151490-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DAVIS LK (FERR)",
+    "county": "Ferry",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 6030,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "30",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1028",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "31ae72b41d3970ea6d31-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK TERRELL (WHAT)",
+    "county": "Whatcom",
+    "species": "Cutthroat",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 15156,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "83.0",
+      "total_pounds": "183",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4518",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3bb4ddc92d3906d9866f-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LONG LK (FERR)",
+    "county": "Ferry",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-21",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 14070,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "70",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2992",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1bebc45fc13d834adfa4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK SAWYER (KING)",
+    "county": "King",
+    "species": "Kokanee",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 17000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "54.0",
+      "total_pounds": "315",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4138",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3cd153bed7b1b7847f0a-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "FRATER LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 1005,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "5",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1386",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "0548e84907b70d9ee97c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "METHOW R 48.0002",
+    "county": "Okanogan",
+    "species": "Chinook",
+    "hatchery_or_source": "EASTBANK HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 55667,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "32.0",
+      "total_pounds": "1740",
+      "lifestage": "Zero"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "48.0007",
+      "origin": "MIXED",
+      "stock": "Methow Okanogan Mixed"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "aaf0c7e967ce554ca486-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "METHOW R 48.0002",
+    "county": "Okanogan",
+    "species": "Chinook",
+    "hatchery_or_source": "EASTBANK HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-21",
+    "quantity": 111450,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "32.0",
+      "total_pounds": "3483",
+      "lifestage": "Zero"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "48.0007",
+      "origin": "MIXED",
+      "stock": "Methow Okanogan Mixed"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "c8fbe9e4f5a82b80257d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "YOKUM LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 15075,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "75",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9114",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "53bbe34993a7bb9bbbec-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CURLEW LK (FERR)",
+    "county": "Ferry",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 19459,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "1003",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L932",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "016430e53696a1df1845-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK MERIDIAN (KING)",
+    "county": "King",
+    "species": "Kokanee",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 15000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "54.0",
+      "total_pounds": "278",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3273",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3cbeef76da4b9d49ea38-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PETIT LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 4020,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "20",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3656",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "434ae5500ca0c9191976-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK MERIDIAN (KING)",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 5314,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "500.0",
+      "total_pounds": "11",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3273",
+      "origin": "HATCHERY",
+      "stock": "Trout Lodge, WA"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e1645cac790acc2d57f2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CURLEW LK (FERR)",
+    "county": "Ferry",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 22040,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "58.0",
+      "total_pounds": "380",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L932",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3bf4fa3748ff929956da-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CURLEW LK (FERR)",
+    "county": "Ferry",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 5544,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.8",
+      "total_pounds": "280",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L932",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ac7edb1eff77f21734a2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MUSKEGON LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Cutthroat",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-20",
+    "stocking_end_date": "2026-10-20",
+    "quantity": 3015,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "201.0",
+      "total_pounds": "15",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3387",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "af17a973ad4e2dc66bd4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SACHEEN LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-19",
+    "stocking_end_date": "2026-10-19",
+    "quantity": 10042,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "502",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4123",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "599a92786f0b4c5b1dbe-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BEAVER LKS (KING) T24",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "ISSAQUAH HATCHERY",
+    "stocking_date": "2026-10-19",
+    "stocking_end_date": "2026-10-19",
+    "quantity": 1250,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.47",
+      "total_pounds": "2660",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L44825",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "cc4bee6cde867d81fde1-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SACHEEN LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-19",
+    "stocking_end_date": "2026-10-19",
+    "quantity": 5958,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "298",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4123",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "0413f2c8bcc8484939ae-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "RATTLESNAKE LK (KING)",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-19",
+    "stocking_end_date": "2026-10-19",
+    "quantity": 15610,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "160.0",
+      "total_pounds": "98",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3839",
+      "origin": "HATCHERY",
+      "stock": "Mount Whitney"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "4149e37bcab90cce239e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LAVENDAR LK (KITT)",
+    "county": "Kittitas",
+    "species": "Golden Trout",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-16",
+    "stocking_end_date": "2026-10-16",
+    "quantity": 761,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "100.0",
+      "total_pounds": "8",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L29113",
+      "origin": "HATCHERY",
+      "stock": "Wyoming Fish & Game"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "93278e53febf1734414f-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PIERRE LK (STEV)",
+    "county": "Stevens",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-16",
+    "stocking_end_date": "2026-10-16",
+    "quantity": 10150,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "58.0",
+      "total_pounds": "175",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3670",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "80c326dba5e577f1c1fd-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LELAND LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-16",
+    "stocking_end_date": "2026-10-16",
+    "quantity": 450,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.62",
+      "total_pounds": "278",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2752",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "34efa3d5a811238f3d54-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BADGER LK (SPOK)",
+    "county": "Spokane",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-16",
+    "stocking_end_date": "2026-10-16",
+    "quantity": 15022,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "58.0",
+      "total_pounds": "259",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L285",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "940bac5aa3b1cab80832-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "STARVATION LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 7009,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.8",
+      "total_pounds": "354",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4303",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "79a287f9c42d6285556b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK DESIRE (KING)",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 905,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.6",
+      "total_pounds": "1508",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1069",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f2604d0a2fe156ea77e9-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACKMANS LK (SNOH)",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 450,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.6",
+      "total_pounds": "750",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L429",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "86febf8ddc63c64dd71e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SPOK)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 12940,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "667",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L837",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1d9394498363e33860f5-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLUE LK (COLU)",
+    "county": "Columbia",
+    "species": "Rainbow",
+    "hatchery_or_source": "LYONS FERRY HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 2015,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "3.1",
+      "total_pounds": "650",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L445",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "223b0bf2bb225298831b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SPRING LK (COLU)",
+    "county": "Columbia",
+    "species": "Rainbow",
+    "hatchery_or_source": "LYONS FERRY HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 2015,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "3.1",
+      "total_pounds": "650",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4282",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "65851f2f6952bda046bb-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "FISHTRAP LK (LINC/SPOK)",
+    "county": "Lincoln",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 8013,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "413",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1343",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e33c6d84a40b2cfdfa78-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "HATCH LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 2020,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.8",
+      "total_pounds": "102",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1698",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "34d64372e6bb3b31952e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MINERAL LK (LEWI)",
+    "county": "Lewis",
+    "species": "Rainbow",
+    "hatchery_or_source": "MOSSYROCK HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 50003,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "22.7",
+      "total_pounds": "2203",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3300",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "70021cf9093d88540f3b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SPOK)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-15",
+    "stocking_end_date": "2026-10-15",
+    "quantity": 7069,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.8",
+      "total_pounds": "357",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L837",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "549ec9f0cd0a39f6463b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACK LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 5707,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.4",
+      "total_pounds": "328",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L428",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ace8391f110f56d1e7f1-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK (WHIT)",
+    "county": "Whitman",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 4613,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "16.3",
+      "total_pounds": "283",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3886",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "aed98fb61f69f0582726-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LIBERTY LK (SPOK) (57)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 5347,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "16.3",
+      "total_pounds": "328",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2912",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f2c0bc63ba426eecb1af-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SUMMIT LK (THUR)",
+    "county": "Thurston",
+    "species": "Kokanee",
+    "hatchery_or_source": "LAKEWOOD HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 20250,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "40.5",
+      "total_pounds": "500",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4096",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2327d298f3ad909ca320-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "AMERICAN LK (PIER)",
+    "county": "Pierce",
+    "species": "Kokanee",
+    "hatchery_or_source": "LAKEWOOD HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 56112,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "40.5",
+      "total_pounds": "1385",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L35",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "de7d09e9093846c6da55-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACK LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 795,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "41",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L428",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "285e5f52443a2767c000-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LIBERTY LK (SPOK) (57)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 14651,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.4",
+      "total_pounds": "842",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2912",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "32ca5bd0ceabdbdbc104-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BAYLEY LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 512,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "26",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L339",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b9b6b41174969eeab329-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACKMANS LK (SNOH)",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 450,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.6",
+      "total_pounds": "750",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L429",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "bfe9a4a438b3a00b81d3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK (WHIT)",
+    "county": "Whitman",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 13280,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "16.0",
+      "total_pounds": "830",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3886",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "9b64fabae0683719f40c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK (WHIT)",
+    "county": "Whitman",
+    "species": "Rainbow",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 13121,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "16.0",
+      "total_pounds": "820",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3886",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a71bac1f0754679aaee9-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK ALICE (KING)",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-14",
+    "stocking_end_date": "2026-10-14",
+    "quantity": 540,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.6",
+      "total_pounds": "900",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L70",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "544c6b257e14c774c206-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GREEN LK (KING)",
+    "county": "King",
+    "species": "Rainbow",
+    "hatchery_or_source": "WHITEHORSE POND",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 1632,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.85",
+      "total_pounds": "1920",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1536",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a37b188f5d59f8579475-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK GOODWIN (SNOH)",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 1050,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "147.0",
+      "total_pounds": "7",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1501",
+      "origin": "HATCHERY",
+      "stock": "Trout Lodge, WA"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "69add632cfe7f535d114-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK GOODWIN (SNOH)",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 7994,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "270.0",
+      "total_pounds": "30",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1501",
+      "origin": "HATCHERY",
+      "stock": "Mount Whitney"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8130ff3ef32a2ceea3f3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ALDER LK (THUR/PIER)",
+    "county": "Pierce",
+    "species": "Kokanee",
+    "hatchery_or_source": "GARRISON HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 53467,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "39.0",
+      "total_pounds": "1371",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L23",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "4e2e5bbae079295c83ea-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DEEP LK (STEV)",
+    "county": "Stevens",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 1980,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "60.0",
+      "total_pounds": "33",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1052",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8d0ac8970bee321cb695-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MUD LK (LEWI)",
+    "county": "Lewis",
+    "species": "Cutthroat",
+    "hatchery_or_source": "MOSSYROCK HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 400,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "225.0",
+      "total_pounds": "2",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3364",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "88b946f5fb2652fd5d93-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK GOODWIN (SNOH)",
+    "county": "Snohomish",
+    "species": "Cutthroat",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-13",
+    "stocking_end_date": "2026-10-13",
+    "quantity": 4039,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "242.0",
+      "total_pounds": "17",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1501",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f10576de69cdf8917e6a-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 4440,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "1615",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "fc2be796ad284f3dcfa5-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WILLIAMS LK (SPOK)",
+    "county": "Spokane",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 6003,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "23.0",
+      "total_pounds": "261",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9070",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "dd64cc45ea3803bafaea-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SPOK)",
+    "county": "Spokane",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 14007,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "23.0",
+      "total_pounds": "609",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L837",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1718df81aea96314445e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEAD KING LKS (PEND)",
+    "county": "Pend Oreille",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1009,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "52",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8530",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8b4914f13e513e386947-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DEEP LK (STEV)",
+    "county": "Stevens",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9002,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "464",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1052",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8512c13116b2f602b0ff-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DAVIS LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 10140,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "60.0",
+      "total_pounds": "169",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1029",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2ed06dc5e5af0778d563-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KOENEMAN LK (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1245,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.2",
+      "total_pounds": "111",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1326",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "29bed04f7139baaeb19c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KOENEMAN LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1600,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "64",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1326",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e1ead2ee3ce0ed67fed2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LOON LK (STEV)",
+    "county": "Stevens",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 35100,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "60.0",
+      "total_pounds": "585",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3002",
+      "origin": "HATCHERY",
+      "stock": "Lake Whatcom"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "904a28fd6f42982977a4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACK LK (STEV)",
+    "county": "Stevens",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1480,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "76",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L428",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "95c27a69ed481cb227d2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1100,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "400",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f10576de69cdf8917e6a-2",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 4440,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "1615",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "638469e24689e77ad261-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "HATCH LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 834,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.65",
+      "total_pounds": "1283",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1698",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f94dc54c473ac3bc083b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 4125,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "be2ca3154ce3f760f872-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 4400,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "1600",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6c4c8025b150077b83dc-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BLACK LK (STEV)",
+    "county": "Stevens",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 5520,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "23.0",
+      "total_pounds": "240",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L428",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "73d564a412afdddfe8c7-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WILLIAMS LK (STEV)",
+    "county": "Stevens",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 1000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.65",
+      "total_pounds": "1538",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9071",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "442f7f10efe3f1715062-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SACHEEN LK (PEND)",
+    "county": "Pend Oreille",
+    "species": "Tiger Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 10005,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.4",
+      "total_pounds": "516",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4123",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f94dc54c473ac3bc083b-2",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROSES LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-12",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 4125,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.75",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L27",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "4ddc2ae2e0877c7e74e2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK DORTHY (KING)",
+    "county": "King",
+    "species": "Cutthroat",
+    "hatchery_or_source": "TOKUL CR HATCHERY",
+    "stocking_date": "2026-10-11",
+    "stocking_end_date": "2026-10-11",
+    "quantity": 438,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "166.0",
+      "total_pounds": "3",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1092",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a1bf44b4098737bd401f-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK DORTHY (KING)",
+    "county": "King",
+    "species": "Cutthroat",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-10",
+    "stocking_end_date": "2026-10-10",
+    "quantity": 1330,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "242.0",
+      "total_pounds": "5",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1092",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "bed7f364d279597e98bb-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LOST LK (SNOH) T28",
+    "county": "Snohomish",
+    "species": "Cutthroat",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-10",
+    "stocking_end_date": "2026-10-10",
+    "quantity": 3160,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "35.0",
+      "total_pounds": "90",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3014",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "7b3d9ee28939025da4bc-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LOST LK (SNOH) T28",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "ARLINGTON HATCHERY",
+    "stocking_date": "2026-10-10",
+    "stocking_end_date": "2026-10-10",
+    "quantity": 540,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "270.0",
+      "total_pounds": "2",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3014",
+      "origin": "HATCHERY",
+      "stock": "Mount Whitney"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "c5ed44ba1085d51aae5e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "VANCE CR ADLT PD 22.0478",
+    "county": "Grays Harbor",
+    "species": "Steelhead",
+    "hatchery_or_source": "LK ABERDEEN HATCHERY",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 10680,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "19.0",
+      "total_pounds": "562",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "L42334",
+      "origin": "MIXED",
+      "stock": "Wynoochee River"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2203cf1ba6a2ce6860c4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PANTHER LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 2500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "100",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3626",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "5c1d7993c15be39ff0ad-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "JUMPOFF JOE LK (STEVENS)",
+    "county": "Stevens",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 5015,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.0",
+      "total_pounds": "295",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2620",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e0ff1b76365ef77e5b2c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "VANCE CR ADLT PD 22.0478",
+    "county": "Grays Harbor",
+    "species": "Steelhead",
+    "hatchery_or_source": "LK ABERDEEN HATCHERY",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 11577,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "14.5",
+      "total_pounds": "798",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "L42334",
+      "origin": "HATCHERY",
+      "stock": "Lake Aberdeen Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "58a9c6b956360289a20b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LOST LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "80",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2823",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "d80f6c225f970e6bdfa0-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MISSION LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "80",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3306",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f926526a450093520aab-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SPENCER LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 2625,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "105",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4046",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ff6980270c3def5bc6ed-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DEER SPRINGS LK (LINC)",
+    "county": "Lincoln",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 3009,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.0",
+      "total_pounds": "177",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1060",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e0c34702790c56ffe4a6-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ISLAND LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 1200,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "48",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2530",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "45afdff0468942834a61-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WYE LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-09",
+    "stocking_end_date": "2026-10-09",
+    "quantity": 1200,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "48",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9104",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2cf6aef91a31e37c576d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LIBERTY LK (SPOK) (57)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 20685,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "21.0",
+      "total_pounds": "985",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2912",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "37cb3b37a5b691ad38c3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LIBERTY LK (SPOK) (57)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 14322,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "22.0",
+      "total_pounds": "651",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2912",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "353fa8f63b7f3af6f1a2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WAITTS LK (STEV)",
+    "county": "Stevens",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 10030,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.0",
+      "total_pounds": "590",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8999",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b029e73ecc90d752cbdb-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SPOK)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 17468,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "22.0",
+      "total_pounds": "794",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L837",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "78c768fcd8c218b9293c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "W MEDICAL LK (SPOK)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 4998,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "17.0",
+      "total_pounds": "294",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9036",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6ccde25150b85cd72456-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "W MEDICAL LK (SPOK)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-08",
+    "stocking_end_date": "2026-10-08",
+    "quantity": 5016,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "22.0",
+      "total_pounds": "228",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9036",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "02aad26885dbd42005a4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BENSON LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 1500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "60",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L174",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8b8a6187a93e2c41cf51-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "HOG (CANYON) LK (SPOK)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 1600,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.65",
+      "total_pounds": "2462",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1756",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "943f87b584e7d18508af-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CADY LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L550",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "08eb8ee673f8b1706885-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GRIMES LK (DOUG)",
+    "county": "Douglas",
+    "species": "Cutthroat",
+    "hatchery_or_source": "COLUMBIA BASIN HATCHERY",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 8041,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "43.0",
+      "total_pounds": "187",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1452",
+      "origin": "HATCHERY",
+      "stock": "Lake Lenore"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6c609866da9eb2e8e7f2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SILENT LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3988",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "5294b85fee177be0ae43-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BUCK LK (KITS)",
+    "county": "Kitsap",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L521",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a3980fd1c6575336ab1d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BALLINGER LK (SNOH)",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "WHITEHORSE POND",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 1275,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.85",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L300",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6016f9111483b942f355-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GIBBS LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1406",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a0c47418c36124bf7662-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "W MEDICAL LK (SPOK)",
+    "county": "Spokane",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.64",
+      "total_pounds": "781",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L9036",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "14505c313f85a3fa2b64-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "SILVER LK (SNOH) T28",
+    "county": "Snohomish",
+    "species": "Rainbow",
+    "hatchery_or_source": "WHITEHORSE POND",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 1275,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.85",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4198",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a37034e34b24e87f7480-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "DEVEREAUX LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-07",
+    "stocking_end_date": "2026-10-07",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "80",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L969",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "22195f5431ec34447a4c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 23247,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1162",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "432763e1b73cf1680858-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 25021,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1251",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f192dc25deeaa9cecb51-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROBBINS LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3792",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "409a128030c013d07833-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ALDRICH LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L24",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "250d55627a7c41dc41b8-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLARA LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 700,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "28",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L994",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "87c35a59dced04bcf71a-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LWR HAMPTON LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "COLUMBIA BASIN HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 4047,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "4.0",
+      "total_pounds": "1012",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1572",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "207996a57183c788b591-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "NAHWATZEL LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "SATSOP SPRINGS PONDS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.8",
+      "total_pounds": "625",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW - EN COOPS",
+      "geo_code": "L3398",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "082277070680f80da1e2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TWIN LKS (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 400,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "16",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4472",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "d9c7b8b4c030ae79c701-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "HOWELL LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 1000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "40",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1649",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "d617ecc7240c1bf383db-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TIGER LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 3000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "120",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4427",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "e2bc3fe9f5c09e653376-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK FAZON (WHAT)",
+    "county": "Whatcom",
+    "species": "Brown Trout",
+    "hatchery_or_source": "KENDALL CR HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 4080,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "51.0",
+      "total_pounds": "80",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1320",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "593ed55f08e4a11a0839-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TARBOO LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "80",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4395",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2bd420afa8eed0166224-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK (WHIT)",
+    "county": "Whitman",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 38220,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "21.0",
+      "total_pounds": "1820",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3886",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b27de42a1fc8b8d35921-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK LENORE (GRAN)",
+    "county": "Grant",
+    "species": "Cutthroat",
+    "hatchery_or_source": "COLUMBIA BASIN HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 57649,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "43.0",
+      "total_pounds": "1341",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2761",
+      "origin": "HATCHERY",
+      "stock": "Lake Lenore"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1950f33a129c26a4953c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "JIGGS LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "20",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2545",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "716c88bc9920f437d6bf-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TARBOO LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 960,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.3",
+      "total_pounds": "85",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4395",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f527ea75c53473607c08-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CLEAR LK (SPOK)",
+    "county": "Spokane",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 27552,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "21.0",
+      "total_pounds": "1312",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L837",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "5c4e94f357539c7fcff5-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 25163,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1258",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "553408295704aead6862-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK CHELAN @ D MORSE PRK",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-06",
+    "stocking_end_date": "2026-10-06",
+    "quantity": 3360,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.8",
+      "total_pounds": "1200",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L617",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "9024965d4f01269dfbfb-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "WARDEN LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "COLUMBIA BASIN HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 15931,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "4.0",
+      "total_pounds": "3983",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L8940",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "9f512adc6bcccae4c477-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TRAILS END LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 2000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "80",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3599",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "72167dd28e6b4ad3b81d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK (WHIT)",
+    "county": "Whitman",
+    "species": "Brown Trout",
+    "hatchery_or_source": "SPOKANE HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 41790,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "21.0",
+      "total_pounds": "1990",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3886",
+      "origin": "HATCHERY",
+      "stock": "Ford"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "5a0b2122ef0d5a03910b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MELBOURNE LK (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 1022,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "41",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3107",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "3db409a39ade1c38c435-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "MELBOURNE LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 2120,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.3",
+      "total_pounds": "188",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3107",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "da7135c26ff77be748a0-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "OSBORNE LKS (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 250,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.3",
+      "total_pounds": "22",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3482",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a1a9b870c60c5d03e83a-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ISABELLA LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 8320,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "15.4",
+      "total_pounds": "540",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2039",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b281e9eb13510e18fd8d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "OSBORNE LKS (MASO)",
+    "county": "Mason",
+    "species": "Cutthroat",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 200,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "25.0",
+      "total_pounds": "8",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3482",
+      "origin": "HATCHERY",
+      "stock": "Eells Springs Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8d09c6ac758668e836dc-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ISLAND LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 2218,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "15.4",
+      "total_pounds": "144",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2040",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "85e095c59ff77ea03f89-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 25143,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1257",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "9b2c05f5cbf51d30ef8d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 25056,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1253",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "6e587538af0f1bf4a601-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 13031,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "652",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ab8e58d65dd6e7f5b0bb-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "FISH LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 4200,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.8",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1264",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ab7387c175a1d448253d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "FISH LK (CHEL)",
+    "county": "Chelan",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 2800,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.8",
+      "total_pounds": "1000",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1264",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b4d5d458bb2c9344f7f9-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BENSON LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 4860,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "15.4",
+      "total_pounds": "316",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L174",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "d67f40839b903e01c33c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ISLAND LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-10-05",
+    "stocking_end_date": "2026-10-05",
+    "quantity": 4380,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.3",
+      "total_pounds": "388",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2040",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a1802e81e7dad286488e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-02",
+    "stocking_end_date": "2026-10-02",
+    "quantity": 7720,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "386",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f81e9d6564e0b59102fd-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "BANKS LK (GRAN)",
+    "county": "Grant",
+    "species": "Rainbow",
+    "hatchery_or_source": "FORD HATCHERY",
+    "stocking_date": "2026-10-02",
+    "stocking_end_date": "2026-10-02",
+    "quantity": 25507,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "20.0",
+      "total_pounds": "1275",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L19925",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "17ba62168a0b5e3e6824-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PUTTERS PD (DOUG)",
+    "county": "Douglas",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-02",
+    "stocking_end_date": "2026-10-02",
+    "quantity": 3240,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.5",
+      "total_pounds": "1296",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L26229",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "76ba0203a2e87b10b0c2-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KITSAP LK (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-10-02",
+    "stocking_end_date": "2026-10-02",
+    "quantity": 1900,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.93",
+      "total_pounds": "2043",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2700",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "47891302685a20a84f8d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PUTTERS PD (DOUG)",
+    "county": "Douglas",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-10-02",
+    "stocking_end_date": "2026-10-02",
+    "quantity": 1890,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.7",
+      "total_pounds": "700",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L26229",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ff2c610f02ab740af094-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 183132,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.9",
+      "total_pounds": "15389",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "80849c9daee47690f352-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 186443,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.1",
+      "total_pounds": "15409",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "72d5f841418a314972e4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9133,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.9",
+      "total_pounds": "767",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "149365c29a22f9e14d6e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ROCK LK LTL (SKAM)",
+    "county": "Skamania",
+    "species": "Cutthroat",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-01",
+    "quantity": 200,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "200.0",
+      "total_pounds": "1",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2966",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "dfcbda22311dc2dfbac5-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "UMTUX LKS (SKAM)",
+    "county": "Skamania",
+    "species": "Cutthroat",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-01",
+    "quantity": 300,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "200.0",
+      "total_pounds": "2",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4629",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "880ef344966ec5e94a35-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9122,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.9",
+      "total_pounds": "767",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f34179bc8c603c5c9d30-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9769,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.0",
+      "total_pounds": "814",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "20c53fbef4f2211dbc4e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KWADDIS LK (SKAM)",
+    "county": "Skamania",
+    "species": "Cutthroat",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-01",
+    "quantity": 450,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "200.0",
+      "total_pounds": "2",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2720",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "0337564e325ce7caae54-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9323,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.7",
+      "total_pounds": "797",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a1d7cbbbfdbe6d50bbfd-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9287,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.1",
+      "total_pounds": "768",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f89860560c945be23326-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 196118,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.0",
+      "total_pounds": "16343",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "d790e3d67badd402222b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9298,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.1",
+      "total_pounds": "768",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "5e21e1d6d7d3a22e42f9-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "RIFFE LK (LEWI)",
+    "county": "Lewis",
+    "species": "Steelhead",
+    "hatchery_or_source": "KALAMA FALLS HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-01",
+    "quantity": 37393,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "95.0",
+      "total_pounds": "394",
+      "lifestage": "Fingerling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "L3337",
+      "origin": "HATCHERY",
+      "stock": "Kalama Falls Hatchery"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "2f0f06caddc08feb415d-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 186933,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.7",
+      "total_pounds": "15977",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "59d609ba5a7a2dc60c14-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9781,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "12.0",
+      "total_pounds": "815",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "de0434903c3b7d75e092-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK MERWIN (COWL)",
+    "county": "Cowlitz",
+    "species": "Kokanee",
+    "hatchery_or_source": "SPEELYAI HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-01",
+    "quantity": 45000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "8.0",
+      "total_pounds": "5625",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L3277",
+      "origin": "MIXED",
+      "stock": "Lake Merwin"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "1143010af6c7fb10904a-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LEWIS R -NF 27.0168",
+    "county": null,
+    "species": "Chinook",
+    "hatchery_or_source": "LEWIS RIVER HATCHERY",
+    "stocking_date": "2026-10-01",
+    "stocking_end_date": "2026-10-12",
+    "quantity": 9311,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "11.7",
+      "total_pounds": "796",
+      "lifestage": "Yearling"
+    },
+    "official_extra": {
+      "species_type": "Salmon",
+      "agency": "WDFW",
+      "geo_code": "27.0168@27.0173toend",
+      "origin": "HATCHERY",
+      "stock": "Lewis River Hatchery Stock"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "81ba896a60896c6b1548-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GOOSE LK (SKAM)",
+    "county": "Skamania",
+    "species": "Cutthroat",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-09-30",
+    "stocking_end_date": "2026-09-30",
+    "quantity": 7000,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "200.0",
+      "total_pounds": "35",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1503",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "90fff9411acb2bc7aed7-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "KITSAP LK (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-30",
+    "stocking_end_date": "2026-09-30",
+    "quantity": 2103,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "2103",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2700",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "af4ca2799ef73687c0ea-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "NAHWATZEL LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "SATSOP SPRINGS PONDS",
+    "stocking_date": "2026-09-30",
+    "stocking_end_date": "2026-09-30",
+    "quantity": 500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.8",
+      "total_pounds": "625",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW - EN COOPS",
+      "geo_code": "L3398",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "78d189b629ac02ac7fd4-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LK COMCOMLY (SKAM)",
+    "county": "Skamania",
+    "species": "Cutthroat",
+    "hatchery_or_source": "GOLDENDALE HATCHERY",
+    "stocking_date": "2026-09-30",
+    "stocking_end_date": "2026-09-30",
+    "quantity": 550,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "200.0",
+      "total_pounds": "3",
+      "lifestage": "Fry"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L857",
+      "origin": "WILD",
+      "stock": "Kings Lake"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "ec34907fe0a99e9a8c2b-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PUTTERS PD (DOUG)",
+    "county": "Douglas",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 3500,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.5",
+      "total_pounds": "1400",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L26229",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "a0d5b8c7a347e86898c3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LAKE TAHUYA (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 460,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.8",
+      "total_pounds": "575",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4492",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f25d7b161644c44cd05c-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LELAND LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 1510,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "1510",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2752",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "b8cf903e517cdb238fb1-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "ISLAND LK (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 800,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "800",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L2530",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "64c21c5124b671f0fa83-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "GIBBS LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 350,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "350",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L1406",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "82fd01dddedf1e233145-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "TEAL LK (JEFF)",
+    "county": "Jefferson",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 150,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "150",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4396",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "f303d8e4bd3f23dbc3b3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "PUTTERS PD (DOUG)",
+    "county": "Douglas",
+    "species": "Rainbow",
+    "hatchery_or_source": "CHELAN PUD HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 3750,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "2.5",
+      "total_pounds": "1500",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L26229",
+      "origin": "HATCHERY",
+      "stock": "Spokane"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "8adc8ba453dc34128de3-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "CADY LK (MASO)",
+    "county": "Mason",
+    "species": "Rainbow",
+    "hatchery_or_source": "EELLS SPRINGS",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 300,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "0.8",
+      "total_pounds": "375",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L550",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  },
+  {
+    "source_record_id": "7be8fc9c8fb3b863715e-1",
+    "source_record_id_kind": "content_hash",
+    "record_kind": "reported_plant",
+    "source": "WDFW",
+    "source_dataset": "data.wa.gov/6fex-3r7d",
+    "water_name": "LAKE TAHUYA (KITS)",
+    "county": "Kitsap",
+    "species": "Rainbow",
+    "hatchery_or_source": "GEORGE ADAMS HATCHERY",
+    "stocking_date": "2026-09-29",
+    "stocking_end_date": "2026-09-29",
+    "quantity": 1540,
+    "size_or_weight": {
+      "number_of_fish_per_pound": "1.0",
+      "total_pounds": "1540",
+      "lifestage": "Legals"
+    },
+    "official_extra": {
+      "species_type": "Trout/Kokanee",
+      "agency": "WDFW",
+      "geo_code": "L4492",
+      "origin": "HATCHERY",
+      "stock": "Goldendale"
+    },
+    "source_url": "https://data.wa.gov/resource/6fex-3r7d.json?%24select=%3A%2A%2C+%2A&%24order=release_start_date+DESC%2C+%3Aid&%24limit=200",
+    "retrieved_at": "2026-10-31T01:40:30+00:00"
+  }
+]

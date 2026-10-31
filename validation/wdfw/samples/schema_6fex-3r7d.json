@@ -1,0 +1,350 @@
+{
+  "retrieved_at": "2026-10-31T01:40:27+00:00",
+  "source_url": "https://data.wa.gov/api/views/6fex-3r7d.json",
+  "timestamps_utc": {
+    "createdAt": "2019-05-14T23:00:49+00:00",
+    "publicationDate": "2023-08-30T23:24:08+00:00",
+    "rowsUpdatedAt": "2026-10-29T16:30:49+00:00",
+    "viewLastModified": "2025-06-14T00:21:54+00:00",
+    "indexUpdatedAt": null
+  },
+  "row_identifier_field": null,
+  "columns": [
+    {
+      "fieldName": "agency",
+      "name": "Agency",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "CHEH",
+        "largest": "YAKA",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "facility",
+      "name": "Facility",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "10 MILLION SALMON",
+        "largest": "YMCA CAMP ORKILA",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "release_year",
+      "name": "Release Year",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "1995",
+        "largest": "2026",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "release_month",
+      "name": "Release Month",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "1",
+        "largest": "12",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "release_start_date",
+      "name": "Release Start Date",
+      "dataTypeName": "calendar_date",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "1995-01-04T00:00:00.000",
+        "largest": "2026-10-27T00:00:00.000",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "release_end_date",
+      "name": "Release End Date",
+      "dataTypeName": "calendar_date",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "1995-01-05T00:00:00.000",
+        "largest": "2026-10-27T00:00:00.000",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "release_location",
+      "name": "Release Location",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "15 MILE CR   08.0207",
+        "largest": "Z LK (LINC)",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "county",
+      "name": "County",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "",
+        "largest": "Yakima      ",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "elevation",
+      "name": "Elevation",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "0",
+        "null": "109527",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "geo_code",
+      "name": "Geo Code",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "108154",
+        "null": "1373",
+        "smallest": "00.0002",
+        "largest": "proposed-Tmp20200707i",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "species_type",
+      "name": "Species Type",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "Salmon",
+        "largest": "Warmwater",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "species",
+      "name": "Species",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "Black Crappie",
+        "largest": "Yellow Perch",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "run",
+      "name": "Run",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "Anadromous Coastal",
+        "largest": "Winter-Late",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "brood_year",
+      "name": "Brood Year",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "1989",
+        "largest": "2026",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "origin",
+      "name": "Origin",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109526",
+        "null": "1",
+        "smallest": "CAPTIVE BROOD",
+        "largest": "WILD",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "stock",
+      "name": "Stock",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109525",
+        "null": "2",
+        "smallest": "Abernathy Creek",
+        "largest": "Yakima River",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_released",
+      "name": "Number Released",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "0",
+        "largest": "11545821",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_of_fish_per_pound",
+      "name": "Number of Fish Per Pound",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "0.0",
+        "largest": "999999.0",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "total_pounds",
+      "name": "Total Pounds",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "0",
+        "largest": "487730",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "lifestage",
+      "name": "Lifestage",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109376",
+        "null": "151",
+        "smallest": "Adult",
+        "largest": "Zero",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "cwt_code",
+      "name": "CWT Code",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "",
+        "largest": "Blank",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "mark_code",
+      "name": "Mark Code",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "AD",
+        "largest": "VIE(RE YEL)+CWT",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_marked_and_tagged",
+      "name": "Number Marked and Tagged",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109526",
+        "null": "1",
+        "smallest": "0",
+        "largest": "9999",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_marked_only",
+      "name": "Number Marked Only",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109526",
+        "null": "1",
+        "smallest": "0",
+        "largest": "9999",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_tagged_only",
+      "name": "Number Tagged Only",
+      "dataTypeName": "text",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109526",
+        "null": "1",
+        "smallest": "0",
+        "largest": "99907",
+        "cardinality": "109527"
+      }
+    },
+    {
+      "fieldName": "number_neither_marked_or",
+      "name": "Number Neither Marked or Tagged",
+      "dataTypeName": "number",
+      "description": "",
+      "cachedContents": {
+        "non_null": "109527",
+        "null": "0",
+        "smallest": "0",
+        "largest": "8646351",
+        "cardinality": "109527"
+      }
+    }
+  ]
+}

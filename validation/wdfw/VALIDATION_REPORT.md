@@ -1,201 +1,445 @@
-# WDFW stocking data — Step 1 technical validation report
+# WDFW stocking data: Step 1 technical validation report
 
-Run date: 2026-10-31 (UTC). Run from a Claude Code cloud sandbox.
+Run: 2026-10-31, roughly 01:39–01:55 UTC. Run from a Claude Code cloud
+container with open internet access. An earlier run on the same day was
+blocked by the container's own egress policy; see "History" at the end.
 
-## 1. Verdict: NOT DETERMINED (no PASS / CONDITIONAL PASS / FAIL can honestly be assigned yet)
+All numbers below come from this run. Generated details are in
+`RUN_RESULTS.md`, and the committed samples are in `samples/`.
 
-No byte of official WDFW or data.wa.gov data was retrieved in this session.
-Every request was refused by **this sandbox's own egress proxy**, at the
-`CONNECT` stage, before it reached Washington's servers:
+## 1. Verdict: CONDITIONAL PASS (the core data works; the leftover issues are operational)
 
-```
-> CONNECT data.wa.gov:443 HTTP/1.1
-< HTTP/1.1 403 Forbidden            <- local policy proxy, not data.wa.gov
-curl: (56) CONNECT tunnel failed, response 403
-```
+Every PASS criterion is met for **completed stocking events**:
 
-The proxy's status endpoint lists each attempt as `connect_rejected`, "gateway
-answered 403 to CONNECT (policy denial)". The hosts were `data.wa.gov:443`,
-`wdfw.wa.gov:443` and `catalog.data.gov:443`. A control request to
-`github.com` went through. A separate fetch tool reported `ENOTFOUND` for
-`data.wa.gov`, meaning the host is outside the session's allowed domains.
+- Official data is fetched programmatically from documented public
+  endpoints. No token, cookies or user-agent tricks were needed, and nothing
+  was bypassed.
+- The schema is understandable: 26 columns, with dates, location, county,
+  species, count, fish-per-pound, pounds, lifestage and facility.
+- Current records are present: newest release 2026-10-27, 2,939 releases
+  dated 2026, and 187 since Oct 1.
+- Completed events can be told apart from plans because they come from
+  different sources (section 7).
+- Repeated reads were stable: 52 dataset requests and 47 HTML requests, all
+  returning 200, with the same row count and schema throughout.
+- Normalization was clean: 200 recent records, 0 row-level parse issues.
+- A workable incremental strategy exists (section 8).
 
-- **Not a PASS or CONDITIONAL PASS:** both need the core dataset to be shown
-  working, and it has not been.
-- **Not a FAIL:** FAIL means the *official source* cannot be used. Nothing
-  here shows that. The block is in our test environment.
-- **About the earlier research:** it reported "HTTP 403 from WDFW pages". The
-  same signature showed up here, and here it came from the sandbox proxy. The
-  earlier 403s should not be counted as evidence that WDFW blocks automated
-  access until they are reproduced from an unrestricted network.
+It is CONDITIONAL rather than PASS because of these open issues. None of
+them blocks Step 2.
 
-## 2. Official endpoints (prepared and attempted)
+- **No stable record key.** The dataset is fully replaced on each refresh.
+  All 109,527 rows share `:created_at` = `:updated_at` = 2026-10-29T16:30:43Z,
+  so Socrata `:id` is not durable. Updates have to replace a date window
+  rather than apply true deltas, and IDs have to be content hashes.
+- **The plan source is a PDF only**, with month-level timing. Parsing it
+  needs fragile layout-based extraction. This doesn't matter for
+  completed-event features, but it does for any "coming soon" feature.
+- **Rate limits are unpublished.** No rate-limit headers were exposed, and
+  about 100 requests in total drew no throttling. Load at production
+  frequency hasn't been tested, though the planned strategy needs only a
+  handful of requests per day.
+- The dataset publishes **no column descriptions**, so meanings come from
+  column names and the cross-check with the HTML page.
 
-| key | URL | result here |
+## 2. Official endpoints tested
+
+| # | Endpoint | Purpose |
 |---|---|---|
-| metadata / schema | `https://data.wa.gov/api/views/6fex-3r7d.json` | egress proxy denied |
-| SODA JSON | `https://data.wa.gov/resource/6fex-3r7d.json` (+ `$select/$where/$order/$limit/$offset`) | not reached (script stops when metadata fails) |
-| SODA CSV | `https://data.wa.gov/resource/6fex-3r7d.csv` | earlier manual curl: egress proxy denied |
-| bulk CSV | `https://data.wa.gov/api/views/6fex-3r7d/rows.csv?accessType=DOWNLOAD` | not reached |
-| bulk JSON v2 | `https://data.wa.gov/api/views/6fex-3r7d/rows.json?accessType=DOWNLOAD` | not reached |
-| bulk JSON v3 (from brief) | `https://data.wa.gov/api/v3/views/6fex-3r7d/query.json?accessType=DOWNLOAD` | not reached |
-| catalog | `https://catalog.data.gov/dataset/wdfw-fish-plants` | egress proxy denied |
-| current-year plants (HTML) | `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all` | egress proxy denied (honest UA and browser UA, ×2) |
-| statewide plan (HTML) | `https://wdfw.wa.gov/fishing/reports/stocking/statewide` | egress proxy denied (honest UA and browser UA, ×2) |
+| 1 | `https://data.wa.gov/api/views/6fex-3r7d.json` | metadata, schema, timestamps |
+| 2 | `https://data.wa.gov/resource/6fex-3r7d.json` with SoQL `$select/$where/$order/$limit/$offset` | SODA 2 JSON API |
+| 3 | `https://data.wa.gov/resource/6fex-3r7d.csv` with the same SoQL | SODA 2 CSV API |
+| 4 | `https://data.wa.gov/api/views/6fex-3r7d/rows.csv?accessType=DOWNLOAD` | full bulk CSV |
+| 5 | `https://data.wa.gov/api/views/6fex-3r7d/rows.json?accessType=DOWNLOAD` | bulk JSON v2 (capped read) |
+| 6 | `https://data.wa.gov/api/v3/views/6fex-3r7d/query.json?accessType=DOWNLOAD` | bulk JSON v3, the URL from the brief (capped read) |
+| 7 | `https://wdfw.wa.gov/fishing/reports/stocking/trout-plants/all` plus `?page=1..41` | current-year catchable plants (HTML) |
+| 8 | `https://wdfw.wa.gov/fishing/reports/stocking/statewide` | statewide plan landing page (HTML) |
+| 9 | `https://wdfw.wa.gov/publications/02693` → `https://wdfw.wa.gov/sites/default/files/publications/02693/wdfw02693.pdf` | the 2026 plan document |
+| 10 | `https://catalog.data.gov/dataset/wdfw-fish-plants` | catalog (reachability only) |
 
-## 3. HTTP/access results
+## 3. HTTP and access results
 
-Every attempt ended with `egress_proxy_denied` ("Tunnel connection failed:
-403 Forbidden"): 0 bytes, no destination headers, no redirects, about 0.2 s.
-Nothing could be observed about WDFW's own status codes, content types,
-payload sizes, pagination, auth or rate-limit headers. The full log is in
-`out/probe_log.jsonl` (gitignored), and a summary is in `RUN_RESULTS.md`.
+| Endpoint | HTTP | Redirects | Content-Type | Size | Notes |
+|---|---|---|---|---|---|
+| metadata (1) | 200 | 0 | `application/json; charset=utf-8` | 46,278 B | |
+| `count(*)` (2) | 200 | 0 | `application/json;charset=utf-8` | 17 B | `109527` |
+| newest 200, JSON (2) | 200 | 0 | `application/json;charset=utf-8` | 156,699 B | includes `:id,:created_at,:updated_at,:version` |
+| newest 200, CSV (3) | 200 | 0 | `text/csv; charset=UTF-8` | 52,292 B | header equals the API fieldNames |
+| no `$limit` (2) | 200 | 0 | json | 639,565 B | **returns 1,000 rows, so pagination is required** |
+| `$limit=50000` `$select=:id` (2) | 200 | 0 | json | 1,500,001 B | large pages work, in 0.7 s |
+| bulk CSV (4), full | 200 | 0 | `text/csv; charset=utf-8` | **22,281,525 B** (4,648,157 B gzip) | 109,527 rows; ~1 s; `Content-Disposition: WDFW-Fish_Plants.csv`; no Content-Length (chunked) |
+| bulk JSON v2 (5) | 200 | 0 | `application/json` | read capped at 2 MB | |
+| bulk JSON v3 (6) | 200 | 0 | `application/json` | read capped at 2 MB | **worked without an app token** |
+| HTML plants (7) | 200 ×42 pages plus repeats | 0 | `text/html; charset=utf-8` | ~135 KB per page | honest UA, no challenge markers, `cache-control: max-age=900` |
+| HTML plan (8) | 200 | 0 | `text/html` | 40,719 B | |
+| plan PDF (9) | 200 | 0 | `application/pdf` | 531,704 B | `Last-Modified: Wed, 04 Mar 2026 23:39:22 GMT` |
+| catalog (10) | 200 | | `text/html` | | |
 
-## 4. Dataset schema: not retrieved
+**Authentication:** none needed anywhere.
 
-No field names are reported. Listing them from memory or from secondary
-descriptions would break the brief's "do not invent fields" rule.
-`fetch_dataset.py` writes the real column list, with `fieldName`, display
-name, type, description and cached min/max/non-null counts, to
-`samples/schema_6fex-3r7d.json`. `field_map.json` is left deliberately empty.
+**Rate limiting:** no `X-RateLimit-*` or `Retry-After` headers on any
+response. There were no 429s or 5xx responses in about 100 requests, which
+included a full 42-page HTML crawl at 3-second intervals.
 
-## 5–6. Row count, date coverage, newest records: not retrieved
+**Headers exposed by Socrata:**
 
-The script collects these with `count(*)`, plus `min`/`max`/`count` for every
-date-typed column, plus a count of rows dated after today, plus the newest 200
-rows ordered by the stocking-date column.
+- `Last-Modified` and `X-SODA2-Truth-Last-Modified`, both
+  `Thu, 29 Oct 2026 16:30:43 GMT`
+- `ETag`
+- `X-SODA2-Fields` and `X-SODA2-Types`
+- `X-SODA2-Data-Out-Of-Date: false`
+- `X-Socrata-RequestId`
+- `X-Socrata-Region: aws-us-east-1-fedramp-prod`
 
-## 7. Completed vs planned: not verified from data
+**Conditional GET results:**
 
-Working hypothesis, which **has not been confirmed**:
+- `If-Modified-Since` returns **304** on the API and on the bulk CSV.
+- `If-None-Match` with the weak ETag returns 200, so it does not work for
+  change detection.
 
-- Fish Plants (`6fex-3r7d`) and the "trout-plants/all" page hold reported or
-  completed plants.
-- The "statewide" page holds the annual plan of intended stockings.
+**The earlier "403 from WDFW" finding did not reproduce.** All WDFW pages
+returned 200 to a plainly labelled script user-agent. The earlier 403s
+matched this container's own egress-proxy denial.
 
-The harness tests this as follows:
+## 4. Dataset schema (actual, from the metadata endpoint)
 
-- `fetch_dataset.py` counts dataset rows dated after today
-  (`date_coverage.*.rows_after_today`). Any such rows would mean the dataset
-  is not purely completed events.
-- `normalize.py` flags future-dated records relative to `retrieved_at`.
-- `fetch_html.py` saves the plan page's table headers. If it is laid out by
-  month or season with target counts and no event dates, that is structural
-  evidence it is a plan.
+Dataset name: "WDFW-Fish Plants". Description: "Fish Plant data".
+Category: Natural Resources & Environment. Custom metadata: Posting
+Frequency "Nightly", Period of Time "1995-Present". No row-identifier column
+is declared (`rowIdentifierColumnId` is absent), and no column has a
+description.
 
-Data-model rule, regardless of how this turns out: keep plan and plant
-records in separate tables or collections. Every record carries
-`record_kind` (`reported_plant` or `planned_stocking`) and `source_dataset`,
-and the UI must never present a `planned_stocking` as having happened.
-`normalize.py` refuses to run until `_record_kind` is set on purpose.
+| fieldName | type | non-null / 109,527 | observed range or notes |
+|---|---|---|---|
+| `agency` | text | all | e.g. WDFW, "WDFW - ED COOPS", DOUG, SQAX, USFWS |
+| `facility` | text | all | hatchery or facility, e.g. "VANCOUVER HATCHERY" |
+| `release_year` | number | all | 1995–2026; always matches `release_start_date` |
+| `release_month` | number | all | 1–12; always matches `release_start_date` |
+| `release_start_date` | calendar_date | all | 1995-01-04 .. **2026-10-27** |
+| `release_end_date` | calendar_date | all | 1995-01-05 .. 2026-10-27; differs from start on 11,565 rows |
+| `release_location` | text | all | e.g. "BATTLE GROUND LK (CLAR)", "15 MILE CR   08.0207" |
+| `county` | text | all present, but **10,804 blank** | padded with trailing spaces; 39 counties |
+| `elevation` | number | **0** | always empty |
+| `geo_code` | text | 108,154 | undocumented code, e.g. `L333`, `08.0207`; one `proposed-Tmp…` |
+| `species_type` | text | all | `Trout/Kokanee` 70,224; `Salmon` 38,076; `Warmwater` 1,227 |
+| `species` | text | all | e.g. Rainbow, Cutthroat, Brown Trout, Kokanee, Chinook |
+| `run` | text | all | salmon run, or "NA" |
+| `brood_year` | number | all | 1989–2026 |
+| `origin` | text | 109,526 | e.g. HATCHERY, WILD, CAPTIVE BROOD |
+| `stock` | text | 109,525 | broodstock name, e.g. "Goldendale" |
+| `number_released` | number | all | 0 .. 11,545,821; 167 rows are 0 |
+| `number_of_fish_per_pound` | number | all | 0 .. 999,999; 201 rows are 0 and 3 are ≥999,999 (sentinel?) |
+| `total_pounds` | number | all | 0 .. 487,730; 4,865 rows are 0 |
+| `lifestage` | text | 109,376 | e.g. Legals, Fry, Fingerling, Yearling, Adult |
+| `cwt_code` | text | all | |
+| `mark_code` | text | all | e.g. AD, UM, …+CWT |
+| `number_marked_and_tagged` | **text** | 109,526 | numeric stored as text |
+| `number_marked_only` | **text** | 109,526 | numeric stored as text |
+| `number_tagged_only` | **text** | 109,526 | numeric stored as text |
+| `number_neither_marked_or` | number | all | |
 
-## 8. Incremental update strategy: designed, not proven
+**Coverage against the fields you asked about:**
 
-Candidate strategies, each tested by `fetch_dataset.py`:
+| Requested | Status |
+|---|---|
+| water/lake name | `release_location` |
+| county | `county` (about 10% blank) |
+| stocking date | `release_start_date` and `release_end_date` |
+| species | `species` (and `species_type`) |
+| quantity | `number_released` |
+| size/weight | `number_of_fish_per_pound`, `total_pounds`, `lifestage` |
+| hatchery/source | `facility` (also `stock`, `origin`) |
+| latitude/longitude | **not present** |
+| stable water identifier | **none documented**; `geo_code` may be one but is unverified |
+| record identifier | **none**; only Socrata `:id`, which is regenerated on refresh |
+| publication/update timestamp | metadata `rowsUpdatedAt` and the `Last-Modified` header |
 
-1. **Change detection:** poll `api/views/6fex-3r7d.json` and compare
-   `rowsUpdatedAt`. If it hasn't changed, skip the run.
-2. **Window query:** `$where=<stocking_date> >= '<today-30d>'`, re-fetched
-   over a rolling window, with upserts on the source record id. This copes
-   with late-reported and corrected rows.
-3. **System-field delta:** `$where=:updated_at >= '<last_run>'`. This works
-   only if WDFW updates rows in place. A full-replace publishing process would
-   reset every `:updated_at` and `:id`, and the script measures the
-   `:updated_at` range to show which applies.
-4. **Fallback:** periodic full bulk CSV with diffing. Its size is measured
-   with `--full-bulk`.
+The SODA 2 API and the bulk CSV are formatted differently:
 
-Open question: whether the dataset has a stable business key. The script
-reports `rowIdentifierColumnId`. Without one, Socrata `:id` is the only id
-and may not survive a full republish.
+| | SODA 2 API (`/resource/`) | bulk CSV (`rows.csv`) |
+|---|---|---|
+| column headers | fieldNames (`release_start_date`) | display names ("Release Start Date") |
+| dates | ISO (`2026-10-27T00:00:00.000`) | `10/27/2026 12:00:00 AM` |
 
-## 9. Data-quality problems: none can be reported (no data)
+A parser has to target one of them explicitly.
 
-Checks implemented in `normalize.py`:
+## 5. Row count and date coverage
 
-- unparseable dates and quantities
-- nulls per field
-- future-dated rows
-- zero or negative counts
-- duplicate ids and duplicate content
-- the set of species and county values
-- water names containing codes or parentheticals, which feed later name
-  matching
+- **109,527 rows.** Measured four ways, all agreeing: `count(*)`, three
+  repeated `count(*)` reads, the full bulk CSV, and `count(distinct :id)`.
+- Date range is 1995-01-04 to 2026-10-27. Since 2015 there are about
+  3,100–3,600 rows a year; 2026 has 2,939 so far.
+- 2026 by month: Jan 46, Feb 118, Mar 453, Apr 921, May 699, Jun 232, Jul 100,
+  Aug 75, Sep 108, Oct 187.
+- 2026 by species type: Trout/Kokanee 1,873, Salmon 1,040, Warmwater 26.
+  1,629 of the 2026 rows have LK/LAKE/POND in the location, across 609
+  distinct locations.
+- **0 rows are dated after today** in either date column.
 
-## 10. Files created (all under `validation/wdfw/`)
+## 6. Newest records found
 
-- `README.md`
-- `VALIDATION_REPORT.md`
-- `RUN_RESULTS.md` (generated; shows the blocked run)
-- `_http.py`
-- `fetch_dataset.py`
-- `fetch_html.py`
-- `normalize.py`
-- `report.py`
-- `field_map.json`
-- `.gitignore`
+From the API, ordered by `release_start_date DESC`:
 
-No raw or normalized sample is committed, because no official data was
-obtained. No synthetic data is committed either.
+| date | release_location | county | species | number | fish/lb | lifestage | facility |
+|---|---|---|---|---|---|---|---|
+| 2026-10-27 | BATTLE GROUND LK (CLAR) | Clark | Rainbow | 1,080 | 2.6 | Legals | VANCOUVER HATCHERY |
+| 2026-10-27 | LACAMAS LK (CLAR) | Clark | Rainbow | 4,000 | 2.6 | Legals | VANCOUVER HATCHERY |
+| 2026-10-26 | FRANKS POND (CHEL) | Chelan | Cutthroat | 3,385 | 75 | Fingerling | CHELAN HATCHERY |
+| 2026-10-26 | WARD LK (THUR) | Thurston | Cutthroat | 306 | 1.6 | Yearling | EELLS SPRINGS |
+| 2026-10-26 | GREEN LK (KING) | King | Brown Trout | 14,688 | 51 | Fry | KENDALL CR HATCHERY |
+| 2026-10-26 | KLINELINE PD (CLAR) | Clark | Rainbow | 2,000 | 2.6 | Legals | VANCOUVER HATCHERY |
+
+**Small recent-records query, as requested** (returns 187 rows):
+
+`https://data.wa.gov/resource/6fex-3r7d.json?$where=release_start_date >= '2026-10-01'`
+
+### Freshness
+
+| Measure | Value |
+|---|---|
+| newest stocking date in the dataset | **2026-10-27**, 4 days before this run |
+| `rowsUpdatedAt` / `Last-Modified` | **2026-10-29 16:30 UTC**, about 33 h before this run |
+| `publicationDate` | 2023-08-30 (first publication, not a freshness signal) |
+| `viewLastModified` | 2025-06-14 (metadata edit) |
+| stated posting frequency | "Nightly" |
+| refreshes observed | none between 10-29 16:30 and 10-31 01:55, so "Nightly" was not seen |
+| current-year records present | yes |
+| HTML current-year page newest date | **2026-10-27**, the same as the dataset |
+
+The HTML `Last-Modified` header is the Drupal render time, not a data
+timestamp.
+
+### HTML page vs dataset: in sync, and the HTML is not fresher
+
+The HTML plants page (`?page=0..41`) has 1,041 rows with columns
+`Lake, Stock date, Species, Number, Fish per pound, Hatchery, Notes`. It
+covers 2026-01-02 to 2026-10-27, and its species are Rainbow, Brown,
+Cutthroat and Tiger trout. No lake-name matching was needed to compare it:
+
+- The HTML `Lake` field is `<release_location> <County> - Region N`.
+- All **890** (location, date) groups on the HTML page are explained by
+  dataset rows:
+  - 883 have identical totals;
+  - 4 are a subset of the dataset rows for that location and date (the
+    dataset also has fry or put-grow-take rows there);
+  - 3 are sums of several same-size dataset rows, e.g. BEAR LK 3/11:
+    709 + 2,292 = 3,001.
+- The reverse does not hold. 128 dataset "Legals" groups in 2026 are not on
+  the HTML page, mostly 4–5 fish/lb put-grow-take plants (Ford, Columbia
+  Basin and Sherman Cr hatcheries).
+
+**Conclusion:** the HTML page is a filtered, aggregated view of the same
+underlying data. It is limited to catchable and jumbo trout, and
+same-size rows are summed. It is **not** an independent or fresher source,
+and the dataset is a superset of it. There is no reason to scrape it.
+
+## 7. Completed vs planned stocking
+
+| | Fish Plants dataset `6fex-3r7d` (and the HTML plants page derived from it) | Statewide plan |
+|---|---|---|
+| Form | API / CSV, 109,527 rows | 17-page **PDF** (Appendix A), linked from the HTML page; published March 2026 |
+| Timing | exact day (`release_start_date`, `release_end_date`) | **month windows only**, e.g. "Mar-Apr, Dec". The PDF says: "Exact dates are not known at this time" |
+| Numbers | exact counts (e.g. 1,080; 3,385) and pounds | round allotments (e.g. 10,500), in categories: Catchables, Put-Grow-Take, Jumbos, Triploids, Fry/Fingerlings |
+| WDFW's own wording | the HTML page is for keeping "track of when catchables are stocked in real-time" (per the plan page) | "Stocking allotments and timing are subject to change without notice"; "based on information developed in the early part of the year" |
+| Future-dated rows | **0** | the whole document is forward-looking at publication |
+
+**Interpretation:**
+
+- Treat **Fish Plants `6fex-3r7d` as historical, completed releases**
+  (`record_kind = reported_plant`).
+- Treat **the statewide plan PDF as planned, intended stocking**
+  (`record_kind = planned_stocking`), with month-level timing and an
+  explicit `plan_year` and `plan_published` date.
+
+**Evidence that the two differ in practice:** the plan lists Lacamas Lake
+catchables for "Mar-Apr, Dec" with 10,500 fish. The dataset records Lacamas
+releases on 2026-03-03, 2026-04-01 and **2026-10-27**. The October release
+falls outside every planned month. A product that showed the plan as
+activity would mislead users.
+
+**Remaining ambiguity:**
+
+- The dataset has **no explicit status field**. "Completed" is inferred
+  from:
+  - the dataset's name ("Fish Plants");
+  - having no future dates;
+  - exact, non-round counts;
+  - WDFW using the derived HTML page as its "stocked in real-time" report.
+- We have not observed whether WDFW ever corrects or deletes past rows.
+  The nightly full replace means it could do so silently.
+- The plan PDF names lakes differently ("Lacamas Lake" vs
+  "LACAMAS LK (CLAR)"). That matters only for Step 2.
+
+**Data-model rule to preserve:**
+
+- Store reported plants and plan entries in **separate tables**. Each record
+  carries `record_kind`, `source_dataset` and `retrieved_at`.
+- Plan entries never get a `stocking_date`, only `planned_months` and
+  `plan_year`.
+- The UI may say "stocked on <date>" only for `reported_plant`.
+
+## 8. Incremental update strategy
+
+What we found:
+
+- `:created_at` and `:updated_at` are identical on all 109,527 rows and
+  equal the last refresh time. **The dataset is wholly replaced on each
+  refresh**, so `$where=:updated_at > last_run` returns every row (it
+  returned 109,527) and `:id` can't be used as a key.
+- `$where` on `release_start_date` works and is cheap. A query from
+  2026-10-01 returned 187 rows.
+- `If-Modified-Since` returns 304 when nothing has changed.
+- The full gzipped export is 4.6 MB and takes about 1 s.
+
+Recommended strategy:
+
+1. **Change check, about hourly or nightly:** send `If-Modified-Since` to the
+   `/resource/` endpoint, or compare metadata `rowsUpdatedAt`. On a 304,
+   stop.
+2. **On change:** fetch a rolling window with
+   `$where=release_start_date >= today-N` (N around 60–120 days), paged with
+   `$limit` and `$offset` (or one call, since `$limit=50000` works), ordered
+   by `release_start_date, :id`. **Replace** every stored reported plant in
+   that window with the fresh set. Don't apply deltas: there are no stable
+   IDs, and late reports or corrections can land inside the window.
+3. **Weekly or monthly full reconcile:** pull the 4.6 MB gzip export and
+   diff it against the store to catch corrections older than the window.
+4. **Record IDs:** a SHA-256 of all official columns, with a suffix for
+   repeated identical rows. `normalize.py` already does this.
+
+This is a reasonable, low-cost strategy, but it is window-replace, not true
+incremental sync.
+
+## 9. Data-quality problems found (full dataset unless noted)
+
+- **1,146 exact duplicate rows** across 817 groups, where every column is
+  identical. Examples: KLINELINE PD 2026-05-05 2,000 @ 2.2 appears twice;
+  PALMER LK 2009-04-02. These might be separate truckloads or might be true
+  duplicates; the source doesn't say. Don't dedupe silently.
+- **County:**
+  - blank on 10,804 rows (about 10%), and on 12 of the 200 recent rows;
+  - padded with trailing spaces;
+  - some locations span two counties, written in the name only, e.g.
+    "ALDER LK (THUR/PIER)".
+- `release_end_date < release_start_date` on 6 rows; the two dates differ on
+  11,565 rows (multi-day releases).
+- `number_released = 0` on 167 rows; `number_of_fish_per_pound = 0` on 201;
+  `≥ 999,999` on 3 (sentinel?); `total_pounds = 0` on 4,865.
+- `elevation` is empty on every row. The three marked/tagged count columns
+  are stored as text.
+- 22 `release_location` values contain a literal `?`, apparently lost
+  characters (e.g. "SOUTHGATE CR  09?"). Location strings embed codes and
+  abbreviations, e.g. "BEAVER LKS (KING) T24" and "15 MILE CR   08.0207",
+  some with runs of spaces.
+- No coordinates. `geo_code` is undocumented.
+- The dataset mixes salmon, steelhead, fry and fingerling releases with
+  catchable trout. For shore anglers, `lifestage` / `number_of_fish_per_pound`
+  and `species_type` are the filter. The HTML page's view (catchable-size
+  trout) shows WDFW applies a similar filter itself.
+- The SODA API and the bulk CSV differ in header names and date formats
+  (section 4).
+- The recent sample normalized with **0** unparseable dates or quantities
+  and **0** future dates (`samples/quality.json`).
+
+## 10. Files (`validation/wdfw/`)
+
+| File | Notes |
+|---|---|
+| `README.md` | how to run it |
+| `VALIDATION_REPORT.md` | this report |
+| `RUN_RESULTS.md` | generated from this run: every request, schema table, repeats |
+| `_http.py` | logging GET helper |
+| `fetch_dataset.py` | dataset probe |
+| `fetch_html.py` | HTML probe (pager now bounded by the last pager link) |
+| `normalize.py` | normalizer and quality checks (content-hash IDs, end date, `official_extra`) |
+| `report.py` | builds `RUN_RESULTS.md` |
+| `field_map.json` | filled from the real schema |
+| `samples/schema_6fex-3r7d.json` | the real schema |
+| `samples/raw_sample.json`, `samples/raw_sample.csv` | newest 200 rows, verbatim from the API |
+| `samples/normalized_sample.json` | 200 normalized records |
+| `samples/quality.json` | quality-check output |
+| `samples/html_plants_sample.json` | first 200 of the 1,041 HTML rows |
+| `samples/plan_2026_excerpt.txt` | verbatim first 60 lines of the plan PDF text |
+
+Not committed (gitignored `out/`): the 22 MB full export, the full HTML
+crawl, the plan PDF, and the request logs.
 
 ## 11. Commands and tests run
 
 ```bash
-curl -sS -D - "https://data.wa.gov/api/views/6fex-3r7d.json"
-curl -sS -D - "https://data.wa.gov/resource/6fex-3r7d.json?\$limit=5"
-curl -sS -D - "https://data.wa.gov/resource/6fex-3r7d.csv?\$limit=5"
-curl -sS -v https://data.wa.gov/
-curl -sS https://catalog.data.gov/dataset/wdfw-fish-plants
-curl -sS https://wdfw.wa.gov/
-curl -sS https://github.com
-curl -sS http://127.0.0.1:43121/__agentproxy/status
-python3 fetch_dataset.py
-python3 fetch_html.py --repeat 1 --delay 1
-python3 report.py
+curl -sS -o /dev/null -w "%{http_code} %{content_type}\n" https://data.wa.gov/api/views/6fex-3r7d.json
 ```
 
-Results:
+```bash
+cd validation/wdfw && python3 fetch_dataset.py --sample 200 --repeat 3
+```
 
-- **All curl requests to WDFW and data.gov hosts:** CONNECT 403 from the
-  sandbox proxy.
-- **`github.com` control request:** reached the server, which answered 400.
-- **Proxy status endpoint:** recorded each attempt as a policy denial.
-- **`fetch_dataset.py`:** exited 2 because the metadata request was denied.
-- **`fetch_html.py`:** recorded the denials and exited 0.
-- **`report.py`:** wrote `RUN_RESULTS.md`.
+```bash
+python3 fetch_dataset.py --date-field release_start_date --sample 200 --repeat 3 --full-bulk
+```
 
-**Script smoke test (code check only, not evidence about WDFW):** I ran the
-whole pipeline against a throwaway local mock server with obviously fake
-columns, kept outside the repo. It went: `fetch_dataset.py --repeat 2` →
-`fetch_html.py` → `normalize.py --propose` → `normalize.py` → `report.py`.
-All steps ran and normalized 200 mock rows. Offset paging gave 100 + 100 rows
-with 0 overlap, and the CSV header matched the schema.
+```bash
+curl -sS -o /dev/null -w "%{http_code}\n" -H "If-Modified-Since: Thu, 29 Oct 2026 16:30:43 GMT" "https://data.wa.gov/resource/6fex-3r7d.json?\$select=count(*)%20as%20n"
+```
 
-## 12. Unresolved risks: all of the original Step 1 questions, plus these
+Also run:
 
-- Whether WDFW really answers ordinary scripted requests with 200, or puts a
-  WAF or bot challenge in front of `wdfw.wa.gov`. The earlier 403s are
-  unexplained until rerun from an open network.
-- Whether the v3 `query.json` export needs an app token. If it does, use the
-  SODA 2 `/resource/` endpoint or `rows.csv` instead.
-- Whether the dataset is current. The newest stocking date and
-  `rowsUpdatedAt` against today (2026-10-31) are unknown.
-- Whether a stable record or water identifier exists.
-- Plan vs completed semantics (section 7).
-- Rate limits for anonymous SODA use. Socrata documents throttling for
-  requests without a token; the headers are unobserved.
+- curl with `If-None-Match` (returned 200).
+- curl with `If-Modified-Since` on `rows.csv` (returned 304).
+- curl for gzip `rows.csv` (4,648,157 B).
+- curl for `$select=min(:created_at),max(:created_at),count(distinct :id)`.
+- curl for `$limit=50000`.
+- `python3 fetch_html.py --max-pages 60 --delay 3 --repeat 2`, which
+  fetched 42 pages, all 200, then 2× repeats of each page, all 200.
+- curl for the plan landing page, the publication page and the PDF, then
+  `pdfinfo` and `pdftotext -layout`.
+- One-off Python profiling of `out/full_export.csv` for duplicates, blanks,
+  sentinels, year-month consistency and per-year/month counts.
+- The HTML↔dataset reconciliation on (location, date) totals.
+- `python3 normalize.py --propose` → field map reviewed and filled →
+  `python3 normalize.py` (200 records, 0 issues) → `python3 report.py`.
 
-## 13. Recommendation: fix the ingestion-environment issue first, then rerun Step 1
+Request tally: 52 logged dataset requests, all 200, and 47 HTML attempts,
+all 200. Rows were stable across all six repeated reads at 109,527, with the
+same column hash `9f66c1ef9c7a294c` and the same `rowsUpdatedAt`.
 
-Do not proceed to Step 2, and do not kill the idea. Nothing about the source
-has been disproven. Either:
+## 12. Unresolved risks
 
-- allow `data.wa.gov` and `wdfw.wa.gov` (and optionally `catalog.data.gov`)
-  in this cloud environment's network settings, under Network access →
-  Allowed domains (https://code.claude.com/docs/en/cloud-environments#network-access),
-  then rerun; or
-- run the commands in `README.md` on any normal internet connection and
-  commit `samples/` and `RUN_RESULTS.md`.
+- **No refresh was observed during the session.** Whether rows keep the
+  same content across refreshes, whether past rows get corrected, and
+  whether "Nightly" is real (the last refresh was about 33 h earlier) all
+  need a multi-day watch. That means running `fetch_dataset.py` daily for
+  about a week and diffing content hashes.
+- **Reporting lag.** The newest release was 2–4 days old at retrieval.
+  Whether stockings on Oct 28–30 were still to be reported is unknown. That
+  lag bounds how "recent" the product can claim to be.
+- **Throttling** behaviour without an app token is undocumented here. A free
+  Socrata app token is an easy mitigation to register before production.
+- **Duplicate rows:** we don't know whether they are real repeat releases.
+- **Plan data** exists only as a PDF and would need layout parsing. The
+  format may change from year to year.
+- **`geo_code` semantics:** unknown whether it is a stable water ID; that
+  matters for Step 2.
+- **Blank counties:** about 10% are blank, so county has to be derived from
+  location for those rows. That is a Step 2 concern.
 
-The verdict can then be assigned from real evidence. That takes about five
-minutes of runtime.
+## 13. Recommendation: proceed to Step 2
+
+Build on the Fish Plants dataset (`6fex-3r7d`) via the SODA API, using the
+window-replace and content-hash approach. Treat the HTML plants page as
+redundant, and keep the plan PDF as a separate, optional, planned-only
+source.
+
+Before or during Step 2:
+
+- start a daily `fetch_dataset.py` run for about a week to confirm refresh
+  cadence and row stability;
+- register a Socrata app token.
+
+## History
+
+An earlier run on the same date, from the same container under a restricted
+network policy, was refused by the container's egress proxy (CONNECT 403)
+for `data.wa.gov`, `wdfw.wa.gov` and `catalog.data.gov`. Once network access
+was opened, every endpoint returned 200. The 403 seen in earlier research is
+best explained by the same kind of sandbox restriction, not by WDFW.
