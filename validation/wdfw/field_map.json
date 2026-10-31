@@ -1,0 +1,15 @@
+{
+  "_record_kind": "UNCONFIRMED",
+  "_notes": "Every value must be a fieldName from samples/schema_6fex-3r7d.json, or null. Not yet filled: the official schema could not be retrieved from this environment. Run `normalize.py --propose`, review, then fill.",
+  "record_id": null,
+  "water_name": null,
+  "county": null,
+  "stocking_date": null,
+  "species": null,
+  "quantity": null,
+  "size_or_weight": null,
+  "hatchery_or_source": null,
+  "latitude": null,
+  "longitude": null,
+  "water_id": null
+}
