@@ -1,0 +1,367 @@
+{
+ "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park": {
+  "hash": "dc28e690cf042dfd",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-battle-ground-lake"
+  ]
+ },
+ "https://parks.wa.gov/passes-permits/get-park-pass/discover-pass": {
+  "hash": "2582063f7a4c7ae9",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-battle-ground-lake",
+   "wa-w-lake-meridian",
+   "wa-w-martha-alderwood-manor",
+   "wa-w-ward-lake",
+   "wa-w-american-lake",
+   "wa-w-mineral-lake",
+   "wa-w-lake-kapowsin",
+   "wa-w-lake-whitman",
+   "wa-w-tanwax-lake",
+   "wa-w-clear-lake-pierce",
+   "wa-w-bonney-lake",
+   "wa-w-rapjohn-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake": {
+  "hash": "2f72c514ba5edc99",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-battle-ground-lake"
+  ]
+ },
+ "https://clark.wa.gov/public-works/lacamas-regional-park": {
+  "hash": "01813a4d61abed5a",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lacamas-lake"
+  ]
+ },
+ "https://clark.wa.gov/public-works/parking-fees": {
+  "hash": "6edf537c3c3e215d",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lacamas-lake",
+   "wa-w-klineline-pond"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake": {
+  "hash": "13cd9ca82e942cf1",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lacamas-lake"
+  ]
+ },
+ "https://clark.wa.gov/public-works/salmon-creek-regional-park/klineline-pond": {
+  "hash": "1e5b64ad7cf33d96",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-klineline-pond"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond": {
+  "hash": "dd2efd10fa2af889",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-klineline-pond"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king": {
+  "hash": "a14426c8e75cc0f5",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-green-lake-king"
+  ]
+ },
+ "https://www.seattle.gov/parks/parks/green-lake-park": {
+  "hash": "12e6eb5db9bc5e5c",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-green-lake-king"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake": {
+  "hash": "ecd997e9024ca88e",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-angle-lake"
+  ]
+ },
+ "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park": {
+  "hash": "5d0b7b4bbd958f38",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-angle-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian": {
+  "hash": "f29702ebb80f98ec",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-meridian"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites": {
+  "hash": "0fd2d42806d32948",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-meridian",
+   "wa-w-martha-alderwood-manor",
+   "wa-w-ward-lake",
+   "wa-w-american-lake",
+   "wa-w-mineral-lake",
+   "wa-w-lake-kapowsin",
+   "wa-w-lake-whitman",
+   "wa-w-tanwax-lake",
+   "wa-w-clear-lake-pierce",
+   "wa-w-bonney-lake",
+   "wa-w-rapjohn-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-meridian-479": {
+  "hash": "9affbe60eb22b684",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-meridian"
+  ]
+ },
+ "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park": {
+  "hash": "25c7ae9698ba0965",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-meridian"
+  ]
+ },
+ "https://snohomishcountywa.gov/5281/Passes": {
+  "hash": "453bafe3c04bff44",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-martha-alderwood-manor"
+  ]
+ },
+ "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88": {
+  "hash": "4ebe3dc6f1a2dacd",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-martha-alderwood-manor"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor": {
+  "hash": "91bc626288ee5b12",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-martha-alderwood-manor"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/martha-lake-470": {
+  "hash": "dbc12e8fe611f306",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-martha-alderwood-manor"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake": {
+  "hash": "ccfb441d76726a03",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-ward-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/ward-lake-694": {
+  "hash": "62e2fb56a4dbfae8",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-ward-lake"
+  ]
+ },
+ "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park": {
+  "hash": "c84b35838c680aa2",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-longs-pond"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond": {
+  "hash": "3290428035659528",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-longs-pond"
+  ]
+ },
+ "https://cityoflakewood.us/american-lake-park/": {
+  "hash": "75c938a0414adc1c",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-american-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake": {
+  "hash": "de11ba28532fe015",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-american-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/american-lake-244": {
+  "hash": "250ce042143ad1e0",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-american-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake": {
+  "hash": "e61d152199121e81",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-alder-lake"
+  ]
+ },
+ "https://www.mytpu.org/community-environment-parks/parks-recreation/alder-lake-park/": {
+  "hash": "63421894094ed335",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-alder-lake"
+  ]
+ },
+ "https://www.mytpu.org/community-environment-parks/parks-recreation/reservations-fees/": {
+  "hash": "c8d6469ad0adeb86",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-alder-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake": {
+  "hash": "e857dbd867e54efd",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-mineral-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/mineral-lake-485": {
+  "hash": "d6ba66dbee42e383",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-mineral-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley": {
+  "hash": "78c24ba815fc0f3a",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-bradley"
+  ]
+ },
+ "https://www.puyallupwa.gov/2503/Bradley-Lake-Park": {
+  "hash": "3fe4a7aa29a5b839",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-bradley"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake": {
+  "hash": "93ba31f9e2383986",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-spanaway-lake"
+  ]
+ },
+ "https://www.nwtoxicalgae.org/": {
+  "hash": "038b5d3184ddcf55",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-spanaway-lake"
+  ]
+ },
+ "https://www.piercecountywa.gov/1336/Spanaway-Park": {
+  "hash": "6398c08a21baefd7",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-spanaway-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin": {
+  "hash": "51a2a49e32c603b4",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-kapowsin"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-kapowsin-437": {
+  "hash": "1a42df5cb4e37b0a",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-kapowsin"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman": {
+  "hash": "ca0613473b82bff3",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-whitman"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/lake-whitman-717": {
+  "hash": "c0d1b50bc36f882e",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-lake-whitman"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake": {
+  "hash": "ecdb6394d92b1d9e",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-tanwax-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/tanwax-lake-666": {
+  "hash": "ac7c974c1e7ae2ec",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-tanwax-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce": {
+  "hash": "82369e9eec6aeb0c",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-clear-lake-pierce"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/clear-lake-309": {
+  "hash": "6b578c0e8790ae95",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-clear-lake-pierce"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake": {
+  "hash": "c4699732dbd2d3a3",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-bonney-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/bonney-lake-273": {
+  "hash": "d375adadf1e93be9",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-bonney-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake": {
+  "hash": "d760fe212463719c",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-rapjohn-lake"
+  ]
+ },
+ "https://wdfw.wa.gov/places-to-go/water-access-sites/rapjohn-lake-558": {
+  "hash": "f6c7977452d12adc",
+  "baseline_at": "2026-10-31",
+  "water_ids": [
+   "wa-w-rapjohn-lake"
+  ]
+ }
+}

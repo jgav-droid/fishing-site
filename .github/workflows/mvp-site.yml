@@ -1,0 +1,37 @@
+# Refresh WDFW stocking + notices, test, build and deploy the MVP static site.
+# Scheduled runs only fire from the default branch. Production (indexable) builds need the
+# repository variable MVP_PRODUCTION=true and a filled-in mvp/config.json (base_url, contact_email).
+name: mvp-site
+on:
+  schedule:
+    - cron: "17 */6 * * *"       # every 6 hours (UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency: { group: mvp-site, cancel-in-progress: false }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Refresh, test, build
+        run: python3 mvp/run.py ${{ vars.MVP_PRODUCTION == 'true' && '--production' || '' }}
+      - name: Persist refreshed data (last-known state survives a failed later run)
+        run: |
+          git config user.name "mvp-refresh-bot"
+          git config user.email "mvp-refresh-bot@users.noreply.github.com"
+          git add mvp/data/stocking_events.json mvp/data/notices.json mvp/data/source_status.json mvp/data/review_queue.json
+          git diff --cached --quiet || (git commit -m "data: refresh $(date -u +%FT%TZ)" && git push)
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: mvp/dist }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

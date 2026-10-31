@@ -1,0 +1,24 @@
+{
+ "about": "Hand-reviewed dated notices from land-manager pages (Step 3 review, 2026-10-31). Each 'quote' must equal a verified current_notice quote in access_facts.json (checked by tests). Dates come from the quoted text. A notice with no stated end date stays displayed, with its posted date, until change detection flags the source page for re-review.",
+ "notices": {
+  "wa-w-spanaway-lake": [
+   {"category": "physical_access", "level": "blocking",
+    "text": "Spanaway Park closed to vehicles, boats and bikes (Fantasy Lights season) Oct 24, 2026 – Jan 11, 2027",
+    "quote": "Spanaway Park will be closed to vehicles, boats, and bikes from Saturday, October 24 through January 11, 2027, during the Fantasy Lights season.",
+    "valid_from": "2026-10-24", "valid_until": "2027-01-11", "posted": "2026-10-22",
+    "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park"},
+   {"category": "physical_access", "level": "warn",
+    "text": "During the closure, walkers may enter the park daily 7–11 a.m. only",
+    "quote": "Walkers may enter the park daily from 7:00 a.m. to 11:00 a.m.",
+    "valid_from": "2026-10-24", "valid_until": "2027-01-11", "posted": "2026-10-22",
+    "source_url": "https://www.piercecountywa.gov/1336/Spanaway-Park"}
+  ],
+  "wa-w-angle-lake": [
+   {"category": "physical_access", "level": "warn",
+    "text": "Boat ramp closed (damage); fishing pier and ramp scheduled for replacement starting in January",
+    "quote": "The boat ramp is currently closed due to damage beyond repair.",
+    "valid_from": null, "valid_until": null, "posted": "2026-10-26",
+    "source_url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park"}
+  ]
+ }
+}

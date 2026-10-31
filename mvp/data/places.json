@@ -1,0 +1,2806 @@
+{
+ "source": "US Census Bureau 2024 Gazetteer, places, Washington (internal points)",
+ "source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_53.txt",
+ "places": [
+  {
+   "name": "Aberdeen",
+   "kind": "city",
+   "lat": 46.975205,
+   "lon": -123.811373,
+   "geoid": "5300100"
+  },
+  {
+   "name": "Aberdeen Gardens",
+   "kind": "CDP",
+   "lat": 47.057318,
+   "lon": -123.777916,
+   "geoid": "5300135"
+  },
+  {
+   "name": "Acme",
+   "kind": "CDP",
+   "lat": 48.716429,
+   "lon": -122.209962,
+   "geoid": "5300275"
+  },
+  {
+   "name": "Alder",
+   "kind": "CDP",
+   "lat": 46.781985,
+   "lon": -122.2612,
+   "geoid": "5301045"
+  },
+  {
+   "name": "Alderton",
+   "kind": "CDP",
+   "lat": 47.176252,
+   "lon": -122.222358,
+   "geoid": "5301150"
+  },
+  {
+   "name": "Alderwood Manor",
+   "kind": "CDP",
+   "lat": 47.814603,
+   "lon": -122.267255,
+   "geoid": "5301185"
+  },
+  {
+   "name": "Alger",
+   "kind": "CDP",
+   "lat": 48.610264,
+   "lon": -122.329285,
+   "geoid": "5301255"
+  },
+  {
+   "name": "Algona",
+   "kind": "city",
+   "lat": 47.281987,
+   "lon": -122.250467,
+   "geoid": "5301290"
+  },
+  {
+   "name": "Allyn",
+   "kind": "CDP",
+   "lat": 47.386829,
+   "lon": -122.839334,
+   "geoid": "5301430"
+  },
+  {
+   "name": "Altoona",
+   "kind": "CDP",
+   "lat": 46.269739,
+   "lon": -123.621217,
+   "geoid": "5301745"
+  },
+  {
+   "name": "Amanda Park",
+   "kind": "CDP",
+   "lat": 47.45386,
+   "lon": -123.925148,
+   "geoid": "5301780"
+  },
+  {
+   "name": "Amboy",
+   "kind": "CDP",
+   "lat": 45.915888,
+   "lon": -122.488854,
+   "geoid": "5301850"
+  },
+  {
+   "name": "Ames Lake",
+   "kind": "CDP",
+   "lat": 47.633966,
+   "lon": -121.960584,
+   "geoid": "5301920"
+  },
+  {
+   "name": "Anacortes",
+   "kind": "city",
+   "lat": 48.488725,
+   "lon": -122.62398,
+   "geoid": "5301990"
+  },
+  {
+   "name": "Anderson Island",
+   "kind": "CDP",
+   "lat": 47.149874,
+   "lon": -122.681692,
+   "geoid": "5302060"
+  },
+  {
+   "name": "Arlington",
+   "kind": "city",
+   "lat": 48.170372,
+   "lon": -122.144553,
+   "geoid": "5302585"
+  },
+  {
+   "name": "Arlington Heights",
+   "kind": "CDP",
+   "lat": 48.211929,
+   "lon": -122.062995,
+   "geoid": "5302620"
+  },
+  {
+   "name": "Artondale",
+   "kind": "CDP",
+   "lat": 47.303553,
+   "lon": -122.652488,
+   "geoid": "5302910"
+  },
+  {
+   "name": "Ashford",
+   "kind": "CDP",
+   "lat": 46.754853,
+   "lon": -122.015472,
+   "geoid": "5303005"
+  },
+  {
+   "name": "Auburn",
+   "kind": "city",
+   "lat": 47.303773,
+   "lon": -122.21,
+   "geoid": "5303180"
+  },
+  {
+   "name": "Bainbridge Island",
+   "kind": "city",
+   "lat": 47.642487,
+   "lon": -122.507764,
+   "geoid": "5303736"
+  },
+  {
+   "name": "Bangor Base",
+   "kind": "CDP",
+   "lat": 47.722257,
+   "lon": -122.714126,
+   "geoid": "5304100"
+  },
+  {
+   "name": "Barberton",
+   "kind": "CDP",
+   "lat": 45.713634,
+   "lon": -122.611443,
+   "geoid": "5304195"
+  },
+  {
+   "name": "Baring",
+   "kind": "CDP",
+   "lat": 47.768598,
+   "lon": -121.481977,
+   "geoid": "5304300"
+  },
+  {
+   "name": "Battle Ground",
+   "kind": "city",
+   "lat": 45.776834,
+   "lon": -122.540966,
+   "geoid": "5304475"
+  },
+  {
+   "name": "Bay Center",
+   "kind": "CDP",
+   "lat": 46.620753,
+   "lon": -123.953182,
+   "geoid": "5304615"
+  },
+  {
+   "name": "Bay View",
+   "kind": "CDP",
+   "lat": 48.487,
+   "lon": -122.462553,
+   "geoid": "5304790"
+  },
+  {
+   "name": "Beacon Hill",
+   "kind": "CDP",
+   "lat": 46.171191,
+   "lon": -122.92069,
+   "geoid": "5304825"
+  },
+  {
+   "name": "Beaux Arts Village",
+   "kind": "town",
+   "lat": 47.585343,
+   "lon": -122.203646,
+   "geoid": "5304895"
+  },
+  {
+   "name": "Belfair",
+   "kind": "CDP",
+   "lat": 47.446821,
+   "lon": -122.852831,
+   "geoid": "5305140"
+  },
+  {
+   "name": "Bell Hill",
+   "kind": "CDP",
+   "lat": 48.05495,
+   "lon": -123.086977,
+   "geoid": "5305245"
+  },
+  {
+   "name": "Bellevue",
+   "kind": "city",
+   "lat": 47.597837,
+   "lon": -122.15648,
+   "geoid": "5305210"
+  },
+  {
+   "name": "Bethel",
+   "kind": "CDP",
+   "lat": 47.4874,
+   "lon": -122.617517,
+   "geoid": "5305735"
+  },
+  {
+   "name": "Big Lake",
+   "kind": "CDP",
+   "lat": 48.395839,
+   "lon": -122.243228,
+   "geoid": "5306050"
+  },
+  {
+   "name": "Bingen",
+   "kind": "city",
+   "lat": 45.713108,
+   "lon": -121.471778,
+   "geoid": "5306085"
+  },
+  {
+   "name": "Black Diamond",
+   "kind": "city",
+   "lat": 47.314748,
+   "lon": -122.017685,
+   "geoid": "5306330"
+  },
+  {
+   "name": "Blyn",
+   "kind": "CDP",
+   "lat": 48.009477,
+   "lon": -122.98016,
+   "geoid": "5306855"
+  },
+  {
+   "name": "Bonney Lake",
+   "kind": "city",
+   "lat": 47.199502,
+   "lon": -122.163032,
+   "geoid": "5307170"
+  },
+  {
+   "name": "Bothell",
+   "kind": "city",
+   "lat": 47.773531,
+   "lon": -122.204376,
+   "geoid": "5307380"
+  },
+  {
+   "name": "Bothell East",
+   "kind": "CDP",
+   "lat": 47.806352,
+   "lon": -122.184394,
+   "geoid": "5307390"
+  },
+  {
+   "name": "Bothell West",
+   "kind": "CDP",
+   "lat": 47.805597,
+   "lon": -122.24011,
+   "geoid": "5307395"
+  },
+  {
+   "name": "Boulevard Park",
+   "kind": "CDP",
+   "lat": 47.513403,
+   "lon": -122.314844,
+   "geoid": "5307397"
+  },
+  {
+   "name": "Bow",
+   "kind": "CDP",
+   "lat": 48.561285,
+   "lon": -122.407762,
+   "geoid": "5307450"
+  },
+  {
+   "name": "Brady",
+   "kind": "CDP",
+   "lat": 47.004601,
+   "lon": -123.541933,
+   "geoid": "5307590"
+  },
+  {
+   "name": "Bremerton",
+   "kind": "city",
+   "lat": 47.539877,
+   "lon": -122.717048,
+   "geoid": "5307695"
+  },
+  {
+   "name": "Brier",
+   "kind": "city",
+   "lat": 47.792388,
+   "lon": -122.273432,
+   "geoid": "5307940"
+  },
+  {
+   "name": "Brinnon",
+   "kind": "CDP",
+   "lat": 47.668614,
+   "lon": -122.9166,
+   "geoid": "5308080"
+  },
+  {
+   "name": "Browns Point",
+   "kind": "CDP",
+   "lat": 47.303796,
+   "lon": -122.43672,
+   "geoid": "5308325"
+  },
+  {
+   "name": "Brush Prairie",
+   "kind": "CDP",
+   "lat": 45.725043,
+   "lon": -122.548327,
+   "geoid": "5308465"
+  },
+  {
+   "name": "Bryant",
+   "kind": "CDP",
+   "lat": 48.246467,
+   "lon": -122.1781,
+   "geoid": "5308500"
+  },
+  {
+   "name": "Bryn Mawr-Skyway",
+   "kind": "CDP",
+   "lat": 47.494983,
+   "lon": -122.240594,
+   "geoid": "5308552"
+  },
+  {
+   "name": "Buckley",
+   "kind": "city",
+   "lat": 47.162239,
+   "lon": -122.020272,
+   "geoid": "5308570"
+  },
+  {
+   "name": "Bucoda",
+   "kind": "town",
+   "lat": 46.795255,
+   "lon": -122.869815,
+   "geoid": "5308605"
+  },
+  {
+   "name": "Bunk Foss",
+   "kind": "CDP",
+   "lat": 47.961701,
+   "lon": -122.094437,
+   "geoid": "5308770"
+  },
+  {
+   "name": "Burien",
+   "kind": "city",
+   "lat": 47.475605,
+   "lon": -122.344661,
+   "geoid": "5308850"
+  },
+  {
+   "name": "Burley",
+   "kind": "CDP",
+   "lat": 47.415957,
+   "lon": -122.644705,
+   "geoid": "5308885"
+  },
+  {
+   "name": "Burlington",
+   "kind": "city",
+   "lat": 48.466355,
+   "lon": -122.328882,
+   "geoid": "5308920"
+  },
+  {
+   "name": "Camano",
+   "kind": "CDP",
+   "lat": 48.152467,
+   "lon": -122.462132,
+   "geoid": "5309365"
+  },
+  {
+   "name": "Camas",
+   "kind": "city",
+   "lat": 45.601809,
+   "lon": -122.430381,
+   "geoid": "5309480"
+  },
+  {
+   "name": "Canterwood",
+   "kind": "CDP",
+   "lat": 47.376491,
+   "lon": -122.602016,
+   "geoid": "5309810"
+  },
+  {
+   "name": "Canyon Creek",
+   "kind": "CDP",
+   "lat": 48.110002,
+   "lon": -121.982476,
+   "geoid": "5309820"
+  },
+  {
+   "name": "Carbonado",
+   "kind": "town",
+   "lat": 47.08232,
+   "lon": -122.051841,
+   "geoid": "5309970"
+  },
+  {
+   "name": "Carlsborg",
+   "kind": "CDP",
+   "lat": 48.084167,
+   "lon": -123.169679,
+   "geoid": "5310075"
+  },
+  {
+   "name": "Carnation",
+   "kind": "city",
+   "lat": 47.644188,
+   "lon": -121.90067,
+   "geoid": "5310215"
+  },
+  {
+   "name": "Carson",
+   "kind": "CDP",
+   "lat": 45.734805,
+   "lon": -121.82621,
+   "geoid": "5310320"
+  },
+  {
+   "name": "Castle Rock",
+   "kind": "city",
+   "lat": 46.271858,
+   "lon": -122.903925,
+   "geoid": "5310565"
+  },
+  {
+   "name": "Cathcart",
+   "kind": "CDP",
+   "lat": 47.852593,
+   "lon": -122.10579,
+   "geoid": "5310600"
+  },
+  {
+   "name": "Cathlamet",
+   "kind": "town",
+   "lat": 46.205819,
+   "lon": -123.384018,
+   "geoid": "5310635"
+  },
+  {
+   "name": "Cavalero",
+   "kind": "CDP",
+   "lat": 47.974976,
+   "lon": -122.077032,
+   "geoid": "5310645"
+  },
+  {
+   "name": "Central Park",
+   "kind": "CDP",
+   "lat": 46.971808,
+   "lon": -123.702302,
+   "geoid": "5311195"
+  },
+  {
+   "name": "Centralia",
+   "kind": "city",
+   "lat": 46.72205,
+   "lon": -122.970947,
+   "geoid": "5311160"
+  },
+  {
+   "name": "Chain Lake",
+   "kind": "CDP",
+   "lat": 47.902259,
+   "lon": -121.98709,
+   "geoid": "5311325"
+  },
+  {
+   "name": "Chehalis",
+   "kind": "city",
+   "lat": 46.664176,
+   "lon": -122.965425,
+   "geoid": "5311475"
+  },
+  {
+   "name": "Cherry Grove",
+   "kind": "CDP",
+   "lat": 45.802207,
+   "lon": -122.576773,
+   "geoid": "5312015"
+  },
+  {
+   "name": "Chico",
+   "kind": "CDP",
+   "lat": 47.622554,
+   "lon": -122.719306,
+   "geoid": "5312175"
+  },
+  {
+   "name": "Cle Elum",
+   "kind": "city",
+   "lat": 47.194638,
+   "lon": -120.952843,
+   "geoid": "5312945"
+  },
+  {
+   "name": "Clear Lake",
+   "kind": "CDP",
+   "lat": 46.92844,
+   "lon": -122.304963,
+   "geoid": "5312820"
+  },
+  {
+   "name": "Clear Lake",
+   "kind": "CDP",
+   "lat": 48.448301,
+   "lon": -122.23949,
+   "geoid": "5312840"
+  },
+  {
+   "name": "Clearview",
+   "kind": "CDP",
+   "lat": 47.829183,
+   "lon": -122.145145,
+   "geoid": "5312875"
+  },
+  {
+   "name": "Cliffdell",
+   "kind": "CDP",
+   "lat": 46.922197,
+   "lon": -121.043014,
+   "geoid": "5313015"
+  },
+  {
+   "name": "Clinton",
+   "kind": "CDP",
+   "lat": 47.962381,
+   "lon": -122.352274,
+   "geoid": "5313155"
+  },
+  {
+   "name": "Clover Creek",
+   "kind": "CDP",
+   "lat": 47.143317,
+   "lon": -122.380456,
+   "geoid": "5313215"
+  },
+  {
+   "name": "Clyde Hill",
+   "kind": "city",
+   "lat": 47.630354,
+   "lon": -122.217983,
+   "geoid": "5313365"
+  },
+  {
+   "name": "Cohassett Beach",
+   "kind": "CDP",
+   "lat": 46.864882,
+   "lon": -124.106113,
+   "geoid": "5313595"
+  },
+  {
+   "name": "Concrete",
+   "kind": "town",
+   "lat": 48.532617,
+   "lon": -121.755155,
+   "geoid": "5314380"
+  },
+  {
+   "name": "Conway",
+   "kind": "CDP",
+   "lat": 48.335682,
+   "lon": -122.344432,
+   "geoid": "5314520"
+  },
+  {
+   "name": "Copalis Beach",
+   "kind": "CDP",
+   "lat": 47.124571,
+   "lon": -124.166453,
+   "geoid": "5314660"
+  },
+  {
+   "name": "Cosmopolis",
+   "kind": "city",
+   "lat": 46.954312,
+   "lon": -123.772895,
+   "geoid": "5314870"
+  },
+  {
+   "name": "Cottage Lake",
+   "kind": "CDP",
+   "lat": 47.746452,
+   "lon": -122.075988,
+   "geoid": "5314940"
+  },
+  {
+   "name": "Cougar",
+   "kind": "CDP",
+   "lat": 46.049292,
+   "lon": -122.303364,
+   "geoid": "5315010"
+  },
+  {
+   "name": "Coupeville",
+   "kind": "town",
+   "lat": 48.218795,
+   "lon": -122.679466,
+   "geoid": "5315185"
+  },
+  {
+   "name": "Covington",
+   "kind": "city",
+   "lat": 47.364793,
+   "lon": -122.104561,
+   "geoid": "5315290"
+  },
+  {
+   "name": "Crocker",
+   "kind": "CDP",
+   "lat": 47.090847,
+   "lon": -122.126744,
+   "geoid": "5315780"
+  },
+  {
+   "name": "Dallesport",
+   "kind": "CDP",
+   "lat": 45.631591,
+   "lon": -121.168866,
+   "geoid": "5316550"
+  },
+  {
+   "name": "Darrington",
+   "kind": "town",
+   "lat": 48.258788,
+   "lon": -121.607845,
+   "geoid": "5316690"
+  },
+  {
+   "name": "Dash Point",
+   "kind": "CDP",
+   "lat": 47.31253,
+   "lon": -122.413936,
+   "geoid": "5316760"
+  },
+  {
+   "name": "Deep River",
+   "kind": "CDP",
+   "lat": 46.353583,
+   "lon": -123.70495,
+   "geoid": "5317215"
+  },
+  {
+   "name": "Des Moines",
+   "kind": "city",
+   "lat": 47.388708,
+   "lon": -122.317581,
+   "geoid": "5317635"
+  },
+  {
+   "name": "Dollars Corner",
+   "kind": "CDP",
+   "lat": 45.780236,
+   "lon": -122.599968,
+   "geoid": "5318198"
+  },
+  {
+   "name": "DuPont",
+   "kind": "city",
+   "lat": 47.107351,
+   "lon": -122.647576,
+   "geoid": "5318965"
+  },
+  {
+   "name": "Duluth",
+   "kind": "CDP",
+   "lat": 45.783819,
+   "lon": -122.647039,
+   "geoid": "5318775"
+  },
+  {
+   "name": "Duvall",
+   "kind": "city",
+   "lat": 47.735512,
+   "lon": -121.972224,
+   "geoid": "5319035"
+  },
+  {
+   "name": "East Cathlamet",
+   "kind": "CDP",
+   "lat": 46.198327,
+   "lon": -123.359984,
+   "geoid": "5319290"
+  },
+  {
+   "name": "East Port Orchard",
+   "kind": "CDP",
+   "lat": 47.519333,
+   "lon": -122.618315,
+   "geoid": "5319770"
+  },
+  {
+   "name": "East Renton Highlands",
+   "kind": "CDP",
+   "lat": 47.473796,
+   "lon": -122.088495,
+   "geoid": "5319857"
+  },
+  {
+   "name": "Eastmont",
+   "kind": "CDP",
+   "lat": 47.897402,
+   "lon": -122.181536,
+   "geoid": "5319630"
+  },
+  {
+   "name": "Easton",
+   "kind": "CDP",
+   "lat": 47.232711,
+   "lon": -121.159519,
+   "geoid": "5319700"
+  },
+  {
+   "name": "Eatonville",
+   "kind": "town",
+   "lat": 46.868224,
+   "lon": -122.269568,
+   "geoid": "5320260"
+  },
+  {
+   "name": "Edgewood",
+   "kind": "city",
+   "lat": 47.232074,
+   "lon": -122.285729,
+   "geoid": "5320645"
+  },
+  {
+   "name": "Edison",
+   "kind": "CDP",
+   "lat": 48.567618,
+   "lon": -122.434329,
+   "geoid": "5320680"
+  },
+  {
+   "name": "Edmonds",
+   "kind": "city",
+   "lat": 47.813604,
+   "lon": -122.35333,
+   "geoid": "5320750"
+  },
+  {
+   "name": "Elbe",
+   "kind": "CDP",
+   "lat": 46.765643,
+   "lon": -122.196019,
+   "geoid": "5320890"
+  },
+  {
+   "name": "Elk Plain",
+   "kind": "CDP",
+   "lat": 47.041876,
+   "lon": -122.365697,
+   "geoid": "5321205"
+  },
+  {
+   "name": "Elma",
+   "kind": "city",
+   "lat": 47.005223,
+   "lon": -123.410773,
+   "geoid": "5321450"
+  },
+  {
+   "name": "Enetai",
+   "kind": "CDP",
+   "lat": 47.5859,
+   "lon": -122.602519,
+   "geoid": "5321800"
+  },
+  {
+   "name": "Enumclaw",
+   "kind": "city",
+   "lat": 47.202179,
+   "lon": -121.988976,
+   "geoid": "5322045"
+  },
+  {
+   "name": "Erlands Point",
+   "kind": "CDP",
+   "lat": 47.602376,
+   "lon": -122.694181,
+   "geoid": "5322115"
+  },
+  {
+   "name": "Esperance",
+   "kind": "CDP",
+   "lat": 47.793236,
+   "lon": -122.34909,
+   "geoid": "5322255"
+  },
+  {
+   "name": "Everett",
+   "kind": "city",
+   "lat": 47.965413,
+   "lon": -122.189895,
+   "geoid": "5322640"
+  },
+  {
+   "name": "Fairwood",
+   "kind": "CDP",
+   "lat": 47.446754,
+   "lon": -122.142916,
+   "geoid": "5323160"
+  },
+  {
+   "name": "Fall City",
+   "kind": "CDP",
+   "lat": 47.569379,
+   "lon": -121.913697,
+   "geoid": "5323200"
+  },
+  {
+   "name": "Federal Way",
+   "kind": "city",
+   "lat": 47.311596,
+   "lon": -122.337757,
+   "geoid": "5323515"
+  },
+  {
+   "name": "Felida",
+   "kind": "CDP",
+   "lat": 45.71431,
+   "lon": -122.712657,
+   "geoid": "5323550"
+  },
+  {
+   "name": "Fern Prairie",
+   "kind": "CDP",
+   "lat": 45.636996,
+   "lon": -122.39627,
+   "geoid": "5323690"
+  },
+  {
+   "name": "Fife",
+   "kind": "city",
+   "lat": 47.232293,
+   "lon": -122.350611,
+   "geoid": "5323795"
+  },
+  {
+   "name": "Fife Heights",
+   "kind": "CDP",
+   "lat": 47.260654,
+   "lon": -122.345972,
+   "geoid": "5323830"
+  },
+  {
+   "name": "Fircrest",
+   "kind": "city",
+   "lat": 47.230716,
+   "lon": -122.515704,
+   "geoid": "5323970"
+  },
+  {
+   "name": "Five Corners",
+   "kind": "CDP",
+   "lat": 45.689675,
+   "lon": -122.570219,
+   "geoid": "5324188"
+  },
+  {
+   "name": "Fobes Hill",
+   "kind": "CDP",
+   "lat": 47.939235,
+   "lon": -122.134084,
+   "geoid": "5324425"
+  },
+  {
+   "name": "Fords Prairie",
+   "kind": "CDP",
+   "lat": 46.74909,
+   "lon": -123.003739,
+   "geoid": "5324565"
+  },
+  {
+   "name": "Fort Lewis",
+   "kind": "CDP",
+   "lat": 47.095512,
+   "lon": -122.567439,
+   "geoid": "5324915"
+  },
+  {
+   "name": "Fox Island",
+   "kind": "CDP",
+   "lat": 47.257686,
+   "lon": -122.646552,
+   "geoid": "5325370"
+  },
+  {
+   "name": "Frederickson",
+   "kind": "CDP",
+   "lat": 47.091771,
+   "lon": -122.361615,
+   "geoid": "5325475"
+  },
+  {
+   "name": "Freeland",
+   "kind": "CDP",
+   "lat": 48.028208,
+   "lon": -122.549937,
+   "geoid": "5325510"
+  },
+  {
+   "name": "Friday Harbor",
+   "kind": "town",
+   "lat": 48.533947,
+   "lon": -123.018995,
+   "geoid": "5325615"
+  },
+  {
+   "name": "Geneva",
+   "kind": "CDP",
+   "lat": 48.745268,
+   "lon": -122.402983,
+   "geoid": "5326420"
+  },
+  {
+   "name": "Gig Harbor",
+   "kind": "city",
+   "lat": 47.338378,
+   "lon": -122.600753,
+   "geoid": "5326735"
+  },
+  {
+   "name": "Glenwood",
+   "kind": "CDP",
+   "lat": 46.022821,
+   "lon": -121.292587,
+   "geoid": "5327225"
+  },
+  {
+   "name": "Gold Bar",
+   "kind": "city",
+   "lat": 47.856335,
+   "lon": -121.692006,
+   "geoid": "5327365"
+  },
+  {
+   "name": "Gorst",
+   "kind": "CDP",
+   "lat": 47.524544,
+   "lon": -122.70434,
+   "geoid": "5327680"
+  },
+  {
+   "name": "Graham",
+   "kind": "CDP",
+   "lat": 47.034315,
+   "lon": -122.276854,
+   "geoid": "5327785"
+  },
+  {
+   "name": "Grand Mound",
+   "kind": "CDP",
+   "lat": 46.80028,
+   "lon": -123.010875,
+   "geoid": "5327890"
+  },
+  {
+   "name": "Granite Falls",
+   "kind": "city",
+   "lat": 48.089605,
+   "lon": -121.969206,
+   "geoid": "5327995"
+  },
+  {
+   "name": "Grapeview",
+   "kind": "CDP",
+   "lat": 47.329763,
+   "lon": -122.82946,
+   "geoid": "5328135"
+  },
+  {
+   "name": "Grayland",
+   "kind": "CDP",
+   "lat": 46.841645,
+   "lon": -124.091234,
+   "geoid": "5328345"
+  },
+  {
+   "name": "Grays River",
+   "kind": "CDP",
+   "lat": 46.367914,
+   "lon": -123.581305,
+   "geoid": "5328450"
+  },
+  {
+   "name": "Greenwater",
+   "kind": "CDP",
+   "lat": 47.144224,
+   "lon": -121.628469,
+   "geoid": "5328695"
+  },
+  {
+   "name": "Hamilton",
+   "kind": "town",
+   "lat": 48.522478,
+   "lon": -121.995264,
+   "geoid": "5329255"
+  },
+  {
+   "name": "Hansville",
+   "kind": "CDP",
+   "lat": 47.910095,
+   "lon": -122.57106,
+   "geoid": "5329430"
+  },
+  {
+   "name": "Hat Island",
+   "kind": "CDP",
+   "lat": 48.013421,
+   "lon": -122.320653,
+   "geoid": "5330030"
+  },
+  {
+   "name": "Hazel Dell",
+   "kind": "CDP",
+   "lat": 45.681881,
+   "lon": -122.652658,
+   "geoid": "5330305"
+  },
+  {
+   "name": "Herron Island",
+   "kind": "CDP",
+   "lat": 47.267476,
+   "lon": -122.831951,
+   "geoid": "5330690"
+  },
+  {
+   "name": "High Bridge",
+   "kind": "CDP",
+   "lat": 47.799898,
+   "lon": -122.023807,
+   "geoid": "5330750"
+  },
+  {
+   "name": "Hobart",
+   "kind": "CDP",
+   "lat": 47.411787,
+   "lon": -122.005262,
+   "geoid": "5331495"
+  },
+  {
+   "name": "Hockinson",
+   "kind": "CDP",
+   "lat": 45.730183,
+   "lon": -122.483334,
+   "geoid": "5331530"
+  },
+  {
+   "name": "Hogans Corner",
+   "kind": "CDP",
+   "lat": 47.041496,
+   "lon": -124.161687,
+   "geoid": "5331540"
+  },
+  {
+   "name": "Home",
+   "kind": "CDP",
+   "lat": 47.274685,
+   "lon": -122.790082,
+   "geoid": "5331985"
+  },
+  {
+   "name": "Hoodsport",
+   "kind": "CDP",
+   "lat": 47.40198,
+   "lon": -123.154126,
+   "geoid": "5332125"
+  },
+  {
+   "name": "Hoquiam",
+   "kind": "city",
+   "lat": 46.977202,
+   "lon": -123.909716,
+   "geoid": "5332300"
+  },
+  {
+   "name": "Humptulips",
+   "kind": "CDP",
+   "lat": 47.233739,
+   "lon": -123.980539,
+   "geoid": "5332650"
+  },
+  {
+   "name": "Hunts Point",
+   "kind": "town",
+   "lat": 47.642958,
+   "lon": -122.229197,
+   "geoid": "5332755"
+  },
+  {
+   "name": "Index",
+   "kind": "town",
+   "lat": 47.821262,
+   "lon": -121.555929,
+   "geoid": "5333175"
+  },
+  {
+   "name": "Indianola",
+   "kind": "CDP",
+   "lat": 47.755273,
+   "lon": -122.511484,
+   "geoid": "5333280"
+  },
+  {
+   "name": "Issaquah",
+   "kind": "city",
+   "lat": 47.544488,
+   "lon": -122.049085,
+   "geoid": "5333805"
+  },
+  {
+   "name": "Jamestown",
+   "kind": "CDP",
+   "lat": 48.122839,
+   "lon": -123.091043,
+   "geoid": "5333890"
+  },
+  {
+   "name": "Kalama",
+   "kind": "city",
+   "lat": 46.017142,
+   "lon": -122.841937,
+   "geoid": "5334645"
+  },
+  {
+   "name": "Kapowsin",
+   "kind": "CDP",
+   "lat": 46.968388,
+   "lon": -122.222955,
+   "geoid": "5334890"
+  },
+  {
+   "name": "Kayak Point",
+   "kind": "CDP",
+   "lat": 48.142508,
+   "lon": -122.342276,
+   "geoid": "5334915"
+  },
+  {
+   "name": "Kelso",
+   "kind": "city",
+   "lat": 46.116751,
+   "lon": -122.886466,
+   "geoid": "5335065"
+  },
+  {
+   "name": "Kenmore",
+   "kind": "city",
+   "lat": 47.749858,
+   "lon": -122.247244,
+   "geoid": "5335170"
+  },
+  {
+   "name": "Kent",
+   "kind": "city",
+   "lat": 47.38797,
+   "lon": -122.212727,
+   "geoid": "5335415"
+  },
+  {
+   "name": "Ketron Island",
+   "kind": "CDP",
+   "lat": 47.156281,
+   "lon": -122.634125,
+   "geoid": "5335450"
+  },
+  {
+   "name": "Key Center",
+   "kind": "CDP",
+   "lat": 47.3306,
+   "lon": -122.754927,
+   "geoid": "5335555"
+  },
+  {
+   "name": "Keyport",
+   "kind": "CDP",
+   "lat": 47.700204,
+   "lon": -122.624293,
+   "geoid": "5335625"
+  },
+  {
+   "name": "Kingston",
+   "kind": "CDP",
+   "lat": 47.794382,
+   "lon": -122.506217,
+   "geoid": "5335870"
+  },
+  {
+   "name": "Kirkland",
+   "kind": "city",
+   "lat": 47.696658,
+   "lon": -122.20417,
+   "geoid": "5335940"
+  },
+  {
+   "name": "Kitsap Lake",
+   "kind": "CDP",
+   "lat": 47.590375,
+   "lon": -122.708802,
+   "geoid": "5336010"
+  },
+  {
+   "name": "La Center",
+   "kind": "city",
+   "lat": 45.860494,
+   "lon": -122.675727,
+   "geoid": "5336710"
+  },
+  {
+   "name": "La Conner",
+   "kind": "town",
+   "lat": 48.392564,
+   "lon": -122.494453,
+   "geoid": "5336780"
+  },
+  {
+   "name": "La Grande",
+   "kind": "CDP",
+   "lat": 46.810734,
+   "lon": -122.283253,
+   "geoid": "5336920"
+  },
+  {
+   "name": "Lacey",
+   "kind": "city",
+   "lat": 47.043087,
+   "lon": -122.798232,
+   "geoid": "5336745"
+  },
+  {
+   "name": "Lake Bosworth",
+   "kind": "CDP",
+   "lat": 48.05548,
+   "lon": -121.982048,
+   "geoid": "5337077"
+  },
+  {
+   "name": "Lake Cassidy",
+   "kind": "CDP",
+   "lat": 48.066029,
+   "lon": -122.082414,
+   "geoid": "5337100"
+  },
+  {
+   "name": "Lake Cavanaugh",
+   "kind": "CDP",
+   "lat": 48.316823,
+   "lon": -122.010675,
+   "geoid": "5337105"
+  },
+  {
+   "name": "Lake Forest Park",
+   "kind": "city",
+   "lat": 47.758911,
+   "lon": -122.291729,
+   "geoid": "5337270"
+  },
+  {
+   "name": "Lake Goodwin",
+   "kind": "CDP",
+   "lat": 48.135355,
+   "lon": -122.276171,
+   "geoid": "5337287"
+  },
+  {
+   "name": "Lake Holm",
+   "kind": "CDP",
+   "lat": 47.306388,
+   "lon": -122.129911,
+   "geoid": "5337345"
+  },
+  {
+   "name": "Lake Ketchum",
+   "kind": "CDP",
+   "lat": 48.285835,
+   "lon": -122.346481,
+   "geoid": "5337415"
+  },
+  {
+   "name": "Lake Marcel-Stillwater",
+   "kind": "CDP",
+   "lat": 47.695094,
+   "lon": -121.915104,
+   "geoid": "5337538"
+  },
+  {
+   "name": "Lake McMurray",
+   "kind": "CDP",
+   "lat": 48.319344,
+   "lon": -122.233323,
+   "geoid": "5337526"
+  },
+  {
+   "name": "Lake Morton-Berrydale",
+   "kind": "CDP",
+   "lat": 47.332843,
+   "lon": -122.103959,
+   "geoid": "5337567"
+  },
+  {
+   "name": "Lake Roesiger",
+   "kind": "CDP",
+   "lat": 47.975501,
+   "lon": -121.905068,
+   "geoid": "5337672"
+  },
+  {
+   "name": "Lake Shore",
+   "kind": "CDP",
+   "lat": 45.691132,
+   "lon": -122.691183,
+   "geoid": "5337830"
+  },
+  {
+   "name": "Lake Stevens",
+   "kind": "city",
+   "lat": 48.003405,
+   "lon": -122.096828,
+   "geoid": "5337900"
+  },
+  {
+   "name": "Lake Stickney",
+   "kind": "CDP",
+   "lat": 47.875788,
+   "lon": -122.252761,
+   "geoid": "5337917"
+  },
+  {
+   "name": "Lake Tapps",
+   "kind": "CDP",
+   "lat": 47.230707,
+   "lon": -122.171247,
+   "geoid": "5337920"
+  },
+  {
+   "name": "Lakeland North",
+   "kind": "CDP",
+   "lat": 47.337326,
+   "lon": -122.282398,
+   "geoid": "5337420"
+  },
+  {
+   "name": "Lakeland South",
+   "kind": "CDP",
+   "lat": 47.276093,
+   "lon": -122.284667,
+   "geoid": "5337430"
+  },
+  {
+   "name": "Lakewood",
+   "kind": "city",
+   "lat": 47.164092,
+   "lon": -122.528106,
+   "geoid": "5338038"
+  },
+  {
+   "name": "Langley",
+   "kind": "city",
+   "lat": 48.037537,
+   "lon": -122.407122,
+   "geoid": "5338355"
+  },
+  {
+   "name": "Larch Way",
+   "kind": "CDP",
+   "lat": 47.8429,
+   "lon": -122.252747,
+   "geoid": "5338420"
+  },
+  {
+   "name": "Lebam",
+   "kind": "CDP",
+   "lat": 46.564091,
+   "lon": -123.550888,
+   "geoid": "5338880"
+  },
+  {
+   "name": "Lewisville",
+   "kind": "CDP",
+   "lat": 45.81652,
+   "lon": -122.508244,
+   "geoid": "5339212"
+  },
+  {
+   "name": "Lexington",
+   "kind": "CDP",
+   "lat": 46.189403,
+   "lon": -122.912611,
+   "geoid": "5339230"
+  },
+  {
+   "name": "Lochsloy",
+   "kind": "CDP",
+   "lat": 48.05971,
+   "lon": -122.041061,
+   "geoid": "5339860"
+  },
+  {
+   "name": "Lofall",
+   "kind": "CDP",
+   "lat": 47.810462,
+   "lon": -122.652013,
+   "geoid": "5339930"
+  },
+  {
+   "name": "Longbranch",
+   "kind": "CDP",
+   "lat": 47.22356,
+   "lon": -122.766883,
+   "geoid": "5340105"
+  },
+  {
+   "name": "Longview",
+   "kind": "city",
+   "lat": 46.145707,
+   "lon": -122.964299,
+   "geoid": "5340245"
+  },
+  {
+   "name": "Longview Heights",
+   "kind": "CDP",
+   "lat": 46.179841,
+   "lon": -122.953633,
+   "geoid": "5340270"
+  },
+  {
+   "name": "Lower Elochoman",
+   "kind": "CDP",
+   "lat": 46.2185,
+   "lon": -123.369811,
+   "geoid": "5340570"
+  },
+  {
+   "name": "Lyle",
+   "kind": "CDP",
+   "lat": 45.69558,
+   "lon": -121.280533,
+   "geoid": "5340735"
+  },
+  {
+   "name": "Lyman",
+   "kind": "town",
+   "lat": 48.523789,
+   "lon": -122.065597,
+   "geoid": "5340770"
+  },
+  {
+   "name": "Lynnwood",
+   "kind": "city",
+   "lat": 47.828979,
+   "lon": -122.300672,
+   "geoid": "5340840"
+  },
+  {
+   "name": "Machias",
+   "kind": "CDP",
+   "lat": 47.991805,
+   "lon": -122.05171,
+   "geoid": "5341470"
+  },
+  {
+   "name": "Malone",
+   "kind": "CDP",
+   "lat": 46.984195,
+   "lon": -123.296571,
+   "geoid": "5342345"
+  },
+  {
+   "name": "Maltby",
+   "kind": "CDP",
+   "lat": 47.802086,
+   "lon": -122.106217,
+   "geoid": "5342415"
+  },
+  {
+   "name": "Manchester",
+   "kind": "CDP",
+   "lat": 47.547094,
+   "lon": -122.541167,
+   "geoid": "5342450"
+  },
+  {
+   "name": "Maple Heights-Lake Desire",
+   "kind": "CDP",
+   "lat": 47.436892,
+   "lon": -122.092968,
+   "geoid": "5343062"
+  },
+  {
+   "name": "Maple Valley",
+   "kind": "city",
+   "lat": 47.367147,
+   "lon": -122.034815,
+   "geoid": "5343150"
+  },
+  {
+   "name": "Maplewood",
+   "kind": "CDP",
+   "lat": 47.376389,
+   "lon": -122.56549,
+   "geoid": "5343255"
+  },
+  {
+   "name": "Marblemount",
+   "kind": "CDP",
+   "lat": 48.541756,
+   "lon": -121.439591,
+   "geoid": "5343325"
+  },
+  {
+   "name": "Markham",
+   "kind": "CDP",
+   "lat": 46.914157,
+   "lon": -123.987873,
+   "geoid": "5343640"
+  },
+  {
+   "name": "Marrowstone",
+   "kind": "CDP",
+   "lat": 48.031999,
+   "lon": -122.684007,
+   "geoid": "5343762"
+  },
+  {
+   "name": "Martha Lake",
+   "kind": "CDP",
+   "lat": 47.844726,
+   "lon": -122.233092,
+   "geoid": "5343815"
+  },
+  {
+   "name": "Marysville",
+   "kind": "city",
+   "lat": 48.080214,
+   "lon": -122.154312,
+   "geoid": "5343955"
+  },
+  {
+   "name": "May Creek",
+   "kind": "CDP",
+   "lat": 47.85554,
+   "lon": -121.674311,
+   "geoid": "5344260"
+  },
+  {
+   "name": "McChord AFB",
+   "kind": "CDP",
+   "lat": 47.132689,
+   "lon": -122.491857,
+   "geoid": "5341155"
+  },
+  {
+   "name": "McCleary",
+   "kind": "city",
+   "lat": 47.058457,
+   "lon": -123.269646,
+   "geoid": "5341225"
+  },
+  {
+   "name": "McKenna",
+   "kind": "CDP",
+   "lat": 46.934723,
+   "lon": -122.549865,
+   "geoid": "5341645"
+  },
+  {
+   "name": "McMillin",
+   "kind": "CDP",
+   "lat": 47.12597,
+   "lon": -122.235252,
+   "geoid": "5341785"
+  },
+  {
+   "name": "Meadow Glade",
+   "kind": "CDP",
+   "lat": 45.752329,
+   "lon": -122.561452,
+   "geoid": "5344620"
+  },
+  {
+   "name": "Meadowdale",
+   "kind": "CDP",
+   "lat": 47.860638,
+   "lon": -122.323418,
+   "geoid": "5344585"
+  },
+  {
+   "name": "Medina",
+   "kind": "city",
+   "lat": 47.626541,
+   "lon": -122.242866,
+   "geoid": "5344725"
+  },
+  {
+   "name": "Mercer Island",
+   "kind": "city",
+   "lat": 47.564004,
+   "lon": -122.231214,
+   "geoid": "5345005"
+  },
+  {
+   "name": "Midland",
+   "kind": "CDP",
+   "lat": 47.173406,
+   "lon": -122.41202,
+   "geoid": "5345495"
+  },
+  {
+   "name": "Mill Creek",
+   "kind": "city",
+   "lat": 47.865188,
+   "lon": -122.210598,
+   "geoid": "5345865"
+  },
+  {
+   "name": "Mill Creek East",
+   "kind": "CDP",
+   "lat": 47.836054,
+   "lon": -122.187681,
+   "geoid": "5345870"
+  },
+  {
+   "name": "Milton",
+   "kind": "city",
+   "lat": 47.251994,
+   "lon": -122.317289,
+   "geoid": "5346020"
+  },
+  {
+   "name": "Mineral",
+   "kind": "CDP",
+   "lat": 46.719299,
+   "lon": -122.185993,
+   "geoid": "5346090"
+  },
+  {
+   "name": "Minnehaha",
+   "kind": "CDP",
+   "lat": 45.656516,
+   "lon": -122.617889,
+   "geoid": "5346125"
+  },
+  {
+   "name": "Mirrormont",
+   "kind": "CDP",
+   "lat": 47.460218,
+   "lon": -121.990205,
+   "geoid": "5346215"
+  },
+  {
+   "name": "Monroe",
+   "kind": "city",
+   "lat": 47.859793,
+   "lon": -121.984006,
+   "geoid": "5346685"
+  },
+  {
+   "name": "Monroe North",
+   "kind": "CDP",
+   "lat": 47.883047,
+   "lon": -121.986909,
+   "geoid": "5346725"
+  },
+  {
+   "name": "Montesano",
+   "kind": "city",
+   "lat": 47.014726,
+   "lon": -123.585711,
+   "geoid": "5346895"
+  },
+  {
+   "name": "Morton",
+   "kind": "city",
+   "lat": 46.557382,
+   "lon": -122.281449,
+   "geoid": "5347175"
+  },
+  {
+   "name": "Mossyrock",
+   "kind": "city",
+   "lat": 46.530224,
+   "lon": -122.489057,
+   "geoid": "5347315"
+  },
+  {
+   "name": "Mount Vernon",
+   "kind": "city",
+   "lat": 48.417071,
+   "lon": -122.311832,
+   "geoid": "5347560"
+  },
+  {
+   "name": "Mount Vista",
+   "kind": "CDP",
+   "lat": 45.737288,
+   "lon": -122.631565,
+   "geoid": "5347630"
+  },
+  {
+   "name": "Mountlake Terrace",
+   "kind": "city",
+   "lat": 47.794329,
+   "lon": -122.302607,
+   "geoid": "5347490"
+  },
+  {
+   "name": "Mukilteo",
+   "kind": "city",
+   "lat": 47.912991,
+   "lon": -122.302205,
+   "geoid": "5347735"
+  },
+  {
+   "name": "Napavine",
+   "kind": "city",
+   "lat": 46.586796,
+   "lon": -122.902031,
+   "geoid": "5347980"
+  },
+  {
+   "name": "Naselle",
+   "kind": "CDP",
+   "lat": 46.370501,
+   "lon": -123.781565,
+   "geoid": "5348015"
+  },
+  {
+   "name": "Navy Yard City",
+   "kind": "CDP",
+   "lat": 47.552965,
+   "lon": -122.662454,
+   "geoid": "5348225"
+  },
+  {
+   "name": "Neilton",
+   "kind": "CDP",
+   "lat": 47.403121,
+   "lon": -123.878202,
+   "geoid": "5348330"
+  },
+  {
+   "name": "Newcastle",
+   "kind": "city",
+   "lat": 47.531486,
+   "lon": -122.165582,
+   "geoid": "5348645"
+  },
+  {
+   "name": "Nile",
+   "kind": "CDP",
+   "lat": 46.834868,
+   "lon": -120.943753,
+   "geoid": "5349030"
+  },
+  {
+   "name": "Nisqually Indian Community",
+   "kind": "CDP",
+   "lat": 47.029128,
+   "lon": -122.680389,
+   "geoid": "5349193"
+  },
+  {
+   "name": "Normandy Park",
+   "kind": "city",
+   "lat": 47.432975,
+   "lon": -122.344689,
+   "geoid": "5349415"
+  },
+  {
+   "name": "North Bend",
+   "kind": "city",
+   "lat": 47.487967,
+   "lon": -121.768786,
+   "geoid": "5349485"
+  },
+  {
+   "name": "North Bonneville",
+   "kind": "city",
+   "lat": 45.641393,
+   "lon": -121.972748,
+   "geoid": "5349555"
+  },
+  {
+   "name": "North Fort Lewis",
+   "kind": "CDP",
+   "lat": 47.1213,
+   "lon": -122.594551,
+   "geoid": "5349765"
+  },
+  {
+   "name": "North Lynnwood",
+   "kind": "CDP",
+   "lat": 47.853329,
+   "lon": -122.276265,
+   "geoid": "5349940"
+  },
+  {
+   "name": "North Puyallup",
+   "kind": "CDP",
+   "lat": 47.198898,
+   "lon": -122.278444,
+   "geoid": "5350115"
+  },
+  {
+   "name": "North Sultan",
+   "kind": "CDP",
+   "lat": 47.88274,
+   "lon": -121.822949,
+   "geoid": "5350183"
+  },
+  {
+   "name": "North Yelm",
+   "kind": "CDP",
+   "lat": 46.966028,
+   "lon": -122.613133,
+   "geoid": "5350210"
+  },
+  {
+   "name": "Northwest Stanwood",
+   "kind": "CDP",
+   "lat": 48.262304,
+   "lon": -122.350122,
+   "geoid": "5350195"
+  },
+  {
+   "name": "Oak Harbor",
+   "kind": "city",
+   "lat": 48.293832,
+   "lon": -122.628154,
+   "geoid": "5350360"
+  },
+  {
+   "name": "Oakville",
+   "kind": "city",
+   "lat": 46.840116,
+   "lon": -123.233507,
+   "geoid": "5350430"
+  },
+  {
+   "name": "Ocean City",
+   "kind": "CDP",
+   "lat": 47.082471,
+   "lon": -124.156919,
+   "geoid": "5350500"
+  },
+  {
+   "name": "Ocean Shores",
+   "kind": "city",
+   "lat": 46.965362,
+   "lon": -124.147207,
+   "geoid": "5350570"
+  },
+  {
+   "name": "Ocosta",
+   "kind": "CDP",
+   "lat": 46.885532,
+   "lon": -124.032505,
+   "geoid": "5350675"
+  },
+  {
+   "name": "Olympia",
+   "kind": "city",
+   "lat": 47.040604,
+   "lon": -122.895,
+   "geoid": "5351300"
+  },
+  {
+   "name": "Onalaska",
+   "kind": "CDP",
+   "lat": 46.578224,
+   "lon": -122.711139,
+   "geoid": "5351410"
+  },
+  {
+   "name": "Orchards",
+   "kind": "CDP",
+   "lat": 45.688975,
+   "lon": -122.530621,
+   "geoid": "5351795"
+  },
+  {
+   "name": "Orting",
+   "kind": "city",
+   "lat": 47.096936,
+   "lon": -122.211687,
+   "geoid": "5352005"
+  },
+  {
+   "name": "Oso",
+   "kind": "CDP",
+   "lat": 48.283764,
+   "lon": -121.91624,
+   "geoid": "5352110"
+  },
+  {
+   "name": "Oyehut",
+   "kind": "CDP",
+   "lat": 47.022589,
+   "lon": -124.165177,
+   "geoid": "5352378"
+  },
+  {
+   "name": "Pacific",
+   "kind": "city",
+   "lat": 47.261974,
+   "lon": -122.252429,
+   "geoid": "5352495"
+  },
+  {
+   "name": "Packwood",
+   "kind": "CDP",
+   "lat": 46.608524,
+   "lon": -121.670252,
+   "geoid": "5352600"
+  },
+  {
+   "name": "Parkland",
+   "kind": "CDP",
+   "lat": 47.141529,
+   "lon": -122.437837,
+   "geoid": "5353335"
+  },
+  {
+   "name": "Parkwood",
+   "kind": "CDP",
+   "lat": 47.525175,
+   "lon": -122.604375,
+   "geoid": "5353440"
+  },
+  {
+   "name": "Pe Ell",
+   "kind": "town",
+   "lat": 46.571314,
+   "lon": -123.298311,
+   "geoid": "5353930"
+  },
+  {
+   "name": "Picnic Point",
+   "kind": "CDP",
+   "lat": 47.876454,
+   "lon": -122.308294,
+   "geoid": "5354213"
+  },
+  {
+   "name": "Port Angeles",
+   "kind": "city",
+   "lat": 48.119236,
+   "lon": -123.448013,
+   "geoid": "5355365"
+  },
+  {
+   "name": "Port Angeles East",
+   "kind": "CDP",
+   "lat": 48.109718,
+   "lon": -123.367131,
+   "geoid": "5355400"
+  },
+  {
+   "name": "Port Gamble Tribal Community",
+   "kind": "CDP",
+   "lat": 47.846162,
+   "lon": -122.557353,
+   "geoid": "5355612"
+  },
+  {
+   "name": "Port Hadlock-Irondale",
+   "kind": "CDP",
+   "lat": 48.032782,
+   "lon": -122.791449,
+   "geoid": "5355620"
+  },
+  {
+   "name": "Port Ludlow",
+   "kind": "CDP",
+   "lat": 47.914582,
+   "lon": -122.695066,
+   "geoid": "5355645"
+  },
+  {
+   "name": "Port Orchard",
+   "kind": "city",
+   "lat": 47.538443,
+   "lon": -122.632431,
+   "geoid": "5355785"
+  },
+  {
+   "name": "Port Townsend",
+   "kind": "city",
+   "lat": 48.121762,
+   "lon": -122.787876,
+   "geoid": "5355855"
+  },
+  {
+   "name": "Porter",
+   "kind": "CDP",
+   "lat": 46.948728,
+   "lon": -123.280249,
+   "geoid": "5355540"
+  },
+  {
+   "name": "Poulsbo",
+   "kind": "city",
+   "lat": 47.741078,
+   "lon": -122.642151,
+   "geoid": "5355995"
+  },
+  {
+   "name": "Prairie Heights",
+   "kind": "CDP",
+   "lat": 47.149653,
+   "lon": -122.109161,
+   "geoid": "5356150"
+  },
+  {
+   "name": "Prairie Ridge",
+   "kind": "CDP",
+   "lat": 47.144388,
+   "lon": -122.139243,
+   "geoid": "5356170"
+  },
+  {
+   "name": "Puget Island",
+   "kind": "CDP",
+   "lat": 46.175652,
+   "lon": -123.381854,
+   "geoid": "5356555"
+  },
+  {
+   "name": "Purdy",
+   "kind": "CDP",
+   "lat": 47.396473,
+   "lon": -122.604598,
+   "geoid": "5356660"
+  },
+  {
+   "name": "Puyallup",
+   "kind": "city",
+   "lat": 47.179046,
+   "lon": -122.291523,
+   "geoid": "5356695"
+  },
+  {
+   "name": "Quilcene",
+   "kind": "CDP",
+   "lat": 47.839248,
+   "lon": -122.91226,
+   "geoid": "5356975"
+  },
+  {
+   "name": "Raft Island",
+   "kind": "CDP",
+   "lat": 47.328216,
+   "lon": -122.667306,
+   "geoid": "5357140"
+  },
+  {
+   "name": "Rainier",
+   "kind": "city",
+   "lat": 46.89167,
+   "lon": -122.686536,
+   "geoid": "5357220"
+  },
+  {
+   "name": "Ravensdale",
+   "kind": "CDP",
+   "lat": 47.361865,
+   "lon": -121.980407,
+   "geoid": "5357395"
+  },
+  {
+   "name": "Raymond",
+   "kind": "city",
+   "lat": 46.683742,
+   "lon": -123.739507,
+   "geoid": "5357430"
+  },
+  {
+   "name": "Redmond",
+   "kind": "city",
+   "lat": 47.677924,
+   "lon": -122.115336,
+   "geoid": "5357535"
+  },
+  {
+   "name": "Renton",
+   "kind": "city",
+   "lat": 47.47919,
+   "lon": -122.194613,
+   "geoid": "5357745"
+  },
+  {
+   "name": "Ridgefield",
+   "kind": "city",
+   "lat": 45.817571,
+   "lon": -122.671959,
+   "geoid": "5358410"
+  },
+  {
+   "name": "River Road",
+   "kind": "CDP",
+   "lat": 48.067697,
+   "lon": -123.127617,
+   "geoid": "5358777"
+  },
+  {
+   "name": "Riverbend",
+   "kind": "CDP",
+   "lat": 47.464458,
+   "lon": -121.751156,
+   "geoid": "5358742"
+  },
+  {
+   "name": "Riverpoint",
+   "kind": "CDP",
+   "lat": 47.479708,
+   "lon": -121.712389,
+   "geoid": "5358768"
+  },
+  {
+   "name": "Rochester",
+   "kind": "CDP",
+   "lat": 46.820368,
+   "lon": -123.064253,
+   "geoid": "5359110"
+  },
+  {
+   "name": "Rockport",
+   "kind": "CDP",
+   "lat": 48.484737,
+   "lon": -121.607522,
+   "geoid": "5359250"
+  },
+  {
+   "name": "Rocky Point",
+   "kind": "CDP",
+   "lat": 47.594091,
+   "lon": -122.666067,
+   "geoid": "5359390"
+  },
+  {
+   "name": "Ronald",
+   "kind": "CDP",
+   "lat": 47.233754,
+   "lon": -121.033478,
+   "geoid": "5359635"
+  },
+  {
+   "name": "Rosburg",
+   "kind": "CDP",
+   "lat": 46.308133,
+   "lon": -123.643466,
+   "geoid": "5359845"
+  },
+  {
+   "name": "Rosedale",
+   "kind": "CDP",
+   "lat": 47.341315,
+   "lon": -122.632544,
+   "geoid": "5359880"
+  },
+  {
+   "name": "Roslyn",
+   "kind": "city",
+   "lat": 47.27003,
+   "lon": -121.141205,
+   "geoid": "5360055"
+  },
+  {
+   "name": "Roy",
+   "kind": "city",
+   "lat": 46.989941,
+   "lon": -122.540975,
+   "geoid": "5360160"
+  },
+  {
+   "name": "Ruston",
+   "kind": "city",
+   "lat": 47.297997,
+   "lon": -122.511769,
+   "geoid": "5360510"
+  },
+  {
+   "name": "Ryderwood",
+   "kind": "CDP",
+   "lat": 46.374868,
+   "lon": -123.044179,
+   "geoid": "5360580"
+  },
+  {
+   "name": "Salmon Creek",
+   "kind": "CDP",
+   "lat": 45.709916,
+   "lon": -122.663207,
+   "geoid": "5361000"
+  },
+  {
+   "name": "Sammamish",
+   "kind": "city",
+   "lat": 47.594268,
+   "lon": -122.038081,
+   "geoid": "5361115"
+  },
+  {
+   "name": "Satsop",
+   "kind": "CDP",
+   "lat": 47.022858,
+   "lon": -123.483009,
+   "geoid": "5361350"
+  },
+  {
+   "name": "SeaTac",
+   "kind": "city",
+   "lat": 47.443403,
+   "lon": -122.298287,
+   "geoid": "5362288"
+  },
+  {
+   "name": "Seabeck",
+   "kind": "CDP",
+   "lat": 47.644263,
+   "lon": -122.817973,
+   "geoid": "5362120"
+  },
+  {
+   "name": "Seattle",
+   "kind": "city",
+   "lat": 47.619335,
+   "lon": -122.351538,
+   "geoid": "5363000"
+  },
+  {
+   "name": "Sedro-Woolley",
+   "kind": "city",
+   "lat": 48.511356,
+   "lon": -122.232137,
+   "geoid": "5363210"
+  },
+  {
+   "name": "Sequim",
+   "kind": "city",
+   "lat": 48.073688,
+   "lon": -123.087809,
+   "geoid": "5363385"
+  },
+  {
+   "name": "Shadow Lake",
+   "kind": "CDP",
+   "lat": 47.406058,
+   "lon": -122.079873,
+   "geoid": "5363545"
+  },
+  {
+   "name": "Shelton",
+   "kind": "city",
+   "lat": 47.225574,
+   "lon": -123.112243,
+   "geoid": "5363735"
+  },
+  {
+   "name": "Shoreline",
+   "kind": "city",
+   "lat": 47.756917,
+   "lon": -122.345505,
+   "geoid": "5363960"
+  },
+  {
+   "name": "Silvana",
+   "kind": "CDP",
+   "lat": 48.201849,
+   "lon": -122.245761,
+   "geoid": "5364190"
+  },
+  {
+   "name": "Silver Firs",
+   "kind": "CDP",
+   "lat": 47.863505,
+   "lon": -122.149716,
+   "geoid": "5364380"
+  },
+  {
+   "name": "Silverdale",
+   "kind": "CDP",
+   "lat": 47.667733,
+   "lon": -122.681851,
+   "geoid": "5364365"
+  },
+  {
+   "name": "Sisco Heights",
+   "kind": "CDP",
+   "lat": 48.117652,
+   "lon": -122.110452,
+   "geoid": "5364610"
+  },
+  {
+   "name": "Skamokawa Valley",
+   "kind": "CDP",
+   "lat": 46.315241,
+   "lon": -123.401371,
+   "geoid": "5364755"
+  },
+  {
+   "name": "Skokomish",
+   "kind": "CDP",
+   "lat": 47.328343,
+   "lon": -123.1588,
+   "geoid": "5364775"
+  },
+  {
+   "name": "Skykomish",
+   "kind": "town",
+   "lat": 47.709852,
+   "lon": -121.356448,
+   "geoid": "5364855"
+  },
+  {
+   "name": "Snohomish",
+   "kind": "city",
+   "lat": 47.928866,
+   "lon": -122.092684,
+   "geoid": "5365170"
+  },
+  {
+   "name": "Snoqualmie",
+   "kind": "city",
+   "lat": 47.543245,
+   "lon": -121.868645,
+   "geoid": "5365205"
+  },
+  {
+   "name": "Snoqualmie Pass",
+   "kind": "CDP",
+   "lat": 47.40155,
+   "lon": -121.411014,
+   "geoid": "5365275"
+  },
+  {
+   "name": "South Bend",
+   "kind": "city",
+   "lat": 46.669889,
+   "lon": -123.801846,
+   "geoid": "5365625"
+  },
+  {
+   "name": "South Cle Elum",
+   "kind": "town",
+   "lat": 47.186205,
+   "lon": -120.952549,
+   "geoid": "5365765"
+  },
+  {
+   "name": "South Creek",
+   "kind": "CDP",
+   "lat": 47.000389,
+   "lon": -122.391334,
+   "geoid": "5365810"
+  },
+  {
+   "name": "South Hill",
+   "kind": "CDP",
+   "lat": 47.120704,
+   "lon": -122.285264,
+   "geoid": "5365922"
+  },
+  {
+   "name": "South Prairie",
+   "kind": "town",
+   "lat": 47.135386,
+   "lon": -122.096623,
+   "geoid": "5366045"
+  },
+  {
+   "name": "Southworth",
+   "kind": "CDP",
+   "lat": 47.51378,
+   "lon": -122.532242,
+   "geoid": "5366220"
+  },
+  {
+   "name": "Spanaway",
+   "kind": "CDP",
+   "lat": 47.098061,
+   "lon": -122.42337,
+   "geoid": "5366255"
+  },
+  {
+   "name": "Stansberry Lake",
+   "kind": "CDP",
+   "lat": 47.38291,
+   "lon": -122.711992,
+   "geoid": "5367435"
+  },
+  {
+   "name": "Stanwood",
+   "kind": "city",
+   "lat": 48.245144,
+   "lon": -122.342232,
+   "geoid": "5367455"
+  },
+  {
+   "name": "Startup",
+   "kind": "CDP",
+   "lat": 47.874183,
+   "lon": -121.754426,
+   "geoid": "5367595"
+  },
+  {
+   "name": "Steilacoom",
+   "kind": "town",
+   "lat": 47.169267,
+   "lon": -122.592336,
+   "geoid": "5367770"
+  },
+  {
+   "name": "Stevenson",
+   "kind": "city",
+   "lat": 45.694743,
+   "lon": -121.896374,
+   "geoid": "5367875"
+  },
+  {
+   "name": "Sudden Valley",
+   "kind": "CDP",
+   "lat": 48.723084,
+   "lon": -122.344096,
+   "geoid": "5368200"
+  },
+  {
+   "name": "Sultan",
+   "kind": "city",
+   "lat": 47.871132,
+   "lon": -121.804106,
+   "geoid": "5368260"
+  },
+  {
+   "name": "Summit",
+   "kind": "CDP",
+   "lat": 47.169445,
+   "lon": -122.363627,
+   "geoid": "5368365"
+  },
+  {
+   "name": "Summit View",
+   "kind": "CDP",
+   "lat": 47.136325,
+   "lon": -122.352022,
+   "geoid": "5368410"
+  },
+  {
+   "name": "Sumner",
+   "kind": "city",
+   "lat": 47.227215,
+   "lon": -122.236264,
+   "geoid": "5368435"
+  },
+  {
+   "name": "Sunday Lake",
+   "kind": "CDP",
+   "lat": 48.228253,
+   "lon": -122.270456,
+   "geoid": "5368480"
+  },
+  {
+   "name": "Suquamish",
+   "kind": "CDP",
+   "lat": 47.725917,
+   "lon": -122.588347,
+   "geoid": "5369170"
+  },
+  {
+   "name": "Swede Heaven",
+   "kind": "CDP",
+   "lat": 48.280667,
+   "lon": -121.709853,
+   "geoid": "5369280"
+  },
+  {
+   "name": "Tacoma",
+   "kind": "city",
+   "lat": 47.252199,
+   "lon": -122.459832,
+   "geoid": "5370000"
+  },
+  {
+   "name": "Tanglewilde",
+   "kind": "CDP",
+   "lat": 47.051342,
+   "lon": -122.782217,
+   "geoid": "5370280"
+  },
+  {
+   "name": "Tehaleh",
+   "kind": "CDP",
+   "lat": 47.116149,
+   "lon": -122.178885,
+   "geoid": "5370543"
+  },
+  {
+   "name": "Tenino",
+   "kind": "city",
+   "lat": 46.853817,
+   "lon": -122.86045,
+   "geoid": "5370630"
+  },
+  {
+   "name": "Three Lakes",
+   "kind": "CDP",
+   "lat": 47.955367,
+   "lon": -121.978502,
+   "geoid": "5371330"
+  },
+  {
+   "name": "Tokeland",
+   "kind": "CDP",
+   "lat": 46.708781,
+   "lon": -123.983386,
+   "geoid": "5371680"
+  },
+  {
+   "name": "Toledo",
+   "kind": "city",
+   "lat": 46.444721,
+   "lon": -122.85223,
+   "geoid": "5371785"
+  },
+  {
+   "name": "Tracyton",
+   "kind": "CDP",
+   "lat": 47.609576,
+   "lon": -122.653182,
+   "geoid": "5372205"
+  },
+  {
+   "name": "Trout Lake",
+   "kind": "CDP",
+   "lat": 45.997772,
+   "lon": -121.528843,
+   "geoid": "5372450"
+  },
+  {
+   "name": "Tukwila",
+   "kind": "city",
+   "lat": 47.476289,
+   "lon": -122.27574,
+   "geoid": "5372625"
+  },
+  {
+   "name": "Tumwater",
+   "kind": "city",
+   "lat": 46.989463,
+   "lon": -122.917277,
+   "geoid": "5372905"
+  },
+  {
+   "name": "Union",
+   "kind": "CDP",
+   "lat": 47.347507,
+   "lon": -123.095079,
+   "geoid": "5373255"
+  },
+  {
+   "name": "Union Hill-Novelty Hill",
+   "kind": "CDP",
+   "lat": 47.682284,
+   "lon": -122.022686,
+   "geoid": "5373307"
+  },
+  {
+   "name": "University Place",
+   "kind": "city",
+   "lat": 47.215371,
+   "lon": -122.547259,
+   "geoid": "5373465"
+  },
+  {
+   "name": "Upper Elochoman",
+   "kind": "CDP",
+   "lat": 46.240347,
+   "lon": -123.324565,
+   "geoid": "5373580"
+  },
+  {
+   "name": "Vader",
+   "kind": "city",
+   "lat": 46.404515,
+   "lon": -122.956943,
+   "geoid": "5373780"
+  },
+  {
+   "name": "Vancouver",
+   "kind": "city",
+   "lat": 45.637156,
+   "lon": -122.596567,
+   "geoid": "5374060"
+  },
+  {
+   "name": "Vashon",
+   "kind": "CDP",
+   "lat": 47.411191,
+   "lon": -122.455105,
+   "geoid": "5374305"
+  },
+  {
+   "name": "Vaughn",
+   "kind": "CDP",
+   "lat": 47.357979,
+   "lon": -122.78249,
+   "geoid": "5374445"
+  },
+  {
+   "name": "Venersborg",
+   "kind": "CDP",
+   "lat": 45.785974,
+   "lon": -122.471547,
+   "geoid": "5374585"
+  },
+  {
+   "name": "Verlot",
+   "kind": "CDP",
+   "lat": 48.101994,
+   "lon": -121.759218,
+   "geoid": "5374760"
+  },
+  {
+   "name": "Waller",
+   "kind": "CDP",
+   "lat": 47.20431,
+   "lon": -122.367804,
+   "geoid": "5375905"
+  },
+  {
+   "name": "Warm Beach",
+   "kind": "CDP",
+   "lat": 48.165106,
+   "lon": -122.347701,
+   "geoid": "5376195"
+  },
+  {
+   "name": "Washougal",
+   "kind": "city",
+   "lat": 45.582801,
+   "lon": -122.346384,
+   "geoid": "5376405"
+  },
+  {
+   "name": "Wauna",
+   "kind": "CDP",
+   "lat": 47.383066,
+   "lon": -122.669385,
+   "geoid": "5376615"
+  },
+  {
+   "name": "Westport",
+   "kind": "city",
+   "lat": 46.891815,
+   "lon": -124.119847,
+   "geoid": "5377630"
+  },
+  {
+   "name": "Whidbey Island Station",
+   "kind": "CDP",
+   "lat": 48.349186,
+   "lon": -122.653869,
+   "geoid": "5378155"
+  },
+  {
+   "name": "White Center",
+   "kind": "CDP",
+   "lat": 47.50924,
+   "lon": -122.348063,
+   "geoid": "5378225"
+  },
+  {
+   "name": "White Salmon",
+   "kind": "city",
+   "lat": 45.728394,
+   "lon": -121.485388,
+   "geoid": "5378330"
+  },
+  {
+   "name": "Wilderness Rim",
+   "kind": "CDP",
+   "lat": 47.446975,
+   "lon": -121.768572,
+   "geoid": "5378780"
+  },
+  {
+   "name": "Wilkeson",
+   "kind": "town",
+   "lat": 47.101266,
+   "lon": -122.052453,
+   "geoid": "5378925"
+  },
+  {
+   "name": "Willapa",
+   "kind": "CDP",
+   "lat": 46.675447,
+   "lon": -123.664752,
+   "geoid": "5378995"
+  },
+  {
+   "name": "Winlock",
+   "kind": "city",
+   "lat": 46.490681,
+   "lon": -122.918391,
+   "geoid": "5379275"
+  },
+  {
+   "name": "Wollochet",
+   "kind": "CDP",
+   "lat": 47.282729,
+   "lon": -122.577147,
+   "geoid": "5379555"
+  },
+  {
+   "name": "Woodinville",
+   "kind": "city",
+   "lat": 47.757695,
+   "lon": -122.146791,
+   "geoid": "5379590"
+  },
+  {
+   "name": "Woodland",
+   "kind": "city",
+   "lat": 45.918183,
+   "lon": -122.753502,
+   "geoid": "5379625"
+  },
+  {
+   "name": "Woods Creek",
+   "kind": "CDP",
+   "lat": 47.877446,
+   "lon": -121.902614,
+   "geoid": "5379825"
+  },
+  {
+   "name": "Woodway",
+   "kind": "city",
+   "lat": 47.787946,
+   "lon": -122.388019,
+   "geoid": "5379835"
+  },
+  {
+   "name": "Yacolt",
+   "kind": "town",
+   "lat": 45.865243,
+   "lon": -122.40628,
+   "geoid": "5379975"
+  },
+  {
+   "name": "Yarrow Point",
+   "kind": "town",
+   "lat": 47.644576,
+   "lon": -122.219994,
+   "geoid": "5380150"
+  },
+  {
+   "name": "Yelm",
+   "kind": "city",
+   "lat": 46.942608,
+   "lon": -122.643159,
+   "geoid": "5380220"
+  }
+ ]
+}

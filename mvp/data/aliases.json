@@ -1,0 +1,457 @@
+[
+ {
+  "alias": "BATTLE GROUND LK (CLAR)",
+  "water_id": "wa-w-battle-ground-lake",
+  "raw_names": [
+   "BATTLE GROUND LK (CLAR)"
+  ],
+  "stocking_geo_codes": [
+   "L333"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LACAMAS LK (CLAR)",
+  "water_id": "wa-w-lacamas-lake",
+  "raw_names": [
+   "LACAMAS LK (CLAR)"
+  ],
+  "stocking_geo_codes": [
+   "L44874"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "KLINELINE PD (CLAR)",
+  "water_id": "wa-w-klineline-pond",
+  "raw_names": [
+   "KLINELINE PD (CLAR)"
+  ],
+  "stocking_geo_codes": [
+   "L38502"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "GREEN LK (KING)",
+  "water_id": "wa-w-green-lake-king",
+  "raw_names": [
+   "GREEN LK (KING)"
+  ],
+  "stocking_geo_codes": [
+   "L1536"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "ANGLE LK (KING)",
+  "water_id": "wa-w-angle-lake",
+  "raw_names": [
+   "ANGLE LK (KING)"
+  ],
+  "stocking_geo_codes": [
+   "L91"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LK MERIDIAN (KING)",
+  "water_id": "wa-w-lake-meridian",
+  "raw_names": [
+   "LK MERIDIAN (KING)"
+  ],
+  "stocking_geo_codes": [
+   "L3273"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "MARTHA LK (AM) (SNOH)",
+  "water_id": "wa-w-martha-alderwood-manor",
+  "raw_names": [
+   "MARTHA LK (AM) (SNOH)"
+  ],
+  "stocking_geo_codes": [
+   "L3217"
+  ],
+  "status": "confirmed",
+  "level": "C_reviewed",
+  "method": "C_reviewed",
+  "evidence": [
+   "Official page text: 'Martha is located In Lynnwood, two miles northeast of Alderwood Manor' ('AM' = Alderwood Manor)",
+   "Official page Geo Code L3217 equals the alias's stocking geo_code L3217; county Snohomish",
+   "Page lists rainbow + cutthroat; the alias's 112 plants are 94 rainbow / 17 cutthroat / 1 brown",
+   "WDFW GIS shore points 'Martha Alderwood Manor' (2 public piers) and the WDFW access 'Martha Lake' (Snohomish) lie 0.23 km from the page centre"
+  ]
+ },
+ {
+  "alias": "WARD LK (THUR)",
+  "water_id": "wa-w-ward-lake",
+  "raw_names": [
+   "WARD LK (THUR)"
+  ],
+  "stocking_geo_codes": [
+   "L8939"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LONGS PD (THUR)",
+  "water_id": "wa-w-longs-pond",
+  "raw_names": [
+   "LONGS PD (THUR)"
+  ],
+  "stocking_geo_codes": [
+   "L2818"
+  ],
+  "status": "confirmed",
+  "level": "C_reviewed",
+  "method": "C_reviewed",
+  "evidence": [
+   "Official 'Long's Pond' page Geo Code L2818 equals the stocking geo_code; county Thurston; Woodland Creek Community Park (Lacey)",
+   "Plant sizes fit an 8.9-acre pond: median 500 fish/plant, timed around spring break and summer as the page describes",
+   "Long's Pond is a restricted water: 'Open for juvenile anglers, senior anglers and anglers with a disability who possess a designated harvester companion card only.'"
+  ]
+ },
+ {
+  "alias": "AMERICAN LK (PIER)",
+  "water_id": "wa-w-american-lake",
+  "raw_names": [
+   "AMERICAN LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L35"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "ALDER LK (THUR/PIER)",
+  "water_id": "wa-w-alder-lake",
+  "raw_names": [
+   "ALDER LK (THUR/PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L23"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "MINERAL LK (LEWI)",
+  "water_id": "wa-w-mineral-lake",
+  "raw_names": [
+   "MINERAL LK (LEWI)"
+  ],
+  "stocking_geo_codes": [
+   "L3300"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "BRADLEY LK (PIER)",
+  "water_id": "wa-w-lake-bradley",
+  "raw_names": [
+   "BRADLEY LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L35548"
+  ],
+  "status": "confirmed",
+  "level": "B",
+  "method": "geo_code_plus_alias:word_order",
+  "evidence": [
+   "official Geo Code equals stocking geo_code; county agrees; names agree after alias rule"
+  ]
+ },
+ {
+  "alias": "SPANAWAY LK (PIER)",
+  "water_id": "wa-w-spanaway-lake",
+  "raw_names": [
+   "SPANAWAY LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L4266"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LK KAPOWSIN (PIER)",
+  "water_id": "wa-w-lake-kapowsin",
+  "raw_names": [
+   "LK KAPOWSIN (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L2668"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LK WHITMAN (PIER)",
+  "water_id": "wa-w-lake-whitman",
+  "raw_names": [
+   "LK WHITMAN (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L547"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "TANWAX LK (PIER)",
+  "water_id": "wa-w-tanwax-lake",
+  "raw_names": [
+   "TANWAX LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L4578"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "CLEAR LK (PIER)",
+  "water_id": "wa-w-clear-lake-pierce",
+  "raw_names": [
+   "CLEAR LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L4498"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "BONNEY LK (PIER)",
+  "water_id": "wa-w-bonney-lake",
+  "raw_names": [
+   "BONNEY LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L466"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "RAPJOHN LK (PIER)",
+  "water_id": "wa-w-rapjohn-lake",
+  "raw_names": [
+   "RAPJOHN LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L3838"
+  ],
+  "status": "confirmed",
+  "level": "A",
+  "method": "exact_name_county_geo_code",
+  "evidence": [
+   "exact name key, county agrees, unique entity, geo_code equals official Geo Code"
+  ]
+ },
+ {
+  "alias": "LONG LK (THUR)",
+  "collides_with": "wa-w-longs-pond",
+  "reason": "Carries Long's Pond's geo_code L2818 but is Long Lake (Thurston), 308 acres; manual override to long-lake-thurston (not in MVP).",
+  "raw_names": [
+   "LONG LK (THUR)"
+  ],
+  "stocking_geo_codes": [
+   "L2818"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "LACEY DERBY (LACEY)",
+  "collides_with": null,
+  "reason": "Event name; carries Long Lake's code L2807. Not an MVP water.",
+  "raw_names": [
+   "LACEY DERBY (LACEY)"
+  ],
+  "stocking_geo_codes": [
+   "L2807"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "MARTHA LK (WB) (SNOH)",
+  "collides_with": "wa-w-martha-alderwood-manor",
+  "reason": "Warm Beach Lake Martha (page code L3218, stocking code L3219); a different water from the Lynnwood Martha Lake.",
+  "raw_names": [
+   "MARTHA LK (WB) (SNOH)"
+  ],
+  "stocking_geo_codes": [
+   "L3219"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "MORTON DERBY (LEWI)",
+  "collides_with": "wa-w-mineral-lake",
+  "reason": "Derby event sharing Mineral Lake's geo_code L3300; not attributed to Mineral Lake without review.",
+  "raw_names": [
+   "MORTON DERBY (LEWI)"
+  ],
+  "stocking_geo_codes": [
+   "L3300"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "KLINELINE PD E (CLAR)",
+  "collides_with": "wa-w-klineline-pond",
+  "reason": "Separate pond (code L38454), no official page.",
+  "raw_names": [
+   "KLINELINE PD E (CLAR)"
+  ],
+  "stocking_geo_codes": [
+   "L38454"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "KLINELINE PD W (CLAR)",
+  "collides_with": "wa-w-klineline-pond",
+  "reason": "Separate pond (code L38533), no official page.",
+  "raw_names": [
+   "KLINELINE PD W (CLAR)"
+  ],
+  "stocking_geo_codes": [
+   "L38533"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "KLINELINE PONDS",
+  "collides_with": "wa-w-klineline-pond",
+  "reason": "Malformed record: county Skamania and three codes in one geo_code field.",
+  "raw_names": [
+   "KLINELINE PONDS"
+  ],
+  "stocking_geo_codes": [
+   "L38502,L38533,L38454"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "GREEN LK (PIER)",
+  "collides_with": "wa-w-green-lake-king",
+  "reason": "Different Green Lake (Pierce, L1537).",
+  "raw_names": [
+   "GREEN LK (PIER)"
+  ],
+  "stocking_geo_codes": [
+   "L1537"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "AMERICAN LK (YAKI)",
+  "collides_with": "wa-w-american-lake",
+  "reason": "Different American Lake (Yakima, L36).",
+  "raw_names": [
+   "AMERICAN LK (YAKI)"
+  ],
+  "stocking_geo_codes": [
+   "L36"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ },
+ {
+  "alias": "MARTHA LK (GRAN)",
+  "collides_with": "wa-w-martha-alderwood-manor",
+  "reason": "Different Martha Lake (Grant, L3070).",
+  "raw_names": [
+   "MARTHA LK (GRAN)"
+  ],
+  "stocking_geo_codes": [
+   "L3070"
+  ],
+  "water_id": null,
+  "status": "excluded"
+ }
+]

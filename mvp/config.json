@@ -1,0 +1,12 @@
+{
+ "site_name": "Washington Stocked Lake Finder",
+ "tagline": "Recently stocked lakes you can fish from shore, and what to know before you drive",
+ "base_url": "https://example.invalid",
+ "contact_email": "",
+ "ga4_measurement_id": "",
+ "google_site_verification": "",
+ "timezone": "America/Los_Angeles",
+ "stale_after_hours": {"stocking": 36, "wdfw_emergency_rules": 36, "ecology_toxic_algae": 36, "wa_state_parks_alerts": 72, "access_source_pages": 192},
+ "city_pages": {"candidates": ["Seattle", "Tacoma", "Puyallup", "Vancouver", "Olympia"], "radius_miles": 25, "min_lakes": 3, "max_overlap": 0.6},
+ "nearby_alternative_radius_miles": 25
+}

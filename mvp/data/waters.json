@@ -1,0 +1,487 @@
+[
+ {
+  "water_id": "wa-w-battle-ground-lake",
+  "slug": "battle-ground-lake",
+  "display_name": "Battle Ground Lake",
+  "wdfw_name": "Battle Ground Lake",
+  "counties": [
+   "Clark"
+  ],
+  "wdfw_geo_code": "L333",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+  "lake_centre": {
+   "lat": 45.804756,
+   "lon": -122.494045,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake"
+  },
+  "primary_access_manager": "Washington State Parks",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72369",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "BATTLE GROUND LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-lacamas-lake",
+  "slug": "lacamas-lake",
+  "display_name": "Lacamas Lake",
+  "wdfw_name": "Lacamas Lake",
+  "counties": [
+   "Clark"
+  ],
+  "wdfw_geo_code": "L44874",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+  "lake_centre": {
+   "lat": 45.616843,
+   "lon": -122.425798,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake"
+  },
+  "primary_access_manager": "Clark County Parks",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72376",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LACAMAS LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-klineline-pond",
+  "slug": "klineline-pond",
+  "display_name": "Klineline Pond",
+  "wdfw_name": "Klineline Pond",
+  "counties": [
+   "Clark"
+  ],
+  "wdfw_geo_code": "L38502",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+  "lake_centre": {
+   "lat": 45.70791,
+   "lon": -122.656174,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond"
+  },
+  "primary_access_manager": "Clark County Parks",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72374",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "KLINELINE POND"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-green-lake-king",
+  "slug": "green-lake-seattle",
+  "display_name": "Green Lake (Seattle)",
+  "wdfw_name": "Green Lake (King County)",
+  "counties": [
+   "King"
+  ],
+  "wdfw_geo_code": "L1536",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+  "lake_centre": {
+   "lat": 47.678114,
+   "lon": -122.338465,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king"
+  },
+  "primary_access_manager": "Seattle Parks and Recreation",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71868",
+  "identity_status": "confirmed",
+  "unique_name_keys": [],
+  "ambiguous_name_keys": [
+   "GREEN LAKE",
+   "GREEN LAKE SEATTLE"
+  ]
+ },
+ {
+  "water_id": "wa-w-angle-lake",
+  "slug": "angle-lake",
+  "display_name": "Angle Lake",
+  "wdfw_name": "Angle Lake",
+  "counties": [
+   "King"
+  ],
+  "wdfw_geo_code": "L91",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+  "lake_centre": {
+   "lat": 47.427512,
+   "lon": -122.286785,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake"
+  },
+  "primary_access_manager": "City of SeaTac",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71848",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "ANGLE LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-lake-meridian",
+  "slug": "lake-meridian",
+  "display_name": "Lake Meridian",
+  "wdfw_name": "Lake Meridian",
+  "counties": [
+   "King"
+  ],
+  "wdfw_geo_code": "L3273",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+  "lake_centre": {
+   "lat": 47.362526,
+   "lon": -122.152956,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian"
+  },
+  "primary_access_manager": "City of Kent",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71871",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LAKE MERIDIAN"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-martha-alderwood-manor",
+  "slug": "martha-lake-lynnwood",
+  "display_name": "Martha Lake (Lynnwood)",
+  "wdfw_name": "Martha Alderwood Manor",
+  "counties": [
+   "Snohomish"
+  ],
+  "wdfw_geo_code": "L3217",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+  "lake_centre": {
+   "lat": 47.852714,
+   "lon": -122.243454,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor"
+  },
+  "primary_access_manager": "Snohomish County Parks",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71885",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "MARTHA ALDERWOOD MANOR"
+  ],
+  "ambiguous_name_keys": [
+   "MARTHA LAKE LYNNWOOD"
+  ]
+ },
+ {
+  "water_id": "wa-w-ward-lake",
+  "slug": "ward-lake",
+  "display_name": "Ward Lake",
+  "wdfw_name": "Ward Lake",
+  "counties": [
+   "Thurston"
+  ],
+  "wdfw_geo_code": "L8939",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+  "lake_centre": {
+   "lat": 47.008767,
+   "lon": -122.875442,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72058",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "WARD LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-longs-pond",
+  "slug": "longs-pond",
+  "display_name": "Long's Pond",
+  "wdfw_name": "Long's Pond",
+  "counties": [
+   "Thurston"
+  ],
+  "wdfw_geo_code": "L2818",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+  "lake_centre": {
+   "lat": 47.039336,
+   "lon": -122.791497,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond"
+  },
+  "primary_access_manager": "City of Lacey",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72022",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LONGS POND"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-american-lake",
+  "slug": "american-lake",
+  "display_name": "American Lake",
+  "wdfw_name": "American Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L35",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+  "lake_centre": {
+   "lat": 47.13287,
+   "lon": -122.562286,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71992",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "AMERICAN LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-alder-lake",
+  "slug": "alder-lake",
+  "display_name": "Alder Lake",
+  "wdfw_name": "Alder Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L23",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+  "lake_centre": {
+   "lat": 46.772031,
+   "lon": -122.22727,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake"
+  },
+  "primary_access_manager": "Tacoma Power (Tacoma Public Utilities)",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71991",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "ALDER LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-mineral-lake",
+  "slug": "mineral-lake",
+  "display_name": "Mineral Lake",
+  "wdfw_name": "Mineral Lake",
+  "counties": [
+   "Lewis"
+  ],
+  "wdfw_geo_code": "L3300",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+  "lake_centre": {
+   "lat": 46.72644,
+   "lon": -122.173647,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72485",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "MINERAL LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-lake-bradley",
+  "slug": "bradley-lake",
+  "display_name": "Bradley Lake",
+  "wdfw_name": "Lake Bradley",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L35548",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+  "lake_centre": {
+   "lat": 47.161091,
+   "lon": -122.284218,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley"
+  },
+  "primary_access_manager": "City of Puyallup",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71995",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LAKE BRADLEY"
+  ],
+  "ambiguous_name_keys": [
+   "BRADLEY LAKE"
+  ]
+ },
+ {
+  "water_id": "wa-w-spanaway-lake",
+  "slug": "spanaway-lake",
+  "display_name": "Spanaway Lake",
+  "wdfw_name": "Spanaway Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L4266",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+  "lake_centre": {
+   "lat": 47.110228,
+   "lon": -122.448044,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake"
+  },
+  "primary_access_manager": "Pierce County Parks",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72005",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "SPANAWAY LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-lake-kapowsin",
+  "slug": "lake-kapowsin",
+  "display_name": "Lake Kapowsin",
+  "wdfw_name": "Lake Kapowsin",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L2668",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+  "lake_centre": {
+   "lat": 46.972931,
+   "lon": -122.227488,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72001",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LAKE KAPOWSIN"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-lake-whitman",
+  "slug": "lake-whitman",
+  "display_name": "Lake Whitman",
+  "wdfw_name": "Lake Whitman",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L547",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+  "lake_centre": {
+   "lat": 46.963023,
+   "lon": -122.257368,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72489",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "LAKE WHITMAN"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-tanwax-lake",
+  "slug": "tanwax-lake",
+  "display_name": "Tanwax Lake",
+  "wdfw_name": "Tanwax Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L4578",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+  "lake_centre": {
+   "lat": 46.950231,
+   "lon": -122.266436,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72007",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "TANWAX LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-clear-lake-pierce",
+  "slug": "clear-lake-pierce-county",
+  "display_name": "Clear Lake (Pierce County)",
+  "wdfw_name": "Clear Lake (Pierce County)",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L4498",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+  "lake_centre": {
+   "lat": 46.931345,
+   "lon": -122.272744,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72016",
+  "identity_status": "confirmed",
+  "unique_name_keys": [],
+  "ambiguous_name_keys": [
+   "CLEAR LAKE"
+  ]
+ },
+ {
+  "water_id": "wa-w-bonney-lake",
+  "slug": "bonney-lake",
+  "display_name": "Bonney Lake",
+  "wdfw_name": "Bonney Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L466",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+  "lake_centre": {
+   "lat": 47.189008,
+   "lon": -122.185772,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=71994",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "BONNEY LAKE"
+  ],
+  "ambiguous_name_keys": []
+ },
+ {
+  "water_id": "wa-w-rapjohn-lake",
+  "slug": "rapjohn-lake",
+  "display_name": "Rapjohn Lake",
+  "wdfw_name": "Rapjohn Lake",
+  "counties": [
+   "Pierce"
+  ],
+  "wdfw_geo_code": "L3838",
+  "official_wdfw_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+  "lake_centre": {
+   "lat": 46.905177,
+   "lon": -122.342204,
+   "source_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake"
+  },
+  "primary_access_manager": "WDFW",
+  "access_reviewed_at": "2026-10-31",
+  "emergency_rules_url": "https://wdfw.wa.gov/fishing/regulations/emergency-rules?lake=72003",
+  "identity_status": "confirmed",
+  "unique_name_keys": [
+   "RAPJOHN LAKE"
+  ],
+  "ambiguous_name_keys": []
+ }
+]
