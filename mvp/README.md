@@ -133,18 +133,23 @@ python3 mvp/site/build_site.py --production --config /path/to/temp-config.json -
 
 `.github/workflows/mvp-site.yml`:
 
-- Runs every 6 hours, **from the default branch only**, and **only once the
-  repository variable `MVP_PRODUCTION=true` is set**. It can also be run by
-  hand (`workflow_dispatch`).
-- **Deploys only** when `MVP_PRODUCTION=true` and the run is on the default
-  branch.
-- If tests fail or the production guard refuses, the job stops before
-  upload and the live site stays as it was.
+- **Push to `main`** (an approved merge) runs refresh, tests, the production
+  config guard, build, the SEO/link check (`mvp/tests/check_dist.py`) and
+  deploys. Pushes to any other branch do not trigger it.
+- **Every 6 hours** (schedule, default branch `main`) does the same.
+- **Manual** `workflow_dispatch` on `main` is the fallback; on another branch it
+  builds and validates but never deploys.
+- Nothing runs on push or schedule until the repository variable
+  `MVP_PRODUCTION=true` is set. **Deploys only** when `MVP_PRODUCTION=true`,
+  the run is on `refs/heads/main`, and the event is push, schedule or dispatch.
+- If tests fail, the production guard refuses, the build fails or the SEO/link
+  check fails, the job stops before upload and the live site stays as it was.
 - If a source refresh fails, the job deploys last-known data marked STALE.
 - A suspicious drop in stocking rows counts as a failed refresh.
-- It commits the four refreshed data files back (`stocking_events.json`,
+- It commits the four refreshed data files back to `main` (`stocking_events.json`,
   `notices.json`, `source_status.json`, `review_queue.json`). That step is
-  non-fatal.
+  non-fatal. It cannot loop: GITHUB_TOKEN pushes never start workflow runs,
+  pushes touching only those files are ignored, and bot push runs are skipped.
 - No `CNAME` file is used: GitHub ignores it for custom Actions workflows,
   and the domain is set in Settings → Pages.
 

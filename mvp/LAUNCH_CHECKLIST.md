@@ -20,7 +20,9 @@ The repo's only branch, and current default, is
 
 2. Set **Settings → General → Default branch = `main`**.
 
-Scheduled runs only happen on the default branch.
+Scheduled runs only happen on the default branch. Pushes and merges to
+`main` also deploy automatically (once `MVP_PRODUCTION=true`); pushes to
+Claude/development branches never deploy.
 
 ## 3. GitHub settings
 

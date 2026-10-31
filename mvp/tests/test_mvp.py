@@ -372,6 +372,35 @@ class LakeDetailRedesign(unittest.TestCase):
         shutil.rmtree(tmp)
 
 
+class DeployWorkflow(unittest.TestCase):
+    """Guards the production deploy rules in .github/workflows/mvp-site.yml (text checks, no YAML dep)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.wf = (MVP.parent / ".github/workflows/mvp-site.yml").read_text()
+        cls.on = cls.wf[cls.wf.index("\non:"):cls.wf.index("\npermissions:")]
+
+    def test_push_trigger_is_main_only_and_ignores_own_data_commits(self):
+        self.assertRegex(self.on, r"push:\n\s+branches: \[main\]")
+        self.assertNotRegex(self.on, r"branches:.*claude|branches-ignore|tags:")
+        for f in ("stocking_events.json", "notices.json", "source_status.json", "review_queue.json"):
+            self.assertIn(f"- mvp/data/{f}", self.on)
+        self.assertIn('cron: "17 */6 * * *"', self.on)
+        self.assertIn("workflow_dispatch", self.on)
+
+    def test_deploy_requires_production_main_and_known_event(self):
+        self.assertIn('[ "$MVP_PRODUCTION" = "true" ] && [ "$REF" = "refs/heads/main" ] && [ "$ok_event" = "true" ]', self.wf)
+        self.assertIn("push|schedule|workflow_dispatch) ok_event=true", self.wf)
+        self.assertIn("if: needs.build.outputs.deployable == 'true' && github.ref == 'refs/heads/main'", self.wf)
+        self.assertIn("!(github.event_name == 'push' && github.actor == 'github-actions[bot]')", self.wf)
+
+    def test_checks_run_before_upload(self):
+        order = [self.wf.index(x) for x in ("python3 mvp/run.py", "python3 mvp/tests/check_dist.py", "id: gate",
+                                            "actions/upload-pages-artifact", "actions/deploy-pages")]
+        self.assertEqual(order, sorted(order))
+        self.assertIn("contents: read", self.wf[:self.wf.index("jobs:")])
+
+
 class Production(unittest.TestCase):
     """Production path, verified with a temporary config whose only change is a test-only
     contact address (never committed, never deployed)."""
