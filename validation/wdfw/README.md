@@ -4,9 +4,19 @@ Isolated technical check of whether Washington fish-stocking data can be
 fetched and normalized from official sources. No site, UI or production
 code lives here.
 
-**Status (2026-10-31): CONDITIONAL PASS.** Run with open internet access.
+**Step 1 status (2026-10-31): CONDITIONAL PASS.** Run with open internet access.
 See `VALIDATION_REPORT.md` for the verdict and findings, and `RUN_RESULTS.md`
 for every request made.
+
+## Later steps in this folder
+
+- **Step 2, canonical water identity:** `identity/`. Start with
+  `identity/IDENTITY_VALIDATION_REPORT.md` (verdict: CONDITIONAL PASS) and
+  `identity/README.md` (how to run it).
+- **Daily Step 1 monitor (one week):** `monitor/daily_snapshot.py` writes
+  `monitor/snapshots/<date>.json` and appends to `monitor/MONITOR_LOG.md`.
+  It observes refresh frequency, regenerated row IDs, corrections and
+  reporting lag. A scheduled cloud task runs it daily at 14:13 Pacific.
 
 ## Files
 

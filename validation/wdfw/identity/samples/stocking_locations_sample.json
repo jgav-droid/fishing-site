@@ -1,0 +1,3025 @@
+[
+ {
+  "location_key": "BATTLE GROUND LK (CLAR)",
+  "raw_names": {
+   "BATTLE GROUND LK (CLAR)": 548
+  },
+  "counties": {
+   "Clark": 548
+  },
+  "geo_codes": {
+   "L333": 548
+  },
+  "species": {
+   "Rainbow": 455,
+   "Cutthroat": 42,
+   "Steelhead": 29,
+   "Eastern Brook Trout": 22
+  },
+  "species_type": {
+   "Trout/Kokanee": 519,
+   "Salmon": 29
+  },
+  "first_date": "1995-01-10",
+  "latest_date": "2026-10-27",
+  "rows": 548,
+  "suffix_codes": [
+   "CLAR"
+  ],
+  "suffix_counties": [
+   "Clark"
+  ],
+  "nonblank_counties": [
+   "Clark"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LACAMAS LK (CLAR)",
+  "raw_names": {
+   "LACAMAS LK (CLAR)": 197
+  },
+  "counties": {
+   "Clark": 197
+  },
+  "geo_codes": {
+   "L44874": 197
+  },
+  "species": {
+   "Rainbow": 116,
+   "Brown Trout": 76,
+   "Steelhead": 4,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 193,
+   "Salmon": 4
+  },
+  "first_date": "1995-01-04",
+  "latest_date": "2026-10-27",
+  "rows": 197,
+  "suffix_codes": [
+   "CLAR"
+  ],
+  "suffix_counties": [
+   "Clark"
+  ],
+  "nonblank_counties": [
+   "Clark"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "KLINELINE PD (CLAR)",
+  "raw_names": {
+   "KLINELINE PD (CLAR)": 562
+  },
+  "counties": {
+   "Clark": 562
+  },
+  "geo_codes": {
+   "L38502": 562
+  },
+  "species": {
+   "Rainbow": 493,
+   "Brown Trout": 44,
+   "Cutthroat": 24,
+   "Eastern Brook Trout": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 562
+  },
+  "first_date": "1997-03-26",
+  "latest_date": "2026-10-26",
+  "rows": 562,
+  "suffix_codes": [
+   "CLAR"
+  ],
+  "suffix_counties": [
+   "Clark"
+  ],
+  "nonblank_counties": [
+   "Clark"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "GREEN LK (KING)",
+  "raw_names": {
+   "GREEN LK (KING)": 246
+  },
+  "counties": {
+   "King": 246
+  },
+  "geo_codes": {
+   "L1536": 246
+  },
+  "species": {
+   "Rainbow": 173,
+   "Steelhead": 35,
+   "Brown Trout": 25,
+   "Channel Catfish": 12,
+   "Tiger Muskie": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 198,
+   "Salmon": 35,
+   "Warmwater": 13
+  },
+  "first_date": "1995-03-15",
+  "latest_date": "2026-10-26",
+  "rows": 246,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "GREEN LK",
+  "collision_members": [
+   "GREEN LK (KING)",
+   "GREEN LK (OKAN)",
+   "GREEN LK (PIER)",
+   "GREEN LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "ANGLE LK (KING)",
+  "raw_names": {
+   "ANGLE LK (KING)": 131
+  },
+  "counties": {
+   "King": 131
+  },
+  "geo_codes": {
+   "L91": 131
+  },
+  "species": {
+   "Rainbow": 84,
+   "Kokanee": 32,
+   "Steelhead": 13,
+   "Eastern Brook Trout": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 118,
+   "Salmon": 13
+  },
+  "first_date": "1995-03-21",
+  "latest_date": "2026-10-21",
+  "rows": 131,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK MERIDIAN (KING)",
+  "raw_names": {
+   "LK MERIDIAN (KING)": 166
+  },
+  "counties": {
+   "King": 166
+  },
+  "geo_codes": {
+   "L3273": 166
+  },
+  "species": {
+   "Rainbow": 132,
+   "Kokanee": 34
+  },
+  "species_type": {
+   "Trout/Kokanee": 166
+  },
+  "first_date": "1995-03-16",
+  "latest_date": "2026-10-20",
+  "rows": 166,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "WARD LK (THUR)",
+  "raw_names": {
+   "WARD LK (THUR)": 179
+  },
+  "counties": {
+   "Thurston": 179
+  },
+  "geo_codes": {
+   "L8939": 179
+  },
+  "species": {
+   "Rainbow": 113,
+   "Kokanee": 47,
+   "Cutthroat": 18,
+   "Coho": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 178,
+   "Salmon": 1
+  },
+  "first_date": "1995-04-19",
+  "latest_date": "2026-10-26",
+  "rows": 179,
+  "suffix_codes": [
+   "THUR"
+  ],
+  "suffix_counties": [
+   "Thurston"
+  ],
+  "nonblank_counties": [
+   "Thurston"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "AMERICAN LK (PIER)",
+  "raw_names": {
+   "AMERICAN LK (PIER)": 370
+  },
+  "counties": {
+   "Pierce": 370
+  },
+  "geo_codes": {
+   "L35": 370
+  },
+  "species": {
+   "Rainbow": 236,
+   "Kokanee": 120,
+   "Steelhead": 11,
+   "SmallMouth Bass": 2,
+   "Coho": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 356,
+   "Salmon": 12,
+   "Warmwater": 2
+  },
+  "first_date": "1995-01-09",
+  "latest_date": "2026-10-14",
+  "rows": 370,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "AMERICAN LK",
+  "collision_members": [
+   "AMERICAN LK (PIER)",
+   "AMERICAN LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "ALDER LK (THUR/PIER)",
+  "raw_names": {
+   "ALDER LK (THUR/PIER)": 114
+  },
+  "counties": {
+   "Pierce": 114
+  },
+  "geo_codes": {
+   "L23": 114
+  },
+  "species": {
+   "Kokanee": 92,
+   "Rainbow": 19,
+   "Cutthroat": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 114
+  },
+  "first_date": "1995-01-13",
+  "latest_date": "2026-10-13",
+  "rows": 114,
+  "suffix_codes": [
+   "THUR",
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Thurston",
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "MINERAL LK (LEWI)",
+  "raw_names": {
+   "MINERAL LK (LEWI)": 526
+  },
+  "counties": {
+   "Lewis": 526
+  },
+  "geo_codes": {
+   "L3300": 526
+  },
+  "species": {
+   "Rainbow": 452,
+   "Brown Trout": 71,
+   "Cutthroat": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 526
+  },
+  "first_date": "1995-01-25",
+  "latest_date": "2026-10-15",
+  "rows": 526,
+  "suffix_codes": [
+   "LEWI"
+  ],
+  "suffix_counties": [
+   "Lewis"
+  ],
+  "nonblank_counties": [
+   "Lewis"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "BRADLEY LK (PIER)",
+  "raw_names": {
+   "BRADLEY LK (PIER)": 180
+  },
+  "counties": {
+   "Pierce": 180
+  },
+  "geo_codes": {
+   "L35548": 180
+  },
+  "species": {
+   "Rainbow": 178,
+   "Coho": 1,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 179,
+   "Salmon": 1
+  },
+  "first_date": "1999-03-29",
+  "latest_date": "2026-06-22",
+  "rows": 180,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "SPANAWAY LK (PIER)",
+  "raw_names": {
+   "SPANAWAY LK (PIER)": 196
+  },
+  "counties": {
+   "Pierce": 196
+  },
+  "geo_codes": {
+   "L4266": 196
+  },
+  "species": {
+   "Rainbow": 171,
+   "Brown Trout": 15,
+   "Coho": 6,
+   "Steelhead": 4
+  },
+  "species_type": {
+   "Trout/Kokanee": 186,
+   "Salmon": 10
+  },
+  "first_date": "1995-01-09",
+  "latest_date": "2026-03-10",
+  "rows": 196,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK KAPOWSIN (PIER)",
+  "raw_names": {
+   "LK KAPOWSIN (PIER)": 162
+  },
+  "counties": {
+   "Pierce": 162
+  },
+  "geo_codes": {
+   "L2668": 162
+  },
+  "species": {
+   "Rainbow": 159,
+   "Coho": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 159,
+   "Salmon": 3
+  },
+  "first_date": "1995-01-11",
+  "latest_date": "2024-11-25",
+  "rows": 162,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK WHITMAN (PIER)",
+  "raw_names": {
+   "LK WHITMAN (PIER)": 45
+  },
+  "counties": {
+   "Pierce": 45
+  },
+  "geo_codes": {
+   "L547": 45
+  },
+  "species": {
+   "Rainbow": 45
+  },
+  "species_type": {
+   "Trout/Kokanee": 45
+  },
+  "first_date": "1995-04-12",
+  "latest_date": "2026-03-10",
+  "rows": 45,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "TANWAX LK (PIER)",
+  "raw_names": {
+   "TANWAX LK (PIER)": 175
+  },
+  "counties": {
+   "Pierce": 175
+  },
+  "geo_codes": {
+   "L4578": 175
+  },
+  "species": {
+   "Rainbow": 168,
+   "Cutthroat": 5,
+   "Coho": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 173,
+   "Salmon": 2
+  },
+  "first_date": "1995-03-07",
+  "latest_date": "2026-05-20",
+  "rows": 175,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "CLEAR LK (PIER)",
+  "raw_names": {
+   "CLEAR LK (PIER)": 169
+  },
+  "counties": {
+   "Pierce": 169
+  },
+  "geo_codes": {
+   "L4498": 169
+  },
+  "species": {
+   "Rainbow": 135,
+   "Kokanee": 33,
+   "Brown Trout": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 169
+  },
+  "first_date": "1995-01-11",
+  "latest_date": "2026-05-19",
+  "rows": 169,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "CLEAR LK",
+  "collision_members": [
+   "CLEAR LK (CHEL)",
+   "CLEAR LK (DOUG)",
+   "CLEAR LK (PIER)",
+   "CLEAR LK (SKAM)",
+   "CLEAR LK (SNOH)",
+   "CLEAR LK (SPOK)",
+   "CLEAR LK (THUR)",
+   "CLEAR LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "BONNEY LK (PIER)",
+  "raw_names": {
+   "BONNEY LK (PIER)": 59
+  },
+  "counties": {
+   "Pierce": 59
+  },
+  "geo_codes": {
+   "L466": 59
+  },
+  "species": {
+   "Rainbow": 59
+  },
+  "species_type": {
+   "Trout/Kokanee": 59
+  },
+  "first_date": "1995-04-10",
+  "latest_date": "2026-03-10",
+  "rows": 59,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "RAPJOHN LK (PIER)",
+  "raw_names": {
+   "RAPJOHN LK (PIER)": 112
+  },
+  "counties": {
+   "Pierce": 112
+  },
+  "geo_codes": {
+   "L3838": 112
+  },
+  "species": {
+   "Rainbow": 100,
+   "Brown Trout": 9,
+   "Eastern Brook Trout": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 112
+  },
+  "first_date": "1995-03-27",
+  "latest_date": "2026-05-26",
+  "rows": 112,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "MARTHA LK (AM) (SNOH)",
+  "raw_names": {
+   "MARTHA LK (AM) (SNOH)": 112
+  },
+  "counties": {
+   "Snohomish": 112
+  },
+  "geo_codes": {
+   "L3217": 112
+  },
+  "species": {
+   "Rainbow": 94,
+   "Cutthroat": 17,
+   "Brown Trout": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 112
+  },
+  "first_date": "1995-04-05",
+  "latest_date": "2026-05-26",
+  "rows": 112,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "MARTHA LK (WB) (SNOH)",
+  "raw_names": {
+   "MARTHA LK (WB) (SNOH)": 105
+  },
+  "counties": {
+   "Snohomish": 105
+  },
+  "geo_codes": {
+   "L3219": 105
+  },
+  "species": {
+   "Rainbow": 47,
+   "Brown Trout": 28,
+   "Cutthroat": 28,
+   "Steelhead": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 103,
+   "Salmon": 2
+  },
+  "first_date": "1995-04-07",
+  "latest_date": "2026-10-26",
+  "rows": 105,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LONGS PD (THUR)",
+  "raw_names": {
+   "LONGS PD (THUR)": 181
+  },
+  "counties": {
+   "Thurston": 181
+  },
+  "geo_codes": {
+   "L2818": 181
+  },
+  "species": {
+   "Rainbow": 175,
+   "Cutthroat": 6
+  },
+  "species_type": {
+   "Trout/Kokanee": 181
+  },
+  "first_date": "1997-04-17",
+  "latest_date": "2026-10-26",
+  "rows": 181,
+  "suffix_codes": [
+   "THUR"
+  ],
+  "suffix_counties": [
+   "Thurston"
+  ],
+  "nonblank_counties": [
+   "Thurston"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "CLEAR LK (SKAG) T34",
+  "raw_names": {
+   "CLEAR LK (SKAG) T34": 76
+  },
+  "counties": {
+   "Skagit": 76
+  },
+  "geo_codes": {
+   "L833": 76
+  },
+  "species": {
+   "Rainbow": 54,
+   "Cutthroat": 22
+  },
+  "species_type": {
+   "Trout/Kokanee": 76
+  },
+  "first_date": "1995-05-23",
+  "latest_date": "2026-10-22",
+  "rows": 76,
+  "suffix_codes": [
+   "SKAG"
+  ],
+  "suffix_counties": [
+   "Skagit"
+  ],
+  "nonblank_counties": [
+   "Skagit"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "CLEAR LK (SKAG) T36",
+  "raw_names": {
+   "CLEAR LK (SKAG) T36": 5
+  },
+  "counties": {
+   "Skagit": 5
+  },
+  "geo_codes": {
+   "L834": 5
+  },
+  "species": {
+   "Rainbow": 5
+  },
+  "species_type": {
+   "Trout/Kokanee": 5
+  },
+  "first_date": "1995-08-22",
+  "latest_date": "2010-08-21",
+  "rows": 5,
+  "suffix_codes": [
+   "SKAG"
+  ],
+  "suffix_counties": [
+   "Skagit"
+  ],
+  "nonblank_counties": [
+   "Skagit"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "CLEAR LK (SNOH)",
+  "raw_names": {
+   "CLEAR LK (SNOH)": 3
+  },
+  "counties": {
+   "Snohomish": 3
+  },
+  "geo_codes": {
+   "L836": 3
+  },
+  "species": {
+   "Rainbow": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 3
+  },
+  "first_date": "1996-09-28",
+  "latest_date": "2011-10-15",
+  "rows": 3,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "CLEAR LK",
+  "collision_members": [
+   "CLEAR LK (CHEL)",
+   "CLEAR LK (DOUG)",
+   "CLEAR LK (PIER)",
+   "CLEAR LK (SKAM)",
+   "CLEAR LK (SNOH)",
+   "CLEAR LK (SPOK)",
+   "CLEAR LK (THUR)",
+   "CLEAR LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "MARTHA LK (GRAN)",
+  "raw_names": {
+   "MARTHA LK (GRAN)": 41
+  },
+  "counties": {
+   "Grant": 41
+  },
+  "geo_codes": {
+   "L3070": 41
+  },
+  "species": {
+   "Rainbow": 41
+  },
+  "species_type": {
+   "Trout/Kokanee": 41
+  },
+  "first_date": "1996-10-25",
+  "latest_date": "2026-04-22",
+  "rows": 41,
+  "suffix_codes": [
+   "GRAN"
+  ],
+  "suffix_counties": [
+   "Grant"
+  ],
+  "nonblank_counties": [
+   "Grant"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "SILVER LK (JEFF)",
+  "raw_names": {
+   "SILVER LK (JEFF)": 3
+  },
+  "counties": {
+   "Jefferson": 3
+  },
+  "geo_codes": {
+   "L3991": 3
+  },
+  "species": {
+   "Cutthroat": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 3
+  },
+  "first_date": "1996-09-24",
+  "latest_date": "2009-09-26",
+  "rows": 3,
+  "suffix_codes": [
+   "JEFF"
+  ],
+  "suffix_counties": [
+   "Jefferson"
+  ],
+  "nonblank_counties": [
+   "Jefferson"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "SILVER LK",
+  "collision_members": [
+   "SILVER LK (COWL)",
+   "SILVER LK (JEFF)",
+   "SILVER LK (MASO)",
+   "SILVER LK (OKAN)",
+   "SILVER LK (PIER)",
+   "SILVER LK (SPOK)"
+  ]
+ },
+ {
+  "location_key": "SILVER LK (MASO)",
+  "raw_names": {
+   "SILVER LK (MASO)": 3
+  },
+  "counties": {
+   "Mason": 3
+  },
+  "geo_codes": {
+   "L3991": 3
+  },
+  "species": {
+   "Cutthroat": 2,
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 3
+  },
+  "first_date": "1997-10-10",
+  "latest_date": "2003-08-29",
+  "rows": 3,
+  "suffix_codes": [
+   "MASO"
+  ],
+  "suffix_counties": [
+   "Mason"
+  ],
+  "nonblank_counties": [
+   "Mason"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "SILVER LK",
+  "collision_members": [
+   "SILVER LK (COWL)",
+   "SILVER LK (JEFF)",
+   "SILVER LK (MASO)",
+   "SILVER LK (OKAN)",
+   "SILVER LK (PIER)",
+   "SILVER LK (SPOK)"
+  ]
+ },
+ {
+  "location_key": "BEAVER LK (OKAN) T34",
+  "raw_names": {
+   "BEAVER LK (OKAN) T34": 28
+  },
+  "counties": {
+   "Okanogan": 28
+  },
+  "geo_codes": {
+   "L163": 28
+  },
+  "species": {
+   "Cutthroat": 12,
+   "Rainbow": 11,
+   "Tiger Trout": 3,
+   "Eastern Brook Trout": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 28
+  },
+  "first_date": "2001-05-29",
+  "latest_date": "2025-04-22",
+  "rows": 28,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "BEAVER LK (OKAN) T39",
+  "raw_names": {
+   "BEAVER LK (OKAN) T39": 65
+  },
+  "counties": {
+   "Okanogan": 65
+  },
+  "geo_codes": {
+   "L164": 65
+  },
+  "species": {
+   "Rainbow": 38,
+   "Cutthroat": 13,
+   "Tiger Trout": 9,
+   "Eastern Brook Trout": 3,
+   "Brown Trout": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 65
+  },
+  "first_date": "1995-05-11",
+  "latest_date": "2026-07-03",
+  "rows": 65,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "BEAVER LK (SNOH)",
+  "raw_names": {
+   "BEAVER LK (SNOH)": 7
+  },
+  "counties": {
+   "Snohomish": 7
+  },
+  "geo_codes": {
+   "L3724": 7
+  },
+  "species": {
+   "Rainbow": 3,
+   "Cutthroat": 3,
+   "Kokanee": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 7
+  },
+  "first_date": "1999-06-17",
+  "latest_date": "2016-05-26",
+  "rows": 7,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "BEAVER LK",
+  "collision_members": [
+   "BEAVER LK (COLU)",
+   "BEAVER LK (SNOH)"
+  ]
+ },
+ {
+  "location_key": "MUD LK (KING)",
+  "raw_names": {
+   "MUD LK (KING)": 5
+  },
+  "counties": {
+   "King": 5
+  },
+  "geo_codes": {
+   "L3363": 5
+  },
+  "species": {
+   "Rainbow": 3,
+   "Cutthroat": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 5
+  },
+  "first_date": "1995-06-02",
+  "latest_date": "2009-10-23",
+  "rows": 5,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "MUD LK",
+  "collision_members": [
+   "MUD LK (KING)",
+   "MUD LK (LEWI)",
+   "MUD LK (MASO)",
+   "MUD LK (WHAT)"
+  ]
+ },
+ {
+  "location_key": "BLUE LK (OKAN) T35",
+  "raw_names": {
+   "BLUE LK (OKAN) T35": 56
+  },
+  "counties": {
+   "Okanogan": 56
+  },
+  "geo_codes": {
+   "L228": 56
+  },
+  "species": {
+   "Eastern Brook Trout": 22,
+   "Tiger Trout": 10,
+   "Rainbow": 9,
+   "Cutthroat": 9,
+   "Brown Trout": 6
+  },
+  "species_type": {
+   "Trout/Kokanee": 56
+  },
+  "first_date": "1995-05-25",
+  "latest_date": "2026-05-13",
+  "rows": 56,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "GREEN LK (PIER)",
+  "raw_names": {
+   "GREEN LK (PIER)": 3
+  },
+  "counties": {
+   "Pierce": 3
+  },
+  "geo_codes": {
+   "L1537": 3
+  },
+  "species": {
+   "Rainbow": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 3
+  },
+  "first_date": "1996-06-07",
+  "latest_date": "2006-03-15",
+  "rows": 3,
+  "suffix_codes": [
+   "PIER"
+  ],
+  "suffix_counties": [
+   "Pierce"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "GREEN LK",
+  "collision_members": [
+   "GREEN LK (KING)",
+   "GREEN LK (OKAN)",
+   "GREEN LK (PIER)",
+   "GREEN LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "AMERICAN LK (YAKI)",
+  "raw_names": {
+   "AMERICAN LK (YAKI)": 9
+  },
+  "counties": {
+   "Yakima": 9
+  },
+  "geo_codes": {
+   "L36": 9
+  },
+  "species": {
+   "Cutthroat": 9
+  },
+  "species_type": {
+   "Trout/Kokanee": 9
+  },
+  "first_date": "1997-08-23",
+  "latest_date": "2026-08-03",
+  "rows": 9,
+  "suffix_codes": [
+   "YAKI"
+  ],
+  "suffix_counties": [
+   "Yakima"
+  ],
+  "nonblank_counties": [
+   "Yakima"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "AMERICAN LK",
+  "collision_members": [
+   "AMERICAN LK (PIER)",
+   "AMERICAN LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "DEER LK (LINC)",
+  "raw_names": {
+   "DEER LK (LINC)": 23
+  },
+  "counties": {
+   "Lincoln": 23
+  },
+  "geo_codes": {
+   "L1060": 23
+  },
+  "species": {
+   "Rainbow": 13,
+   "Brown Trout": 9,
+   "Kokanee": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 23
+  },
+  "first_date": "1995-05-15",
+  "latest_date": "2026-05-28",
+  "rows": 23,
+  "suffix_codes": [
+   "LINC"
+  ],
+  "suffix_counties": [
+   "Lincoln"
+  ],
+  "nonblank_counties": [
+   "Lincoln"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "DEER LK",
+  "collision_members": [
+   "DEER LK (COLU)",
+   "DEER LK (ISLA)",
+   "DEER LK (KING)",
+   "DEER LK (LINC)",
+   "DEER LK (MASO)",
+   "DEER LK (SKAM)",
+   "DEER LK (STEV)",
+   "DEER LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "DUCK LK (1) (GRAY)",
+  "raw_names": {
+   "DUCK LK (1) (GRAY)": 29
+  },
+  "counties": {
+   "Grays Harbor": 29
+  },
+  "geo_codes": {
+   "L1009": 29
+  },
+  "species": {
+   "Rainbow": 17,
+   "Coho": 7,
+   "Steelhead": 4,
+   "Black Crappie": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 17,
+   "Salmon": 11,
+   "Warmwater": 1
+  },
+  "first_date": "2001-06-06",
+  "latest_date": "2024-05-09",
+  "rows": 29,
+  "suffix_codes": [
+   "GRAY"
+  ],
+  "suffix_counties": [
+   "Grays Harbor"
+  ],
+  "nonblank_counties": [
+   "Grays Harbor"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "CARNEY LK (PIER/KITS)",
+  "raw_names": {
+   "CARNEY LK (PIER/KITS)": 86
+  },
+  "counties": {
+   "Pierce": 86
+  },
+  "geo_codes": {
+   "L742": 86
+  },
+  "species": {
+   "Rainbow": 74,
+   "Brown Trout": 9,
+   "Coho": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 83,
+   "Salmon": 3
+  },
+  "first_date": "1995-04-03",
+  "latest_date": "2026-06-02",
+  "rows": 86,
+  "suffix_codes": [
+   "PIER",
+   "KITS"
+  ],
+  "suffix_counties": [
+   "Pierce",
+   "Kitsap"
+  ],
+  "nonblank_counties": [
+   "Pierce"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LONG LK (THUR)",
+  "raw_names": {
+   "LONG LK (THUR)": 286
+  },
+  "counties": {
+   "Thurston": 286
+  },
+  "geo_codes": {
+   "L2818": 286
+  },
+  "species": {
+   "Rainbow": 268,
+   "Brown Trout": 10,
+   "Eastern Brook Trout": 4,
+   "Cutthroat": 2,
+   "Bluegill": 1,
+   "Channel Catfish": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 284,
+   "Warmwater": 2
+  },
+  "first_date": "1995-04-10",
+  "latest_date": "2026-04-23",
+  "rows": 286,
+  "suffix_codes": [
+   "THUR"
+  ],
+  "suffix_counties": [
+   "Thurston"
+  ],
+  "nonblank_counties": [
+   "Thurston"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "LONG LK",
+  "collision_members": [
+   "LONG LK (FERR)",
+   "LONG LK (GRAN)",
+   "LONG LK (KITS)",
+   "LONG LK (LEWI)",
+   "LONG LK (OKAN)",
+   "LONG LK (SPOK)",
+   "LONG LK (STEV)",
+   "LONG LK (THUR)",
+   "LONG LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "TWIN LKS LTL (OKAN)",
+  "raw_names": {
+   "TWIN LKS LTL (OKAN)": 64
+  },
+  "counties": {
+   "Okanogan": 64
+  },
+  "geo_codes": {
+   "L4475": 64
+  },
+  "species": {
+   "Rainbow": 41,
+   "Eastern Brook Trout": 15,
+   "Tiger Trout": 3,
+   "Brown Trout": 3,
+   "Cutthroat": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 64
+  },
+  "first_date": "1995-05-03",
+  "latest_date": "2026-07-06",
+  "rows": 64,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "TWIN LKS LTL",
+  "collision_members": [
+   "TWIN LKS LTL (OKAN)",
+   "TWIN LKS LTL (STEV)"
+  ]
+ },
+ {
+  "location_key": "HORSESHOE LK (KING) T21",
+  "raw_names": {
+   "HORSESHOE LK (KING) T21": 5
+  },
+  "counties": {
+   "King": 5
+  },
+  "geo_codes": {
+   "L1772": 5
+  },
+  "species": {
+   "Golden Trout": 2,
+   "Coho": 2,
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 3,
+   "Salmon": 2
+  },
+  "first_date": "1995-04-14",
+  "latest_date": "2026-07-11",
+  "rows": 5,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "KLINELINE PD W (CLAR)",
+  "raw_names": {
+   "KLINELINE PD W (CLAR)": 47
+  },
+  "counties": {
+   "Clark": 47
+  },
+  "geo_codes": {
+   "L38533": 47
+  },
+  "species": {
+   "Rainbow": 44,
+   "Brown Trout": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 47
+  },
+  "first_date": "1995-01-19",
+  "latest_date": "2013-03-27",
+  "rows": 47,
+  "suffix_codes": [
+   "CLAR"
+  ],
+  "suffix_counties": [
+   "Clark"
+  ],
+  "nonblank_counties": [
+   "Clark"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LONG LK (KITS)",
+  "raw_names": {
+   "LONG LK (KITS)": 8
+  },
+  "counties": {
+   "Kitsap": 8
+  },
+  "geo_codes": {
+   "L2988": 8
+  },
+  "species": {
+   "Rainbow": 8
+  },
+  "species_type": {
+   "Trout/Kokanee": 8
+  },
+  "first_date": "1995-08-26",
+  "latest_date": "2011-03-23",
+  "rows": 8,
+  "suffix_codes": [
+   "KITS"
+  ],
+  "suffix_counties": [
+   "Kitsap"
+  ],
+  "nonblank_counties": [
+   "Kitsap"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "LONG LK",
+  "collision_members": [
+   "LONG LK (FERR)",
+   "LONG LK (GRAN)",
+   "LONG LK (KITS)",
+   "LONG LK (LEWI)",
+   "LONG LK (OKAN)",
+   "LONG LK (SPOK)",
+   "LONG LK (STEV)",
+   "LONG LK (THUR)",
+   "LONG LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "SILVER LK (SNOH) T28",
+  "raw_names": {
+   "SILVER LK (SNOH) T28": 169
+  },
+  "counties": {
+   "Snohomish": 169
+  },
+  "geo_codes": {
+   "L4198": 169
+  },
+  "species": {
+   "Rainbow": 140,
+   "Kokanee": 28,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 169
+  },
+  "first_date": "1995-03-15",
+  "latest_date": "2026-10-07",
+  "rows": 169,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "MAYFIELD LK (26)",
+  "raw_names": {
+   "MAYFIELD LK   (26)": 5
+  },
+  "counties": {
+   "": 5
+  },
+  "geo_codes": {
+   "L3235": 5
+  },
+  "species": {
+   "Rainbow": 4,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 5
+  },
+  "first_date": "2020-07-22",
+  "latest_date": "2023-08-15",
+  "rows": 5,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK ROOSEVELT (53)",
+  "raw_names": {
+   "LK ROOSEVELT  (53)": 2
+  },
+  "counties": {
+   "": 2
+  },
+  "geo_codes": {
+   "L44450": 2
+  },
+  "species": {
+   "Kokanee": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 2
+  },
+  "first_date": "2025-03-03",
+  "latest_date": "2026-03-23",
+  "rows": 2,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "TUCQUALA LK (KITT)",
+  "raw_names": {
+   "TUCQUALA LK (KITT)": 2
+  },
+  "counties": {
+   "": 2
+  },
+  "geo_codes": {
+   "L4450": 2
+  },
+  "species": {
+   "Cutthroat": 2
+  },
+  "species_type": {
+   "Trout/Kokanee": 2
+  },
+  "first_date": "1996-09-09",
+  "latest_date": "1996-10-07",
+  "rows": 2,
+  "suffix_codes": [
+   "KITT"
+  ],
+  "suffix_counties": [
+   "Kittitas"
+  ],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "HYAK LK (KITT)",
+  "raw_names": {
+   "HYAK LK (KITT)": 1
+  },
+  "counties": {
+   "": 1
+  },
+  "geo_codes": {
+   "L1655": 1
+  },
+  "species": {
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 1
+  },
+  "first_date": "1996-07-16",
+  "latest_date": "1996-07-16",
+  "rows": 1,
+  "suffix_codes": [
+   "KITT"
+  ],
+  "suffix_counties": [
+   "Kittitas"
+  ],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "FOC PORTABLE POND",
+  "raw_names": {
+   "FOC PORTABLE POND": 1
+  },
+  "counties": {
+   "": 1
+  },
+  "geo_codes": {
+   "": 1
+  },
+  "species": {
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 1
+  },
+  "first_date": "2001-07-27",
+  "latest_date": "2001-07-27",
+  "rows": 1,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "IDAHO- SPRING VALLEY RES",
+  "raw_names": {
+   "IDAHO- SPRING VALLEY RES": 1
+  },
+  "counties": {
+   "": 1
+  },
+  "geo_codes": {
+   "46.785069,-116.757248": 1
+  },
+  "species": {
+   "Tiger Muskie": 1
+  },
+  "species_type": {
+   "Warmwater": 1
+  },
+  "first_date": "1998-06-23",
+  "latest_date": "1998-06-23",
+  "rows": 1,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LAKE CR 26.1231",
+  "raw_names": {
+   "LAKE CR      26.1231": 12
+  },
+  "counties": {
+   "": 12
+  },
+  "geo_codes": {
+   "26.1231": 12
+  },
+  "species": {
+   "Steelhead": 12
+  },
+  "species_type": {
+   "Salmon": 12
+  },
+  "first_date": "1995-10-10",
+  "latest_date": "2008-10-29",
+  "rows": 12,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LAKE CR 26.0590",
+  "raw_names": {
+   "LAKE CR      26.0590": 4
+  },
+  "counties": {
+   "": 4
+  },
+  "geo_codes": {
+   "26.0590": 4
+  },
+  "species": {
+   "Chinook": 2,
+   "Coho": 1,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Salmon": 3,
+   "Trout/Kokanee": 1
+  },
+  "first_date": "2000-04-06",
+  "latest_date": "2012-03-15",
+  "rows": 4,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "NOEL COLE PD 23.0882",
+  "raw_names": {
+   "NOEL COLE PD 23.0882": 48
+  },
+  "counties": {
+   "": 27,
+   "Lewis": 21
+  },
+  "geo_codes": {
+   "P840": 48
+  },
+  "species": {
+   "Rainbow": 35,
+   "Steelhead": 12,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 36,
+   "Salmon": 12
+  },
+  "first_date": "1995-05-26",
+  "latest_date": "2026-05-26",
+  "rows": 48,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Lewis"
+  ],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK WASHINGTON (KING)",
+  "raw_names": {
+   "LK WASHINGTON (KING)": 203
+  },
+  "counties": {
+   "King": 200,
+   "": 3
+  },
+  "geo_codes": {
+   "L9015": 203
+  },
+  "species": {
+   "Coho": 115,
+   "Rainbow": 70,
+   "Chinook": 17,
+   "Lake Trout": 1
+  },
+  "species_type": {
+   "Salmon": 132,
+   "Trout/Kokanee": 71
+  },
+  "first_date": "1995-04-07",
+  "latest_date": "2026-05-30",
+  "rows": 203,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": true,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "SOUTHGATE CR 09?",
+  "raw_names": {
+   "SOUTHGATE CR  09?": 22
+  },
+  "counties": {
+   "": 22
+  },
+  "geo_codes": {
+   "": 22
+  },
+  "species": {
+   "Coho": 22
+  },
+  "species_type": {
+   "Salmon": 22
+  },
+  "first_date": "2003-02-20",
+  "latest_date": "2023-02-12",
+  "rows": 22,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [],
+  "has_blank_county": true,
+  "encoding_issue": true,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "KLINELINE PONDS",
+  "raw_names": {
+   "KLINELINE PONDS": 3
+  },
+  "counties": {
+   "Skamania": 3
+  },
+  "geo_codes": {
+   "L38502,L38533,L38454": 3
+  },
+  "species": {
+   "Rainbow": 2,
+   "Coho": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 2,
+   "Salmon": 1
+  },
+  "first_date": "2011-04-26",
+  "latest_date": "2013-05-09",
+  "rows": 3,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Skamania"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "HOLMS DERBY PD (SNOH)",
+  "raw_names": {
+   "HOLMS DERBY PD (SNOH)": 13
+  },
+  "counties": {
+   "Snohomish": 13
+  },
+  "geo_codes": {
+   "L50224": 13
+  },
+  "species": {
+   "Rainbow": 13
+  },
+  "species_type": {
+   "Trout/Kokanee": 13
+  },
+  "first_date": "1995-05-03",
+  "latest_date": "2007-05-10",
+  "rows": 13,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "TENINO DERBY",
+  "raw_names": {
+   "TENINO DERBY": 4
+  },
+  "counties": {
+   "Thurston": 4
+  },
+  "geo_codes": {
+   "L3472": 4
+  },
+  "species": {
+   "Rainbow": 4
+  },
+  "species_type": {
+   "Trout/Kokanee": 4
+  },
+  "first_date": "2006-07-22",
+  "latest_date": "2009-07-25",
+  "rows": 4,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Thurston"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "WARD LKS UPR+LWR (FERR)",
+  "raw_names": {
+   "WARD LKS UPR+LWR (FERR)": 31
+  },
+  "counties": {
+   "Ferry": 31
+  },
+  "geo_codes": {
+   "L9014": 31
+  },
+  "species": {
+   "Eastern Brook Trout": 31
+  },
+  "species_type": {
+   "Trout/Kokanee": 31
+  },
+  "first_date": "1995-06-07",
+  "latest_date": "2026-05-19",
+  "rows": 31,
+  "suffix_codes": [
+   "FERR"
+  ],
+  "suffix_counties": [
+   "Ferry"
+  ],
+  "nonblank_counties": [
+   "Ferry"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "88 RD BP (SKAM)",
+  "raw_names": {
+   "88 RD BP (SKAM)": 12
+  },
+  "counties": {
+   "Skamania": 12
+  },
+  "geo_codes": {
+   "L7395": 12
+  },
+  "species": {
+   "Eastern Brook Trout": 12
+  },
+  "species_type": {
+   "Trout/Kokanee": 12
+  },
+  "first_date": "1997-07-14",
+  "latest_date": "2018-07-09",
+  "rows": 12,
+  "suffix_codes": [
+   "SKAM"
+  ],
+  "suffix_counties": [
+   "Skamania"
+  ],
+  "nonblank_counties": [
+   "Skamania"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "PRAIRE MT LKS (1) (SKAG)",
+  "raw_names": {
+   "PRAIRE MT LKS (1) (SKAG)": 6
+  },
+  "counties": {
+   "Skagit": 6
+  },
+  "geo_codes": {
+   "L3706": 6
+  },
+  "species": {
+   "Cutthroat": 6
+  },
+  "species_type": {
+   "Trout/Kokanee": 6
+  },
+  "first_date": "2003-07-30",
+  "latest_date": "2024-06-22",
+  "rows": 6,
+  "suffix_codes": [
+   "SKAG"
+  ],
+  "suffix_counties": [
+   "Skagit"
+  ],
+  "nonblank_counties": [
+   "Skagit"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "BEAVER LKS (KING) T24",
+  "raw_names": {
+   "BEAVER LKS (KING) T24": 130
+  },
+  "counties": {
+   "King": 130
+  },
+  "geo_codes": {
+   "L44825": 130
+  },
+  "species": {
+   "Rainbow": 114,
+   "Kokanee": 15,
+   "Cutthroat": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 130
+  },
+  "first_date": "1995-03-22",
+  "latest_date": "2026-10-19",
+  "rows": 130,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "ROOSEVELT LK@KETTLE FALLS NP",
+  "raw_names": {
+   "ROOSEVELT LK@KETTLE FALLS NP": 412
+  },
+  "counties": {
+   "Okanogan": 412
+  },
+  "geo_codes": {
+   "L44450": 412
+  },
+  "species": {
+   "Rainbow": 378,
+   "Sturgeon White": 22,
+   "Kokanee": 7,
+   "Chinook": 5
+  },
+  "species_type": {
+   "Trout/Kokanee": 385,
+   "Warmwater": 22,
+   "Salmon": 5
+  },
+  "first_date": "1996-06-26",
+  "latest_date": "2026-05-12",
+  "rows": 412,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "TWIN LKS-LOWER(45)",
+  "raw_names": {
+   "TWIN LKS-LOWER(45)": 8
+  },
+  "counties": {
+   "Chelan": 8
+  },
+  "geo_codes": {
+   "L4480": 8
+  },
+  "species": {
+   "Cutthroat": 8
+  },
+  "species_type": {
+   "Trout/Kokanee": 8
+  },
+  "first_date": "2006-09-11",
+  "latest_date": "2017-09-28",
+  "rows": 8,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Chelan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK WHATCOM (WHAT)",
+  "raw_names": {
+   "LK WHATCOM (WHAT)": 1226
+  },
+  "counties": {
+   "Whatcom": 1226
+  },
+  "geo_codes": {
+   "L9041": 1226
+  },
+  "species": {
+   "Kokanee": 1203,
+   "Cutthroat": 21,
+   "Sockeye": 1,
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 1225,
+   "Salmon": 1
+  },
+  "first_date": "1995-03-01",
+  "latest_date": "2026-05-01",
+  "rows": 1226,
+  "suffix_codes": [
+   "WHAT"
+  ],
+  "suffix_counties": [
+   "Whatcom"
+  ],
+  "nonblank_counties": [
+   "Whatcom"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LEADBETTER LK (PEND)",
+  "raw_names": {
+   "LEADBETTER LK (PEND)": 24
+  },
+  "counties": {
+   "Pend Oreille": 24
+  },
+  "geo_codes": {
+   "L7896": 24
+  },
+  "species": {
+   "Eastern Brook Trout": 14,
+   "Rainbow": 10
+  },
+  "species_type": {
+   "Trout/Kokanee": 24
+  },
+  "first_date": "1995-05-25",
+  "latest_date": "2020-06-18",
+  "rows": 24,
+  "suffix_codes": [
+   "PEND"
+  ],
+  "suffix_counties": [
+   "Pend Oreille"
+  ],
+  "nonblank_counties": [
+   "Pend Oreille"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "SUNRISE LK (OKAN)",
+  "raw_names": {
+   "SUNRISE LK (OKAN)": 4
+  },
+  "counties": {
+   "Okanogan": 4
+  },
+  "geo_codes": {
+   "L4101": 4
+  },
+  "species": {
+   "Cutthroat": 4
+  },
+  "species_type": {
+   "Trout/Kokanee": 4
+  },
+  "first_date": "2008-09-27",
+  "latest_date": "2020-09-14",
+  "rows": 4,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "JANET LK (YAKI)",
+  "raw_names": {
+   "JANET LK (YAKI)": 12
+  },
+  "counties": {
+   "Yakima": 12
+  },
+  "geo_codes": {
+   "L2538": 12
+  },
+  "species": {
+   "Cutthroat": 11,
+   "Eastern Brook Trout": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 12
+  },
+  "first_date": "1996-08-21",
+  "latest_date": "2026-07-28",
+  "rows": 12,
+  "suffix_codes": [
+   "YAKI"
+  ],
+  "suffix_counties": [
+   "Yakima"
+  ],
+  "nonblank_counties": [
+   "Yakima"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "JANET LK",
+  "collision_members": [
+   "JANET LK (GRAN)",
+   "JANET LK (SKAM)",
+   "JANET LK (YAKI)"
+  ]
+ },
+ {
+  "location_key": "BEULAH LK (KING)",
+  "raw_names": {
+   "BEULAH LK (KING)": 1
+  },
+  "counties": {
+   "King": 1
+  },
+  "geo_codes": {
+   "L29412": 1
+  },
+  "species": {
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 1
+  },
+  "first_date": "2001-09-11",
+  "latest_date": "2001-09-11",
+  "rows": 1,
+  "suffix_codes": [
+   "KING"
+  ],
+  "suffix_counties": [
+   "King"
+  ],
+  "nonblank_counties": [
+   "King"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "BRANDMEIRS BOG (SNOH)",
+  "raw_names": {
+   "BRANDMEIRS BOG (SNOH)": 21
+  },
+  "counties": {
+   "Snohomish": 21
+  },
+  "geo_codes": {
+   "L32478": 21
+  },
+  "species": {
+   "Cutthroat": 20,
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 21
+  },
+  "first_date": "1995-05-26",
+  "latest_date": "2025-09-12",
+  "rows": 21,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK ROESIGER (SNOH)",
+  "raw_names": {
+   "LK ROESIGER (SNOH)": 172
+  },
+  "counties": {
+   "Snohomish": 172
+  },
+  "geo_codes": {
+   "L3892": 172
+  },
+  "species": {
+   "Rainbow": 145,
+   "Kokanee": 12,
+   "Cutthroat": 7,
+   "Steelhead": 6,
+   "Coho": 1,
+   "Black Crappie": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 164,
+   "Salmon": 7,
+   "Warmwater": 1
+  },
+  "first_date": "1995-03-07",
+  "latest_date": "2026-05-07",
+  "rows": 172,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "WYE LK (KITS)",
+  "raw_names": {
+   "WYE LK (KITS)": 84
+  },
+  "counties": {
+   "Kitsap": 84
+  },
+  "geo_codes": {
+   "L9104": 84
+  },
+  "species": {
+   "Rainbow": 76,
+   "Cutthroat": 8
+  },
+  "species_type": {
+   "Trout/Kokanee": 84
+  },
+  "first_date": "1995-03-23",
+  "latest_date": "2026-10-09",
+  "rows": 84,
+  "suffix_codes": [
+   "KITS"
+  ],
+  "suffix_counties": [
+   "Kitsap"
+  ],
+  "nonblank_counties": [
+   "Kitsap"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "GOLD LK (KITT)",
+  "raw_names": {
+   "GOLD LK (KITT)": 30
+  },
+  "counties": {
+   "Kittitas": 30
+  },
+  "geo_codes": {
+   "L1417": 30
+  },
+  "species": {
+   "Rainbow": 30
+  },
+  "species_type": {
+   "Trout/Kokanee": 30
+  },
+  "first_date": "1995-08-12",
+  "latest_date": "2025-08-21",
+  "rows": 30,
+  "suffix_codes": [
+   "KITT"
+  ],
+  "suffix_counties": [
+   "Kittitas"
+  ],
+  "nonblank_counties": [
+   "Kittitas"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "GOLD LK",
+  "collision_members": [
+   "GOLD LK (KING)",
+   "GOLD LK (KITT)"
+  ]
+ },
+ {
+  "location_key": "ARROWHEAD LK (SKAG)",
+  "raw_names": {
+   "ARROWHEAD LK (SKAG)": 1
+  },
+  "counties": {
+   "Skagit": 1
+  },
+  "geo_codes": {
+   "L103": 1
+  },
+  "species": {
+   "Rainbow": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 1
+  },
+  "first_date": "1999-08-17",
+  "latest_date": "1999-08-17",
+  "rows": 1,
+  "suffix_codes": [
+   "SKAG"
+  ],
+  "suffix_counties": [
+   "Skagit"
+  ],
+  "nonblank_counties": [
+   "Skagit"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "HEMPLE LK (SNOH)",
+  "raw_names": {
+   "HEMPLE LK (SNOH)": 10
+  },
+  "counties": {
+   "Snohomish": 10
+  },
+  "geo_codes": {
+   "L1721": 10
+  },
+  "species": {
+   "Cutthroat": 6,
+   "Rainbow": 4
+  },
+  "species_type": {
+   "Trout/Kokanee": 10
+  },
+  "first_date": "1996-08-24",
+  "latest_date": "2018-07-31",
+  "rows": 10,
+  "suffix_codes": [
+   "SNOH"
+  ],
+  "suffix_counties": [
+   "Snohomish"
+  ],
+  "nonblank_counties": [
+   "Snohomish"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK CUSHMAN (MASO)",
+  "raw_names": {
+   "LK CUSHMAN (MASO)": 59
+  },
+  "counties": {
+   "Mason": 59
+  },
+  "geo_codes": {
+   "L709": 59
+  },
+  "species": {
+   "Cutthroat": 29,
+   "Kokanee": 21,
+   "Coho": 5,
+   "Rainbow": 4
+  },
+  "species_type": {
+   "Trout/Kokanee": 54,
+   "Salmon": 5
+  },
+  "first_date": "1995-01-13",
+  "latest_date": "2008-08-27",
+  "rows": 59,
+  "suffix_codes": [
+   "MASO"
+  ],
+  "suffix_counties": [
+   "Mason"
+  ],
+  "nonblank_counties": [
+   "Mason"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "SPECTACLE LK (OKAN)",
+  "raw_names": {
+   "SPECTACLE LK (OKAN)": 256
+  },
+  "counties": {
+   "Okanogan": 256
+  },
+  "geo_codes": {
+   "L4045": 256
+  },
+  "species": {
+   "Rainbow": 177,
+   "Kokanee": 33,
+   "Tiger Trout": 33,
+   "Brown Trout": 13
+  },
+  "species_type": {
+   "Trout/Kokanee": 256
+  },
+  "first_date": "1995-05-11",
+  "latest_date": "2026-05-26",
+  "rows": 256,
+  "suffix_codes": [
+   "OKAN"
+  ],
+  "suffix_counties": [
+   "Okanogan"
+  ],
+  "nonblank_counties": [
+   "Okanogan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "SPECTACLE LK",
+  "collision_members": [
+   "SPECTACLE LK (KITT)",
+   "SPECTACLE LK (OKAN)"
+  ]
+ },
+ {
+  "location_key": "ROCK LK (SKAM)",
+  "raw_names": {
+   "ROCK LK (SKAM)": 14
+  },
+  "counties": {
+   "Skamania": 14
+  },
+  "geo_codes": {
+   "L3885": 14
+  },
+  "species": {
+   "Cutthroat": 13,
+   "Eastern Brook Trout": 1
+  },
+  "species_type": {
+   "Trout/Kokanee": 14
+  },
+  "first_date": "1995-10-10",
+  "latest_date": "2025-09-23",
+  "rows": 14,
+  "suffix_codes": [
+   "SKAM"
+  ],
+  "suffix_counties": [
+   "Skamania"
+  ],
+  "nonblank_counties": [
+   "Skamania"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "ROCK LK",
+  "collision_members": [
+   "ROCK LK (CHEL)",
+   "ROCK LK (SKAM)",
+   "ROCK LK (WHIT)"
+  ]
+ },
+ {
+  "location_key": "SYLVIA LK (GRAY)",
+  "raw_names": {
+   "SYLVIA LK (GRAY)": 347
+  },
+  "counties": {
+   "Grays Harbor": 347
+  },
+  "geo_codes": {
+   "L4121": 347
+  },
+  "species": {
+   "Rainbow": 302,
+   "Steelhead": 37,
+   "Cutthroat": 8
+  },
+  "species_type": {
+   "Trout/Kokanee": 310,
+   "Salmon": 37
+  },
+  "first_date": "1995-03-20",
+  "latest_date": "2026-06-05",
+  "rows": 347,
+  "suffix_codes": [
+   "GRAY"
+  ],
+  "suffix_counties": [
+   "Grays Harbor"
+  ],
+  "nonblank_counties": [
+   "Grays Harbor"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "SYLVIA LK",
+  "collision_members": [
+   "SYLVIA LK (GRAY)",
+   "SYLVIA LK (KING)"
+  ]
+ },
+ {
+  "location_key": "WILLOW LK (WHAT)",
+  "raw_names": {
+   "WILLOW LK (WHAT)": 15
+  },
+  "counties": {
+   "Whatcom": 15
+  },
+  "geo_codes": {
+   "L9073": 15
+  },
+  "species": {
+   "Cutthroat": 10,
+   "Rainbow": 5
+  },
+  "species_type": {
+   "Trout/Kokanee": 15
+  },
+  "first_date": "1995-05-08",
+  "latest_date": "2023-07-24",
+  "rows": 15,
+  "suffix_codes": [
+   "WHAT"
+  ],
+  "suffix_counties": [
+   "Whatcom"
+  ],
+  "nonblank_counties": [
+   "Whatcom"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "WILLOW LK",
+  "collision_members": [
+   "WILLOW LK (GRAN)",
+   "WILLOW LK (WHAT)"
+  ]
+ },
+ {
+  "location_key": "MESA LK (FRAN)",
+  "raw_names": {
+   "MESA LK (FRAN)": 3
+  },
+  "counties": {
+   "Franklin": 3
+  },
+  "geo_codes": {
+   "L3111": 3
+  },
+  "species": {
+   "Rainbow": 3
+  },
+  "species_type": {
+   "Trout/Kokanee": 3
+  },
+  "first_date": "2019-11-25",
+  "latest_date": "2023-02-17",
+  "rows": 3,
+  "suffix_codes": [
+   "FRAN"
+  ],
+  "suffix_counties": [
+   "Franklin"
+  ],
+  "nonblank_counties": [
+   "Franklin"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "LK CHELAN @ 25 MILE CR",
+  "raw_names": {
+   "LK CHELAN @ 25 MILE CR": 61
+  },
+  "counties": {
+   "Chelan": 61
+  },
+  "geo_codes": {
+   "L617": 61
+  },
+  "species": {
+   "Cutthroat": 43,
+   "Kokanee": 7,
+   "Chinook": 6,
+   "Rainbow": 5
+  },
+  "species_type": {
+   "Trout/Kokanee": 55,
+   "Salmon": 6
+  },
+  "first_date": "1995-07-24",
+  "latest_date": "2025-06-18",
+  "rows": 61,
+  "suffix_codes": [],
+  "suffix_counties": [],
+  "nonblank_counties": [
+   "Chelan"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ },
+ {
+  "location_key": "PINE LK (MASO)",
+  "raw_names": {
+   "PINE LK (MASO)": 12
+  },
+  "counties": {
+   "Mason": 12
+  },
+  "geo_codes": {
+   "L3570": 12
+  },
+  "species": {
+   "Rainbow": 12
+  },
+  "species_type": {
+   "Trout/Kokanee": 12
+  },
+  "first_date": "1998-09-14",
+  "latest_date": "2026-07-04",
+  "rows": 12,
+  "suffix_codes": [
+   "MASO"
+  ],
+  "suffix_counties": [
+   "Mason"
+  ],
+  "nonblank_counties": [
+   "Mason"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": "PINE LK",
+  "collision_members": [
+   "PINE LK (KING)",
+   "PINE LK (MASO)",
+   "PINE LK (WHAT)"
+  ]
+ },
+ {
+  "location_key": "DEVILS SLIDE LK (KITT)",
+  "raw_names": {
+   "DEVILS SLIDE LK (KITT)": 6
+  },
+  "counties": {
+   "Kittitas": 6
+  },
+  "geo_codes": {
+   "L973": 6
+  },
+  "species": {
+   "Rainbow": 6
+  },
+  "species_type": {
+   "Trout/Kokanee": 6
+  },
+  "first_date": "1995-08-30",
+  "latest_date": "2011-08-09",
+  "rows": 6,
+  "suffix_codes": [
+   "KITT"
+  ],
+  "suffix_counties": [
+   "Kittitas"
+  ],
+  "nonblank_counties": [
+   "Kittitas"
+  ],
+  "has_blank_county": false,
+  "encoding_issue": false,
+  "collision_group": null,
+  "collision_members": []
+ }
+]

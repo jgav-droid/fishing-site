@@ -1,0 +1,1151 @@
+{
+ "total_A_B_aliases": 1063,
+ "sample": [
+  {
+   "entity_id": "wdfw-lowland:alder-lake",
+   "alias": "ALDER LK (THUR/PIER)",
+   "county_context": [
+    "Pierce",
+    "Thurston"
+   ],
+   "geo_code": "L23",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:american-lake",
+   "alias": "AMERICAN LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L35",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L36",
+   "alias": "AMERICAN LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L36",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:angle-lake",
+   "alias": "ANGLE LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L91",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L103",
+   "alias": "ARROWHEAD LK (SKAG)",
+   "county_context": [
+    "Skagit"
+   ],
+   "geo_code": "L103",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:baker-lake",
+   "alias": "BAKER LK@CPLANE RAMP",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L293",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:at_subsite"
+  },
+  {
+   "entity_id": "wdfw-lowland:battle-ground-lake",
+   "alias": "BATTLE GROUND LK (CLAR)",
+   "county_context": [
+    "Clark"
+   ],
+   "geo_code": "L333",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L168",
+   "alias": "BEEHIVE RES (CHEL)",
+   "county_context": [
+    "Chelan"
+   ],
+   "geo_code": "L168",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L29412",
+   "alias": "BEULAH LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L29412",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L7029",
+   "alias": "BISHOP RIDGE LKS (LEWI)",
+   "county_context": [
+    "Lewis"
+   ],
+   "geo_code": "L7029",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:black-lake-chelan1",
+   "alias": "BLACK LK (CHEL)",
+   "county_context": [
+    "Chelan"
+   ],
+   "geo_code": "L193",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L199",
+   "alias": "BLACK PINE LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L199",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:bonney-lake",
+   "alias": "BONNEY LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L466",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-bradley",
+   "alias": "BRADLEY LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L35548",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:word_order"
+  },
+  {
+   "entity_id": "wdfw-lowland:brandmeirs-bog",
+   "alias": "BRANDMEIRS BOG (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L32478",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:carney-lake",
+   "alias": "CARNEY LK (PIER/KITS)",
+   "county_context": [
+    "Kitsap",
+    "Pierce"
+   ],
+   "geo_code": "L742",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L799",
+   "alias": "CHARLIE BROWN LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L799",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:christmas",
+   "alias": "CHRISTMAS LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L819",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:clear-lake-pierce",
+   "alias": "CLEAR LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L4498",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:clear-lake-pierce",
+   "alias": "CLEAR LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L4498",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:conconully-lake",
+   "alias": "CONCONULLY LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L44972",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:coot-lake",
+   "alias": "COOT LK (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L20723",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L877",
+   "alias": "CORA LK (LEWI)",
+   "county_context": [
+    "Lewis"
+   ],
+   "geo_code": "L877",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:dam-pond",
+   "alias": "DAM PD (COLU)",
+   "county_context": [
+    "Columbia"
+   ],
+   "geo_code": "L14984",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:davis-lake-pend-oreille",
+   "alias": "DAVIS LK (PEND)",
+   "county_context": [
+    "Pend Oreille"
+   ],
+   "geo_code": "L1029",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:depression-lake",
+   "alias": "DEPRESSION LK (WHAT)",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L31951",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1072",
+   "alias": "DEVILS LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L1072",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L973",
+   "alias": "DEVILS SLIDE LK (KITT)",
+   "county_context": [
+    "Kittitas"
+   ],
+   "geo_code": "L973",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1076",
+   "alias": "DIAMOND LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L1076",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1116",
+   "alias": "DUMBBELL LK (LEWI)",
+   "county_context": [
+    "Lewis"
+   ],
+   "geo_code": "L1116",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:gadwall-lake",
+   "alias": "GADWALL LK (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L1400",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1460",
+   "alias": "GARFIELD MTN LK LWR (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L1460",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1417",
+   "alias": "GOLD LK (KITT)",
+   "county_context": [
+    "Kittitas"
+   ],
+   "geo_code": "L1417",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1502",
+   "alias": "GOOSE LK (LEWI)",
+   "county_context": [
+    "Lewis"
+   ],
+   "geo_code": "L1502",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:green-lake-king",
+   "alias": "GREEN LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L1536",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:hanson-upper-pond",
+   "alias": "HANSON PD UPR (KITT)",
+   "county_context": [
+    "Kittitas"
+   ],
+   "geo_code": "L28423",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:word_order"
+  },
+  {
+   "entity_id": "wdfw-lowland:hatchery-lake-mason",
+   "alias": "HATCHERY LK (MASO)",
+   "county_context": [
+    "Mason"
+   ],
+   "geo_code": "L3474",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1721",
+   "alias": "HEMPLE LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L1721",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:hicks-lake",
+   "alias": "HICKS LK (THUR)",
+   "county_context": [
+    "Thurston"
+   ],
+   "geo_code": "L1616",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1763",
+   "alias": "HONEY LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L1763",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L1804",
+   "alias": "HYAS LK (SKAG)",
+   "county_context": [
+    "Skagit"
+   ],
+   "geo_code": "L1804",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L2538",
+   "alias": "JANET LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L2538",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L2538",
+   "alias": "JANET LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L2538",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L7636",
+   "alias": "JOKER LK (WHAT)",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L7636",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:kerrs-pond",
+   "alias": "KERR'S PD (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L6947",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:klineline-pond",
+   "alias": "KLINELINE PD (CLAR)",
+   "county_context": [
+    "Clark"
+   ],
+   "geo_code": "L38502",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lacamas-lake",
+   "alias": "LACAMAS LK (CLAR)",
+   "county_context": [
+    "Clark"
+   ],
+   "geo_code": "L44874",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:langlois-lake",
+   "alias": "LANGLOIS LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L2881",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:larsen-lake",
+   "alias": "LARSEN LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L2883",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:leadbetter-lake",
+   "alias": "LEADBETTER LK (PEND)",
+   "county_context": [
+    "Pend Oreille"
+   ],
+   "geo_code": "L7896",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:leader-lake",
+   "alias": "LEADER LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L2748",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L2919",
+   "alias": "LIME LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L2919",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:lipsy",
+   "alias": "LIPSY LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L2927",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L29164",
+   "alias": "LITTLE LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L29164",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-armstrong",
+   "alias": "LK ARMSTRONG (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L99",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-chelan",
+   "alias": "LK CHELAN @ 25 MILE CR",
+   "county_context": [
+    "Chelan"
+   ],
+   "geo_code": "L617",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:at_subsite"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-cushman",
+   "alias": "LK CUSHMAN (MASO)",
+   "county_context": [
+    "Mason"
+   ],
+   "geo_code": "L709",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L2056",
+   "alias": "LK ILSWOOT (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L2056",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-kapowsin",
+   "alias": "LK KAPOWSIN (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L2668",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-meridian",
+   "alias": "LK MERIDIAN (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L3273",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-pateros",
+   "alias": "LK PATEROS (DOUG)",
+   "county_context": [
+    "Douglas"
+   ],
+   "geo_code": "L44599",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-roesiger",
+   "alias": "LK ROESIGER (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L3892",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-washington",
+   "alias": "LK WASHINGTON (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L9015",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-whatcom",
+   "alias": "LK WHATCOM (WHAT)",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L9041",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-whitman",
+   "alias": "LK WHITMAN (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L547",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L2804",
+   "alias": "LONG JOHN LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L2804",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:long-lake-kitsap",
+   "alias": "LONG LK (KITS)",
+   "county_context": [
+    "Kitsap"
+   ],
+   "geo_code": "L2988",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:martha-lake-grant",
+   "alias": "MARTHA LK (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L3070",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:mcdowell-lake",
+   "alias": "MCDOWELL LK (STEV)",
+   "county_context": [
+    "Stevens"
+   ],
+   "geo_code": "L3247",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3270",
+   "alias": "MELAKWA LK LWR (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L3270",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:mesa-lake",
+   "alias": "MESA LK (FRAN)",
+   "county_context": [
+    "Franklin"
+   ],
+   "geo_code": "L3111",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:mineral-lake",
+   "alias": "MINERAL LK (LEWI)",
+   "county_context": [
+    "Lewis"
+   ],
+   "geo_code": "L3300",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:nunnally-lake-grant",
+   "alias": "NUNNALLY LK (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L25742",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3485",
+   "alias": "OTTER LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L3485",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:park-lake",
+   "alias": "PARK LK (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L3536",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3636",
+   "alias": "PEAR LK (SKAG)",
+   "county_context": [
+    "Skagit"
+   ],
+   "geo_code": "L3636",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L34316",
+   "alias": "PEMI LK (SKAM)",
+   "county_context": [
+    "Skamania"
+   ],
+   "geo_code": "L34316",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:peterson-lake",
+   "alias": "PETERSON LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L3649",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:phillips-lake-stevens-1",
+   "alias": "PHILLIPS LK (STEV)",
+   "county_context": [
+    "Stevens"
+   ],
+   "geo_code": "L3666",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:pierre-lake",
+   "alias": "PIERRE LK (STEV)",
+   "county_context": [
+    "Stevens"
+   ],
+   "geo_code": "L3670",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:pine-lake-mason",
+   "alias": "PINE LK (MASO)",
+   "county_context": [
+    "Mason"
+   ],
+   "geo_code": "L3570",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:potholes-reservoir",
+   "alias": "POTHOLES RES (GRAN)",
+   "county_context": [
+    "Grant"
+   ],
+   "geo_code": "L44508",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3750",
+   "alias": "RAMPART LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L3750",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:rapjohn-lake",
+   "alias": "RAPJOHN LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L3838",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3875",
+   "alias": "RIVORD LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L3875",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L3885",
+   "alias": "ROCK LK (SKAM)",
+   "county_context": [
+    "Skamania"
+   ],
+   "geo_code": "L3885",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:lake-samish",
+   "alias": "SAMISH LK (WHAT)",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L4130",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:word_order"
+  },
+  {
+   "entity_id": "wdfw-lowland:silver-lake-cowlitz",
+   "alias": "SILVER LK (COWL)",
+   "county_context": [
+    "Cowlitz"
+   ],
+   "geo_code": "L39349",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L30478",
+   "alias": "SNOWPLOW LK (YAKI)",
+   "county_context": [
+    "Yakima"
+   ],
+   "geo_code": "L30478",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:spanaway-lake",
+   "alias": "SPANAWAY LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L4266",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-lowland:spectacle-lake",
+   "alias": "SPECTACLE LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L4045",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L4319",
+   "alias": "STILWELL LK (SKAG)",
+   "county_context": [
+    "Skagit"
+   ],
+   "geo_code": "L4319",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L4101",
+   "alias": "SUNRISE LK (OKAN)",
+   "county_context": [
+    "Okanogan"
+   ],
+   "geo_code": "L4101",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:sylvia-lake",
+   "alias": "SYLVIA LK (GRAY)",
+   "county_context": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L4121",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:word_order"
+  },
+  {
+   "entity_id": "wdfw-lowland:tanwax-lake",
+   "alias": "TANWAX LK (PIER)",
+   "county_context": [
+    "Pierce"
+   ],
+   "geo_code": "L4578",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L4524",
+   "alias": "THOMAS LK (SKAM)",
+   "county_context": [
+    "Skamania"
+   ],
+   "geo_code": "L4524",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L4529",
+   "alias": "THORNTON LK (SNOH)",
+   "county_context": [
+    "Snohomish"
+   ],
+   "geo_code": "L4529",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:tucquala",
+   "alias": "TUCQUALA LK (KITT)",
+   "county_context": [
+    "Kittitas"
+   ],
+   "geo_code": "L4450",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L4627",
+   "alias": "TYE LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L4627",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:ward-lake",
+   "alias": "WARD LK (THUR)",
+   "county_context": [
+    "Thurston"
+   ],
+   "geo_code": "L8939",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L9073",
+   "alias": "WILLOW LK (WHAT)",
+   "county_context": [
+    "Whatcom"
+   ],
+   "geo_code": "L9073",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L5029",
+   "alias": "WINDY LK (CHEL)",
+   "county_context": [
+    "Chelan"
+   ],
+   "geo_code": "L5029",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-gis-highlake:L9081",
+   "alias": "WINDY LK (KING)",
+   "county_context": [
+    "King"
+   ],
+   "geo_code": "L9081",
+   "source": "6fex-3r7d release_location",
+   "level": "B",
+   "method": "geo_code_plus_alias:generic_word_omitted"
+  },
+  {
+   "entity_id": "wdfw-lowland:wye-lake",
+   "alias": "WYE LK (KITS)",
+   "county_context": [
+    "Kitsap"
+   ],
+   "geo_code": "L9104",
+   "source": "6fex-3r7d release_location",
+   "level": "A",
+   "method": "exact_name_county_geo_code"
+  }
+ ]
+}

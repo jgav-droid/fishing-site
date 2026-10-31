@@ -1,0 +1,504 @@
+{
+ "description": "Hand-labelled ground truth for the identity audit. Labels were assigned by the validating agent (Claude) from official evidence (WDFW lake pages, Geo Codes, coordinates, GIS layer 21) and stocking facts; a human spot-check is recommended before relying on them.",
+ "labelled_at": "2026-10-31",
+ "items": [
+  {
+   "category": "mvp",
+   "location_key": "BATTLE GROUND LK (CLAR)",
+   "truth": "wdfw-lowland:battle-ground-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "LACAMAS LK (CLAR)",
+   "truth": "wdfw-lowland:lacamas-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "KLINELINE PD (CLAR)",
+   "truth": "wdfw-lowland:klineline-pond",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "GREEN LK (KING)",
+   "truth": "wdfw-lowland:green-lake-king",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "ANGLE LK (KING)",
+   "truth": "wdfw-lowland:angle-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "LK MERIDIAN (KING)",
+   "truth": "wdfw-lowland:lake-meridian",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "WARD LK (THUR)",
+   "truth": "wdfw-lowland:ward-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "AMERICAN LK (PIER)",
+   "truth": "wdfw-lowland:american-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "ALDER LK (THUR/PIER)",
+   "truth": "wdfw-lowland:alder-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "MINERAL LK (LEWI)",
+   "truth": "wdfw-lowland:mineral-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "BRADLEY LK (PIER)",
+   "truth": "wdfw-lowland:lake-bradley",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "SPANAWAY LK (PIER)",
+   "truth": "wdfw-lowland:spanaway-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "LK KAPOWSIN (PIER)",
+   "truth": "wdfw-lowland:lake-kapowsin",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "LK WHITMAN (PIER)",
+   "truth": "wdfw-lowland:lake-whitman",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "TANWAX LK (PIER)",
+   "truth": "wdfw-lowland:tanwax-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "CLEAR LK (PIER)",
+   "truth": "wdfw-lowland:clear-lake-pierce",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "BONNEY LK (PIER)",
+   "truth": "wdfw-lowland:bonney-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "RAPJOHN LK (PIER)",
+   "truth": "wdfw-lowland:rapjohn-lake",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "mvp",
+   "location_key": "MARTHA LK (AM) (SNOH)",
+   "truth": "wdfw-lowland:martha-alderwood-manor",
+   "truth_basis": "'(AM)' = Alderwood Manor; official 'Martha Alderwood Manor' page Geo Code L3217 equals stocking geo_code; Snohomish. MVP item 'Martha Lake (Snohomish County)' is itself ambiguous: two official Snohomish Martha lakes"
+  },
+  {
+   "category": "mvp",
+   "location_key": "MARTHA LK (WB) (SNOH)",
+   "truth": "wdfw-lowland:martha-lake-snohomish",
+   "truth_basis": "'(WB)' = Warm Beach; official 'Lake Martha (Snohomish County)' page centre 48.169,-122.341 is at Warm Beach; Snohomish. Stocking geo_code L3219 != page Geo Code L3218, and no stocking row uses L3218 (official inconsistency)"
+  },
+  {
+   "category": "mvp",
+   "location_key": "LONGS PD (THUR)",
+   "truth": "wdfw-lowland:longs-pond",
+   "truth_basis": "official 'Long's Pond' Geo Code L2818 equals stocking geo_code; but LONG LK (THUR) also carries L2818"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "CLEAR LK (SKAG) T34",
+   "truth": "wdfw-lowland:clear-lake-skagit",
+   "truth_basis": "page Geo Code L833 equals stocking geo_code; T36 is a different Skagit Clear Lake"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "CLEAR LK (SKAG) T36",
+   "truth": "wdfw-gis-highlake:L834",
+   "truth_basis": "GIS high-lake GeometryID L834 'Clear', Skagit, equals stocking geo_code"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "CLEAR LK (SNOH)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L836 in no official set; the only official Snohomish 'Clear' is L888 (different water)"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "MARTHA LK (GRAN)",
+   "truth": "wdfw-lowland:martha-lake-grant",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "SILVER LK (JEFF)",
+   "truth": "wdfw-gis-highlake:L3991",
+   "truth_basis": "GIS high lake 'Silver 2', Jefferson, GeometryID L3991 equals stocking geo_code"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "SILVER LK (MASO)",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "carries L3991, the code of a Jefferson County lake; no Mason Silver Lake entity; cannot be decided from official data"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "BEAVER LK (OKAN) T34",
+   "truth": "wdfw-gis-highlake:L163",
+   "truth_basis": "GIS high lake 'Beaver' L163 equals stocking code; the Okanogan lowland page 'Beaver Lake' is L164 (a different lake)"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "BEAVER LK (OKAN) T39",
+   "truth": "wdfw-lowland:beaver-lake-okanogan",
+   "truth_basis": "page Geo Code L164 equals stocking geo_code"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "BEAVER LK (SNOH)",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "carries L3724 = official Quail Lake (Adams County); stocking code is wrong for this name/county"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "MUD LK (KING)",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "L3363 in no official set; official Mud Lake (King) is L3362; could be a different Mud Lake or a code error"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "BLUE LK (OKAN) T35",
+   "truth": "wdfw-lowland:blue-lake-okanogan-1",
+   "truth_basis": "page 'Blue Lake (Okanogan)' Geo Code L228 equals stocking geo_code; two other Okanogan Blue Lakes are L229/L230"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "GREEN LK (PIER)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L1537 in no official set; no Pierce Green Lake page"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "AMERICAN LK (YAKI)",
+   "truth": "wdfw-gis-highlake:L36",
+   "truth_basis": "GIS high lake 'American', Yakima, GeometryID L36 equals stocking geo_code"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "DEER LK (LINC)",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "shares L1060 with DEER SPRINGS LK (LINC); official L1060 is 'Deer Springs Lake'; may or may not be the same water"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "DUCK LK (1) (GRAY)",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "numbered ponds (1)/(2)/(3) and DUCK LK (22) all carry L1009 (official Duck Lake); whether pond (1) is part of Duck Lake is not stated"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "CARNEY LK (PIER/KITS)",
+   "truth": "wdfw-lowland:carney-lake",
+   "truth_basis": "one official page listed under Pierce and Kitsap, Geo Code L742 equals stocking geo_code"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "LONG LK (THUR)",
+   "truth": "wdfw-lowland:long-lake-thurston",
+   "truth_basis": "name + county = official 'Long Lake (Thurston County)'; its rows carry L2818 (Long's Pond's code); Long Lake's own L2807 appears only on LACEY DERBY"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "TWIN LKS LTL (OKAN)",
+   "truth": "wdfw-lowland:little-twin-lake-okanogan",
+   "truth_basis": "page Geo Code L4475 equals stocking geo_code; TWIN LKS (1) (OKAN) shares it"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "HORSESHOE LK (KING) T21",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L1772 in no official set; official King Horseshoe lakes are L1773/L1774"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "KLINELINE PD W (CLAR)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L38533 (west pond) in no official set; Klineline Pond page is L38502"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "LONG LK (KITS)",
+   "truth": "wdfw-lowland:long-lake-kitsap",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree"
+  },
+  {
+   "category": "ambiguous",
+   "location_key": "SILVER LK (SNOH) T28",
+   "truth": "wdfw-lowland:silver-lake-snohomish",
+   "truth_basis": "page Geo Code L4198 equals stocking geo_code"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "MAYFIELD LK (26)",
+   "truth": "wdfw-lowland:mayfield-lake",
+   "truth_basis": "page Geo Code L3235 equals stocking geo_code; MAYFIELD RES (LEWI) shares it"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "LK ROOSEVELT (53)",
+   "truth": "wdfw-lowland:franklin-roosevelt-lake",
+   "truth_basis": "page Geo Code L44450 equals stocking geo_code"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "TUCQUALA LK (KITT)",
+   "truth": "wdfw-lowland:tucquala",
+   "truth_basis": "County column blank but suffix KITT; page 'Tucquala' Geo Code L4450 equals stocking geo_code"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "HYAK LK (KITT)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L1655 in no official set"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "FOC PORTABLE POND",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "portable pond, not a water body"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "IDAHO- SPRING VALLEY RES",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "Idaho reservoir; geo_code field holds coordinates"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "LAKE CR 26.1231",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "stream (catalog no. 26.1231), not a lake"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "LAKE CR 26.0590",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "stream (catalog no. 26.0590), not a lake"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "NOEL COLE PD 23.0882",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "code P840 / stream number; no official entity"
+  },
+  {
+   "category": "blank_county",
+   "location_key": "LK WASHINGTON (KING)",
+   "truth": "wdfw-lowland:lake-washington",
+   "truth_basis": "official page Geo Code equals the stocking geo_code; name and county agree (3 blank-county rows inherit)"
+  },
+  {
+   "category": "malformed",
+   "location_key": "SOUTHGATE CR 09?",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "stream; '?' encoding loss; no geo_code"
+  },
+  {
+   "category": "malformed",
+   "location_key": "KLINELINE PONDS",
+   "truth": "UNDECIDABLE",
+   "truth_basis": "county Skamania (Klineline is in Clark) and geo_code 'L38502,L38533,L38454' (three ponds in one row)"
+  },
+  {
+   "category": "malformed",
+   "location_key": "HOLMS DERBY PD (SNOH)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L50224 (also HOLMES DERBY PD (ISLA), conflicting county) in no official set"
+  },
+  {
+   "category": "malformed",
+   "location_key": "TENINO DERBY",
+   "truth": "wdfw-lowland:offutt-lake",
+   "truth_basis": "event name, not a water; carries L3472 = official Offutt Lake page (Thurston)"
+  },
+  {
+   "category": "malformed",
+   "location_key": "WARD LKS UPR+LWR (FERR)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "two lakes in one name; L9014 in no official set"
+  },
+  {
+   "category": "malformed",
+   "location_key": "88 RD BP (SKAM)",
+   "truth": "wdfw-lowland:88-road-beaver-pond",
+   "truth_basis": "'88 RD BP' abbreviates '88 Road Beaver Pond'; page Geo Code L7395 equals stocking geo_code"
+  },
+  {
+   "category": "malformed",
+   "location_key": "PRAIRE MT LKS (1) (SKAG)",
+   "truth": "wdfw-lowland:prairie-mountain-upper",
+   "truth_basis": "misspelt 'PRAIRE'; page 'Prairie Mountain Upper' Geo Code L3706 equals stocking geo_code"
+  },
+  {
+   "category": "malformed",
+   "location_key": "BEAVER LKS (KING) T24",
+   "truth": "wdfw-lowland:beaver-lake-sammamish",
+   "truth_basis": "'Beaver Lakes' (Sammamish chain); page Geo Code L44825 equals stocking geo_code"
+  },
+  {
+   "category": "malformed",
+   "location_key": "ROOSEVELT LK@KETTLE FALLS NP",
+   "truth": "wdfw-lowland:franklin-roosevelt-lake",
+   "truth_basis": "'@' site on Lake Roosevelt; page Geo Code L44450 equals stocking geo_code"
+  },
+  {
+   "category": "malformed",
+   "location_key": "TWIN LKS-LOWER(45)",
+   "truth": "NO_OFFICIAL_ENTITY",
+   "truth_basis": "L4480 in no official set; no Chelan Twin Lakes page"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "LK WHATCOM (WHAT)",
+   "truth": "wdfw-lowland:lake-whatcom",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "LEADBETTER LK (PEND)",
+   "truth": "wdfw-lowland:leadbetter-lake",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "SUNRISE LK (OKAN)",
+   "truth": "wdfw-gis-highlake:L4101",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "JANET LK (YAKI)",
+   "truth": "wdfw-gis-highlake:L2538",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "BEULAH LK (KING)",
+   "truth": "wdfw-gis-highlake:L29412",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "BRANDMEIRS BOG (SNOH)",
+   "truth": "wdfw-lowland:brandmeirs-bog",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "LK ROESIGER (SNOH)",
+   "truth": "wdfw-lowland:lake-roesiger",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "WYE LK (KITS)",
+   "truth": "wdfw-lowland:wye-lake",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "GOLD LK (KITT)",
+   "truth": "wdfw-gis-highlake:L1417",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "ARROWHEAD LK (SKAG)",
+   "truth": "wdfw-gis-highlake:L103",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "HEMPLE LK (SNOH)",
+   "truth": "wdfw-gis-highlake:L1721",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "LK CUSHMAN (MASO)",
+   "truth": "wdfw-lowland:lake-cushman",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "SPECTACLE LK (OKAN)",
+   "truth": "wdfw-lowland:spectacle-lake",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "ROCK LK (SKAM)",
+   "truth": "wdfw-gis-highlake:L3885",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "SYLVIA LK (GRAY)",
+   "truth": "wdfw-lowland:sylvia-lake",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "WILLOW LK (WHAT)",
+   "truth": "wdfw-gis-highlake:L9073",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "MESA LK (FRAN)",
+   "truth": "wdfw-lowland:mesa-lake",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "LK CHELAN @ 25 MILE CR",
+   "truth": "wdfw-lowland:lake-chelan",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "PINE LK (MASO)",
+   "truth": "wdfw-lowland:pine-lake-mason",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  },
+  {
+   "category": "random_automated",
+   "location_key": "DEVILS SLIDE LK (KITT)",
+   "truth": "wdfw-gis-highlake:L973",
+   "truth_basis": "reviewed: name, county and official Geo Code agree; code not shared with another water"
+  }
+ ]
+}

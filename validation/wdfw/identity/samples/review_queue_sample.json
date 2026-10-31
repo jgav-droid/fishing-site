@@ -1,0 +1,3938 @@
+{
+ "total_review": 779,
+ "sample": [
+  {
+   "location_key": "4TH OF JULY LK(LINC/ADAM)",
+   "parsed": {
+    "name_key": "4TH OF JULY LAKE",
+    "sorted_key": "4TH JULY LAKE OF",
+    "core": [
+     "4TH",
+     "JULY"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "LINC",
+     "ADAM"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Adams",
+    "Lincoln"
+   ],
+   "geo_code": "L1292",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 98,
+   "latest_date": "2026-05-28",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('4TH OF JULY LAKE' vs 'FOURTH OF JULY LAKE')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:fourth-of-july-lake",
+     "canonical_name": "Fourth of July Lake (Lincoln County)",
+     "county": "Lincoln",
+     "geo_code": "L1292",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fourth-of-july-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:fourth-of-july-lake",
+   "canonical_name": "Fourth of July Lake (Lincoln County)",
+   "county": "Lincoln",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fourth-of-july-lake",
+   "lat": 47.25243,
+   "lon": -117.975721,
+   "entity_geo_code": "L1292",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "88 RD BP (SKAM)",
+   "parsed": {
+    "name_key": "88 RD BP",
+    "sorted_key": "88 BP RD",
+    "core": [
+     "88",
+     "BP",
+     "RD"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAM"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skamania"
+   ],
+   "geo_code": "L7395",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 12,
+   "latest_date": "2018-07-09",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('88 RD BP' vs '88 ROAD BEAVER POND')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:88-road-beaver-pond",
+     "canonical_name": "88 Road Beaver Pond",
+     "county": "Skamania",
+     "geo_code": "L7395",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/88-road-beaver-pond"
+    }
+   ],
+   "entity_id": "wdfw-lowland:88-road-beaver-pond",
+   "canonical_name": "88 Road Beaver Pond",
+   "county": "Skamania",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/88-road-beaver-pond",
+   "lat": 46.168676,
+   "lon": -121.686368,
+   "entity_geo_code": "L7395",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "AMAZON CR BP (STEV)",
+   "parsed": {
+    "name_key": "AMAZON CREEK BP",
+    "sorted_key": "AMAZON BP CREEK",
+    "core": [
+     "AMAZON",
+     "BP",
+     "CREEK"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "STEV"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Stevens"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "59.0240A@unknown",
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2017-04-14",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '59.0240A@unknown'",
+   "candidates": []
+  },
+  {
+   "location_key": "BEAR CANYON PDS (STEV)",
+   "parsed": {
+    "name_key": "BEAR CANYON PONDS",
+    "sorted_key": "BEAR CANYON PONDS",
+    "core": [
+     "BEAR",
+     "CANYON"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "STEV"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Stevens"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "L50011confirm",
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2016-04-21",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code 'L50011confirm'",
+   "candidates": []
+  },
+  {
+   "location_key": "BEAVER LK (OKAN) T34",
+   "parsed": {
+    "name_key": "BEAVER LAKE",
+    "sorted_key": "BEAVER LAKE",
+    "core": [
+     "BEAVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "34"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L163",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 28,
+   "latest_date": "2025-04-22",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-lowland:beaver-lake-okanogan but geo_code L163 -> ['wdfw-gis-highlake:L163']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:beaver-lake-okanogan",
+     "canonical_name": "Beaver Lake (Okanogan County)",
+     "county": "Okanogan",
+     "geo_code": "L164",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-okanogan"
+    },
+    {
+     "entity_id": "wdfw-gis-highlake:L163",
+     "canonical_name": "Beaver",
+     "county": "Okanogan",
+     "geo_code": "L163",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "BEAVER LK (OKAN) T39",
+   "parsed": {
+    "name_key": "BEAVER LAKE",
+    "sorted_key": "BEAVER LAKE",
+    "core": [
+     "BEAVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "39"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L164",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 65,
+   "latest_date": "2026-07-03",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "exact_name_county_with_disambiguator",
+   "evidence": "name carries a township/number disambiguator; confirm it is this water",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:beaver-lake-okanogan",
+     "canonical_name": "Beaver Lake (Okanogan County)",
+     "county": "Okanogan",
+     "geo_code": "L164",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-okanogan"
+    }
+   ],
+   "entity_id": "wdfw-lowland:beaver-lake-okanogan",
+   "canonical_name": "Beaver Lake (Okanogan County)",
+   "county": "Okanogan",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-okanogan",
+   "lat": 48.850535,
+   "lon": -118.972252,
+   "entity_geo_code": "L164",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "BEAVER LK (SNOH)",
+   "parsed": {
+    "name_key": "BEAVER LAKE",
+    "sorted_key": "BEAVER LAKE",
+    "core": [
+     "BEAVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L3724",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "QUAIL LK (ADAM)"
+   ],
+   "rows": 7,
+   "latest_date": "2016-05-26",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "geo_code -> wdfw-lowland:quail-lake (Adams) but county evidence is ['Snohomish']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:quail-lake",
+     "canonical_name": "Quail Lake",
+     "county": "Adams",
+     "geo_code": "L3724",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/quail-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "BEAVER LKS (KING) T24",
+   "parsed": {
+    "name_key": "BEAVER LAKES",
+    "sorted_key": "BEAVER LAKES",
+    "core": [
+     "BEAVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "24"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L44825",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 130,
+   "latest_date": "2026-10-19",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('BEAVER LAKES' vs 'BEAVER LAKE SAMMAMISH')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:beaver-lake-sammamish",
+     "canonical_name": "Beaver Lake - Sammamish (King County)",
+     "county": "King",
+     "geo_code": "L44825",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-sammamish"
+    }
+   ],
+   "entity_id": "wdfw-lowland:beaver-lake-sammamish",
+   "canonical_name": "Beaver Lake - Sammamish (King County)",
+   "county": "King",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-sammamish",
+   "lat": 47.589592,
+   "lon": -121.999614,
+   "entity_geo_code": "L44825",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "BLACK R 23.0649",
+   "parsed": {
+    "name_key": "BLACK RIVER",
+    "sorted_key": "BLACK RIVER",
+    "core": [
+     "BLACK",
+     "RIVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "23.0649"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "23.0649",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "2024-03-01",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "BLANKENSHIP LKS E (YAKI)",
+   "parsed": {
+    "name_key": "BLANKENSHIP LAKES EAST",
+    "sorted_key": "BLANKENSHIP EAST LAKES",
+    "core": [
+     "BLANKENSHIP",
+     "EAST"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "YAKI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Yakima"
+   ],
+   "geo_code": "L223",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 9,
+   "latest_date": "2024-08-01",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('BLANKENSHIP LAKES EAST' vs 'BLANKENSHIP SOUTH')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L223",
+     "canonical_name": "Blankenship - South",
+     "county": "Yakima",
+     "geo_code": "L223",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L223",
+   "canonical_name": "Blankenship - South",
+   "county": "Yakima",
+   "official_url": null,
+   "lat": 46.721147,
+   "lon": -121.337106,
+   "entity_geo_code": "L223",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "BLETHEN PD W (KING)",
+   "parsed": {
+    "name_key": "BLETHEN POND WEST",
+    "sorted_key": "BLETHEN POND WEST",
+    "core": [
+     "BLETHEN",
+     "WEST"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L435",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LK BLETHEN UPR (KING)"
+   ],
+   "rows": 7,
+   "latest_date": "2025-09-04",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-gis-highlake:L31664 but geo_code L435 -> ['wdfw-gis-highlake:L435']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L31664",
+     "canonical_name": "Blethen Pond - West",
+     "county": "King",
+     "geo_code": "L31664",
+     "official_url": null
+    },
+    {
+     "entity_id": "wdfw-gis-highlake:L435",
+     "canonical_name": "Blethen - Upper",
+     "county": "King",
+     "geo_code": "L435",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "BLUE LK (OKAN) T35",
+   "parsed": {
+    "name_key": "BLUE LAKE",
+    "sorted_key": "BLUE LAKE",
+    "core": [
+     "BLUE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "35"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L228",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 56,
+   "latest_date": "2026-05-13",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_disambiguates_same_name",
+   "evidence": "2 official same-name waters in ['Okanogan']; geo_code L228 selects wdfw-lowland:blue-lake-okanogan-1",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:blue-lake-okanogan-2",
+     "canonical_name": "Blue Lake",
+     "county": "Okanogan",
+     "geo_code": "L230",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan-2"
+    },
+    {
+     "entity_id": "wdfw-lowland:blue-lake-okanogan",
+     "canonical_name": "Blue Lake",
+     "county": "Okanogan",
+     "geo_code": "L229",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan"
+    }
+   ],
+   "entity_id": "wdfw-lowland:blue-lake-okanogan-1",
+   "canonical_name": "Blue Lake (Okanogan)",
+   "county": "Okanogan",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan-1",
+   "lat": 48.566949,
+   "lon": -119.612742,
+   "entity_geo_code": "L228",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "BLUE LK (OKAN) T37",
+   "parsed": {
+    "name_key": "BLUE LAKE",
+    "sorted_key": "BLUE LAKE",
+    "core": [
+     "BLUE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "37"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L229",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 62,
+   "latest_date": "2026-09-17",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_disambiguates_same_name",
+   "evidence": "2 official same-name waters in ['Okanogan']; geo_code L229 selects wdfw-lowland:blue-lake-okanogan",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:blue-lake-okanogan-2",
+     "canonical_name": "Blue Lake",
+     "county": "Okanogan",
+     "geo_code": "L230",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan-2"
+    },
+    {
+     "entity_id": "wdfw-lowland:blue-lake-okanogan",
+     "canonical_name": "Blue Lake",
+     "county": "Okanogan",
+     "geo_code": "L229",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan"
+    }
+   ],
+   "entity_id": "wdfw-lowland:blue-lake-okanogan",
+   "canonical_name": "Blue Lake",
+   "county": "Okanogan",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan",
+   "lat": 48.687127,
+   "lon": -119.694673,
+   "entity_geo_code": "L229",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "BLUE LK BIG (SKAM)",
+   "parsed": {
+    "name_key": "BLUE LAKE BIG",
+    "sorted_key": "BIG BLUE LAKE",
+    "core": [
+     "BIG",
+     "BLUE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAM"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skamania"
+   ],
+   "geo_code": "L44812",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 22,
+   "latest_date": "2026-06-09",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('BLUE LAKE BIG' vs 'BLUE LAKE')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:blue-skamania2",
+     "canonical_name": "Blue Lake (Skamania County)",
+     "county": "Skamania",
+     "geo_code": "L44812",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-skamania2"
+    }
+   ],
+   "entity_id": "wdfw-lowland:blue-skamania2",
+   "canonical_name": "Blue Lake (Skamania County)",
+   "county": "Skamania",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-skamania2",
+   "lat": 45.674694,
+   "lon": -121.932942,
+   "entity_geo_code": "L44812",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "CHARLIA LKS (JEFF)",
+   "parsed": {
+    "name_key": "CHARLIA LAKES",
+    "sorted_key": "CHARLIA LAKES",
+    "core": [
+     "CHARLIA"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "JEFF"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Jefferson"
+   ],
+   "geo_code": "L613",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2011-08-28",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('CHARLIA LAKES' vs 'CHARLIA LAKES 1')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L613",
+     "canonical_name": "Charlia Lakes 1",
+     "county": "Jefferson",
+     "geo_code": "L613",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L613",
+   "canonical_name": "Charlia Lakes 1",
+   "county": "Jefferson",
+   "official_url": null,
+   "lat": 47.800254,
+   "lon": -123.125579,
+   "entity_geo_code": "L613",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "CLEAR LK (SKAG) T34",
+   "parsed": {
+    "name_key": "CLEAR LAKE",
+    "sorted_key": "CLEAR LAKE",
+    "core": [
+     "CLEAR"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAG"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "34"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skagit"
+   ],
+   "geo_code": "L833",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 76,
+   "latest_date": "2026-10-22",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "exact_name_county_with_disambiguator",
+   "evidence": "name carries a township/number disambiguator; confirm it is this water",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:clear-lake-skagit",
+     "canonical_name": "Clear Lake (Skagit County)",
+     "county": "Skagit",
+     "geo_code": "L833",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-skagit"
+    }
+   ],
+   "entity_id": "wdfw-lowland:clear-lake-skagit",
+   "canonical_name": "Clear Lake (Skagit County)",
+   "county": "Skagit",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-skagit",
+   "lat": 48.460153,
+   "lon": -122.225178,
+   "entity_geo_code": "L833",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "CLEAR LK (SKAG) T36",
+   "parsed": {
+    "name_key": "CLEAR LAKE",
+    "sorted_key": "CLEAR LAKE",
+    "core": [
+     "CLEAR"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAG"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "36"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skagit"
+   ],
+   "geo_code": "L834",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 5,
+   "latest_date": "2010-08-21",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-lowland:clear-lake-skagit but geo_code L834 -> ['wdfw-gis-highlake:L834']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:clear-lake-skagit",
+     "canonical_name": "Clear Lake (Skagit County)",
+     "county": "Skagit",
+     "geo_code": "L833",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-skagit"
+    },
+    {
+     "entity_id": "wdfw-gis-highlake:L834",
+     "canonical_name": "Clear",
+     "county": "Skagit",
+     "geo_code": "L834",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "CLEAR LK (SNOH)",
+   "parsed": {
+    "name_key": "CLEAR LAKE",
+    "sorted_key": "CLEAR LAKE",
+    "core": [
+     "CLEAR"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L836",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2011-10-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "name_suggests_other_code",
+   "evidence": "close official name(s) exist but carry other code(s) ['L888']; stocking geo_code L836 has no official entity (likely a different, unlisted same-name water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L888",
+     "canonical_name": "Clear",
+     "county": "Snohomish",
+     "geo_code": "L888",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "COL R NEAR BASIN 40",
+   "parsed": {
+    "name_key": "COL RIVER NEAR BASIN 40",
+    "sorted_key": "40 BASIN COL NEAR RIVER",
+    "core": [
+     "40",
+     "BASIN",
+     "COL",
+     "NEAR",
+     "RIVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Benton"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "25.0001@P2406",
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "1995-05-02",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '25.0001@P2406'",
+   "candidates": []
+  },
+  {
+   "location_key": "COON LK (CHEL)",
+   "parsed": {
+    "name_key": "COON LAKE",
+    "sorted_key": "COON LAKE",
+    "core": [
+     "COON"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "CHEL"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Chelan"
+   ],
+   "geo_code": "L658",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2000-09-18",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('COON LAKE' vs 'HOWARD')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:howard-chelan",
+     "canonical_name": "Howard (Chelan County)",
+     "county": "Chelan",
+     "geo_code": "L658",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/howard-chelan"
+    }
+   ],
+   "entity_id": "wdfw-lowland:howard-chelan",
+   "canonical_name": "Howard (Chelan County)",
+   "county": "Chelan",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/howard-chelan",
+   "lat": 48.388735,
+   "lon": -120.833021,
+   "entity_geo_code": "L658",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "COTTONWOOD CR 53.0153",
+   "parsed": {
+    "name_key": "COTTONWOOD CREEK",
+    "sorted_key": "COTTONWOOD CREEK",
+    "core": [
+     "COTTONWOOD",
+     "CREEK"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "53.0153"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "53.0153",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 18,
+   "latest_date": "2012-04-27",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "CURL LK (LANDLOCKED)",
+   "parsed": {
+    "name_key": "CURL LAKE LANDLOCKED",
+    "sorted_key": "CURL LAKE LANDLOCKED",
+    "core": [
+     "CURL",
+     "LANDLOCKED"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Columbia"
+   ],
+   "geo_code": "L931",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "CURL LK RELEASE SITE"
+   ],
+   "rows": 104,
+   "latest_date": "2026-06-03",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L931 is also used by ['CURL LK RELEASE SITE'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:curl-lake",
+     "canonical_name": "Curl Lake",
+     "county": "Columbia",
+     "geo_code": "L931",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/curl-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "DEER LK (LINC)",
+   "parsed": {
+    "name_key": "DEER LAKE",
+    "sorted_key": "DEER LAKE",
+    "core": [
+     "DEER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "LINC"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Lincoln"
+   ],
+   "geo_code": "L1060",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "DEER SPRINGS LK (LINC)"
+   ],
+   "rows": 23,
+   "latest_date": "2026-05-28",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L1060 is also used by ['DEER SPRINGS LK (LINC)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:deer-springs-lake",
+     "canonical_name": "Deer Springs Lake",
+     "county": "Lincoln",
+     "geo_code": "L1060",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/deer-springs-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "DESERT LK N (GRAN)",
+   "parsed": {
+    "name_key": "DESERT LAKE NORTH",
+    "sorted_key": "DESERT LAKE NORTH",
+    "core": [
+     "DESERT",
+     "NORTH"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grant"
+   ],
+   "geo_code": "L23508",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "DESERT LK (GRAN)"
+   ],
+   "rows": 1,
+   "latest_date": "1995-09-07",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L23508 is also used by ['DESERT LK (GRAN)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:desert-lake-chain",
+     "canonical_name": "Desert Lake Chain",
+     "county": "Grant",
+     "geo_code": "L23508",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/desert-lake-chain"
+    }
+   ]
+  },
+  {
+   "location_key": "DUCK LK (1) (GRAY)",
+   "parsed": {
+    "name_key": "DUCK LAKE 1",
+    "sorted_key": "1 DUCK LAKE",
+    "core": [
+     "1",
+     "DUCK"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAY"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [
+     "1"
+    ],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L1009",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "DUCK LK (2) (GRAY)",
+    "DUCK LK (22)",
+    "DUCK LK (3) (GRAY)"
+   ],
+   "rows": 29,
+   "latest_date": "2024-05-09",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L1009 is also used by ['DUCK LK (2) (GRAY)', 'DUCK LK (22)', 'DUCK LK (3) (GRAY)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:duck-lake",
+     "canonical_name": "Duck Lake",
+     "county": "Grays Harbor",
+     "geo_code": "L1009",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/duck-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "DUCK LK (3) (GRAY)",
+   "parsed": {
+    "name_key": "DUCK LAKE 3",
+    "sorted_key": "3 DUCK LAKE",
+    "core": [
+     "3",
+     "DUCK"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAY"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [
+     "3"
+    ],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L1009",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "DUCK LK (1) (GRAY)",
+    "DUCK LK (2) (GRAY)",
+    "DUCK LK (22)"
+   ],
+   "rows": 39,
+   "latest_date": "2004-09-14",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L1009 is also used by ['DUCK LK (1) (GRAY)', 'DUCK LK (2) (GRAY)', 'DUCK LK (22)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:duck-lake",
+     "canonical_name": "Duck Lake",
+     "county": "Grays Harbor",
+     "geo_code": "L1009",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/duck-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "DUFFEY LK (2) (SNOH)",
+   "parsed": {
+    "name_key": "DUFFEY LAKE 2",
+    "sorted_key": "2 DUFFEY LAKE",
+    "core": [
+     "2",
+     "DUFFEY"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [
+     "2"
+    ],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L1114",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "DUFFEY LK (1) (SNOH)"
+   ],
+   "rows": 8,
+   "latest_date": "2020-07-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L1114 is also used by ['DUFFEY LK (1) (SNOH)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L1114",
+     "canonical_name": "Duffey 2",
+     "county": "Snohomish",
+     "geo_code": "L1114",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "ELMA DERBY (GRAY)",
+   "parsed": {
+    "name_key": "ELMA DERBY",
+    "sorted_key": "DERBY ELMA",
+    "core": [
+     "DERBY",
+     "ELMA"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAY"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L42334",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "VANCE CR ADLT PD 22.0478"
+   ],
+   "rows": 2,
+   "latest_date": "2010-04-22",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('ELMA DERBY' vs 'LAKE INEZ VANCE CREEK POND 2')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:vance-creek-pond-2-inez-lake",
+     "canonical_name": "Lake Inez (Vance Creek Pond #2)",
+     "county": "Grays Harbor",
+     "geo_code": "L42334",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/vance-creek-pond-2-inez-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:vance-creek-pond-2-inez-lake",
+   "canonical_name": "Lake Inez (Vance Creek Pond #2)",
+   "county": "Grays Harbor",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/vance-creek-pond-2-inez-lake",
+   "lat": 46.993904,
+   "lon": -123.422798,
+   "entity_geo_code": "L42334",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "FIO RITO LK-N (KITT)",
+   "parsed": {
+    "name_key": "FIO RITO LAKE NORTH",
+    "sorted_key": "FIO LAKE NORTH RITO",
+    "core": [
+     "FIO",
+     "NORTH",
+     "RITO"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KITT"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Kittitas"
+   ],
+   "geo_code": "L27190",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 291,
+   "latest_date": "2026-06-03",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('FIO RITO LAKE NORTH' vs 'FIORITO LAKES')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:fiorito-lakes",
+     "canonical_name": "Fiorito Lakes",
+     "county": "Kittitas",
+     "geo_code": "L27190",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fiorito-lakes"
+    }
+   ],
+   "entity_id": "wdfw-lowland:fiorito-lakes",
+   "canonical_name": "Fiorito Lakes",
+   "county": "Kittitas",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fiorito-lakes",
+   "lat": 46.938561,
+   "lon": -120.50463,
+   "entity_geo_code": "L27190",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "FIRING CENTER PD (YAKI)",
+   "parsed": {
+    "name_key": "FIRING CENTER POND",
+    "sorted_key": "CENTER FIRING POND",
+    "core": [
+     "CENTER",
+     "FIRING"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "YAKI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Yakima"
+   ],
+   "geo_code": "L27040",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 47,
+   "latest_date": "2025-04-28",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('FIRING CENTER POND' vs 'FIRING CENTER POND 1')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:firing-center-pond-1",
+     "canonical_name": "Firing Center Pond 1",
+     "county": "Yakima",
+     "geo_code": "L27040",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/firing-center-pond-1"
+    }
+   ],
+   "entity_id": "wdfw-lowland:firing-center-pond-1",
+   "canonical_name": "Firing Center Pond 1",
+   "county": "Yakima",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/firing-center-pond-1",
+   "lat": 46.674537,
+   "lon": -120.445278,
+   "entity_geo_code": "L27040",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "FOC PORTABLE POND",
+   "parsed": {
+    "name_key": "FOC PORTABLE POND",
+    "sorted_key": "FOC POND PORTABLE",
+    "core": [
+     "FOC",
+     "PORTABLE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": null,
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "2001-07-27",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "FORT BORST PRK DERBY",
+   "parsed": {
+    "name_key": "FORT BORST PARK DERBY",
+    "sorted_key": "BORST DERBY FORT PARK",
+    "core": [
+     "BORST",
+     "DERBY",
+     "FORT",
+     "PARK"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Lewis"
+   ],
+   "geo_code": "L474",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "CHEHALIS DERBY (LEWI)",
+    "FORT BORST PRK LK (LEWI)"
+   ],
+   "rows": 2,
+   "latest_date": "2024-11-27",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('FORT BORST PARK DERBY' vs 'FORT BORST PARK POND')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:fort-borst-lake",
+     "canonical_name": "Fort Borst Park Pond",
+     "county": "Lewis",
+     "geo_code": "L474",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fort-borst-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:fort-borst-lake",
+   "canonical_name": "Fort Borst Park Pond",
+   "county": "Lewis",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/fort-borst-lake",
+   "lat": 46.723118,
+   "lon": -122.978059,
+   "entity_geo_code": "L474",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "GERMANY CR 25.0313",
+   "parsed": {
+    "name_key": "GERMANY CREEK",
+    "sorted_key": "CREEK GERMANY",
+    "core": [
+     "CREEK",
+     "GERMANY"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "25.0313"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "25.0313",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 12,
+   "latest_date": "2010-04-05",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "GRAYS R -EF 25.0157",
+   "parsed": {
+    "name_key": "GRAYS RIVER EF",
+    "sorted_key": "EF GRAYS RIVER",
+    "core": [
+     "EF",
+     "GRAYS",
+     "RIVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "25.0157"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "25.0157",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2003-05-01",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "GROUSE LK (SNOH)",
+   "parsed": {
+    "name_key": "GROUSE LAKE",
+    "sorted_key": "GROUSE LAKE",
+    "core": [
+     "GROUSE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L3368",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "MUD LK (SNOH) T27"
+   ],
+   "rows": 5,
+   "latest_date": "2025-08-08",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L3368 is also used by ['MUD LK (SNOH) T27'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L3368",
+     "canonical_name": "Grouse (Mud)",
+     "county": "Snohomish",
+     "geo_code": "L3368",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "HAMMERSLEY INLET 13J",
+   "parsed": {
+    "name_key": "HAMMERSLEY INLET 13J",
+    "sorted_key": "13J HAMMERSLEY INLET",
+    "core": [
+     "13J",
+     "HAMMERSLEY",
+     "INLET"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": null,
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "1999-06-14",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "HILL CR 26.0423",
+   "parsed": {
+    "name_key": "HILL CREEK",
+    "sorted_key": "CREEK HILL",
+    "core": [
+     "CREEK",
+     "HILL"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.0423"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.0423",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2012-01-01",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "HORSESHOE LK (KING) T21",
+   "parsed": {
+    "name_key": "HORSESHOE LAKE",
+    "sorted_key": "HORSESHOE LAKE",
+    "core": [
+     "HORSESHOE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "21"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L1772",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 5,
+   "latest_date": "2026-07-11",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "multiple_same_name_in_county",
+   "evidence": "2 official entities named like 'HORSESHOE LAKE' in ['King']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L1774",
+     "canonical_name": "Horseshoe",
+     "county": "King",
+     "geo_code": "L1774",
+     "official_url": null
+    },
+    {
+     "entity_id": "wdfw-gis-highlake:L1773",
+     "canonical_name": "Horseshoe",
+     "county": "King",
+     "geo_code": "L1773",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "IDAHO- SPRING VALLEY RES",
+   "parsed": {
+    "name_key": "IDAHO SPRING VALLEY RESERVOIR",
+    "sorted_key": "IDAHO RESERVOIR SPRING VALLEY",
+    "core": [
+     "IDAHO",
+     "SPRING",
+     "VALLEY"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": null,
+   "malformed_geo_code": "46.785069,-116.757248",
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "1998-06-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "JAP LK (KING)",
+   "parsed": {
+    "name_key": "JAP LAKE",
+    "sorted_key": "JAP LAKE",
+    "core": [
+     "JAP"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L2576",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "1995-09-23",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('JAP LAKE' vs 'YUTAKA')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L2576",
+     "canonical_name": "Yutaka",
+     "county": "King",
+     "geo_code": "L2576",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L2576",
+   "canonical_name": "Yutaka",
+   "county": "King",
+   "official_url": null,
+   "lat": 47.775467,
+   "lon": -121.123857,
+   "entity_geo_code": "L2576",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "JORDON LK LWR (SKAG)",
+   "parsed": {
+    "name_key": "JORDON LAKE LOWER",
+    "sorted_key": "JORDON LAKE LOWER",
+    "core": [
+     "JORDON",
+     "LOWER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAG"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skagit"
+   ],
+   "geo_code": "L2602",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2006-08-01",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('JORDON LAKE LOWER' vs 'JORDAN LOWER')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L2602",
+     "canonical_name": "Jordan - Lower",
+     "county": "Skagit",
+     "geo_code": "L2602",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L2602",
+   "canonical_name": "Jordan - Lower",
+   "county": "Skagit",
+   "official_url": null,
+   "lat": 48.45094,
+   "lon": -121.359016,
+   "entity_geo_code": "L2602",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "KIWANAS PD (KITT)",
+   "parsed": {
+    "name_key": "KIWANAS POND",
+    "sorted_key": "KIWANAS POND",
+    "core": [
+     "KIWANAS"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KITT"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Kittitas"
+   ],
+   "geo_code": "L50131",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "HANSON PD LTL (KITT)"
+   ],
+   "rows": 99,
+   "latest_date": "2026-06-29",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L50131 is also used by ['HANSON PD LTL (KITT)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:kiwanis-pond",
+     "canonical_name": "Kiwanis Pond",
+     "county": "Kittitas",
+     "geo_code": "L50131",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/kiwanis-pond"
+    }
+   ]
+  },
+  {
+   "location_key": "KLINELINE PD W (CLAR)",
+   "parsed": {
+    "name_key": "KLINELINE POND WEST",
+    "sorted_key": "KLINELINE POND WEST",
+    "core": [
+     "KLINELINE",
+     "WEST"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "CLAR"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Clark"
+   ],
+   "geo_code": "L38533",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 47,
+   "latest_date": "2013-03-27",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "name_stem_needs_review",
+   "evidence": "official water(s) with the same name stem in county; qualifiers or codes differ",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:klineline-pond",
+     "canonical_name": "Klineline Pond",
+     "county": "Clark",
+     "geo_code": "L38502",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond"
+    }
+   ]
+  },
+  {
+   "location_key": "KLINELINE PONDS",
+   "parsed": {
+    "name_key": "KLINELINE PONDS",
+    "sorted_key": "KLINELINE PONDS",
+    "core": [
+     "KLINELINE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skamania"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "L38502,L38533,L38454",
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2013-05-09",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code 'L38502,L38533,L38454'",
+   "candidates": []
+  },
+  {
+   "location_key": "LAKE CR 26.0590",
+   "parsed": {
+    "name_key": "LAKE CREEK",
+    "sorted_key": "CREEK LAKE",
+    "core": [
+     "CREEK"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.0590"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.0590",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 4,
+   "latest_date": "2012-03-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "LAKE CR 26.1231",
+   "parsed": {
+    "name_key": "LAKE CREEK",
+    "sorted_key": "CREEK LAKE",
+    "core": [
+     "CREEK"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.1231"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.1231",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 12,
+   "latest_date": "2008-10-29",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "LECKLER CR 26.0169",
+   "parsed": {
+    "name_key": "LECKLER CREEK",
+    "sorted_key": "CREEK LECKLER",
+    "core": [
+     "CREEK",
+     "LECKLER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.0169"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.0169",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "2015-02-22",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "LK ROOSEVELT (53)",
+   "parsed": {
+    "name_key": "LAKE ROOSEVELT",
+    "sorted_key": "LAKE ROOSEVELT",
+    "core": [
+     "ROOSEVELT"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [
+     "53"
+    ],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "L44450",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "ROOSEVELT LK (OKAN)",
+    "ROOSEVELT LK@2 RIVERS NP",
+    "ROOSEVELT LK@7 BAYS NP",
+    "ROOSEVELT LK@FORT SPOKANE",
+    "ROOSEVELT LK@HUNTERS NP",
+    "ROOSEVELT LK@KELLER FERRY NP",
+    "ROOSEVELT LK@KETTLE FALLS NP",
+    "ROOSEVELT LK@LINCOLN NP",
+    "ROOSEVLET LK@HALL CR NP"
+   ],
+   "rows": 2,
+   "latest_date": "2026-03-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+     "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+     "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+     "geo_code": "L44450",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "LONG LK (THUR)",
+   "parsed": {
+    "name_key": "LONG LAKE",
+    "sorted_key": "LAKE LONG",
+    "core": [
+     "LONG"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "THUR"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Thurston"
+   ],
+   "geo_code": "L2818",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LONGS PD (THUR)"
+   ],
+   "rows": 286,
+   "latest_date": "2026-04-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-lowland:long-lake-thurston but geo_code L2818 -> ['wdfw-lowland:longs-pond']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:long-lake-thurston",
+     "canonical_name": "Long Lake (Thurston County)",
+     "county": "Thurston",
+     "geo_code": "L2807",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/long-lake-thurston"
+    },
+    {
+     "entity_id": "wdfw-lowland:longs-pond",
+     "canonical_name": "Long's Pond",
+     "county": "Thurston",
+     "geo_code": "L2818",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond"
+    }
+   ]
+  },
+  {
+   "location_key": "LONGS PD (THUR)",
+   "parsed": {
+    "name_key": "LONGS POND",
+    "sorted_key": "LONGS POND",
+    "core": [
+     "LONGS"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "THUR"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Thurston"
+   ],
+   "geo_code": "L2818",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LONG LK (THUR)"
+   ],
+   "rows": 181,
+   "latest_date": "2026-10-26",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "exact_name_county_conflicting_shared_code",
+   "evidence": "geo_code L2818 is also used by ['LONG LK (THUR)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:longs-pond",
+     "canonical_name": "Long's Pond",
+     "county": "Thurston",
+     "geo_code": "L2818",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond"
+    }
+   ],
+   "entity_id": "wdfw-lowland:longs-pond",
+   "canonical_name": "Long's Pond",
+   "county": "Thurston",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+   "lat": 47.039336,
+   "lon": -122.791497,
+   "entity_geo_code": "L2818",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "LOST LK LTL (PEND)",
+   "parsed": {
+    "name_key": "LOST LAKE LITTLE",
+    "sorted_key": "LAKE LITTLE LOST",
+    "core": [
+     "LITTLE",
+     "LOST"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "PEND"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Pend Oreille"
+   ],
+   "geo_code": "L3024",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LOST LK (PEND) T38"
+   ],
+   "rows": 28,
+   "latest_date": "2026-04-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L3024 is also used by ['LOST LK (PEND) T38'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:little-lost-lake-pend-oreille",
+     "canonical_name": "Little Lost Lake",
+     "county": "Pend Oreille",
+     "geo_code": "L3024",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/little-lost-lake-pend-oreille"
+    }
+   ]
+  },
+  {
+   "location_key": "MARTHA LK (AM) (SNOH)",
+   "parsed": {
+    "name_key": "MARTHA LAKE AM",
+    "sorted_key": "AM LAKE MARTHA",
+    "core": [
+     "AM",
+     "MARTHA"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L3217",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 112,
+   "latest_date": "2026-05-26",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('MARTHA LAKE AM' vs 'MARTHA ALDERWOOD MANOR')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:martha-alderwood-manor",
+     "canonical_name": "Martha Alderwood Manor",
+     "county": "Snohomish",
+     "geo_code": "L3217",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor"
+    }
+   ],
+   "entity_id": "wdfw-lowland:martha-alderwood-manor",
+   "canonical_name": "Martha Alderwood Manor",
+   "county": "Snohomish",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+   "lat": 47.852714,
+   "lon": -122.243454,
+   "entity_geo_code": "L3217",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "MARTHA LK (WB) (SNOH)",
+   "parsed": {
+    "name_key": "MARTHA LAKE WB",
+    "sorted_key": "LAKE MARTHA WB",
+    "core": [
+     "MARTHA",
+     "WB"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L3219",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 105,
+   "latest_date": "2026-10-26",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "name_stem_needs_review",
+   "evidence": "official water(s) with the same name stem in county; qualifiers or codes differ",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:martha-lake-snohomish",
+     "canonical_name": "Lake Martha (Snohomish County)",
+     "county": "Snohomish",
+     "geo_code": "L3218",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-lake-snohomish"
+    }
+   ]
+  },
+  {
+   "location_key": "MAYFIELD LK (26)",
+   "parsed": {
+    "name_key": "MAYFIELD LAKE",
+    "sorted_key": "LAKE MAYFIELD",
+    "core": [
+     "MAYFIELD"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [
+     "26"
+    ],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "L3235",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "MAYFIELD RES (LEWI)"
+   ],
+   "rows": 5,
+   "latest_date": "2023-08-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:mayfield-lake",
+     "canonical_name": "Mayfield Lake",
+     "county": "Lewis",
+     "geo_code": "L3235",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mayfield-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "MINE LK UPR (KING)",
+   "parsed": {
+    "name_key": "MINE LAKE UPPER",
+    "sorted_key": "LAKE MINE UPPER",
+    "core": [
+     "MINE",
+     "UPPER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L6764",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 6,
+   "latest_date": "2024-06-19",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('MINE LAKE UPPER' vs 'MINE CREEK POT UPPER')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L6764",
+     "canonical_name": "Mine Creek Pot - Upper",
+     "county": "King",
+     "geo_code": "L6764",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L6764",
+   "canonical_name": "Mine Creek Pot - Upper",
+   "county": "King",
+   "official_url": null,
+   "lat": 47.40305,
+   "lon": -121.635634,
+   "entity_geo_code": "L6764",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "MUD LK (KING)",
+   "parsed": {
+    "name_key": "MUD LAKE",
+    "sorted_key": "LAKE MUD",
+    "core": [
+     "MUD"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L3363",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 5,
+   "latest_date": "2009-10-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-lowland:mud-king but geo_code L3363 -> no entity",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:mud-king",
+     "canonical_name": "Mud Lake (King County)",
+     "county": "King",
+     "geo_code": "L3362",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mud-king"
+    }
+   ]
+  },
+  {
+   "location_key": "MURPHY LKS (1)",
+   "parsed": {
+    "name_key": "MURPHY LAKES",
+    "sorted_key": "LAKES MURPHY",
+    "core": [
+     "MURPHY"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [
+     "1"
+    ],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": "L3385",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 4,
+   "latest_date": "2019-09-11",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "name_stem_needs_review",
+   "evidence": "official water(s) with the same name stem in county; qualifiers or codes differ",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L3386",
+     "canonical_name": "Murphy - Upper",
+     "county": "King",
+     "geo_code": "L3386",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "NAHCOTTA NET PENS",
+   "parsed": {
+    "name_key": "NAHCOTTA NET PENS",
+    "sorted_key": "NAHCOTTA NET PENS",
+    "core": [
+     "NAHCOTTA",
+     "NET",
+     "PENS"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Pacific"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "proposed-Tmp20200707i",
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "2004-04-12",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code 'proposed-Tmp20200707i'",
+   "candidates": []
+  },
+  {
+   "location_key": "OSTRANDER CR 26.0132",
+   "parsed": {
+    "name_key": "OSTRANDER CREEK",
+    "sorted_key": "CREEK OSTRANDER",
+    "core": [
+     "CREEK",
+     "OSTRANDER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.0132"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.0132",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2015-02-22",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "PILLAR LK (GRAN)",
+   "parsed": {
+    "name_key": "PILLAR LAKE",
+    "sorted_key": "LAKE PILLAR",
+    "core": [
+     "PILLAR"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grant"
+   ],
+   "geo_code": "L3567",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 38,
+   "latest_date": "2026-05-05",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "name+county -> wdfw-lowland:pillar-lake but geo_code L3567 -> no entity",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:pillar-lake",
+     "canonical_name": "Pillar Lake",
+     "county": "Grant",
+     "geo_code": "L587",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/pillar-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "PRAIRE MT LKS (1) (SKAG)",
+   "parsed": {
+    "name_key": "PRAIRE MOUNT LAKES 1",
+    "sorted_key": "1 LAKES MOUNT PRAIRE",
+    "core": [
+     "1",
+     "MOUNT",
+     "PRAIRE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SKAG"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [
+     "1"
+    ],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skagit"
+   ],
+   "geo_code": "L3706",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 6,
+   "latest_date": "2024-06-22",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('PRAIRE MOUNT LAKES 1' vs 'PRAIRIE MOUNTAIN UPPER')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:prairie-mountain-upper",
+     "canonical_name": "Prairie Mountain Upper",
+     "county": "Skagit",
+     "geo_code": "L3706",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/prairie-mountain-upper"
+    }
+   ],
+   "entity_id": "wdfw-lowland:prairie-mountain-upper",
+   "canonical_name": "Prairie Mountain Upper",
+   "county": "Skagit",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/prairie-mountain-upper",
+   "lat": 48.349073,
+   "lon": -121.482493,
+   "entity_geo_code": "L3706",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "PUP CR 27.0345",
+   "parsed": {
+    "name_key": "PUP CREEK",
+    "sorted_key": "CREEK PUP",
+    "core": [
+     "CREEK",
+     "PUP"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "27.0345"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "27.0345",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 15,
+   "latest_date": "2018-03-30",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "ROBINSON CR 27.0300",
+   "parsed": {
+    "name_key": "ROBINSON CREEK",
+    "sorted_key": "CREEK ROBINSON",
+    "core": [
+     "CREEK",
+     "ROBINSON"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "27.0300"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "27.0300",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 11,
+   "latest_date": "2018-04-01",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "ROCK CR 29.0002",
+   "parsed": {
+    "name_key": "ROCK CREEK",
+    "sorted_key": "CREEK ROCK",
+    "core": [
+     "CREEK",
+     "ROCK"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "29.0002"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "29.0002",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 6,
+   "latest_date": "2013-05-02",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "ROOSEVELT LK@KETTLE FALLS NP",
+   "parsed": {
+    "name_key": "ROOSEVELT LAKE",
+    "sorted_key": "LAKE ROOSEVELT",
+    "core": [
+     "ROOSEVELT"
+    ],
+    "subsite": "KETTLE FALLS NP",
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L44450",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LK ROOSEVELT (53)",
+    "ROOSEVELT LK (OKAN)",
+    "ROOSEVELT LK@2 RIVERS NP",
+    "ROOSEVELT LK@7 BAYS NP",
+    "ROOSEVELT LK@FORT SPOKANE",
+    "ROOSEVELT LK@HUNTERS NP",
+    "ROOSEVELT LK@KELLER FERRY NP",
+    "ROOSEVELT LK@LINCOLN NP",
+    "ROOSEVLET LK@HALL CR NP"
+   ],
+   "rows": 412,
+   "latest_date": "2026-05-12",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('ROOSEVELT LAKE' vs 'FRANKLIN ROOSEVELT LAKE LAKE ROOSEVELT')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+     "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+     "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+     "geo_code": "L44450",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+   "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+   "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake",
+   "lat": 47.901889,
+   "lon": -118.172461,
+   "entity_geo_code": "L44450",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "ROOSEVELT LK@LINCOLN NP",
+   "parsed": {
+    "name_key": "ROOSEVELT LAKE",
+    "sorted_key": "LAKE ROOSEVELT",
+    "core": [
+     "ROOSEVELT"
+    ],
+    "subsite": "LINCOLN NP",
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L44450",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LK ROOSEVELT (53)",
+    "ROOSEVELT LK (OKAN)",
+    "ROOSEVELT LK@2 RIVERS NP",
+    "ROOSEVELT LK@7 BAYS NP",
+    "ROOSEVELT LK@FORT SPOKANE",
+    "ROOSEVELT LK@HUNTERS NP",
+    "ROOSEVELT LK@KELLER FERRY NP",
+    "ROOSEVELT LK@KETTLE FALLS NP",
+    "ROOSEVLET LK@HALL CR NP"
+   ],
+   "rows": 153,
+   "latest_date": "2025-05-20",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('ROOSEVELT LAKE' vs 'FRANKLIN ROOSEVELT LAKE LAKE ROOSEVELT')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+     "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+     "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+     "geo_code": "L44450",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+   "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+   "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake",
+   "lat": 47.901889,
+   "lon": -118.172461,
+   "entity_geo_code": "L44450",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "SALKUM DERBY (LEWI)",
+   "parsed": {
+    "name_key": "SALKUM DERBY",
+    "sorted_key": "DERBY SALKUM",
+    "core": [
+     "DERBY",
+     "SALKUM"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "LEWI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Lewis"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "gnis1525380",
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2009-09-05",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code 'gnis1525380'",
+   "candidates": []
+  },
+  {
+   "location_key": "SAMISH R @SKARRUP RD",
+   "parsed": {
+    "name_key": "SAMISH RIVER",
+    "sorted_key": "RIVER SAMISH",
+    "core": [
+     "RIVER",
+     "SAMISH"
+    ],
+    "subsite": "SKARRUP RD",
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Skagit"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "03.0005@03.0053A",
+   "geo_code_shared_with": [],
+   "rows": 1,
+   "latest_date": "1998-03-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '03.0005@03.0053A'",
+   "candidates": []
+  },
+  {
+   "location_key": "SCAMMON CR 23.0757",
+   "parsed": {
+    "name_key": "SCAMMON CREEK",
+    "sorted_key": "CREEK SCAMMON",
+    "core": [
+     "CREEK",
+     "SCAMMON"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "23.0757"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "23.0757",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 16,
+   "latest_date": "2011-02-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "SCHUMOCHER C 14.0094",
+   "parsed": {
+    "name_key": "SCHUMOCHER C",
+    "sorted_key": "C SCHUMOCHER",
+    "core": [
+     "C",
+     "SCHUMOCHER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "14.0094"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Mason"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "14.0094@L44941inlettoend",
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "1997-03-26",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '14.0094@L44941inlettoend'",
+   "candidates": []
+  },
+  {
+   "location_key": "SILER CR 26.1018",
+   "parsed": {
+    "name_key": "SILER CREEK",
+    "sorted_key": "CREEK SILER",
+    "core": [
+     "CREEK",
+     "SILER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.1018"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.1018",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 4,
+   "latest_date": "2008-10-28",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "SILER MILL PD (LEWI)",
+   "parsed": {
+    "name_key": "SILER MILL POND",
+    "sorted_key": "MILL POND SILER",
+    "core": [
+     "MILL",
+     "SILER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "LEWI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Lewis"
+   ],
+   "geo_code": "L4191",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 23,
+   "latest_date": "2019-04-25",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "exact_name_county_no_code_confirmation",
+   "evidence": "exact name+county, unique, but entity has no geo_code",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:siler-mill-pond-lewis",
+     "canonical_name": "Siler Mill Pond",
+     "county": "Lewis",
+     "geo_code": null,
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/siler-mill-pond-lewis"
+    }
+   ],
+   "entity_id": "wdfw-lowland:siler-mill-pond-lewis",
+   "canonical_name": "Siler Mill Pond",
+   "county": "Lewis",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/siler-mill-pond-lewis",
+   "lat": null,
+   "lon": null,
+   "entity_geo_code": null,
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "SILVER LK (JEFF)",
+   "parsed": {
+    "name_key": "SILVER LAKE",
+    "sorted_key": "LAKE SILVER",
+    "core": [
+     "SILVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "JEFF"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Jefferson"
+   ],
+   "geo_code": "L3991",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "SILVER LK (MASO)"
+   ],
+   "rows": 3,
+   "latest_date": "2009-09-26",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L3991 is also used by ['SILVER LK (MASO)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L3991",
+     "canonical_name": "Silver 2",
+     "county": "Jefferson",
+     "geo_code": "L3991",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "SILVER LK (MASO)",
+   "parsed": {
+    "name_key": "SILVER LAKE",
+    "sorted_key": "LAKE SILVER",
+    "core": [
+     "SILVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "MASO"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Mason"
+   ],
+   "geo_code": "L3991",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "SILVER LK (JEFF)"
+   ],
+   "rows": 3,
+   "latest_date": "2003-08-29",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "geo_code -> wdfw-gis-highlake:L3991 (Jefferson) but county evidence is ['Mason']",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L3991",
+     "canonical_name": "Silver 2",
+     "county": "Jefferson",
+     "geo_code": "L3991",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "SILVER LK (SNOH) T28",
+   "parsed": {
+    "name_key": "SILVER LAKE",
+    "sorted_key": "LAKE SILVER",
+    "core": [
+     "SILVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "SNOH"
+    ],
+    "wria_hint": [],
+    "township_hint": [
+     "28"
+    ],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": "L4198",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 169,
+   "latest_date": "2026-10-07",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "exact_name_county_with_disambiguator",
+   "evidence": "name carries a township/number disambiguator; confirm it is this water",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:silver-lake-snohomish",
+     "canonical_name": "Silver Lake (Snohomish County)",
+     "county": "Snohomish",
+     "geo_code": "L4198",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/silver-lake-snohomish"
+    }
+   ],
+   "entity_id": "wdfw-lowland:silver-lake-snohomish",
+   "canonical_name": "Silver Lake (Snohomish County)",
+   "county": "Snohomish",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/silver-lake-snohomish",
+   "lat": 47.892498,
+   "lon": -122.208828,
+   "entity_geo_code": "L4198",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "SILVER LK -NISQUALLY",
+   "parsed": {
+    "name_key": "SILVER LAKE NISQUALLY",
+    "sorted_key": "LAKE NISQUALLY SILVER",
+    "core": [
+     "NISQUALLY",
+     "SILVER"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Pierce"
+   ],
+   "geo_code": "L4197",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "SILVER LK (PIER)"
+   ],
+   "rows": 2,
+   "latest_date": "1995-04-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L4197 is also used by ['SILVER LK (PIER)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:silver-lake-pierce",
+     "canonical_name": "Silver Lake (Pierce County)",
+     "county": "Pierce",
+     "geo_code": "L4197",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/silver-lake-pierce"
+    }
+   ]
+  },
+  {
+   "location_key": "SKYKOMISH R 07.0012 @ RM 27.5",
+   "parsed": {
+    "name_key": "SKYKOMISH RIVER",
+    "sorted_key": "RIVER SKYKOMISH",
+    "core": [
+     "RIVER",
+     "SKYKOMISH"
+    ],
+    "subsite": "RM 27.5",
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "07.0012"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Snohomish"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "47.846846,-121.928071alt07.0012@rm27.5",
+   "geo_code_shared_with": [],
+   "rows": 5,
+   "latest_date": "2022-05-24",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '47.846846,-121.928071alt07.0012@rm27.5'",
+   "candidates": []
+  },
+  {
+   "location_key": "SNAKE R-LOWR 33.0002",
+   "parsed": {
+    "name_key": "SNAKE RIVER LOWR",
+    "sorted_key": "LOWR RIVER SNAKE",
+    "core": [
+     "LOWR",
+     "RIVER",
+     "SNAKE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "33.0002"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": null,
+   "malformed_geo_code": "33.0002@rm0toP2382",
+   "geo_code_shared_with": [],
+   "rows": 124,
+   "latest_date": "2008-06-02",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "SOUTHGATE CR 09?",
+   "parsed": {
+    "name_key": "SOUTHGATE CREEK 09?",
+    "sorted_key": "09? CREEK SOUTHGATE",
+    "core": [
+     "09?",
+     "CREEK",
+     "SOUTHGATE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": null,
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 22,
+   "latest_date": "2023-02-12",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "STEARNS CR 23.0934",
+   "parsed": {
+    "name_key": "STEARNS CREEK",
+    "sorted_key": "CREEK STEARNS",
+    "core": [
+     "CREEK",
+     "STEARNS"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "23.0934"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "23.0934",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 64,
+   "latest_date": "2026-02-16",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "TELEGRAPH SLOUGH 03.0117",
+   "parsed": {
+    "name_key": "TELEGRAPH SLOUGH",
+    "sorted_key": "SLOUGH TELEGRAPH",
+    "core": [
+     "SLOUGH",
+     "TELEGRAPH"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "03.0117"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "03.0117",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 7,
+   "latest_date": "2012-02-02",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "TENINO DERBY",
+   "parsed": {
+    "name_key": "TENINO DERBY",
+    "sorted_key": "DERBY TENINO",
+    "core": [
+     "DERBY",
+     "TENINO"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Thurston"
+   ],
+   "geo_code": "L3472",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "OFFUTT LK (THUR)"
+   ],
+   "rows": 4,
+   "latest_date": "2009-07-25",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('TENINO DERBY' vs 'OFFUTT LAKE')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:offutt-lake",
+     "canonical_name": "Offutt Lake",
+     "county": "Thurston",
+     "geo_code": "L3472",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/offutt-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:offutt-lake",
+   "canonical_name": "Offutt Lake",
+   "county": "Thurston",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/offutt-lake",
+   "lat": 46.917373,
+   "lon": -122.828873,
+   "entity_geo_code": "L3472",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "TOLEDO DERBY (LEWI)",
+   "parsed": {
+    "name_key": "TOLEDO DERBY",
+    "sorted_key": "DERBY TOLEDO",
+    "core": [
+     "DERBY",
+     "TOLEDO"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "LEWI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Lewis"
+   ],
+   "geo_code": "L6995",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "LEWIS CO PRK PD-S (LEWI)"
+   ],
+   "rows": 1,
+   "latest_date": "2005-05-20",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('TOLEDO DERBY' vs 'SOUTH LEWIS COUNTY PARK POND')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:south-lewis-county-park-pond",
+     "canonical_name": "South Lewis County Park Pond",
+     "county": "Lewis",
+     "geo_code": "L6995",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/south-lewis-county-park-pond"
+    }
+   ],
+   "entity_id": "wdfw-lowland:south-lewis-county-park-pond",
+   "canonical_name": "South Lewis County Park Pond",
+   "county": "Lewis",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/south-lewis-county-park-pond",
+   "lat": 46.432923,
+   "lon": -122.843539,
+   "entity_geo_code": "L6995",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "TOUTLE R 26.0227",
+   "parsed": {
+    "name_key": "TOUTLE RIVER",
+    "sorted_key": "RIVER TOUTLE",
+    "core": [
+     "RIVER",
+     "TOUTLE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "26.0227"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "26.0227",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 4,
+   "latest_date": "1999-04-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "TUCANNON R 35.0009",
+   "parsed": {
+    "name_key": "TUCANNON RIVER",
+    "sorted_key": "RIVER TUCANNON",
+    "core": [
+     "RIVER",
+     "TUCANNON"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "35.0009"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [],
+   "geo_code": "35.0009",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 220,
+   "latest_date": "2026-04-15",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "missing_county",
+   "evidence": "no county in County column or name suffix; never auto-confirmed",
+   "candidates": []
+  },
+  {
+   "location_key": "TWILIGHT LK (KITT)",
+   "parsed": {
+    "name_key": "TWILIGHT LAKE",
+    "sorted_key": "LAKE TWILIGHT",
+    "core": [
+     "TWILIGHT"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KITT"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King",
+    "Kittitas"
+   ],
+   "geo_code": "L4463",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 11,
+   "latest_date": "2026-07-31",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "conflict",
+   "evidence": "stocking rows carry more than one county",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L4463",
+     "canonical_name": "Twilight",
+     "county": "King",
+     "geo_code": "L4463",
+     "official_url": null
+    }
+   ]
+  },
+  {
+   "location_key": "TWIN LKS LTL (OKAN)",
+   "parsed": {
+    "name_key": "TWIN LAKES LITTLE",
+    "sorted_key": "LAKES LITTLE TWIN",
+    "core": [
+     "LITTLE",
+     "TWIN"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L4475",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "TWIN LKS (1) (OKAN)"
+   ],
+   "rows": 64,
+   "latest_date": "2026-07-06",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L4475 is also used by ['TWIN LKS (1) (OKAN)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:little-twin-lake-okanogan",
+     "canonical_name": "Little Twin Lake",
+     "county": "Okanogan",
+     "geo_code": "L4475",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/little-twin-lake-okanogan"
+    }
+   ]
+  },
+  {
+   "location_key": "UPR FOX LKS #1 (OKAN)",
+   "parsed": {
+    "name_key": "UPPER FOX LAKES 1",
+    "sorted_key": "1 FOX LAKES UPPER",
+    "core": [
+     "1",
+     "FOX",
+     "UPPER"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "OKAN"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Okanogan"
+   ],
+   "geo_code": "L1293",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [],
+   "rows": 2,
+   "latest_date": "2020-09-09",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_plus_partial_name",
+   "evidence": "geo_code agrees and county agrees, but names only partly agree ('UPPER FOX LAKES 1' vs 'FOX UPPER')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-gis-highlake:L1293",
+     "canonical_name": "Fox - Upper",
+     "county": "Okanogan",
+     "geo_code": "L1293",
+     "official_url": null
+    }
+   ],
+   "entity_id": "wdfw-gis-highlake:L1293",
+   "canonical_name": "Fox - Upper",
+   "county": "Okanogan",
+   "official_url": null,
+   "lat": 48.863926,
+   "lon": -120.302167,
+   "entity_geo_code": "L1293",
+   "entity_source": "wdfw_gis_high_lakes_layer21"
+  },
+  {
+   "location_key": "VANCE CR ADLT PD 22.0478",
+   "parsed": {
+    "name_key": "VANCE CREEK ADLT POND",
+    "sorted_key": "ADLT CREEK POND VANCE",
+    "core": [
+     "ADLT",
+     "CREEK",
+     "VANCE"
+    ],
+    "subsite": null,
+    "suffix_codes": [],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [
+     "22.0478"
+    ],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L42334",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "ELMA DERBY (GRAY)"
+   ],
+   "rows": 269,
+   "latest_date": "2026-10-09",
+   "level": "C",
+   "review_required": true,
+   "automated": false,
+   "method": "geo_code_only",
+   "evidence": "geo_code and county agree but names differ ('VANCE CREEK ADLT POND' vs 'LAKE INEZ VANCE CREEK POND 2')",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:vance-creek-pond-2-inez-lake",
+     "canonical_name": "Lake Inez (Vance Creek Pond #2)",
+     "county": "Grays Harbor",
+     "geo_code": "L42334",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/vance-creek-pond-2-inez-lake"
+    }
+   ],
+   "entity_id": "wdfw-lowland:vance-creek-pond-2-inez-lake",
+   "canonical_name": "Lake Inez (Vance Creek Pond #2)",
+   "county": "Grays Harbor",
+   "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/vance-creek-pond-2-inez-lake",
+   "lat": 46.993904,
+   "lon": -123.422798,
+   "entity_geo_code": "L42334",
+   "entity_source": "wdfw_lowland_lake_page"
+  },
+  {
+   "location_key": "WAHKIAKUM DERBY (WAHK)",
+   "parsed": {
+    "name_key": "WAHKIAKUM DERBY",
+    "sorted_key": "DERBY WAHKIAKUM",
+    "core": [
+     "DERBY",
+     "WAHKIAKUM"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "WAHK"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": true
+   },
+   "county_evidence": [
+    "Wahkiakum"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "gnis2608341",
+   "geo_code_shared_with": [],
+   "rows": 3,
+   "latest_date": "2005-06-10",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code 'gnis2608341'",
+   "candidates": []
+  },
+  {
+   "location_key": "WESTERN LK (PACI)",
+   "parsed": {
+    "name_key": "WESTERN LAKE",
+    "sorted_key": "LAKE WESTERN",
+    "core": [
+     "WESTERN"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "PACI"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Pacific"
+   ],
+   "geo_code": "L3738",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "RADAR PD #1 (PACI)"
+   ],
+   "rows": 117,
+   "latest_date": "2026-09-23",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "shared_geo_code",
+   "evidence": "geo_code L3738 is also used by ['RADAR PD #1 (PACI)'] (a different water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:western-lake-radar-hill-ponds",
+     "canonical_name": "Western Lake (Radar Hill Ponds)",
+     "county": "Pacific",
+     "geo_code": "L3738",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/western-lake-radar-hill-ponds"
+    }
+   ]
+  },
+  {
+   "location_key": "WYNOOCHEE PD (GRAY)",
+   "parsed": {
+    "name_key": "WYNOOCHEE POND",
+    "sorted_key": "POND WYNOOCHEE",
+    "core": [
+     "WYNOOCHEE"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "GRAY"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "Grays Harbor"
+   ],
+   "geo_code": "L43181",
+   "malformed_geo_code": null,
+   "geo_code_shared_with": [
+    "88 CANYON PD (GRAY)"
+   ],
+   "rows": 4,
+   "latest_date": "1998-06-12",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "name_suggests_other_code",
+   "evidence": "close official name(s) exist but carry other code(s) ['L42843']; stocking geo_code L43181 has no official entity (likely a different, unlisted same-name water)",
+   "candidates": [
+    {
+     "entity_id": "wdfw-lowland:wynoochee-lake",
+     "canonical_name": "Wynoochee Lake",
+     "county": "Grays Harbor",
+     "geo_code": "L42843",
+     "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/wynoochee-lake"
+    }
+   ]
+  },
+  {
+   "location_key": "ZETEC PD (KING)",
+   "parsed": {
+    "name_key": "ZETEC POND",
+    "sorted_key": "POND ZETEC",
+    "core": [
+     "ZETEC"
+    ],
+    "subsite": null,
+    "suffix_codes": [
+     "KING"
+    ],
+    "wria_hint": [],
+    "township_hint": [],
+    "stream_catalog_no": [],
+    "numbered": [],
+    "is_derby": false
+   },
+   "county_evidence": [
+    "King"
+   ],
+   "geo_code": null,
+   "malformed_geo_code": "{501B4A55-2C1D-4750-AC71-3A0F5D41283B}",
+   "geo_code_shared_with": [],
+   "rows": 6,
+   "latest_date": "2003-12-12",
+   "level": "D",
+   "review_required": true,
+   "automated": false,
+   "method": "malformed_source_record",
+   "evidence": "malformed geo_code '{501B4A55-2C1D-4750-AC71-3A0F5D41283B}'",
+   "candidates": []
+  }
+ ]
+}

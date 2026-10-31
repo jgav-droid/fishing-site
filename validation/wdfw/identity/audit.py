@@ -20,6 +20,7 @@ Outcomes:
   review_truth_missing   C/D, truth is an entity not among candidates (safe; reviewer must search)
   review_wrong_top       C, suggested entity != truth (safe, but a misleading suggestion)
   none_correct           NONE, truth NO_OFFICIAL_ENTITY
+  none_unresolved_safe   NONE, truth UNDECIDABLE (left unattached)
   none_missed            NONE, truth is an entity (not attached; not a false match)
 """
 import json
@@ -39,7 +40,7 @@ def outcome(m, truth):
             return "exact_correct" if lvl == "A" else "alias_correct"
         return "FALSE_CONFIDENT"
     if lvl == "NONE":
-        return "none_correct" if truth == "NO_OFFICIAL_ENTITY" else "none_missed"
+        return {"NO_OFFICIAL_ENTITY": "none_correct", "UNDECIDABLE": "none_unresolved_safe"}.get(truth, "none_missed")
     if lvl == "C" and ent and ent != truth:
         return "review_wrong_top"
     if truth in ("NO_OFFICIAL_ENTITY", "UNDECIDABLE") or truth in cands or ent == truth:
@@ -68,8 +69,14 @@ def main():
     automated = sum(1 for i in items if i["level"] in ("A", "B"))
     review = sum(1 for i in items if i["level"] in ("C", "D"))
     safe = sum(oc[k] for k in ("exact_correct", "alias_correct", "review_truth_listed",
-                               "review_truth_missing", "review_wrong_top", "none_correct"))
+                               "review_truth_missing", "review_wrong_top", "none_correct", "none_unresolved_safe"))
     mvp = [i for i in items if i["category"] == "mvp"]
+    # the MVP list names 20 waters; "Martha Lake (Snohomish County)" covers two official
+    # lakes, so that MVP item counts as automated-correct only if both rows are
+    martha = [i for i in mvp if i["location_key"].startswith("MARTHA LK (")]
+    auto_ok = lambda i: i["outcome"] in ("exact_correct", "alias_correct")
+    mvp_items_ok = sum(1 for i in mvp if i not in martha and auto_ok(i)) + (1 if martha and all(map(auto_ok, martha)) else 0)
+    mvp_items_review = sum(1 for i in mvp if i not in martha and i["review_required"]) + (1 if any(i["review_required"] for i in martha) else 0)
     metrics = {
         "sample_size": n, "by_category": dict(Counter(i["category"] for i in items)),
         "outcomes": dict(oc),
@@ -79,8 +86,12 @@ def main():
         "review_rate": round(review / n, 4),
         "none_rate": round(sum(1 for i in items if i["level"] == "NONE") / n, 4),
         "safe_rate": round(safe / n, 4),
-        "mvp_correct_automated": sum(1 for i in mvp if i["outcome"] in ("exact_correct", "alias_correct")),
-        "mvp_total": len(mvp),
+        "mvp_rows": len(mvp),
+        "mvp_rows_correct_automated": sum(1 for i in mvp if auto_ok(i)),
+        "mvp_items_total": len(mvp) - len(martha) + (1 if martha else 0),
+        "mvp_items_correct_automated": mvp_items_ok,
+        "mvp_items_routed_to_review": mvp_items_review,
+        "mvp_false_confident": sum(1 for i in mvp if i["outcome"] == "FALSE_CONFIDENT"),
         "levels": dict(Counter(i["level"] for i in items)),
     }
     (HERE / "audit_results.json").write_text(json.dumps({"metrics": metrics, "items": items}, indent=1))

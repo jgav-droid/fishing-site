@@ -1,0 +1,404 @@
+{
+ "stats": {
+  "rows": 109527,
+  "distinct_raw_release_location": 3314,
+  "distinct_after_basic_normalization": 3314,
+  "locations_in_multiple_nonblank_counties": 5,
+  "locations_with_any_blank_county": 256,
+  "locations_with_only_blank_county": 233,
+  "locations_only_blank_county_but_suffix_gives_county": 3,
+  "locations_with_encoding_issue": 1,
+  "locations_in_name_collision_groups": 323,
+  "name_collision_groups": 121,
+  "locations_with_county_suffix": 2035,
+  "locations_with_two_county_suffix": 6,
+  "locations_with_lake_or_pond_word": 1962
+ },
+ "geo_code": {
+  "rows_blank_geo_code": 1373,
+  "blank_rate": 0.0125,
+  "distinct_geo_codes": 2987,
+  "patterns": {
+   "NN.NNNN": 973,
+   "L<digits>": 1781,
+   "other": 217,
+   "G<digits>": 16
+  },
+  "geo_codes_mapping_to_multiple_location_names": 76,
+  "geo_codes_spanning_multiple_nonblank_counties": 10,
+  "location_names_mapping_to_multiple_geo_codes": 0,
+  "locations_mixing_blank_and_nonblank_geo_code": 0,
+  "multi_name_codes": {
+   "01.0567": [
+    "DISCOVERY CR 01.0567",
+    "LINCOLN CR 01.0567"
+   ],
+   "08.0149": [
+    "EBRIGHT CR 08.0149",
+    "EBRIGHT CR 08.0149 V2"
+   ],
+   "15.0097": [
+    "DONKEY CR 15.0097",
+    "NORTH CR 15.0097"
+   ],
+   "15.0504": [
+    "SWEETWATER CR15.0504",
+    "UNION R TRIB 15.0504"
+   ],
+   "27.0168": [
+    "LEWIS R + LEWIS R-NF",
+    "LEWIS R 27.0168"
+   ],
+   "47.0227": [
+    "GRADE CR 47.0227",
+    "GRADE CR 47.XXX"
+   ],
+   "48.0007": [
+    "METHOW R 48.0002",
+    "METHOW R 48.0007"
+   ],
+   "L1009": [
+    "DUCK LK (1) (GRAY)",
+    "DUCK LK (2) (GRAY)",
+    "DUCK LK (22)",
+    "DUCK LK (3) (GRAY)"
+   ],
+   "L1060": [
+    "DEER LK (LINC)",
+    "DEER SPRINGS LK (LINC)"
+   ],
+   "L1114": [
+    "DUFFEY LK (1) (SNOH)",
+    "DUFFEY LK (2) (SNOH)"
+   ],
+   "L1127": [
+    "EASTON PD (3) (KITT)",
+    "EASTON POND (39)"
+   ],
+   "L12": [
+    "LK ABERDEEN (22)",
+    "LK ABERDEEN (GRAY)"
+   ],
+   "L1424": [
+    "GOOSE LK UPR (GRAN)",
+    "UPR GOOSE LK (GRAN)"
+   ],
+   "L1433": [
+    "GRANITE MTN POT LWR (CHEL)",
+    "GRANITE MTN POTHOLES (CHEL)"
+   ],
+   "L1448": [
+    "GREEN LK LTL (OKAN)",
+    "GREEN LK LWR (OKAN)"
+   ],
+   "L1506": [
+    "GOUGING LK (KING)",
+    "GOUGING LK W (KING)"
+   ],
+   "L1665": [
+    "HALL LK (SNOH)",
+    "HALLS LK"
+   ],
+   "L23508": [
+    "DESERT LK (GRAN)",
+    "DESERT LK N (GRAN)"
+   ],
+   "L24283": [
+    "EPHRATA LK (GRAN)",
+    "EPHRATA PARK PD (GRAN)",
+    "OASIS PARK PD (GRAN)",
+    "PING PD (GRAN)"
+   ],
+   "L2545": [
+    "BLACK SLOUGH PD (MASO)",
+    "JIGGS LK (MASO)"
+   ],
+   "L2587": [
+    "JEWEL LKS (3) (KING)",
+    "JEWEL LKS (4) (KING)"
+   ],
+   "L2745": [
+    "LAWRENCE LK (THUR)",
+    "LK LAWRENCE (THUR)"
+   ],
+   "L27654": [
+    "BLACKBIRD ISLAND PONDS",
+    "ENCHANTMENT PD (CHEL)"
+   ],
+   "L2818": [
+    "LONG LK (THUR)",
+    "LONGS PD (THUR)"
+   ],
+   "L2903": [
+    "LENNOX LK (KING)",
+    "LENNOX LK PT (KING)"
+   ],
+   "L293": [
+    "BAKER LK (WHAT)",
+    "BAKER LK@BLUE TARP B",
+    "BAKER LK@CPLANE RAMP",
+    "BAKER LK@HORSESHOE C",
+    "BAKER LK@PANORAMA PT",
+    "BAKER LK@RESORT",
+    "BAKER LK@SEAHORSE SP",
+    "BAKER LK@SULPHUR CR"
+   ],
+   "L29410": [
+    "CYCLONE PH (1) (SKAG)",
+    "CYCLONE PH (2) (SKAG)"
+   ],
+   "L29414": [
+    "BAUER LK (YAKI)",
+    "UNNAMED (BAUER) LK (YAKI)"
+   ],
+   "L2974": [
+    "LOCH KATRINE (KING)",
+    "LOCH KATRINE LWR (KING)"
+   ],
+   "L2979": [
+    "LODGE LK (KING)",
+    "LODGE POTHOLE (KING)"
+   ],
+   "L3024": [
+    "LOST LK (PEND) T38",
+    "LOST LK LTL (PEND)"
+   ],
+   "L3048": [
+    "M&M LK (CHEL)",
+    "MM-11 LK (CHEL)"
+   ],
+   "L3107": [
+    "LK MELBOURNE (16)",
+    "MELBOURNE LK (MASO)"
+   ],
+   "L31072": [
+    "DICK LK (SNOH)",
+    "TOM LK (SNOH)"
+   ],
+   "L3235": [
+    "MAYFIELD LK (26)",
+    "MAYFIELD RES (LEWI)"
+   ],
+   "L3300": [
+    "MINERAL LK (LEWI)",
+    "MORTON DERBY (LEWI)"
+   ],
+   "L3306": [
+    "MISSION LK (15)",
+    "MISSION LK (KITS)"
+   ],
+   "L33476": [
+    "MONROE DERBY PD (SNOH)",
+    "TYE LK (SNOH)"
+   ],
+   "L3350": [
+    "ALICE LKS (LWR) (KING)",
+    "ALICE LKS (UPR) (KING)"
+   ],
+   "L3368": [
+    "GROUSE LK (SNOH)",
+    "MUD LK (SNOH) T27"
+   ],
+   "L3472": [
+    "OFFUTT LK (THUR)",
+    "TENINO DERBY"
+   ],
+   "L3724": [
+    "BEAVER LK (SNOH)",
+    "QUAIL LK (ADAM)"
+   ],
+   "L3738": [
+    "RADAR PD #1 (PACI)",
+    "WESTERN LK (PACI)"
+   ],
+   "L38945": [
+    "GORST PD (KITS)",
+    "POGGIE PD (KITS)"
+   ],
+   "L3979": [
+    "HUTCHINSON SHINER LKS (AD",
+    "SHINER LK (ADAM)"
+   ],
+   "L3991": [
+    "SILVER LK (JEFF)",
+    "SILVER LK (MASO)"
+   ],
+   "L4122": [
+    "LK SACAJAWEA (COWL)",
+    "LONGVIEW DERBY (COWL)"
+   ],
+   "L41958": [
+    "BILL FAUBION PD (WAHK)",
+    "LEROY BURNS PD (WAHK)"
+   ],
+   "L4197": [
+    "SILVER LK (PIER)",
+    "SILVER LK -NISQUALLY"
+   ],
+   "L42334": [
+    "ELMA DERBY (GRAY)",
+    "VANCE CR ADLT PD 22.0478"
+   ],
+   "L43027": [
+    "FRIENDS LANDING PD (GRAY)",
+    "QUIGG LAKE (GRAY)"
+   ],
+   "L43181": [
+    "88 CANYON PD (GRAY)",
+    "WYNOOCHEE PD (GRAY)"
+   ],
+   "L435": [
+    "BLETHEN PD W (KING)",
+    "LK BLETHEN UPR (KING)"
+   ],
+   "L44450": [
+    "LK ROOSEVELT (53)",
+    "ROOSEVELT LK (OKAN)",
+    "ROOSEVELT LK@2 RIVERS NP",
+    "ROOSEVELT LK@7 BAYS NP",
+    "ROOSEVELT LK@FORT SPOKANE",
+    "ROOSEVELT LK@HUNTERS NP",
+    "ROOSEVELT LK@KELLER FERRY NP",
+    "ROOSEVELT LK@KETTLE FALLS NP",
+    "ROOSEVELT LK@LINCOLN NP",
+    "ROOSEVLET LK@HALL CR NP"
+   ],
+   "L44555": [
+    "FRENCHMAN HILLS LK (GRAN)",
+    "FRENCHMAN WW (GRAN)"
+   ],
+   "L4475": [
+    "TWIN LKS (1) (OKAN)",
+    "TWIN LKS LTL (OKAN)"
+   ],
+   "L4477": [
+    "TWIN LKS (1) (CHEL)",
+    "TWIN LKS-UPPER(45)"
+   ],
+   "L4480": [
+    "TWIN LK BIG (CHEL)",
+    "TWIN LKS-LOWER(45)"
+   ],
+   "L474": [
+    "CHEHALIS DERBY (LEWI)",
+    "FORT BORST PRK DERBY",
+    "FORT BORST PRK LK (LEWI)"
+   ],
+   "L50038": [
+    "KIRK PEAT DIG PD (MASO)",
+    "SCARIFICATION PD UPR (MASO)"
+   ],
+   "L50054": [
+    "LUCKY DUCK PD (STEV)",
+    "SPRINGDALE CITY PD (STEV)"
+   ],
+   "L50108": [
+    "BLUE LK BABY (SKAM)",
+    "BLUE LK LTL (SKAM)"
+   ],
+   "L50131": [
+    "HANSON PD LTL (KITT)",
+    "KIWANAS PD (KITT)"
+   ],
+   "L50221": [
+    "EDMONDS DERBY PD (SNOH)",
+    "LAEBUGTEN DERBY PD (SNOH)"
+   ],
+   "L50224": [
+    "HOLMES DERBY PD (ISLA)",
+    "HOLMS DERBY PD (SNOH)"
+   ],
+   "L6100": [
+    "HOMESTEAD CANYON PD (GRAN)",
+    "HOMESTEAD LK (GRAN)",
+    "HOMESTEAD SPRS LK (GRAN)"
+   ],
+   "L617": [
+    "LK CHELAN (47)",
+    "LK CHELAN (CHEL)",
+    "LK CHELAN @ 25 MILE CR",
+    "LK CHELAN @ D MORSE PRK",
+    "LK CHELAN @ FIRST CR",
+    "LK CHELAN @ GOLF COURSE"
+   ],
+   "L669": [
+    "COUGAR LK (BEAR CR)",
+    "COUGAR LK (OKAN)"
+   ],
+   "L6830": [
+    "PEAR PHS (KING)",
+    "TOURMALINE LK (KING)"
+   ],
+   "L6944": [
+    "EASY LK (KING)",
+    "MORTS PD (KING)"
+   ],
+   "L6995": [
+    "LEWIS CO PRK PD-S (LEWI)",
+    "TOLEDO DERBY (LEWI)"
+   ],
+   "L740": [
+    "CARLISLE LK (LEWI)",
+    "ONALASKA DERBY (LEWI)"
+   ],
+   "L795": [
+    "CHAPLAIN PDS (SNOH)",
+    "LK CHAPLAIN (SNOH)"
+   ],
+   "L8153": [
+    "TWIN LKS (STEV)",
+    "TWIN LKS LTL (STEV)"
+   ],
+   "L8451": [
+    "BROOKY PD (KITS)",
+    "BRUSH PICKERS PD (KITS)"
+   ],
+   "L931": [
+    "CURL LK (LANDLOCKED)",
+    "CURL LK RELEASE SITE"
+   ]
+  },
+  "multi_county_codes": {
+   "26.0002": [
+    "Cowlitz",
+    "Lewis"
+   ],
+   "47.0227": [
+    "Chelan",
+    "Okanogan"
+   ],
+   "L1665": [
+    "King",
+    "Snohomish"
+   ],
+   "L29170": [
+    "Kittitas",
+    "Yakima"
+   ],
+   "L31766": [
+    "Pierce",
+    "Whatcom"
+   ],
+   "L3724": [
+    "Adams",
+    "Snohomish"
+   ],
+   "L3991": [
+    "Jefferson",
+    "Mason"
+   ],
+   "L4463": [
+    "King",
+    "Kittitas"
+   ],
+   "L44868": [
+    "Skagit",
+    "Whatcom"
+   ],
+   "L50224": [
+    "Island",
+    "Snohomish"
+   ]
+  }
+ }
+}

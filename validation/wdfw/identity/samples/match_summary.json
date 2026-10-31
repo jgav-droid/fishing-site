@@ -1,0 +1,43 @@
+{
+ "locations": 3314,
+ "locations_by_level": {
+  "A": 509,
+  "B": 554,
+  "C": 276,
+  "D": 503,
+  "NONE": 1472
+ },
+ "rows_by_level": {
+  "A": 46100,
+  "B": 8600,
+  "C": 9006,
+  "D": 15769,
+  "NONE": 30052
+ },
+ "methods": {
+  "no_candidate": 1472,
+  "geo_code_plus_alias:generic_word_omitted": 516,
+  "exact_name_county_geo_code": 509,
+  "missing_county": 230,
+  "malformed_source_record": 132,
+  "geo_code_only": 120,
+  "geo_code_plus_partial_name": 94,
+  "shared_geo_code": 58,
+  "conflict": 32,
+  "name_stem_needs_review": 30,
+  "geo_code_plus_alias:word_order": 25,
+  "geo_code_disambiguates_same_name": 22,
+  "name_suggests_other_code": 20,
+  "exact_name_county_with_disambiguator": 18,
+  "exact_name_county_conflicting_shared_code": 15,
+  "geo_code_plus_alias:at_subsite": 11,
+  "exact_name_county_no_code_confirmation": 4,
+  "close_name_county": 3,
+  "geo_code_plus_alias:spacing": 2,
+  "multiple_same_name_in_county": 1
+ },
+ "official_entities": {
+  "wdfw_lowland_lake_page": 710,
+  "wdfw_gis_high_lakes_layer21": 968
+ }
+}

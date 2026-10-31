@@ -74,8 +74,11 @@ def parse_stocking(key):
         s, sub = (x.strip() for x in s.split("@", 1))
     suffix = [g for g in (SUFFIX.search(s).groups() if SUFFIX.search(s) else ()) if g]
     s = SUFFIX.sub(" ", s)
-    wria = re.findall(r"\((\d{1,2})\)\s*$", s)            # e.g. "LK ABERDEEN (22)"
-    s = re.sub(r"\(\d{1,2}\)\s*$", " ", s)
+    # a trailing "(22)" with no county suffix is a WRIA number ("LK ABERDEEN (22)");
+    # with a county suffix, "(1)" numbers one of several ponds ("DUCK LK (1) (GRAY)")
+    wria = re.findall(r"\((\d{1,2})\)\s*$", s) if not suffix else []
+    if wria:
+        s = re.sub(r"\(\d{1,2}\)\s*$", " ", s)
     township = re.findall(r"\bT(\d{2})\b", s)              # e.g. "CLEAR LK (SKAG) T34"
     s = re.sub(r"\bT\d{2}\b", " ", s)
     stream_no = re.findall(r"\b\d{2}\.\d{4}[A-Z]?\b", s)    # stream catalog number
@@ -246,9 +249,9 @@ def decide(loc, ents, by_code, by_key, by_sorted, code_owners, county_of):
         if not county_ok(e):
             return result("D", None, "conflict", f"geo_code -> {e['entity_id']} ({e['county']}) but county "
                           f"evidence is {sorted(county_ev)}", [e])
-        if shared_code:
+        if shared_conflicting:
             return result("D", None, "shared_geo_code",
-                          f"geo_code {code} is shared with {sorted(code_owners[code] - {loc['location_key']})}", [e])
+                          f"geo_code {code} is also used by {shared_conflicting} (a different water)", [e])
         if rules and (p["township_hint"] or p["numbered"]) and not same_q:
             rules = []
         if rules:
@@ -282,6 +285,15 @@ def decide(loc, ents, by_code, by_key, by_sorted, code_owners, county_of):
         return result("C", close[0], "close_name_county", "close name and county agree; no geo_code confirmation", close)
     if len(close) > 1:
         return result("D", None, "multiple_close_names", "several close official names in county", close)
+    # same name stem once qualifiers are ignored (e.g. "MARTHA LK (WB)" vs "Lake Martha"):
+    # never a match, but must reach a reviewer instead of silently staying unmatched
+    stem = p["core"] - QUALIFIERS
+    related = [e for e in pool if stem and (e["core"] - QUALIFIERS) == stem]
+    if related:
+        return result("D", None, "name_stem_needs_review",
+                      "official water(s) with the same name stem in county; qualifiers or codes differ", related)
+    if malformed_code:
+        return result("D", None, "malformed_source_record", f"malformed geo_code '{malformed_code}'", [])
     return result("NONE", None, "no_candidate", "no official lowland-lake page or GIS high-lake entity matched", [])
 
 

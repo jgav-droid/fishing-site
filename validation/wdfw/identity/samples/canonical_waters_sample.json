@@ -1,0 +1,1071 @@
+[
+ {
+  "entity_id": "wdfw-gis-highlake:L103",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Arrowhead",
+  "county": "Skagit",
+  "counties": [
+   "Skagit"
+  ],
+  "geo_code": "L103",
+  "official_url": null,
+  "lat": 48.432548,
+  "lon": -121.290053,
+  "fishwa_id": 987,
+  "name_key": "ARROWHEAD"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L1417",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Gold",
+  "county": "Kittitas",
+  "counties": [
+   "Kittitas"
+  ],
+  "geo_code": "L1417",
+  "official_url": null,
+  "lat": 47.407431,
+  "lon": -121.35,
+  "fishwa_id": 1322,
+  "name_key": "GOLD"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L163",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Beaver",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L163",
+  "official_url": null,
+  "lat": 48.465466,
+  "lon": -119.86681,
+  "fishwa_id": 1347,
+  "name_key": "BEAVER"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L1721",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Hemple",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L1721",
+  "official_url": null,
+  "lat": 48.057443,
+  "lon": -121.754208,
+  "fishwa_id": 1358,
+  "name_key": "HEMPLE"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L1773",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Horseshoe",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L1773",
+  "official_url": null,
+  "lat": 47.503778,
+  "lon": -121.502338,
+  "fishwa_id": 1369,
+  "name_key": "HORSESHOE"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L1774",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Horseshoe",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L1774",
+  "official_url": null,
+  "lat": 47.53419,
+  "lon": -121.423656,
+  "fishwa_id": 1370,
+  "name_key": "HORSESHOE"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L2538",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Janet",
+  "county": "Yakima",
+  "counties": [
+   "Yakima"
+  ],
+  "geo_code": "L2538",
+  "official_url": null,
+  "lat": 47.008576,
+  "lon": -121.382911,
+  "fishwa_id": 1394,
+  "name_key": "JANET"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L29412",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Beulah",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L29412",
+  "official_url": null,
+  "lat": 47.75974,
+  "lon": -121.255304,
+  "fishwa_id": 1483,
+  "name_key": "BEULAH"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L36",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "American",
+  "county": "Yakima",
+  "counties": [
+   "Yakima"
+  ],
+  "geo_code": "L36",
+  "official_url": null,
+  "lat": 46.817884,
+  "lon": -121.458107,
+  "fishwa_id": 1639,
+  "name_key": "AMERICAN"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L3885",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Rock",
+  "county": "Skamania",
+  "counties": [
+   "Skamania"
+  ],
+  "geo_code": "L3885",
+  "official_url": null,
+  "lat": 45.998452,
+  "lon": -121.804824,
+  "fishwa_id": 1676,
+  "name_key": "ROCK"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L3991",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Silver 2",
+  "county": "Jefferson",
+  "counties": [
+   "Jefferson"
+  ],
+  "geo_code": "L3991",
+  "official_url": null,
+  "lat": 47.844145,
+  "lon": -123.071024,
+  "fishwa_id": 1686,
+  "name_key": "SILVER 2"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L4101",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Sunrise",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L4101",
+  "official_url": null,
+  "lat": 48.160095,
+  "lon": -120.354506,
+  "fishwa_id": 1699,
+  "name_key": "SUNRISE"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L834",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Clear",
+  "county": "Skagit",
+  "counties": [
+   "Skagit"
+  ],
+  "geo_code": "L834",
+  "official_url": null,
+  "lat": 48.595427,
+  "lon": -121.595407,
+  "fishwa_id": 1962,
+  "name_key": "CLEAR"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L888",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Clear",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L888",
+  "official_url": null,
+  "lat": 48.01933,
+  "lon": -121.707718,
+  "fishwa_id": 1984,
+  "name_key": "CLEAR"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L9073",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Willow",
+  "county": "Whatcom",
+  "counties": [
+   "Whatcom"
+  ],
+  "geo_code": "L9073",
+  "official_url": null,
+  "lat": 48.943701,
+  "lon": -121.005234,
+  "fishwa_id": 2009,
+  "name_key": "WILLOW"
+ },
+ {
+  "entity_id": "wdfw-gis-highlake:L973",
+  "source": "wdfw_gis_high_lakes_layer21",
+  "canonical_name": "Devils Slide",
+  "county": "Kittitas",
+  "counties": [
+   "Kittitas"
+  ],
+  "geo_code": "L973",
+  "official_url": null,
+  "lat": 46.977441,
+  "lon": -121.003066,
+  "fishwa_id": 2023,
+  "name_key": "DEVILS SLIDE"
+ },
+ {
+  "entity_id": "wdfw-lowland:88-road-beaver-pond",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "88 Road Beaver Pond",
+  "county": "Skamania",
+  "counties": [
+   "Skamania"
+  ],
+  "geo_code": "L7395",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/88-road-beaver-pond",
+  "lat": 46.168676,
+  "lon": -121.686368,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L7395",
+    "name": "88 Road Beaver Pond",
+    "county": "Skamania",
+    "FishWAid": 1935
+   }
+  ],
+  "name_key": "88 ROAD BEAVER POND"
+ },
+ {
+  "entity_id": "wdfw-lowland:alder-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Alder Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L23",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/alder-lake",
+  "lat": 46.772031,
+  "lon": -122.22727,
+  "name_key": "ALDER LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:american-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "American Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L35",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+  "lat": 47.13287,
+  "lon": -122.562286,
+  "name_key": "AMERICAN LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:angle-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Angle Lake",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L91",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/angle-lake",
+  "lat": 47.427512,
+  "lon": -122.286785,
+  "name_key": "ANGLE LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:battle-ground-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Battle Ground Lake",
+  "county": "Clark",
+  "counties": [
+   "Clark"
+  ],
+  "geo_code": "L333",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+  "lat": 45.804756,
+  "lon": -122.494045,
+  "name_key": "BATTLE GROUND LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:beaver-lake-okanogan",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Beaver Lake (Okanogan County)",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L164",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-okanogan",
+  "lat": 48.850535,
+  "lon": -118.972252,
+  "name_key": "BEAVER LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:beaver-lake-sammamish",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Beaver Lake - Sammamish (King County)",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L44825",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/beaver-lake-sammamish",
+  "lat": 47.589592,
+  "lon": -121.999614,
+  "name_key": "BEAVER LAKE SAMMAMISH"
+ },
+ {
+  "entity_id": "wdfw-lowland:blue-lake-okanogan",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Blue Lake",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L229",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan",
+  "lat": 48.687127,
+  "lon": -119.694673,
+  "name_key": "BLUE LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:blue-lake-okanogan-1",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Blue Lake (Okanogan)",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L228",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan-1",
+  "lat": 48.566949,
+  "lon": -119.612742,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L228",
+    "name": "Blue Lake",
+    "county": "Okanogan",
+    "FishWAid": 671
+   }
+  ],
+  "name_key": "BLUE LAKE OKANOGAN"
+ },
+ {
+  "entity_id": "wdfw-lowland:blue-lake-okanogan-2",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Blue Lake",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L230",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/blue-lake-okanogan-2",
+  "lat": 48.906835,
+  "lon": -119.491883,
+  "name_key": "BLUE LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:bonney-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Bonney Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L466",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/bonney-lake",
+  "lat": 47.189008,
+  "lon": -122.185772,
+  "name_key": "BONNEY LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:brandmeirs-bog",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Brandmeirs Bog",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L32478",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/brandmeirs-bog",
+  "lat": 47.777647,
+  "lon": -121.807222,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L32478",
+    "name": "Brandmeirs Bog",
+    "county": "Snohomish",
+    "FishWAid": 1588
+   }
+  ],
+  "name_key": "BRANDMEIRS BOG"
+ },
+ {
+  "entity_id": "wdfw-lowland:carney-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Carney Lake",
+  "county": "Kitsap, Pierce",
+  "counties": [
+   "Kitsap",
+   "Pierce"
+  ],
+  "geo_code": "L742",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/carney-lake",
+  "lat": 47.403298,
+  "lon": -122.760955,
+  "name_key": "CARNEY LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:clear-lake-pierce",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Clear Lake (Pierce County)",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L4498",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-pierce",
+  "lat": 46.931345,
+  "lon": -122.272744,
+  "name_key": "CLEAR LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:clear-lake-skagit",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Clear Lake (Skagit County)",
+  "county": "Skagit",
+  "counties": [
+   "Skagit"
+  ],
+  "geo_code": "L833",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/clear-lake-skagit",
+  "lat": 48.460153,
+  "lon": -122.225178,
+  "name_key": "CLEAR LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:deer-springs-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Deer Springs Lake",
+  "county": "Lincoln",
+  "counties": [
+   "Lincoln"
+  ],
+  "geo_code": "L1060",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/deer-springs-lake",
+  "lat": 47.473034,
+  "lon": -118.617065,
+  "name_key": "DEER SPRINGS LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:duck-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Duck Lake",
+  "county": "Grays Harbor",
+  "counties": [
+   "Grays Harbor"
+  ],
+  "geo_code": "L1009",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/duck-lake",
+  "lat": 46.970909,
+  "lon": -124.146038,
+  "name_key": "DUCK LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:franklin-roosevelt-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Franklin Roosevelt Lake (Lake Roosevelt)",
+  "county": "Ferry, Grant, Lincoln, Okanogan, Stevens",
+  "counties": [
+   "Ferry",
+   "Grant",
+   "Lincoln",
+   "Okanogan",
+   "Stevens"
+  ],
+  "geo_code": "L44450",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/franklin-roosevelt-lake",
+  "lat": 47.901889,
+  "lon": -118.172461,
+  "name_key": "FRANKLIN ROOSEVELT LAKE LAKE ROOSEVELT"
+ },
+ {
+  "entity_id": "wdfw-lowland:green-lake-king",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Green Lake (King County)",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L1536",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+  "lat": 47.678114,
+  "lon": -122.338465,
+  "name_key": "GREEN LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:klineline-pond",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Klineline Pond",
+  "county": "Clark",
+  "counties": [
+   "Clark"
+  ],
+  "geo_code": "L38502",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+  "lat": 45.70791,
+  "lon": -122.656174,
+  "name_key": "KLINELINE POND"
+ },
+ {
+  "entity_id": "wdfw-lowland:lacamas-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lacamas Lake",
+  "county": "Clark",
+  "counties": [
+   "Clark"
+  ],
+  "geo_code": "L44874",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+  "lat": 45.616843,
+  "lon": -122.425798,
+  "name_key": "LACAMAS LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-bradley",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Bradley",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L35548",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+  "lat": 47.161091,
+  "lon": -122.284218,
+  "name_key": "LAKE BRADLEY"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-chelan",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Chelan",
+  "county": "Chelan",
+  "counties": [
+   "Chelan"
+  ],
+  "geo_code": "L617",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-chelan",
+  "lat": 48.030244,
+  "lon": -120.344078,
+  "name_key": "LAKE CHELAN"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-cushman",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Cushman",
+  "county": "Mason",
+  "counties": [
+   "Mason"
+  ],
+  "geo_code": "L709",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-cushman",
+  "lat": 47.487901,
+  "lon": -123.2669,
+  "name_key": "LAKE CUSHMAN"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-kapowsin",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Kapowsin",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L2668",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-kapowsin",
+  "lat": 46.972931,
+  "lon": -122.227488,
+  "name_key": "LAKE KAPOWSIN"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-meridian",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Meridian",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L3273",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-meridian",
+  "lat": 47.362526,
+  "lon": -122.152956,
+  "name_key": "LAKE MERIDIAN"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-roesiger",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Roesiger",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L3892",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-roesiger",
+  "lat": 47.994672,
+  "lon": -121.909154,
+  "name_key": "LAKE ROESIGER"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-washington",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Washington",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L9015",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-washington",
+  "lat": 47.601594,
+  "lon": -122.275275,
+  "name_key": "LAKE WASHINGTON"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-whatcom",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Whatcom",
+  "county": "Whatcom",
+  "counties": [
+   "Whatcom"
+  ],
+  "geo_code": "L9041",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whatcom",
+  "lat": 48.740296,
+  "lon": -122.346516,
+  "name_key": "LAKE WHATCOM"
+ },
+ {
+  "entity_id": "wdfw-lowland:lake-whitman",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Whitman",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L547",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-whitman",
+  "lat": 46.963023,
+  "lon": -122.257368,
+  "name_key": "LAKE WHITMAN"
+ },
+ {
+  "entity_id": "wdfw-lowland:leadbetter-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Leadbetter Lake",
+  "county": "Pend Oreille",
+  "counties": [
+   "Pend Oreille"
+  ],
+  "geo_code": "L7896",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/leadbetter-lake",
+  "lat": 48.917498,
+  "lon": -117.355362,
+  "name_key": "LEADBETTER LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:little-twin-lake-okanogan",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Little Twin Lake",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L4475",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/little-twin-lake-okanogan",
+  "lat": 48.449225,
+  "lon": -120.189797,
+  "name_key": "LITTLE TWIN LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:long-lake-kitsap",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Long Lake (Kitsap County)",
+  "county": "Kitsap",
+  "counties": [
+   "Kitsap"
+  ],
+  "geo_code": "L2988",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/long-lake-kitsap",
+  "lat": 47.483153,
+  "lon": -122.589829,
+  "name_key": "LONG LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:long-lake-thurston",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Long Lake (Thurston County)",
+  "county": "Thurston",
+  "counties": [
+   "Thurston"
+  ],
+  "geo_code": "L2807",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/long-lake-thurston",
+  "lat": 47.021658,
+  "lon": -122.780569,
+  "name_key": "LONG LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:longs-pond",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Long's Pond",
+  "county": "Thurston",
+  "counties": [
+   "Thurston"
+  ],
+  "geo_code": "L2818",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/longs-pond",
+  "lat": 47.039336,
+  "lon": -122.791497,
+  "name_key": "LONGS POND"
+ },
+ {
+  "entity_id": "wdfw-lowland:martha-alderwood-manor",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Martha Alderwood Manor",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L3217",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+  "lat": 47.852714,
+  "lon": -122.243454,
+  "name_key": "MARTHA ALDERWOOD MANOR"
+ },
+ {
+  "entity_id": "wdfw-lowland:martha-lake-grant",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Martha Lake (Grant County)",
+  "county": "Grant",
+  "counties": [
+   "Grant"
+  ],
+  "geo_code": "L3070",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-lake-grant",
+  "lat": 47.094756,
+  "lon": -119.836975,
+  "name_key": "MARTHA LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:martha-lake-snohomish",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Martha (Snohomish County)",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L3218",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-lake-snohomish",
+  "lat": 48.16899,
+  "lon": -122.341379,
+  "name_key": "LAKE MARTHA"
+ },
+ {
+  "entity_id": "wdfw-lowland:mayfield-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Mayfield Lake",
+  "county": "Lewis",
+  "counties": [
+   "Lewis"
+  ],
+  "geo_code": "L3235",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mayfield-lake",
+  "lat": 46.545804,
+  "lon": -122.530265,
+  "name_key": "MAYFIELD LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:mesa-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Mesa Lake",
+  "county": "Franklin",
+  "counties": [
+   "Franklin"
+  ],
+  "geo_code": "L3111",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mesa-lake",
+  "lat": 46.567828,
+  "lon": -119.037891,
+  "name_key": "MESA LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:mineral-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Mineral Lake",
+  "county": "Lewis",
+  "counties": [
+   "Lewis"
+  ],
+  "geo_code": "L3300",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+  "lat": 46.72644,
+  "lon": -122.173647,
+  "name_key": "MINERAL LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:mud-king",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Mud Lake (King County)",
+  "county": "King",
+  "counties": [
+   "King"
+  ],
+  "geo_code": "L3362",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mud-king",
+  "lat": 47.660121,
+  "lon": -121.742415,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L3362",
+    "name": "Mud",
+    "county": "King",
+    "FishWAid": 1607
+   }
+  ],
+  "name_key": "MUD LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:offutt-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Offutt Lake",
+  "county": "Thurston",
+  "counties": [
+   "Thurston"
+  ],
+  "geo_code": "L3472",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/offutt-lake",
+  "lat": 46.917373,
+  "lon": -122.828873,
+  "name_key": "OFFUTT LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:pine-lake-mason",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Pine Lake (Mason County)",
+  "county": "Mason",
+  "counties": [
+   "Mason"
+  ],
+  "geo_code": "L3570",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/pine-lake-mason",
+  "lat": 47.430832,
+  "lon": -123.478157,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L3570",
+    "name": "Pine Lake",
+    "county": "Mason",
+    "FishWAid": 905
+   }
+  ],
+  "name_key": "PINE LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:prairie-mountain-upper",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Prairie Mountain Upper",
+  "county": "Skagit",
+  "counties": [
+   "Skagit"
+  ],
+  "geo_code": "L3706",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/prairie-mountain-upper",
+  "lat": 48.349073,
+  "lon": -121.482493,
+  "corroborating_sources": [
+   {
+    "source": "wdfw_gis_high_lakes_layer21",
+    "GeometryID": "L3706",
+    "name": "Prairie Mountain Upper",
+    "county": "Skagit",
+    "FishWAid": 1651
+   }
+  ],
+  "name_key": "PRAIRIE MOUNTAIN UPPER"
+ },
+ {
+  "entity_id": "wdfw-lowland:quail-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Quail Lake",
+  "county": "Adams",
+  "counties": [
+   "Adams"
+  ],
+  "geo_code": "L3724",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/quail-lake",
+  "lat": 46.903498,
+  "lon": -119.192953,
+  "name_key": "QUAIL LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:rapjohn-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Rapjohn Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L3838",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/rapjohn-lake",
+  "lat": 46.905177,
+  "lon": -122.342204,
+  "name_key": "RAPJOHN LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:silver-lake-snohomish",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Silver Lake (Snohomish County)",
+  "county": "Snohomish",
+  "counties": [
+   "Snohomish"
+  ],
+  "geo_code": "L4198",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/silver-lake-snohomish",
+  "lat": 47.892498,
+  "lon": -122.208828,
+  "name_key": "SILVER LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:spanaway-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Spanaway Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L4266",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spanaway-lake",
+  "lat": 47.110228,
+  "lon": -122.448044,
+  "name_key": "SPANAWAY LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:spectacle-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Spectacle Lake",
+  "county": "Okanogan",
+  "counties": [
+   "Okanogan"
+  ],
+  "geo_code": "L4045",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/spectacle-lake",
+  "lat": 48.80753,
+  "lon": -119.551211,
+  "name_key": "SPECTACLE LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:sylvia-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Lake Sylvia",
+  "county": "Grays Harbor",
+  "counties": [
+   "Grays Harbor"
+  ],
+  "geo_code": "L4121",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/sylvia-lake",
+  "lat": 46.996263,
+  "lon": -123.595356,
+  "name_key": "LAKE SYLVIA"
+ },
+ {
+  "entity_id": "wdfw-lowland:tanwax-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Tanwax Lake",
+  "county": "Pierce",
+  "counties": [
+   "Pierce"
+  ],
+  "geo_code": "L4578",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+  "lat": 46.950231,
+  "lon": -122.266436,
+  "name_key": "TANWAX LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:tucquala",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Tucquala",
+  "county": "Kittitas",
+  "counties": [
+   "Kittitas"
+  ],
+  "geo_code": "L4450",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tucquala",
+  "lat": 47.512597,
+  "lon": -121.064741,
+  "name_key": "TUCQUALA"
+ },
+ {
+  "entity_id": "wdfw-lowland:ward-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Ward Lake",
+  "county": "Thurston",
+  "counties": [
+   "Thurston"
+  ],
+  "geo_code": "L8939",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+  "lat": 47.008767,
+  "lon": -122.875442,
+  "name_key": "WARD LAKE"
+ },
+ {
+  "entity_id": "wdfw-lowland:wye-lake",
+  "source": "wdfw_lowland_lake_page",
+  "canonical_name": "Wye Lake",
+  "county": "Kitsap",
+  "counties": [
+   "Kitsap"
+  ],
+  "geo_code": "L9104",
+  "official_url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/wye-lake",
+  "lat": 47.426506,
+  "lon": -122.758571,
+  "name_key": "WYE LAKE"
+ }
+]
