@@ -1,21 +1,40 @@
-# Shorelio (https://shorelio.com): refresh WDFW stocking + notices, run tests, build, deploy to GitHub Pages.
+# Shorelio (https://shorelio.com): refresh WDFW stocking + notices, run tests, build, validate,
+# deploy to GitHub Pages.
+#
+# When it runs:
+# * push to main (an approved merge)   -> refresh, test, build, validate, deploy
+# * every 6 hours (schedule)           -> same; GitHub runs schedules on the default branch (main)
+# * workflow_dispatch                  -> same on main (manual fallback); on any other branch it
+#                                         builds and validates but never deploys
+# * pushes to Claude/development branches do not trigger this workflow at all
 #
 # Safety rules (see mvp/LAUNCH_CHECKLIST.md):
-# * Scheduled runs fire only from the repository's DEFAULT branch (GitHub behaviour) and do
-#   nothing at all until the repository variable MVP_PRODUCTION is "true".
-# * Deployment happens only when MVP_PRODUCTION == "true" AND the run is on the default branch.
-#   A non-production (noindex) build can never replace the live site.
-# * If tests fail or the production config guard refuses (e.g. missing contact_email), the job
-#   fails before upload: the existing deployment stays live, unchanged.
+# * Nothing runs on push/schedule until the repository variable MVP_PRODUCTION is "true".
+# * Deployment requires ALL of: MVP_PRODUCTION == "true", the run is on refs/heads/main, and the
+#   event is push, schedule or workflow_dispatch. A non-production (noindex) build can never
+#   replace the live site. The github-pages environment's branch rules still apply on top.
+# * If tests fail, the production config guard refuses (e.g. missing contact_email), the build
+#   fails, or the post-build SEO/link check fails, the job fails before upload: the existing
+#   deployment stays live, unchanged.
 # * A failed source refresh keeps last-known data, marks it STALE on the pages, and still deploys
 #   (the deployment then honestly shows the staleness). A refresh that succeeds but returns a
 #   suspiciously small result is treated as a failure by mvp/pipeline/refresh_stocking.py.
+# * No recursion: the refreshed-data commit this workflow pushes uses GITHUB_TOKEN, and GitHub
+#   never starts workflow runs from GITHUB_TOKEN pushes. As belt and braces, pushes that only
+#   touch those four data files are ignored, and push runs by github-actions[bot] are skipped.
 # * No CNAME file is needed: with a custom Actions workflow, GitHub ignores CNAME files; the
 #   custom domain is set in Settings -> Pages.
 name: mvp-site
 on:
+  push:
+    branches: [main]                # production only; development branches never trigger this
+    paths-ignore:                   # this workflow's own refreshed-data commits (see header)
+      - mvp/data/stocking_events.json
+      - mvp/data/notices.json
+      - mvp/data/source_status.json
+      - mvp/data/review_queue.json
   schedule:
-    - cron: "17 */6 * * *"          # every 6 hours (UTC), default branch only
+    - cron: "17 */6 * * *"          # every 6 hours (UTC), default branch (main) only
   workflow_dispatch: {}
 permissions:
   contents: read
@@ -24,7 +43,9 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.event_name == 'workflow_dispatch' || vars.MVP_PRODUCTION == 'true'
+    if: >-
+      (github.event_name == 'workflow_dispatch' || vars.MVP_PRODUCTION == 'true')
+      && !(github.event_name == 'push' && github.actor == 'github-actions[bot]')
     runs-on: ubuntu-latest
     permissions:
       contents: write                 # only for committing refreshed data files back
@@ -37,14 +58,22 @@ jobs:
           python-version: "3.12"
       - name: Refresh, test, build
         run: python3 mvp/run.py ${{ vars.MVP_PRODUCTION == 'true' && '--production' || '' }}
+      - name: Validate built site (SEO + internal links)
+        run: python3 mvp/tests/check_dist.py mvp/dist ${{ vars.MVP_PRODUCTION == 'true' && '--production' || '' }}
       - name: Deploy gate
         id: gate
+        env:
+          MVP_PRODUCTION: ${{ vars.MVP_PRODUCTION }}
+          EVENT: ${{ github.event_name }}
+          REF: ${{ github.ref }}
         run: |
-          if [ "${{ vars.MVP_PRODUCTION }}" = "true" ] && { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.ref_name }}" = "${{ github.event.repository.default_branch }}" ]; }; then
+          case "$EVENT" in push|schedule|workflow_dispatch) ok_event=true ;; *) ok_event=false ;; esac
+          if [ "$MVP_PRODUCTION" = "true" ] && [ "$REF" = "refs/heads/main" ] && [ "$ok_event" = "true" ]; then
             echo "deployable=true" >> "$GITHUB_OUTPUT"
+            echo "Deploying: $EVENT on $REF with MVP_PRODUCTION=true."
           else
             echo "deployable=false" >> "$GITHUB_OUTPUT"
-            echo "Not deploying: MVP_PRODUCTION is not 'true' or this run is not on the default branch."
+            echo "Not deploying: needs MVP_PRODUCTION=true (got '$MVP_PRODUCTION'), ref refs/heads/main (got $REF), event push/schedule/workflow_dispatch (got $EVENT)."
           fi
       - name: Upload Pages artifact
         if: steps.gate.outputs.deployable == 'true'
@@ -54,17 +83,21 @@ jobs:
       - name: Persist refreshed data (last-known state for the next run)
         if: steps.gate.outputs.deployable == 'true'
         continue-on-error: true         # a push conflict must never block the deployment
+        env:
+          EVENT: ${{ github.event_name }}
         run: |
+          # Pushed with GITHUB_TOKEN, so it cannot start another run (see header).
           git config user.name "shorelio-refresh-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add mvp/data/stocking_events.json mvp/data/notices.json mvp/data/source_status.json mvp/data/review_queue.json
           if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
-          git commit -m "data: scheduled refresh $(date -u +%FT%TZ)"
-          git pull --rebase origin "${{ github.ref_name }}"
-          git push origin "HEAD:${{ github.ref_name }}"
+          if [ "$EVENT" = "schedule" ]; then kind="scheduled"; else kind="$EVENT"; fi
+          git commit -m "data: $kind refresh $(date -u +%FT%TZ)"
+          git pull --rebase origin main
+          git push origin HEAD:main
   deploy:
     needs: build
-    if: needs.build.outputs.deployable == 'true'
+    if: needs.build.outputs.deployable == 'true' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       pages: write
