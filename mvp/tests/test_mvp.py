@@ -177,6 +177,71 @@ class Build(unittest.TestCase):
                 self.assertTrue((self.out / "near" / c.lower() / "index.html").exists())
 
 
+class HomepageRedesign(unittest.TestCase):
+    """Presentation-only redesign: cards are simpler, but every warning they showed before
+    is still rendered, grouped in one 'Before you go' area."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.home = (cls.out / "index.html").read_text()
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def card_html(self, slug):
+        m = re.search(rf'<article class="card" id="lake-{slug}".*?</article>', self.home, re.S)
+        self.assertIsNotNone(m, slug)
+        return m.group(0)
+
+    def test_every_active_warning_still_on_its_card(self):
+        for w in self.site.waters:
+            c = html.unescape(self.card_html(w["slug"]))
+            for f in self.site.st[w["water_id"]]["flags"]:
+                if f["level"] in ("blocking", "warn", "restricted"):
+                    self.assertIn(f["text"], c, (w["slug"], f["text"]))
+            active = any(f["level"] in ("blocking", "warn", "restricted") for f in self.site.st[w["water_id"]]["flags"])
+            self.assertEqual('data-role="before" hidden' in c, not active, w["slug"])
+            self.assertEqual('data-role="noflags" hidden' in c, active, w["slug"])
+
+    def test_known_warnings_visible(self):
+        self.assertIn("Before you go", self.card_html("ward-lake"))
+        self.assertIn("outside its listed open dates", html.unescape(self.card_html("ward-lake")))
+        self.assertIn("sev-block", self.card_html("ward-lake"))
+        self.assertIn("juvenile anglers", html.unescape(self.card_html("longs-pond")))
+        sp = html.unescape(self.card_html("spanaway-lake"))
+        self.assertIn("closed to vehicles", sp)
+        self.assertIn("Toxic algae", sp)
+        self.assertIn("No current issues found", self.card_html("battle-ground-lake"))
+
+    def test_cards_drop_status_tile_grid(self):
+        res = self.home.split('id="results"', 1)[1]
+        self.assertNotIn('class="fact ', res)          # no six-tile grid on the homepage
+        self.assertNotIn('class="why"', res)
+
+    def test_other_lakes_are_collapsed_and_light(self):
+        self.assertRegex(self.home, r'<details class="others" id="others-wrap"><summary>')
+        self.assertIn('<div id="others" class="cards compact">', self.home)
+        n_q = sum(self.site.st[w["water_id"]]["qualifies"] for w in self.site.waters)
+        self.assertIn(f'<b id="o-count">{20 - n_q}</b> other validated lakes', self.home)
+
+    def test_no_distance_without_location(self):
+        self.assertNotRegex(self.home, r'class="dist">[^<]+<')   # empty until the user gives a place
+
+    def test_home_links_are_plain_and_resettable(self):
+        self.assertIn('<a class="brand" href="/" data-home-reset>', self.home)
+        self.assertNotRegex(self.home, r'href="/#')
+
+    def test_url_state_unit_tests_pass(self):
+        node = shutil.which("node")
+        if not node:
+            self.skipTest("node not installed")
+        import subprocess
+        r = subprocess.run([node, "--test", str(MVP / "tests/url_state.test.js")], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
+
 class Production(unittest.TestCase):
     """Production path, verified with a temporary config whose only change is a test-only
     contact address (never committed, never deployed)."""
@@ -223,7 +288,7 @@ class Production(unittest.TestCase):
 
     def test_finder_state_never_creates_urls(self):
         js = (MVP / "site/static/finder.js").read_text()
-        self.assertIn('history.replaceState(null, "", "#"', js)
+        self.assertIn('history.replaceState(null, "", s ? clean + "#" + s : clean)', js)
         self.assertNotRegex(js, r"location\.search|pushState|\?from=")
         home = (self.out / "index.html").read_text()
         self.assertIn('<link rel="canonical" href="https://shorelio.com/">', home)
