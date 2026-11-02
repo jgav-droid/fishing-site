@@ -37,6 +37,8 @@ AGENCY = {"wdfw.wa.gov": "WDFW", "geodataservices.wdfw.wa.gov": "WDFW (GIS)", "w
           "www.mytpu.org": "Tacoma Power", "www.puyallupwa.gov": "City of Puyallup", "www.piercecountywa.gov": "Pierce County Parks",
           "www.nwtoxicalgae.org": "WA Dept of Ecology (toxic algae)"}
 STATE_WORD = {"YES": "Yes", "NO": "No", "LIMITED": "Limited", "UNKNOWN": "Not stated"}
+SHORE_PHRASE = {"YES": "shore fishing", "LIMITED": "limited shore access", "NO": "no public shore access", "UNKNOWN": "shore access not stated"}
+DOCK_PHRASE = {"YES": "pier or dock", "NO": "no fishing pier", "UNKNOWN": "pier or dock not stated", "LIMITED": "limited pier or dock"}
 ICON = {
     "fish": '<path d="M3 12c3-4 7-5 11-5 3 0 5 2 7 5-2 3-4 5-7 5-4 0-8-1-11-5zm0 0l-2-3m2 3l-2 3"/><circle cx="16" cy="11" r="1"/>',
     "shore": '<path d="M2 18c2 0 2-1.5 4-1.5S8 18 10 18s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M4 14l5-8 3 5 2-3 6 6"/>',
@@ -222,8 +224,10 @@ class Site:
 <link rel="canonical" href="{E(canon)}">
 {robots}{gsv}
 <meta property="og:site_name" content="{E(self.cfg["site_name"])}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{E(canon)}"><meta property="og:type" content="website">
+<meta property="og:image" content="{E(self.url("/assets/og-image.png"))}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{E(self.cfg["site_name"])} wave logo and name"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/style.css">
-<meta name="theme-color" content="#1f4d3a">
+<meta name="theme-color" content="#0e3a46">
 {ld}{extra_head}{ga}
 </head>
 <body>
@@ -266,6 +270,24 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             parts.append(f'{E(label)} {self.ts(self.status.get(k, {}).get("last_success"))}' + (f' <span class="stalewarn">STALE: {E(w)}</span>' if b else ""))
         lines.append("<li><b>Notices checked:</b> " + "; ".join(parts) + "</li>")
         return f'<ul class="fresh{" compact" if compact else ""}">' + "".join(lines) + "</ul>"
+
+    CARD_TAG = {"limited": "Limited", "no": "No public shore access"}
+
+    def shore_line(self, f):
+        """Card/list shore wording: the sourced explanation, plus a small tag; never the tag alone."""
+        cls, word, detail = self.field(f, None, True)
+        if cls == "unknown":
+            return cls, ("Unclear: official sources conflict" if word.startswith("Unclear") else "Shore access not stated by official sources")
+        tag = self.CARD_TAG.get(cls)
+        return cls, E(detail or word) + (f' <span class="tag {cls}">{E(tag)}</span>' if tag else "")
+
+    def pass_short_text(self, ap):
+        cls, txt = self.pass_fee_short(ap)
+        return cls, re.sub(r"^Not stated by", "Pass / fee not stated by", txt)
+
+    def alerts(self, st):
+        order = {"blocking": 0, "restricted": 1, "warn": 2}
+        return sorted((f for f in st["flags"] if f["level"] in order), key=lambda f: order[f["level"]])
 
     def stale_notice(self):
         """Visible one-liner whenever a monitored source is STALE (never hidden in a collapsed block)."""
@@ -312,17 +334,14 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             stock_cls = "good"
         else:
             lc = stg["last_catchable"]
-            stock = "No catchable-size stocking reported in the last 30 days" + (f' (last: {lc["date"]:%b %-d, %Y})' if lc else "")
+            stock = "No recent catchable trout stocking" + (f' (last: {lc["date"]:%b %-d, %Y})' if lc else "")
             stock_cls = "quiet"
-        shore = self.field(a["bank_fishing_status"], None, True)
-        shore_txt = {"yes": "Shore access", "limited": "Limited shore access", "no": "No shore access",
-                     "unknown": "Shore access not stated"}[shore[0]]
-        dock = self.field(a["fishing_pier_or_dock"], None, True)
-        dock_txt = dock[1] + (f" · {dock[2]}" if dock[1] == "Closed" else "")
-        park = self.field(prim["parking_available"], self.manager_word(prim))
-        pf = self.pass_fee_short(prim)
-        hrs = self.field(prim["operating_hours"], self.manager_word(prim))
-        hrs_txt = hrs[2] if hrs[0] != "unknown" else hrs[1]
+        shore = self.shore_line(a["bank_fishing_status"])
+        mgr = self.manager_word(prim)
+        dock = self.plain("Pier or dock", a["fishing_pier_or_dock"], None, True)
+        park = self.plain("Parking", prim["parking_available"], mgr)
+        pf = self.pass_short_text(prim)
+        hrs = self.plain("Hours", prim["operating_hours"], mgr)
         alert_lv = ("blocking", "warn", "restricted")
         statics = [f for f in st["flags"] if f["level"] in alert_lv and not f.get("windows")]
         wins = [f for f in st["flags"] if f.get("windows")]
@@ -333,17 +352,17 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         sev = "sev-block" if any(f["level"] == "blocking" for f in active) else "sev-warn"
         alt = self.alternatives(w, 1)
         dd = json.dumps(self.card_data(w), separators=(",", ":"))
-        rows = (("Parking", park[0], park[1]), ("Pass / fee", pf[0], pf[1]), ("Pier / dock", dock[0], dock_txt), ("Hours", hrs[0], hrs_txt))
-        facts = "".join(f'<div class="row{" unk" if c == "unknown" else ""}"><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for k, c, v in rows)
+        rows = (("Parking", park[0], park[1]), ("Pass / fee", pf[0], E(pf[1])), ("Pier / dock", dock[0], dock[1]), ("Hours", hrs[0], hrs[1]))
+        facts = "".join(f'<div class="row{" unk" if c == "unknown" else ""}"><dt>{E(k)}</dt><dd>{v}</dd></div>' for k, c, v in rows)
         url = f"/lakes/{E(w['slug'])}/"
         return f"""<article class="card" id="lake-{E(w['slug'])}" data-lake='{E(dd)}' data-slug="{E(w['slug'])}">
 <div class="c-top"><h3 class="c-name"><a class="js-track" data-track="lake_result_click" href="{url}">{E(w['display_name'])}</a></h3>
 <p class="c-meta">{E(", ".join(w['counties']))} County<span class="dist">{f" · ~{dist_mi:.0f} mi straight-line" if dist_mi is not None else ""}</span></p></div>
 <p class="c-stock {stock_cls}" data-role="recent">{stock}</p>
-<p class="c-shore"><span class="badge {shore[0]}">{E(shore_txt)}</span></p>
+<p class="c-shore {shore[0]}"><span class="lbl">Shore</span> {shore[1]}</p>
 <div class="c-status">
 <div class="c-before {sev}" data-role="before"{"" if active else " hidden"}><p class="c-before-h">Before you go</p><ul class="flags">{items}</ul></div>
-<p class="c-ok" data-role="noflags"{" hidden" if active else ""}>No current issues found in monitored official sources</p>
+<p class="c-ok" data-role="noflags"{" hidden" if active else ""}>No current issues found in official notices</p>
 </div>
 <dl class="c-facts">{facts}</dl>
 <div class="c-foot">{f'<span class="alt">Nearby: <a class="js-track" data-track="alternative_click" href="/lakes/{E(alt[0][0]["slug"])}/">{E(alt[0][0]["display_name"])}</a> <span class="mi">~{alt[0][1]:.0f} mi</span></span>' if alt else '<span></span>'}<a class="c-go js-track" data-track="lake_result_click" href="{url}">Lake details <span aria-hidden="true">→</span></a></div>
@@ -375,7 +394,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         opts = "".join(f'<option value="{E(p["name"])}">' for p in self.places)
         body = f"""<section class="hero" aria-labelledby="hero-h">
 <h1 id="hero-h">Recently stocked lakes you can fish from shore</h1>
-<p class="hero-sub">Catchable trout stocked in the last 30 days, with documented shore access, passes and current notices. {len(self.waters)} Washington lakes.</p>
+<p class="hero-sub">Trout stocked in the last 30 days at Washington lakes you can fish from shore, with parking, passes and current notices for {len(self.waters)} lakes.</p>
 <form id="finder" class="finder" aria-label="Trip finder" data-trip="{self.trip.isoformat()}" data-data-date="{self.data_date.isoformat()}">
 <div class="f-from"><label for="f-place">Starting from</label>
 <div class="f-inline"><input id="f-place" list="places" placeholder="Town, e.g. Tacoma" autocomplete="off"><datalist id="places">{opts}</datalist>
@@ -394,13 +413,13 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 </section>
 <script id="places-data" type="application/json">{places}</script>
 <section class="results" aria-labelledby="r-h">
-<div class="r-head"><h2 id="r-h">Lakes to consider <span id="r-count" class="count">{len(q)}</span></h2>
-<p id="f-status" class="status" role="status">For {E(self.trip.strftime("%a %b %-d"))}, newest catchable stocking first. Add a starting place to sort by distance (straight-line).</p></div>
+<div class="r-head"><h2 id="r-h"><span id="r-count" class="count">{len(q)}</span> <span id="r-label">{"recently stocked lake" if len(q) == 1 else "recently stocked lakes"} with shore access</span></h2>
+<p id="f-status" class="status" role="status">Trips on {E(self.trip.strftime("%a, %b %-d"))}, most recently stocked first. Add a starting place to sort by distance.</p></div>
 <div id="results" class="cards">{"".join(self.card(w) for w in q)}</div>
 </section>
-<details class="others" id="others-wrap"><summary><span><b id="o-count">{len(rest)}</b> other validated lakes are tracked but don't currently have recent catchable stocking and documented shore access.</span> <span class="show">Show</span></summary>
+<details class="others" id="others-wrap"><summary><span><b id="o-count">{len(rest)}</b> more lakes without recent catchable trout stocking or documented shore access.</span> <span class="show">Show</span></summary>
 <div id="others" class="cards compact">{"".join(self.card(w) for w in rest)}</div>
-<p class="all-lakes"><a href="/lakes/">All {len(self.waters)} validated lakes</a></p></details>
+<p class="all-lakes"><a href="/lakes/">All {len(self.waters)} lakes</a></p></details>
 {self.fresh_secondary()}
 """
         self.page("/", f"Recently Stocked Lakes in Washington With Shore Access | {self.cfg['site_name']}",
@@ -492,7 +511,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             status = (f'<div class="trip-alert {sev}" role="note"><p class="ta-h">Before you go · {E(trip_day)}</p>'
                       f'<ul class="flags">{items}</ul><p class="ta-more"><a href="#notices">Notice details &amp; sources</a></p></div>')
         else:
-            status = f'<p class="trip-ok">No current issues found in monitored official sources for {E(trip_day)}</p>'
+            status = f'<p class="trip-ok">No current issues found in official notices for {E(trip_day)}</p>'
         if oks:
             status += '<ul class="trip-oks">' + "".join(f'<li>{E(f["text"])}</li>' for f in oks) + "</ul>"
         if stale:
@@ -511,7 +530,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             lc = stg["last_catchable"]
             stock_main = "None in the last 30 days"
             stock_cls = "unknown"
-            stock_note = f'Last catchable-size plant: {lc["date"]:%b %-d, %Y}' if lc else "No catchable-size plant in the last 12 months"
+            stock_note = f'Last catchable trout stocking: {lc["date"]:%b %-d, %Y}' if lc else "No catchable trout stocking in the last 12 months"
         shore = self.shore_html(a["bank_fishing_status"])
         dock = self.plain("Pier or dock", a["fishing_pier_or_dock"], None, True)
         if dock[0] == "unknown" and dock[1].startswith("<strong>Unclear"):
@@ -547,7 +566,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                         f'<td>{E(el.LABEL[r["class"]])}</td></tr>')
         stock_tbl = (f'<details class="more-d"><summary>All {len(rows)} reported release{"s" if len(rows) != 1 else ""}, last 12 months</summary>'
                      '<div class="tblwrap"><table><thead><tr><th>Date</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>'
-                     + "".join(rows) + "</tbody></table></div></details>") if rows else "<p>No reported plants in the last 12 months.</p>"
+                     + "".join(rows) + "</tbody></table></div></details>") if rows else "<p>No stocking reported in the last 12 months.</p>"
         pts = a.get("shore_fishing_points", [])
         pts_html = "".join(f'<li>{E(p["description"])}: <a class="js-track" data-track="source_click" href="https://www.google.com/maps/search/?api=1&amp;query={p["lat"]:.5f},{p["lon"]:.5f}" rel="noopener" target="_blank">open point in maps</a> (WDFW shore-fishing site)</li>' for p in pts)
         shore_ev = self.evidence([("Shore", a["bank_fishing_status"]), ("Pier / dock", a["fishing_pier_or_dock"])])
@@ -591,13 +610,13 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             if cat == "health" and not items:
                 body_ = f'<li class="flag none">Not on WA Ecology\'s list of lakes above toxic-algae guidelines (checked {self.ts(self.status.get("ecology_toxic_algae", {}).get("last_success"))}). {self.src("https://www.nwtoxicalgae.org/")}</li>'
             elif not items:
-                body_ = '<li class="flag none">None identified from monitored official sources</li>'
+                body_ = f'<li class="flag none">{"No known data issues" if cat == "data" else "None found in official notices"}</li>'
             else:
                 body_ = "".join(flag_li(f) for f in items)
             notices_html += f'<div class="ncat"><h3>{E(title)}</h3><ul class="flags">{body_}</ul></div>'
         rules = "".join(f'<li>“{E(n["quote"])}” {self.src(n["source_url"])}</li>' for n in a["rule_notes"])
         alts = self.alternatives(w)
-        alt_html = "".join(self.alt_li(o, d, s) for o, d, s in alts) or "<li>No other validated lake within 25 miles.</li>"
+        alt_html = "".join(self.alt_li(o, d, s) for o, d, s in alts) or "<li>No other lake within 25 miles.</li>"
         srcs = {}
         for f in ("bank_fishing_status", "fishing_pier_or_dock"):
             for p in a[f]["provenance"]:
@@ -633,7 +652,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 </section>
 <div class="details">
 <section class="dsec" id="stocking"><h2>Recent stocking</h2>
-<p class="note">Releases WDFW has reported in the last 12 months. Only catchable-size fish count as “recently stocked”; smaller fish are listed but not counted. <a href="/methodology/#catchable">How we determine this</a></p>
+<p class="note">Stocking WDFW has reported here in the last 12 months. <a href="/methodology/#catchable">How we determine this</a></p>
 {f'<p class="note">{E(stg["data_limit_note"])}.</p>' if stg["data_limit_note"] else ""}
 {stock_tbl}</section>
 <section class="dsec" id="shore"><h2>Shore &amp; pier access</h2>
@@ -642,13 +661,13 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 {f'<details class="ev"><summary>What the official sources say</summary><ul class="quotes">{"".join(shore_ev)}</ul></details>' if shore_ev else ""}
 </section>
 <section class="dsec" id="access"><h2>Access points, parking, passes &amp; hours</h2>{ap_html}</section>
-<section class="dsec" id="notices"><h2>Current notices</h2><p class="note">Rules, closures and health advisories are listed separately. Shorelio doesn't declare a lake “open” or “closed”. <a href="/methodology/#notices">How we check notices</a></p>{notices_html}
+<section class="dsec" id="notices"><h2>Current notices</h2>{notices_html}
 {f'<h3>Lake rules from WDFW</h3><ul class="quotes">{rules}</ul>' if rules else ""}
-<p class="note">Full rules: {self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")} · {self.src(w["emergency_rules_url"], "WDFW emergency rules for this lake")}</p></section>
+<p class="note">Full rules: {self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")} · {self.src(w["emergency_rules_url"], "WDFW emergency rules for this lake")} · <a href="/methodology/#notices">How we check notices</a></p></section>
 <section class="dsec" id="nearby"><h2>Nearby alternatives</h2><ul class="alts">{alt_html}</ul></section>
 <section class="dsec" id="sources"><h2>Sources &amp; freshness</h2>
 {self.freshness_block(wid)}
-<p class="note">Official WDFW lake page: {self.src(w["official_wdfw_url"])}. Stocking matched via release location “{E(", ".join(x["alias"] for x in self.aliases if x["water_id"] == wid))}” (confirmed).</p>
+<p class="note">Official WDFW lake page: {self.src(w["official_wdfw_url"])}. WDFW stocking reports list this lake as “{E(", ".join(x["alias"] for x in self.aliases if x["water_id"] == wid))}”.</p>
 <details class="ev"><summary>All {len(srcs)} official sources used on this page</summary><ul class="sources">{src_html}</ul></details>
 <p class="note"><a href="/data-quality/">All known data issues and how to report a correction</a></p></section>
 </div>
@@ -665,23 +684,23 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 
     def alt_li(self, o, d, s):
         stg = s["stocking"]
-        rec = (f'catchable stocking {el.fmt_range([r["date"] for r in stg["recent"]])}' if stg["recent"] else "no catchable stocking in 30 days")
+        rec = (f'stocked {el.fmt_range([r["date"] for r in stg["recent"]])}' if stg["recent"] else "no recent catchable trout stocking")
         warn = []
         if s["restricted"]:
             warn.append("restricted to juveniles/seniors/disabled anglers")
         warn += [f["text"] for f in s["blocking"]]
         a = self.access[o["water_id"]]
         return (f'<li><a class="js-track" data-track="alternative_click" href="/lakes/{E(o["slug"])}/">{E(o["display_name"])}</a> '
-                f'~{d:.0f} mi · {E(rec)} · shore {E(STATE_WORD[a["bank_fishing_status"]["state"]].lower())}, dock {E(STATE_WORD[a["fishing_pier_or_dock"]["state"]].lower())}'
+                f'~{d:.0f} mi · {E(rec)} · {E(SHORE_PHRASE[a["bank_fishing_status"]["state"]])} · {E(DOCK_PHRASE[a["fishing_pier_or_dock"]["state"]])}'
                 + (f' <span class="flag warn inline">{E("; ".join(warn))}</span>' if warn else "") + "</li>")
 
     def lakes_index(self):
-        items = "".join(f'<li><a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a> <span class="sub">{E(", ".join(w["counties"]))} County · shore {E(STATE_WORD[self.access[w["water_id"]]["bank_fishing_status"]["state"]].lower())}'
-                        f'{" · stocked recently" if self.st[w["water_id"]]["qualifies"] else ""}</span></li>'
+        items = "".join(f'<li><a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a> <span class="sub">{E(", ".join(w["counties"]))} County · {E(SHORE_PHRASE[self.access[w["water_id"]]["bank_fishing_status"]["state"]])}'
+                        f'{" · recently stocked" if self.st[w["water_id"]]["qualifies"] else ""}</span></li>'
                         for w in sorted(self.waters, key=lambda w: w["display_name"]))
-        body = f"""<h1>Validated lakes</h1><p>The {len(self.waters)} lakes Shorelio covers. Each has official WDFW stocking records and a sourced shore-access record.</p><ul class="lakelist">{items}</ul>"""
+        body = f"""<h1>All lakes</h1><p>The {len(self.waters)} lakes Shorelio covers. Each has official WDFW stocking records and a sourced shore-access record.</p><ul class="lakelist">{items}</ul>"""
         self.page("/lakes/", f"Washington Stocked Lakes With Shore Access (All {len(self.waters)}) | {self.cfg['site_name']}",
-                  f"All {len(self.waters)} validated Washington lakes: stocking, shore access, docks, parking and passes from official sources.", body)
+                  f"All {len(self.waters)} Washington lakes Shorelio covers: stocking, shore access, docks, parking and passes from official sources.", body)
 
     def recently_stocked(self):
         rec, other = [], []
@@ -698,15 +717,47 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             return (f'<tr><td>{r["date"]:%b %-d}</td><td><a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a></td><td>{E(r["species"])}</td>'
                     f'<td class="num">{r["number_released"]:,}</td><td class="num">{"" if r["number_of_fish_per_pound"] is None else f"{r["number_of_fish_per_pound"]:g}"}</td>'
                     + (f'<td>{E(STATE_WORD[a["bank_fishing_status"]["state"]])}</td>' if cls else f'<td>{E(el.LABEL[r["class"]])}</td>') + "</tr>")
+
+        # Primary, angler view: one row per lake (the same releases as the data table below, grouped).
+        lakes = sorted((w for w in self.waters if self.st[w["water_id"]]["stocking"]["recent"]),
+                       key=lambda w: max(r["date"] for r in self.st[w["water_id"]]["stocking"]["recent"]), reverse=True)
+        items = []
+        for w in lakes:
+            st, a = self.st[w["water_id"]], self.access[w["water_id"]]
+            stg = st["stocking"]
+            shore = self.shore_line(a["bank_fishing_status"])
+            al = self.alerts(st)
+            sev = "sev-block" if any(f["level"] == "blocking" for f in al) else "sev-warn"
+            before = (f'<ul class="rs-alerts {sev}">' + "".join(f'<li class="flag {E(f["level"])}">{E(f["text"])}</li>' for f in al) + "</ul>"
+                      if al else '<p class="rs-ok">No current issues</p>')
+            url = f'/lakes/{E(w["slug"])}/'
+            species = E("/".join(x.lower() for x in stg["recent_species"]))
+            items.append(
+                f'<li class="rs">'
+                f'<div class="rs-lake"><a class="rs-name js-track" data-track="lake_result_click" href="{url}">{E(w["display_name"])}</a>'
+                f'<span class="rs-meta">{E(", ".join(w["counties"]))} County</span></div>'
+                f'<div class="rs-stock"><span class="rs-l">Stocked</span><span class="rs-v"><strong>{stg["recent_total"]:,} {species}</strong>'
+                f' · {E(el.fmt_range([r["date"] for r in stg["recent"]]))}</span></div>'
+                f'<div class="rs-shore {shore[0]}"><span class="rs-l">Shore access</span><span class="rs-v">{shore[1]}</span></div>'
+                f'<div class="rs-before"><span class="rs-l">Before you go</span>{before}</div>'
+                f'<div class="rs-go"><a class="js-track" data-track="lake_result_click" href="{url}">View lake <span aria-hidden="true">→</span></a></div>'
+                f'</li>')
+        head = '<li class="rs rs-head" aria-hidden="true"><div>Lake</div><div>Stocked</div><div>Shore access</div><div>Before you go</div><div></div></li>'
         none = [w for w in self.waters if not self.st[w["water_id"]]["stocking"]["recent"]]
+        none_links = ", ".join(f'<a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a>' for w in none) or "none."
+        primary = head + "".join(items) if items else '<li class="rs-none">No catchable trout stocking reported in the last 30 days.</li>'
         body = f"""<h1>Recently stocked lakes in Washington (catchable trout)</h1>
-<p>Catchable-size trout and kokanee WDFW reported stocking in the last 30 days at the {len(self.waters)} lakes Shorelio covers, as of {E(self.trip.strftime("%b %-d, %Y"))}. Actual releases, not planned stocking. <a href="/methodology/#catchable">How we determine this</a></p>
+<p class="rs-intro">Catchable trout and kokanee WDFW reported stocking in the last 30 days, as of {E(self.trip.strftime("%b %-d, %Y"))}. Actual releases, not planned stocking. <a href="/methodology/#catchable">How we determine this</a></p>
 {self.stale_notice()}
+<ul class="rs-list">{primary}</ul>
+<p class="rs-none-list"><b>No recent catchable trout stocking:</b> {none_links}</p>
+<details class="more-d rs-data"><summary>Stocking data details</summary>
+<h2>Catchable releases in the last 30 days</h2>
 <div class="tblwrap"><table><thead><tr><th>Date</th><th>Lake</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Shore</th></tr></thead><tbody>{"".join(tr(r, w) for r, w in rec) or '<tr><td colspan=6>None in the last 30 days.</td></tr>'}</tbody></table></div>
-<h2>Other releases in the last 30 days (not counted)</h2>
+<h2>Other WDFW releases in the last 30 days (not counted)</h2>
 <p>Fry, fingerlings and other releases smaller than catchable size, or with size not reported. They are listed for completeness and do not make a lake "recently stocked" for a shore trip.</p>
 <div class="tblwrap"><table><thead><tr><th>Date</th><th>Lake</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>{"".join(tr(r, w, False) for r, w in other) or '<tr><td colspan=6>None.</td></tr>'}</tbody></table></div>
-<h2>No catchable stocking in the last 30 days</h2><p>{", ".join(f'<a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a>' for w in none) or "None."}</p>
+</details>
 {self.fresh_secondary()}"""
         self.page("/recently-stocked/", f"Recently Stocked Lakes in Washington — Catchable Trout | {self.cfg['site_name']}",
                   "Catchable-size trout reported stocked by WDFW in the last 30 days at Washington lakes with documented shore access. Fry plants listed separately.", body)
@@ -739,8 +790,8 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             slug = c.lower()
             body = f"""<nav class="crumbs"><a href="/">Trip finder</a> › Near {E(c)}</nav>
 <h1>Stocked lakes near {E(c)} for shore fishing</h1>
-<p>{len(near)} validated lakes within about {cfg["radius_miles"]} straight-line miles of {E(c)}. As of {E(self.trip.strftime("%b %-d, %Y"))}, <b>{len(q)}</b> had catchable trout reported stocked in the last 30 days with documented shore access. {docks} have a public pier or dock.
-{(" Restricted to juveniles, seniors and disabled anglers: " + E(", ".join(restricted)) + ".") if restricted else ""}</p>
+<p>{len(near)} lakes within about {cfg["radius_miles"]} miles of {E(c)}. As of {E(self.trip.strftime("%b %-d, %Y"))}, <b>{len(q)}</b> {"was" if len(q) == 1 else "were"} stocked with catchable trout in the last 30 days and {"has" if len(q) == 1 else "have"} shore access. {docks} {"has" if docks == 1 else "have"} a public fishing pier or dock.
+{(" Open only to juvenile, senior and disabled anglers: " + E(", ".join(restricted)) + ".") if restricted else ""}</p>
 <p class="note">Distances are straight-line, not driving distance. Use the <a href="/">trip finder</a> for a different date or starting point.</p>
 <div class="cards">{"".join(self.card(w, d) for w, d in sorted(near, key=lambda t: (not self.st[t[0]["water_id"]]["qualifies"], bool(self.st[t[0]["water_id"]]["blocking"]), t[1])))}</div>
 {self.fresh_secondary()}"""
@@ -803,8 +854,8 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                   '<h1>Page not found</h1><p><a href="/">Go to the trip finder</a> or <a href="/lakes/">browse lakes</a>.</p>', index=False)
 
     def sitemap_robots(self):
-        today = self.built_at.date().isoformat()
-        urls = "".join(f"<url><loc>{E(self.url(p))}</loc><lastmod>{today}</lastmod></url>" for p in self.pages)
+        # No <lastmod>: the build time is not a content-change date, and none is tracked per page.
+        urls = "".join(f"<url><loc>{E(self.url(p))}</loc></url>" for p in self.pages)
         (self.out / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
         robots = (f"User-agent: *\nAllow: /\nSitemap: {self.url('/sitemap.xml')}\n" if self.production
                   else "User-agent: *\nDisallow: /\n# non-production build\n")
@@ -816,6 +867,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         (self.out / "assets").mkdir(parents=True)
         for f in (MVP / "site/static").iterdir():
             shutil.copy(f, self.out / "assets" / f.name)
+        shutil.copy(MVP / "site/static/favicon.ico", self.out / "favicon.ico")   # browsers ask for /favicon.ico
         self.home()
         for w in self.waters:
             self.lake(w)
