@@ -1,3 +1,24 @@
 {
- "items": []
+ "items": [
+  {
+   "kind": "access_source_changed",
+   "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
+   "water_ids": [
+    "wa-w-battle-ground-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-02T15:53:26+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://www.nwtoxicalgae.org/",
+   "water_ids": [
+    "wa-w-spanaway-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-02T15:54:25+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  }
+ ]
 }
