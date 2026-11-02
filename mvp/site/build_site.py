@@ -228,13 +228,13 @@ class Site:
 </head>
 <body>
 <header class="top"><a class="brand" href="/" data-home-reset><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor"/><path d="M6 19c3 0 3-2 6-2s3 2 6 2 3-2 6-2 2 1 2 1M6 23c3 0 3-2 6-2s3 2 6 2 3-2 6-2 2 1 2 1" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M10 13c2-3 6-4 9-2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>{E(self.cfg["site_name"])}</a>{f'<span class="tagline">{E(self.cfg["tagline"])}</span>' if path == "/" else ""}
-<nav><a href="/" data-home-reset>Trip finder</a><a href="/recently-stocked/">Recently stocked</a><a href="/lakes/">Lakes</a><a href="/methodology/">How it works</a></nav></header>
+<nav><a href="/" data-home-reset>Trip finder</a><a href="/recently-stocked/">Recently stocked</a><a href="/lakes/">Lakes</a></nav></header>
 <main id="main">
 {body}
 </main>
 <footer class="foot"><p><b>{E(self.cfg["site_name"])}</b>: {E(self.cfg.get("descriptor", ""))}</p><p>Independent site; not affiliated with WDFW or any land manager. Stocking data: WDFW Fish Plants (data.wa.gov). Access facts come from each official manager's pages and are linked on every lake page.
 Always check posted signs and the <a href="https://www.eregulations.com/washington/fishing/" rel="noopener">WDFW sport fishing rules</a>.</p>
-<p><a href="/methodology/">Methodology &amp; sources</a> · <a href="/data-quality/">Data quality &amp; corrections</a> · Built {E(self.local(self.built_at.isoformat()))}</p></footer>
+<p class="foot-links"><a href="/methodology/">Methodology</a> · <a href="/data-quality/">Data quality &amp; corrections</a> · Built {E(self.local(self.built_at.isoformat()))}</p></footer>
 <script src="/assets/site.js" defer></script>
 </body></html>
 """
@@ -266,6 +266,26 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             parts.append(f'{E(label)} {self.ts(self.status.get(k, {}).get("last_success"))}' + (f' <span class="stalewarn">STALE: {E(w)}</span>' if b else ""))
         lines.append("<li><b>Notices checked:</b> " + "; ".join(parts) + "</li>")
         return f'<ul class="fresh{" compact" if compact else ""}">' + "".join(lines) + "</ul>"
+
+    def stale_notice(self):
+        """Visible one-liner whenever a monitored source is STALE (never hidden in a collapsed block)."""
+        keys = [("stocking", "Stocking"), ("wdfw_emergency_rules", "WDFW emergency rules"),
+                ("ecology_toxic_algae", "Ecology toxic-algae list"), ("wa_state_parks_alerts", "State Parks alerts")]
+        bad = [(lbl, why) for k, lbl in keys for b, why in [self.stale(k)] if b]
+        if not bad:
+            return ""
+        return ('<p class="stale-line"><span class="stalewarn">STALE</span> Some data may be out of date: '
+                + "; ".join(f"{E(lbl)} ({E(why)})" for lbl, why in bad) + ".</p>")
+
+    def fresh_secondary(self):
+        """Freshness as a quiet line + collapsed detail; full methodology stays on /methodology/."""
+        s = self.status.get("stocking", {})
+        return (f'<section class="fresh-wrap" id="freshness" aria-label="Data freshness">{self.stale_notice()}'
+                f'<p class="fresh-line">Stocking data last checked {self.ts(s.get("last_success"))} · '
+                f'<a href="/methodology/">How we determine this</a></p>'
+                f'<details class="fresh-more"><summary>Data sources &amp; freshness</summary>{self.freshness_block(compact=True)}'
+                f'<p class="note"><a href="/methodology/">Methodology</a> · <a href="/data-quality/">Data quality &amp; corrections</a></p>'
+                f'</details></section>')
 
     # ---------- lake card (homepage / city / alternatives) ----------
     def card_data(self, w):
@@ -381,8 +401,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <details class="others" id="others-wrap"><summary><span><b id="o-count">{len(rest)}</b> other validated lakes are tracked but don't currently have recent catchable stocking and documented shore access.</span> <span class="show">Show</span></summary>
 <div id="others" class="cards compact">{"".join(self.card(w) for w in rest)}</div>
 <p class="all-lakes"><a href="/lakes/">All {len(self.waters)} validated lakes</a></p></details>
-<section class="fresh-wrap" aria-label="Data freshness"><h2>Data freshness</h2>{self.freshness_block(compact=True)}
-<p class="note"><a href="/methodology/">How Shorelio decides what to show</a> · <a href="/data-quality/">Data quality</a></p></section>
+{self.fresh_secondary()}
 """
         self.page("/", f"Recently Stocked Lakes in Washington With Shore Access | {self.cfg['site_name']}",
                   "Find Washington lakes with recently stocked catchable trout and documented shore access, with parking, pass, hours and notice details from official sources.",
@@ -517,7 +536,8 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         others = len(a["access_points"]) - 1
         q_src = (f'<p class="qf-src">Main access: <b>{E(prim["name"])}</b> ({E(prim["manager"])})'
                  + (f' · <a href="#access">{others} more access point{"s" if others > 1 else ""}</a>' if others else "")
-                 + f'<br>From official sources: {E(", ".join(agencies))} · <a href="#sources">Sources &amp; evidence</a></p>')
+                 + f'<br>From official sources: {E(", ".join(agencies))} · <a href="#sources">Sources &amp; evidence</a>'
+                 + ' · <a href="/methodology/">How we determine this</a></p>')
 
         # ---- layer 3: full details & evidence ----
         rows = []
@@ -603,7 +623,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                 f"({', '.join(w['counties'])} County, WA), with official sources.")
         body = f"""<nav class="crumbs"><a href="/">Trip finder</a> › <a href="/lakes/">Lakes</a> › {E(w["display_name"])}</nav>
 <h1 class="lake-h"><span class="h-lake">{E(w["display_name"])}</span> <span class="h-rest">Fishing — Stocking &amp; Shore Access</span></h1>
-<p class="lede">{E(", ".join(w["counties"]))} County, WA{(" · WDFW name: " + E(w["wdfw_name"])) if self.lake_name_differs(w) else ""} · nearest Census place: {E(np_name)} (~{np_mi:.0f} mi) · main access managed by {E(prim["manager"])}</p>
+<p class="lede">{E(", ".join(w["counties"]))} County, WA{(" · WDFW name: " + E(w["wdfw_name"])) if self.lake_name_differs(w) else ""} · near {E(np_name)} (~{np_mi:.0f} mi) · main access managed by {E(prim["manager"])}</p>
 <section class="decision" aria-label="Trip decision summary">
 <h2 class="vh">Trip status for {E(trip_day)}</h2>
 {status}
@@ -613,7 +633,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 </section>
 <div class="details">
 <section class="dsec" id="stocking"><h2>Recent stocking</h2>
-<p class="note">Completed releases reported by WDFW (Fish Plants dataset), last 12 months. Only <b>catchable-size</b> trout/kokanee (3 or fewer fish per pound, WDFW's own threshold) count toward "recently stocked". Smaller fish are listed but not counted.</p>
+<p class="note">Releases WDFW has reported in the last 12 months. Only catchable-size fish count as “recently stocked”; smaller fish are listed but not counted. <a href="/methodology/#catchable">How we determine this</a></p>
 {f'<p class="note">{E(stg["data_limit_note"])}.</p>' if stg["data_limit_note"] else ""}
 {stock_tbl}</section>
 <section class="dsec" id="shore"><h2>Shore &amp; pier access</h2>
@@ -622,7 +642,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 {f'<details class="ev"><summary>What the official sources say</summary><ul class="quotes">{"".join(shore_ev)}</ul></details>' if shore_ev else ""}
 </section>
 <section class="dsec" id="access"><h2>Access points, parking, passes &amp; hours</h2>{ap_html}</section>
-<section class="dsec" id="notices"><h2>Current notices</h2><p class="note">Kept separate on purpose: a fishing rule, a park closure and a health advisory are different facts. This site does not declare a lake "open" or "closed".</p>{notices_html}
+<section class="dsec" id="notices"><h2>Current notices</h2><p class="note">Rules, closures and health advisories are listed separately. Shorelio doesn't declare a lake “open” or “closed”. <a href="/methodology/#notices">How we check notices</a></p>{notices_html}
 {f'<h3>Lake rules from WDFW</h3><ul class="quotes">{rules}</ul>' if rules else ""}
 <p class="note">Full rules: {self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")} · {self.src(w["emergency_rules_url"], "WDFW emergency rules for this lake")}</p></section>
 <section class="dsec" id="nearby"><h2>Nearby alternatives</h2><ul class="alts">{alt_html}</ul></section>
@@ -659,7 +679,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         items = "".join(f'<li><a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a> <span class="sub">{E(", ".join(w["counties"]))} County · shore {E(STATE_WORD[self.access[w["water_id"]]["bank_fishing_status"]["state"]].lower())}'
                         f'{" · stocked recently" if self.st[w["water_id"]]["qualifies"] else ""}</span></li>'
                         for w in sorted(self.waters, key=lambda w: w["display_name"]))
-        body = f"""<h1>Validated lakes</h1><p>The {len(self.waters)} waters in v0.1. Each was identity-checked against WDFW lake pages and has a sourced shore-access record.</p><ul class="lakelist">{items}</ul>"""
+        body = f"""<h1>Validated lakes</h1><p>The {len(self.waters)} lakes Shorelio covers. Each has official WDFW stocking records and a sourced shore-access record.</p><ul class="lakelist">{items}</ul>"""
         self.page("/lakes/", f"Washington Stocked Lakes With Shore Access (All {len(self.waters)}) | {self.cfg['site_name']}",
                   f"All {len(self.waters)} validated Washington lakes: stocking, shore access, docks, parking and passes from official sources.", body)
 
@@ -680,13 +700,14 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
                     + (f'<td>{E(STATE_WORD[a["bank_fishing_status"]["state"]])}</td>' if cls else f'<td>{E(el.LABEL[r["class"]])}</td>') + "</tr>")
         none = [w for w in self.waters if not self.st[w["water_id"]]["stocking"]["recent"]]
         body = f"""<h1>Recently stocked lakes in Washington (catchable trout)</h1>
-<p>Catchable-size trout and kokanee (3 or fewer fish per pound) reported stocked by WDFW in the last 30 days at the {len(self.waters)} validated lakes, as of {E(self.trip.strftime("%b %-d, %Y"))}. These are completed releases, not the annual stocking plan.</p>
-{self.freshness_block(compact=True)}
+<p>Catchable-size trout and kokanee WDFW reported stocking in the last 30 days at the {len(self.waters)} lakes Shorelio covers, as of {E(self.trip.strftime("%b %-d, %Y"))}. Actual releases, not planned stocking. <a href="/methodology/#catchable">How we determine this</a></p>
+{self.stale_notice()}
 <div class="tblwrap"><table><thead><tr><th>Date</th><th>Lake</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Shore</th></tr></thead><tbody>{"".join(tr(r, w) for r, w in rec) or '<tr><td colspan=6>None in the last 30 days.</td></tr>'}</tbody></table></div>
 <h2>Other releases in the last 30 days (not counted)</h2>
 <p>Fry, fingerlings and other releases smaller than catchable size, or with size not reported. They are listed for completeness and do not make a lake "recently stocked" for a shore trip.</p>
 <div class="tblwrap"><table><thead><tr><th>Date</th><th>Lake</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>{"".join(tr(r, w, False) for r, w in other) or '<tr><td colspan=6>None.</td></tr>'}</tbody></table></div>
-<h2>No catchable stocking in the last 30 days</h2><p>{", ".join(f'<a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a>' for w in none) or "None."}</p>"""
+<h2>No catchable stocking in the last 30 days</h2><p>{", ".join(f'<a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a>' for w in none) or "None."}</p>
+{self.fresh_secondary()}"""
         self.page("/recently-stocked/", f"Recently Stocked Lakes in Washington — Catchable Trout | {self.cfg['site_name']}",
                   "Catchable-size trout reported stocked by WDFW in the last 30 days at Washington lakes with documented shore access. Fry plants listed separately.", body)
 
@@ -718,11 +739,11 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
             slug = c.lower()
             body = f"""<nav class="crumbs"><a href="/">Trip finder</a> › Near {E(c)}</nav>
 <h1>Stocked lakes near {E(c)} for shore fishing</h1>
-<p>{len(near)} validated lakes within about {cfg["radius_miles"]} straight-line miles of {E(c)} (US Census place point). As of {E(self.trip.strftime("%b %-d, %Y"))}, <b>{len(q)}</b> had catchable trout reported stocked in the last 30 days with documented shore access. {docks} have a public pier or dock.
+<p>{len(near)} validated lakes within about {cfg["radius_miles"]} straight-line miles of {E(c)}. As of {E(self.trip.strftime("%b %-d, %Y"))}, <b>{len(q)}</b> had catchable trout reported stocked in the last 30 days with documented shore access. {docks} have a public pier or dock.
 {(" Restricted to juveniles, seniors and disabled anglers: " + E(", ".join(restricted)) + ".") if restricted else ""}</p>
 <p class="note">Distances are straight-line, not driving distance. Use the <a href="/">trip finder</a> for a different date or starting point.</p>
 <div class="cards">{"".join(self.card(w, d) for w, d in sorted(near, key=lambda t: (not self.st[t[0]["water_id"]]["qualifies"], bool(self.st[t[0]["water_id"]]["blocking"]), t[1])))}</div>
-{self.freshness_block(compact=True)}"""
+{self.fresh_secondary()}"""
             self.page(f"/near/{slug}/", f"Stocked Lakes Near {c} for Shore Fishing | {self.cfg['site_name']}",
                       f"{len(near)} lakes near {c}, WA with WDFW stocking, shore access, docks, parking and passes. {len(q)} with catchable trout stocked in the last 30 days.", body)
         self.city_decisions = decisions
@@ -732,7 +753,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         body = f"""<h1>How this site works</h1>
 <h2>What it answers</h2><p>Which recently stocked lake can I realistically fish from shore, and what do I need to know before driving there? It combines four kinds of facts and keeps them separate: <b>stocking events</b>, <b>physical access</b>, <b>fishing regulations</b> and <b>health advisories</b>. It never declares a lake "open" or "closed".</p>
 <h2>Which lakes</h2><p>v0.1 covers {len(self.waters)} hand-validated waters. Each lake's identity was checked against its official WDFW lake page, its stocking records are attached only through confirmed release-location names, and its access facts were reviewed on {E(date.fromisoformat(self.access_reviewed).strftime("%b %-d, %Y"))} with a verbatim quote and link for every value.</p>
-<h2>"Recently stocked" means catchable size</h2>
+<h2 id="catchable">"Recently stocked" means catchable size</h2>
 <ul><li>Source: WDFW Fish Plants dataset (data.wa.gov 6fex-3r7d), which holds <b>completed, reported releases</b>. The annual stocking plan (planned releases) is not used anywhere on this site.</li>
 <li>Counted: trout/kokanee with <b>3 or fewer fish per pound</b>. This is the threshold WDFW's own lake pages use for "catchable" plants. Lifestage labels are not used because they are inconsistent in the source.</li>
 <li>Not counted: fry and fingerlings (more than 3 fish per pound), releases with no size reported, and other species. These are shown in stocking tables but never make a lake "recently stocked".</li>
@@ -741,7 +762,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <ul><li>Shore access is read from WDFW's shoreline notes, WDFW shore-fishing site points and manager pages. WDFW's shoreline rating is "Good" on almost every page, even where the note says access is limited, so the note decides.</li>
 <li>If an official source does not state something, the site says <b>"Not stated by &lt;manager&gt;"</b>. Silence is never shown as "No" or "No fee". Where official sources conflict, the site says so.</li>
 <li>Where one lake has several managers (e.g. a WDFW ramp and a city park dock), each access point is shown separately, because passes and fees differ.</li></ul>
-<h2>Notices and freshness</h2>
+<h2 id="notices">Notices and freshness</h2>
 <ul><li>WDFW emergency rules: checked for each lake through WDFW's per-lake emergency-rule listing (includes statewide rules).</li>
 <li>Toxic algae: WA Dept of Ecology's list of lakes above guidelines. A listing attaches to a lake only by Ecology site ID, or by a name held by exactly one official WDFW water; ambiguous names (e.g. "Green Lake", "Clear Lake") are never attached automatically.</li>
 <li>Park closures and construction: dated notices on manager pages, plus automatic change detection on every cited page. A changed page flags the lake as possibly out of date until re-reviewed.</li>

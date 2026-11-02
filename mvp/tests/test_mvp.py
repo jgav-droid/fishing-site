@@ -356,20 +356,31 @@ class LakeDetailRedesign(unittest.TestCase):
             self.assertLess(s.index('class="decision"'), s.index('id="sources"'))
 
     def test_stale_data_is_flagged_in_the_decision_layer(self):
-        tmp = Path(tempfile.mkdtemp())
-        for f in DATA.glob("*.json"):
-            shutil.copy(f, tmp / f.name)
-        st = json.loads((tmp / "source_status.json").read_text())
-        st["ecology_toxic_algae"]["last_success"] = "2026-10-20T00:00:00+00:00"
-        (tmp / "source_status.json").write_text(json.dumps(st))
-        out, _ = built(data_dir=tmp)
-        s = (out / "lakes/battle-ground-lake/index.html").read_text()
-        d = s[s.index('<section class="decision"'):s.index('<div class="details">')]
+        # Both builds set every source's last success explicitly, so the result does not depend
+        # on how old the committed data happens to be when the tests run.
+        from datetime import datetime, timezone
+        now = datetime.now(timezone.utc).isoformat()
+
+        def build_with(overrides):
+            tmp = Path(tempfile.mkdtemp())
+            for f in DATA.glob("*.json"):
+                shutil.copy(f, tmp / f.name)
+            st = json.loads((tmp / "source_status.json").read_text())
+            for v in st.values():
+                v.update(last_success=now, last_attempt=now, status="ok")
+            for k, ts in overrides.items():
+                st[k]["last_success"] = ts
+            (tmp / "source_status.json").write_text(json.dumps(st))
+            out, _ = built(data_dir=tmp)
+            s = (out / "lakes/battle-ground-lake/index.html").read_text()
+            shutil.rmtree(out)
+            shutil.rmtree(tmp)
+            return s[s.index('<section class="decision"'):s.index('<div class="details">')]
+
+        d = build_with({"ecology_toxic_algae": "2026-10-20T00:00:00+00:00"})
         self.assertIn("STALE", d)
         self.assertIn("Ecology toxic-algae list", d)
-        self.assertNotIn("STALE", self.decision("battle-ground-lake"))
-        shutil.rmtree(out)
-        shutil.rmtree(tmp)
+        self.assertNotIn("STALE", build_with({}))
 
 
 class DeployWorkflow(unittest.TestCase):
@@ -399,6 +410,76 @@ class DeployWorkflow(unittest.TestCase):
                                             "actions/upload-pages-artifact", "actions/deploy-pages")]
         self.assertEqual(order, sorted(order))
         self.assertIn("contents: read", self.wf[:self.wf.index("jobs:")])
+
+
+class SecondaryMethodology(unittest.TestCase):
+    """Simple answers first: methodology lives on /methodology/ (footer link), never in the
+    primary navigation, homepage, cards or the lake-page decision layer."""
+    JARGON = ("geo_code", "fish per pound", "Census", "change detection", "overlap", "identity",
+              "review queue", "Fish Plants dataset", "6fex", "reconcil")
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.html = sorted(p for p in cls.out.rglob("*.html"))
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def test_header_nav_is_anglers_tools_only(self):
+        for p in self.html:
+            nav = re.search(r'<header class="top">.*?<nav>(.*?)</nav></header>', p.read_text(), re.S).group(1)
+            self.assertEqual(re.findall(r'<a href="([^"]+)"[^>]*>([^<]+)</a>', nav),
+                             [("/", "Trip finder"), ("/recently-stocked/", "Recently stocked"), ("/lakes/", "Lakes")], p)
+
+    def test_footer_keeps_methodology_and_data_quality(self):
+        for p in self.html:
+            foot = p.read_text().split('<footer class="foot">', 1)[1]
+            self.assertIn('<a href="/methodology/">Methodology</a>', foot, p)
+            self.assertIn('<a href="/data-quality/">Data quality &amp; corrections</a>', foot, p)
+            self.assertIn("WDFW Fish Plants (data.wa.gov)", foot, p)          # source attribution
+
+    def test_methodology_and_data_quality_pages_intact_and_indexed(self):
+        self.assertIn("/methodology/", self.site.pages)
+        self.assertIn("/data-quality/", self.site.pages)
+        m = text(self.out / "methodology/index.html")
+        for must in ("geo_code", "3 or fewer fish per pound", "review queue", "STALE", "Census Gazetteer",
+                     "change detection", "Not stated by", "Identity safeguards", "Area pages"):
+            self.assertIn(must, m)
+        dq = text(self.out / "data-quality/index.html")
+        for must in ("Known source conflicts", "Stocking records deliberately not attached", "Report a correction"):
+            self.assertIn(must, dq)
+
+    def test_primary_surfaces_carry_no_methodology_detail(self):
+        home = (self.out / "index.html").read_text()
+        home = re.sub(r'<details class="fresh-more">.*?</details>', "", home, flags=re.S)   # collapsed, secondary
+        main = home[home.index("<main"):home.index("</main>")]
+        for j in self.JARGON:
+            self.assertNotIn(j, main, j)
+        self.assertNotIn('class="fresh"', main)                                     # no freshness block on show
+        self.assertIn('<a href="/methodology/">How we determine this</a>', main)
+        for slug in [p.parent.name for p in (self.out / "lakes").glob("*/index.html")]:
+            s = (self.out / "lakes" / slug / "index.html").read_text()
+            head = s[s.index("<main"):s.index('<div class="details">')]             # lede + decision layer
+            for j in self.JARGON:
+                self.assertNotIn(j, head, (slug, j))
+            self.assertIn('href="/methodology/"', head, slug)
+
+    def test_stale_warning_stays_visible_outside_collapsed_detail(self):
+        tmp = Path(tempfile.mkdtemp())
+        for f in DATA.glob("*.json"):
+            shutil.copy(f, tmp / f.name)
+        st = json.loads((tmp / "source_status.json").read_text())
+        st["stocking"]["last_success"] = "2026-10-01T00:00:00+00:00"
+        (tmp / "source_status.json").write_text(json.dumps(st))
+        out, _ = built(data_dir=tmp)
+        for page in ("index.html", "recently-stocked/index.html", "near/tacoma/index.html"):
+            s = (out / page).read_text()
+            visible = re.sub(r"<details.*?</details>", "", s, flags=re.S)
+            self.assertIn('<p class="stale-line"><span class="stalewarn">STALE</span>', visible, page)
+        shutil.rmtree(out)
+        shutil.rmtree(tmp)
 
 
 class Production(unittest.TestCase):

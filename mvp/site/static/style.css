@@ -115,8 +115,11 @@ main{max-width:860px;margin:0 auto;padding:1rem}
 .all-lakes{font-size:.9rem;margin:.7rem 0 0}
 
 /* freshness (secondary) */
-.fresh-wrap{margin-top:2rem}
-.fresh-wrap h2{font-size:.95rem;color:var(--mute);margin:0 0 .3rem}
+.fresh-wrap{margin-top:2rem;padding-top:.6rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--mute)}
+.fresh-line,.stale-line{margin:0 0 .3rem}
+.stale-line{color:var(--ink)}
+.fresh-more summary{cursor:pointer;color:var(--brand2);font-weight:600;padding:.4rem 0;min-height:44px;display:flex;align-items:center}
+.fresh-more .fresh{margin:.2rem 0 .5rem}
 .fresh{list-style:none;padding:.6rem .75rem;margin:1rem 0 0;font-size:.82rem;color:var(--mute);background:var(--card);border-radius:10px;border:1px solid var(--line)}
 .fresh-wrap .fresh{margin:0 0 .5rem}
 .fresh li{margin:.15rem 0}
