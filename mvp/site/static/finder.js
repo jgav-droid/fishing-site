@@ -91,7 +91,7 @@ if (typeof module === "object" && module.exports) module.exports = FinderState;
         rf.className = "c-stock good";
       } else {
         var past = d.catch.filter(function (c) { return day(c[0]) <= trip; });
-        rf.textContent = "No catchable-size stocking reported in the 30 days before this date" + (past.length ? " (last: " + fmt(day(past[0][0])) + ")" : "");
+        rf.textContent = "No catchable trout or kokanee stocking in the 30 days before this date" + (past.length ? " (last: " + fmt(day(past[0][0])) + ")" : "");
         rf.className = "c-stock quiet";
       }
     }
@@ -151,12 +151,13 @@ if (typeof module === "object" && module.exports) module.exports = FinderState;
     var n = res.filter(function (c) { return !c.hidden; }).length;
     var no = oth.filter(function (c) { return !c.hidden; }).length;
     $("r-count").textContent = n;
+    $("r-label").textContent = (n === 1 ? "recently stocked lake" : "recently stocked lakes") + " with shore access";
     $("o-count").textContent = no;
-    var msg = "For " + trip.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }) +
-      (origin ? " within " + (max >= 999 ? "any distance" : max + " mi (straight-line, not driving)") + " of " + originLabel :
-                ", newest catchable stocking first. Add a starting place to sort by distance (straight-line)") + ".";
-    if (dataDate && trip > day(dataDate)) msg += " WDFW stocking data runs through " + fmt(day(dataDate)) + "; later plants are not yet known.";
-    if (!n) msg = "No lakes match these criteria. " + msg;
+    var msg = "Trips on " + trip.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }) +
+      (origin ? " within " + (max >= 999 ? "any distance" : max + " mi") + " of " + originLabel + " (straight-line, not driving distance)" :
+                ", most recently stocked first. Add a starting place to sort by distance") + ".";
+    if (dataDate && trip > day(dataDate)) msg += " WDFW has reported stocking through " + fmt(day(dataDate)) + "; anything later isn't known yet.";
+    if (!n) msg = "No lakes match. Try a longer distance or fewer filters. " + msg;
     $("f-status").textContent = msg;
     if (!n && no) $("others-wrap").open = true;
     if (userChanged) {

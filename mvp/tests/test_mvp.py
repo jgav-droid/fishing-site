@@ -140,7 +140,9 @@ class Build(unittest.TestCase):
         oct14 = [r for r in st["stocking"]["all"] if r["release_start_date"] == "2026-10-14"]
         self.assertTrue(oct14 and all(r["class"] == "below_catchable_size" for r in oct14))
         rs = (self.out / "recently-stocked/index.html").read_text()
-        main_tbl, other_tbl = rs.split("Other releases in the last 30 days")
+        primary = rs[rs.index('<ul class="rs-list">'):rs.index('<p class="rs-none-list">')]
+        self.assertNotIn("American Lake", primary)                       # fry never make the angler list
+        main_tbl, other_tbl = rs.split("Other WDFW releases in the last 30 days")
         self.assertNotIn("American Lake", main_tbl.split("<tbody>", 1)[1])
         self.assertIn("American Lake", other_tbl)
         self.assertFalse(self.site.st["wa-w-lake-meridian"]["qualifies"])  # Oct 20 plants were fry
@@ -227,7 +229,7 @@ class HomepageRedesign(unittest.TestCase):
         self.assertRegex(self.home, r'<details class="others" id="others-wrap"><summary>')
         self.assertIn('<div id="others" class="cards compact">', self.home)
         n_q = sum(self.site.st[w["water_id"]]["qualifies"] for w in self.site.waters)
-        self.assertIn(f'<b id="o-count">{20 - n_q}</b> other validated lakes', self.home)
+        self.assertIn(f'<b id="o-count">{20 - n_q}</b> more lakes without recent catchable trout or kokanee stocking', self.home)
 
     def test_no_distance_without_location(self):
         self.assertNotRegex(self.home, r'class="dist">[^<]+<')   # empty until the user gives a place
@@ -356,20 +358,31 @@ class LakeDetailRedesign(unittest.TestCase):
             self.assertLess(s.index('class="decision"'), s.index('id="sources"'))
 
     def test_stale_data_is_flagged_in_the_decision_layer(self):
-        tmp = Path(tempfile.mkdtemp())
-        for f in DATA.glob("*.json"):
-            shutil.copy(f, tmp / f.name)
-        st = json.loads((tmp / "source_status.json").read_text())
-        st["ecology_toxic_algae"]["last_success"] = "2026-10-20T00:00:00+00:00"
-        (tmp / "source_status.json").write_text(json.dumps(st))
-        out, _ = built(data_dir=tmp)
-        s = (out / "lakes/battle-ground-lake/index.html").read_text()
-        d = s[s.index('<section class="decision"'):s.index('<div class="details">')]
+        # Both builds set every source's last success explicitly, so the result does not depend
+        # on how old the committed data happens to be when the tests run.
+        from datetime import datetime, timezone
+        now = datetime.now(timezone.utc).isoformat()
+
+        def build_with(overrides):
+            tmp = Path(tempfile.mkdtemp())
+            for f in DATA.glob("*.json"):
+                shutil.copy(f, tmp / f.name)
+            st = json.loads((tmp / "source_status.json").read_text())
+            for v in st.values():
+                v.update(last_success=now, last_attempt=now, status="ok")
+            for k, ts in overrides.items():
+                st[k]["last_success"] = ts
+            (tmp / "source_status.json").write_text(json.dumps(st))
+            out, _ = built(data_dir=tmp)
+            s = (out / "lakes/battle-ground-lake/index.html").read_text()
+            shutil.rmtree(out)
+            shutil.rmtree(tmp)
+            return s[s.index('<section class="decision"'):s.index('<div class="details">')]
+
+        d = build_with({"ecology_toxic_algae": "2026-10-20T00:00:00+00:00"})
         self.assertIn("STALE", d)
         self.assertIn("Ecology toxic-algae list", d)
-        self.assertNotIn("STALE", self.decision("battle-ground-lake"))
-        shutil.rmtree(out)
-        shutil.rmtree(tmp)
+        self.assertNotIn("STALE", build_with({}))
 
 
 class DeployWorkflow(unittest.TestCase):
@@ -399,6 +412,238 @@ class DeployWorkflow(unittest.TestCase):
                                             "actions/upload-pages-artifact", "actions/deploy-pages")]
         self.assertEqual(order, sorted(order))
         self.assertIn("contents: read", self.wf[:self.wf.index("jobs:")])
+
+
+class SecondaryMethodology(unittest.TestCase):
+    """Simple answers first: methodology lives on /methodology/ (footer link), never in the
+    primary navigation, homepage, cards or the lake-page decision layer."""
+    JARGON = ("geo_code", "fish per pound", "Census", "change detection", "overlap", "identity",
+              "review queue", "Fish Plants dataset", "6fex", "reconcil")
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.html = sorted(p for p in cls.out.rglob("*.html"))
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def test_header_nav_is_anglers_tools_only(self):
+        for p in self.html:
+            nav = re.search(r'<header class="top">.*?<nav>(.*?)</nav></header>', p.read_text(), re.S).group(1)
+            self.assertEqual(re.findall(r'<a href="([^"]+)"[^>]*>([^<]+)</a>', nav),
+                             [("/", "Trip finder"), ("/recently-stocked/", "Recently stocked"), ("/lakes/", "Lakes")], p)
+
+    def test_footer_keeps_methodology_and_data_quality(self):
+        for p in self.html:
+            foot = p.read_text().split('<footer class="foot">', 1)[1]
+            self.assertIn('<a href="/methodology/">Methodology</a>', foot, p)
+            self.assertIn('<a href="/data-quality/">Data quality &amp; corrections</a>', foot, p)
+            self.assertIn("WDFW Fish Plants (data.wa.gov)", foot, p)          # source attribution
+
+    def test_methodology_and_data_quality_pages_intact_and_indexed(self):
+        self.assertIn("/methodology/", self.site.pages)
+        self.assertIn("/data-quality/", self.site.pages)
+        m = text(self.out / "methodology/index.html")
+        for must in ("geo_code", "3 or fewer fish per pound", "review queue", "STALE", "Census Gazetteer",
+                     "change detection", "Not stated by", "Identity safeguards", "Area pages"):
+            self.assertIn(must, m)
+        dq = text(self.out / "data-quality/index.html")
+        for must in ("Known source conflicts", "Stocking records deliberately not attached", "Report a correction"):
+            self.assertIn(must, dq)
+
+    def test_primary_surfaces_carry_no_methodology_detail(self):
+        home = (self.out / "index.html").read_text()
+        home = re.sub(r'<details class="fresh-more">.*?</details>', "", home, flags=re.S)   # collapsed, secondary
+        main = home[home.index("<main"):home.index("</main>")]
+        for j in self.JARGON:
+            self.assertNotIn(j, main, j)
+        self.assertNotIn('class="fresh"', main)                                     # no freshness block on show
+        self.assertIn('<a href="/methodology/">How we determine this</a>', main)
+        for slug in [p.parent.name for p in (self.out / "lakes").glob("*/index.html")]:
+            s = (self.out / "lakes" / slug / "index.html").read_text()
+            head = s[s.index("<main"):s.index('<div class="details">')]             # lede + decision layer
+            for j in self.JARGON:
+                self.assertNotIn(j, head, (slug, j))
+            self.assertIn('href="/methodology/"', head, slug)
+
+    def test_stale_warning_stays_visible_outside_collapsed_detail(self):
+        tmp = Path(tempfile.mkdtemp())
+        for f in DATA.glob("*.json"):
+            shutil.copy(f, tmp / f.name)
+        st = json.loads((tmp / "source_status.json").read_text())
+        st["stocking"]["last_success"] = "2026-10-01T00:00:00+00:00"
+        (tmp / "source_status.json").write_text(json.dumps(st))
+        out, _ = built(data_dir=tmp)
+        for page in ("index.html", "recently-stocked/index.html", "near/tacoma/index.html"):
+            s = (out / page).read_text()
+            visible = re.sub(r"<details.*?</details>", "", s, flags=re.S)
+            self.assertIn('<p class="stale-line"><span class="stalewarn">STALE</span>', visible, page)
+        shutil.rmtree(out)
+        shutil.rmtree(tmp)
+
+
+class AnglerCopy(unittest.TestCase):
+    """Final consumer cleanup: plain angler language on primary pages; evidence kept, secondary."""
+    INTERNAL = ("validated", "qualif", "classification", "reconcil", "threshold", "release location", "matched",
+                "dataset", "identity", "overlap", "monitored", "Census", "fish per pound", "Fish/lb",
+                "catchable-size", "Size class", "geo_code", "Kept separate", "plants")
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+        cls.home = (cls.out / "index.html").read_text()
+        cls.rs = (cls.out / "recently-stocked/index.html").read_text()
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    @staticmethod
+    def visible_main(s):
+        m = s[s.index("<main"):s.index("</main>")]
+        m = re.sub(r"<(details|script).*?</\1>", " ", m, flags=re.S)
+        return html.unescape(re.sub(r"<[^>]+>", " ", m))
+
+    def test_sitemap_lists_every_page_without_fake_lastmod(self):
+        sm = (self.out / "sitemap.xml").read_text()
+        self.assertNotIn("lastmod", sm)
+        locs = re.findall(r"<loc>(.*?)</loc>", sm)
+        self.assertEqual(sorted(locs), sorted(BASE + p for p in self.site.pages))
+        self.assertEqual(len(locs), len(set(locs)))
+        for must in ("/methodology/", "/data-quality/", "/recently-stocked/", "/lakes/ward-lake/"):
+            self.assertIn(BASE + must, locs)
+
+    def test_home_cards_use_sourced_shore_explanation(self):
+        for w in self.site.waters:
+            c = re.search(rf'<article class="card" id="lake-{w["slug"]}".*?</article>', self.home, re.S).group(0)
+            shore = re.search(r'<p class="c-shore ([a-z]+)">(.*?)</p>', c, re.S)
+            f = self.site.access[w["water_id"]]["bank_fishing_status"]
+            self.assertNotIn("badge", shore.group(2))
+            if f["state"] != "UNKNOWN":
+                self.assertIn(html.escape(f["value"]), shore.group(2), w["slug"])       # explanation, not the tag alone
+            if f["state"] == "LIMITED":
+                self.assertIn('<span class="tag limited">Limited</span>', shore.group(2))
+            for dd in re.findall(r'<dl class="c-facts">.*?</dl>', c, re.S)[0].split("<dd>")[1:]:
+                v = html.unescape(re.sub(r"<[^>]+>", "", dd.split("</dd>")[0])).strip()
+                self.assertNotIn(v, {"Yes", "No", "Limited", "Not stated", "Unknown"}, (w["slug"], v))
+        self.assertNotIn("Limited shore access</span></p>", self.home)
+
+    def test_recently_stocked_leads_with_angler_view(self):
+        vis = self.visible_main(self.rs)
+        for t in ("Fish/lb", "fish per pound", "Size class", "Smaller than catchable size", "Fry"):
+            self.assertNotIn(t, vis, t)                                            # technical detail is collapsed
+        primary = self.rs[self.rs.index('<ul class="rs-list">'):self.rs.index('<p class="rs-none-list">')]
+        recent = [w for w in self.site.waters if self.site.st[w["water_id"]]["stocking"]["recent"]]
+        self.assertEqual(primary.count('<li class="rs">'), len(recent))
+        for w in recent:
+            st = self.site.st[w["water_id"]]
+            stg = st["stocking"]
+            row = re.search(rf'<li class="rs">(?:(?!</li>\s*<li class="rs">).)*?href="/lakes/{w["slug"]}/".*?View lake', primary, re.S).group(0)
+            self.assertIn(f'{stg["recent_total"]:,}', row)
+            self.assertIn(html.escape(build_site.el.fmt_range([r["date"] for r in stg["recent"]])), row)
+            self.assertIn(html.escape(self.site.access[w["water_id"]]["bank_fishing_status"]["value"]), row)
+            active = [f for f in st["flags"] if f["level"] in ("blocking", "warn", "restricted")]
+            for f in active:
+                self.assertIn(html.escape(f["text"]), row, (w["slug"], f["key"]))
+            self.assertEqual("No current issues" in row, not active, w["slug"])
+        details = re.search(r'<details class="more-d rs-data">.*?</details>', self.rs, re.S).group(0)
+        self.assertIn("<th>Fish/lb</th>", details)                                # the data is still on the page
+        for w in recent:
+            for r in self.site.st[w["water_id"]]["stocking"]["recent"]:
+                self.assertIn(f'<td class="num">{r["number_released"]:,}</td>', details)
+        self.assertIn("Other WDFW releases in the last 30 days (not counted)", details)
+
+    def test_no_internal_vocabulary_on_angler_pages(self):
+        pages = ["index.html", "recently-stocked/index.html", "lakes/index.html"]
+        pages += [str(p.relative_to(self.out)) for p in self.out.glob("near/*/index.html")]
+        pages += [str(p.relative_to(self.out)) for p in self.out.glob("lakes/*/index.html")]
+        for page in pages:
+            vis = self.visible_main((self.out / page).read_text())
+            for t in self.INTERNAL:
+                self.assertNotIn(t.lower(), vis.lower(), (page, t))
+        self.assertNotIn("separately", self.visible_main((self.out / "lakes/ward-lake/index.html").read_text()))
+
+    def test_favicon_theme_and_share_metadata(self):
+        for p in self.out.rglob("*.html"):
+            h = p.read_text().split("</head>")[0]
+            self.assertIn('<link rel="icon" href="/favicon.ico" sizes="32x32">', h, p)
+            self.assertIn('<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">', h, p)
+            self.assertIn('<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">', h, p)
+            self.assertIn('<meta name="theme-color" content="#0e3a46">', h, p)
+            self.assertNotIn("#1f4d3a", h, p)
+            self.assertIn(f'<meta property="og:image" content="{BASE}/assets/og-image.png">', h, p)
+            for prop in ("og:title", "og:description", "og:url", "og:site_name"):
+                self.assertIn(f'property="{prop}"', h, p)
+        for f in ("favicon.ico", "assets/favicon.svg", "assets/apple-touch-icon.png", "assets/og-image.png"):
+            self.assertTrue((self.out / f).stat().st_size > 0, f)
+        mark = re.search(r'<svg class="mark".*?</svg>', self.home, re.S).group(0)
+        self.assertIn(re.search(r'<path d="([^"]+)"', mark).group(1), (self.out / "assets/favicon.svg").read_text())
+        self.assertIn("--hero:#0e3a46", (self.out / "assets/style.css").read_text())  # theme colour is the hero token
+
+    def test_ga4_only_with_a_real_measurement_id(self):
+        self.assertEqual(CONFIG["ga4_measurement_id"], "")
+        self.assertNotIn("googletagmanager", self.home)
+        tmp = Path(tempfile.mkdtemp())
+        cfg = dict(CONFIG, ga4_measurement_id="G-TEST12345")
+        (tmp / "config.json").write_text(json.dumps(cfg))
+        out, _ = built(config_path=str(tmp / "config.json"))
+        h = (out / "index.html").read_text()
+        self.assertIn("https://www.googletagmanager.com/gtag/js?id=G-TEST12345", h)
+        self.assertIn('gtag("config","G-TEST12345")', h)
+        shutil.rmtree(out)
+        shutil.rmtree(tmp)
+
+
+class StockingAndStatusWording(unittest.TestCase):
+    """Copy must match the logic: catchable stocking counts trout AND kokanee; the all-clear state
+    reflects every official source (rules, access dates, closures, advisories), not only notices."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def test_logic_counts_trout_and_kokanee(self):
+        self.assertEqual(el.classify({"record_kind": "reported_plant", "species_type": "Trout/Kokanee", "number_released": 10, "number_of_fish_per_pound": 2})[0], "catchable")
+        self.assertEqual(el.classify({"record_kind": "reported_plant", "species_type": "Warmwater", "number_released": 10, "number_of_fish_per_pound": 2})[0], "not_counted")
+
+    def test_public_copy_says_trout_or_kokanee(self):
+        js = (MVP / "site/static/finder.js").read_text()
+        self.assertIn("No catchable trout or kokanee stocking in the 30 days before this date", js)
+        for p in list(self.out.rglob("*.html")):
+            if p.parent.name in ("methodology", "data-quality"):
+                continue
+            s = p.read_text()
+            body = s[s.index("<main"):s.index("</main>")]
+            body = re.sub(r"<h1.*?</h1>", "", body, flags=re.S)                     # headings are SEO structure
+            self.assertNotRegex(body, r"catchable trout(?! or kokanee)(?!/kokanee)(?! and kokanee)", p)
+        home = (self.out / "index.html").read_text()
+        self.assertIn("No recent catchable trout or kokanee stocking", home)
+        self.assertIn("stocked with catchable trout or kokanee", (self.out / "near/tacoma/index.html").read_text())
+        rs = (self.out / "recently-stocked/index.html").read_text()
+        self.assertIn("<h1>Recently stocked lakes in Washington</h1>", rs)
+        self.assertIn("catchable trout and kokanee", re.search(r'<p class="rs-intro">(.*?)</p>', rs).group(1))
+        for p in self.out.rglob("*.html"):                                       # descriptions describe the real logic
+            d = re.search(r'<meta name="description" content="([^"]*)"', p.read_text())
+            if d:
+                self.assertNotRegex(d.group(1), r"(?i)catchable(-size)? trout(?! (and|or) kokanee)", p)
+
+    def test_all_clear_says_official_sources(self):
+        home = (self.out / "index.html").read_text()
+        self.assertIn("No current issues found in official sources", home)
+        clear = [w for w in self.site.waters                                     # any lake with no active alert today
+                 if not any(f["level"] in ("blocking", "warn", "restricted") for f in self.site.st[w["water_id"]]["flags"])]
+        self.assertTrue(clear)
+        for w in clear:
+            self.assertIn("No current issues found in official sources for",
+                          (self.out / "lakes" / w["slug"] / "index.html").read_text(), w["slug"])
+        for p in self.out.rglob("*.html"):
+            self.assertNotIn("No current issues found in official notices", p.read_text(), p)
 
 
 class Production(unittest.TestCase):
