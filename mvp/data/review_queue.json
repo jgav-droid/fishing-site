@@ -2,6 +2,16 @@
  "items": [
   {
    "kind": "access_source_changed",
+   "url": "https://cityoflakewood.us/american-lake-park/",
+   "water_ids": [
+    "wa-w-american-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-03T14:16:28+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://www.nwtoxicalgae.org/",
    "water_ids": [
     "wa-w-spanaway-lake"
