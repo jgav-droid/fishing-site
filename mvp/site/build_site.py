@@ -759,7 +759,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <div class="tblwrap"><table><thead><tr><th>Date</th><th>Lake</th><th>Species</th><th>Number</th><th>Fish/lb</th><th>Size class</th></tr></thead><tbody>{"".join(tr(r, w, False) for r, w in other) or '<tr><td colspan=6>None.</td></tr>'}</tbody></table></div>
 </details>
 {self.fresh_secondary()}"""
-        self.page("/recently-stocked/", f"Recently Stocked Lakes in Washington — Catchable Trout | {self.cfg['site_name']}",
+        self.page("/recently-stocked/", f"Recently Stocked Trout & Kokanee Lakes in Washington | {self.cfg['site_name']}",
                   "Catchable trout and kokanee reported stocked by WDFW in the last 30 days at Washington lakes with documented shore access. Fry plants listed separately.", body)
 
     def city_pages(self):
