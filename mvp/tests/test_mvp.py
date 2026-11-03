@@ -636,7 +636,12 @@ class StockingAndStatusWording(unittest.TestCase):
     def test_all_clear_says_official_sources(self):
         home = (self.out / "index.html").read_text()
         self.assertIn("No current issues found in official sources", home)
-        self.assertIn("No current issues found in official sources for", (self.out / "lakes/battle-ground-lake/index.html").read_text())
+        clear = [w for w in self.site.waters                                     # any lake with no active alert today
+                 if not any(f["level"] in ("blocking", "warn", "restricted") for f in self.site.st[w["water_id"]]["flags"])]
+        self.assertTrue(clear)
+        for w in clear:
+            self.assertIn("No current issues found in official sources for",
+                          (self.out / "lakes" / w["slug"] / "index.html").read_text(), w["slug"])
         for p in self.out.rglob("*.html"):
             self.assertNotIn("No current issues found in official notices", p.read_text(), p)
 
