@@ -91,7 +91,7 @@ if (typeof module === "object" && module.exports) module.exports = FinderState;
         rf.className = "c-stock good";
       } else {
         var past = d.catch.filter(function (c) { return day(c[0]) <= trip; });
-        rf.textContent = "No catchable trout stocking in the 30 days before this date" + (past.length ? " (last: " + fmt(day(past[0][0])) + ")" : "");
+        rf.textContent = "No catchable trout or kokanee stocking in the 30 days before this date" + (past.length ? " (last: " + fmt(day(past[0][0])) + ")" : "");
         rf.className = "c-stock quiet";
       }
     }

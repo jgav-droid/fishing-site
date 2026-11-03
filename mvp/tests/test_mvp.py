@@ -229,7 +229,7 @@ class HomepageRedesign(unittest.TestCase):
         self.assertRegex(self.home, r'<details class="others" id="others-wrap"><summary>')
         self.assertIn('<div id="others" class="cards compact">', self.home)
         n_q = sum(self.site.st[w["water_id"]]["qualifies"] for w in self.site.waters)
-        self.assertIn(f'<b id="o-count">{20 - n_q}</b> more lakes without recent catchable trout stocking', self.home)
+        self.assertIn(f'<b id="o-count">{20 - n_q}</b> more lakes without recent catchable trout or kokanee stocking', self.home)
 
     def test_no_distance_without_location(self):
         self.assertNotRegex(self.home, r'class="dist">[^<]+<')   # empty until the user gives a place
@@ -594,6 +594,44 @@ class AnglerCopy(unittest.TestCase):
         self.assertIn('gtag("config","G-TEST12345")', h)
         shutil.rmtree(out)
         shutil.rmtree(tmp)
+
+
+class StockingAndStatusWording(unittest.TestCase):
+    """Copy must match the logic: catchable stocking counts trout AND kokanee; the all-clear state
+    reflects every official source (rules, access dates, closures, advisories), not only notices."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.out, cls.site = built()
+
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(cls.out)
+
+    def test_logic_counts_trout_and_kokanee(self):
+        self.assertEqual(el.classify({"record_kind": "reported_plant", "species_type": "Trout/Kokanee", "number_released": 10, "number_of_fish_per_pound": 2})[0], "catchable")
+        self.assertEqual(el.classify({"record_kind": "reported_plant", "species_type": "Warmwater", "number_released": 10, "number_of_fish_per_pound": 2})[0], "not_counted")
+
+    def test_public_copy_says_trout_or_kokanee(self):
+        js = (MVP / "site/static/finder.js").read_text()
+        self.assertIn("No catchable trout or kokanee stocking in the 30 days before this date", js)
+        for p in list(self.out.rglob("*.html")):
+            if p.parent.name in ("methodology", "data-quality"):
+                continue
+            s = p.read_text()
+            body = s[s.index("<main"):s.index("</main>")]
+            body = re.sub(r"<h1.*?</h1>", "", body, flags=re.S)                     # headings are SEO structure
+            self.assertNotRegex(body, r"catchable trout(?! or kokanee)(?!/kokanee)(?! and kokanee)", p)
+        home = (self.out / "index.html").read_text()
+        self.assertIn("No recent catchable trout or kokanee stocking", home)
+        self.assertIn("stocked with catchable trout or kokanee", (self.out / "near/tacoma/index.html").read_text())
+
+    def test_all_clear_says_official_sources(self):
+        home = (self.out / "index.html").read_text()
+        self.assertIn("No current issues found in official sources", home)
+        self.assertIn("No current issues found in official sources for", (self.out / "lakes/battle-ground-lake/index.html").read_text())
+        for p in self.out.rglob("*.html"):
+            self.assertNotIn("No current issues found in official notices", p.read_text(), p)
 
 
 class Production(unittest.TestCase):
