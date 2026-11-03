@@ -423,7 +423,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 {self.fresh_secondary()}
 """
         self.page("/", f"Recently Stocked Lakes in Washington With Shore Access | {self.cfg['site_name']}",
-                  "Find Washington lakes with recently stocked catchable trout and documented shore access, with parking, pass, hours and notice details from official sources.",
+                  "Find Washington lakes recently stocked with catchable trout and kokanee, with documented shore access, parking, passes, hours and notices from official sources.",
                   body, extra_head='<script src="/assets/finder.js" defer></script>',
                   jsonld={"@context": "https://schema.org", "@type": "WebSite", "name": self.cfg["site_name"], "url": self.url("/")})
 
@@ -746,8 +746,8 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
         none = [w for w in self.waters if not self.st[w["water_id"]]["stocking"]["recent"]]
         none_links = ", ".join(f'<a href="/lakes/{E(w["slug"])}/">{E(w["display_name"])}</a>' for w in none) or "none."
         primary = head + "".join(items) if items else '<li class="rs-none">No catchable trout or kokanee stocking reported in the last 30 days.</li>'
-        body = f"""<h1>Recently stocked lakes in Washington (catchable trout)</h1>
-<p class="rs-intro">Catchable trout and kokanee WDFW reported stocking in the last 30 days, as of {E(self.trip.strftime("%b %-d, %Y"))}. Actual releases, not planned stocking. <a href="/methodology/#catchable">How we determine this</a></p>
+        body = f"""<h1>Recently stocked lakes in Washington</h1>
+<p class="rs-intro">Lakes where WDFW reported stocking catchable trout and kokanee in the last 30 days, as of {E(self.trip.strftime("%b %-d, %Y"))}. Actual releases, not planned stocking. <a href="/methodology/#catchable">How we determine this</a></p>
 {self.stale_notice()}
 <ul class="rs-list">{primary}</ul>
 <p class="rs-none-list"><b>No recent catchable trout or kokanee stocking:</b> {none_links}</p>
@@ -760,7 +760,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 </details>
 {self.fresh_secondary()}"""
         self.page("/recently-stocked/", f"Recently Stocked Lakes in Washington — Catchable Trout | {self.cfg['site_name']}",
-                  "Catchable-size trout reported stocked by WDFW in the last 30 days at Washington lakes with documented shore access. Fry plants listed separately.", body)
+                  "Catchable trout and kokanee reported stocked by WDFW in the last 30 days at Washington lakes with documented shore access. Fry plants listed separately.", body)
 
     def city_pages(self):
         cfg = self.cfg["city_pages"]
@@ -796,7 +796,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <div class="cards">{"".join(self.card(w, d) for w, d in sorted(near, key=lambda t: (not self.st[t[0]["water_id"]]["qualifies"], bool(self.st[t[0]["water_id"]]["blocking"]), t[1])))}</div>
 {self.fresh_secondary()}"""
             self.page(f"/near/{slug}/", f"Stocked Lakes Near {c} for Shore Fishing | {self.cfg['site_name']}",
-                      f"{len(near)} lakes near {c}, WA with WDFW stocking, shore access, docks, parking and passes. {len(q)} with catchable trout stocked in the last 30 days.", body)
+                      f"{len(near)} lakes near {c}, WA with WDFW stocking, shore access, docks, parking and passes. {len(q)} with catchable trout or kokanee stocked in the last 30 days.", body)
         self.city_decisions = decisions
 
     def methodology(self):
@@ -824,7 +824,7 @@ Always check posted signs and the <a href="https://www.eregulations.com/washingt
 <h2>Area pages</h2><p>An area page is published only if at least {self.cfg["city_pages"]["min_lakes"]} validated lakes lie within {self.cfg["city_pages"]["radius_miles"]} miles and its lakes overlap no more than {self.cfg["city_pages"]["max_overlap"]:.0%} with an area page already published.</p><ul>{cd}</ul>
 <h2>Sources</h2><ul><li>{self.src("https://data.wa.gov/dataset/WDFW-Fish-Plants/6fex-3r7d", "WDFW Fish Plants (data.wa.gov)")}</li><li>{self.src("https://wdfw.wa.gov/fishing/locations/lowland-lakes", "WDFW lowland lake pages")}</li><li>{self.src("https://wdfw.wa.gov/places-to-go/water-access-sites", "WDFW water access areas")}</li><li>{self.src("https://wdfw.wa.gov/fishing/regulations/emergency-rules", "WDFW emergency fishing rules")}</li><li>{self.src("https://www.eregulations.com/washington/fishing/", "WDFW sport fishing rules pamphlet")}</li><li>{self.src("https://www.nwtoxicalgae.org/", "WA Dept of Ecology freshwater algae")}</li><li>{self.src("https://parks.wa.gov/", "Washington State Parks")}</li><li>County, city and utility park pages, linked on each lake page</li><li>{self.src("https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html", "US Census Gazetteer (place points)")}</li></ul>"""
         self.page("/methodology/", f"Methodology & Sources | {self.cfg['site_name']}",
-                  "How lakes are selected, what counts as recently stocked catchable trout, how unknown and conflicting facts are shown, and where every fact comes from.", body)
+                  "How lakes are selected, what counts as recently stocked catchable trout and kokanee, how unknown and conflicting facts are shown, and where every fact comes from.", body)
 
     def data_quality(self):
         conflicts = "".join(f'<li><a href="/lakes/{E(self.by_id[r["water_id"]]["slug"])}/">{E(self.by_id[r["water_id"]]["display_name"])}</a>: {E(c)}</li>'

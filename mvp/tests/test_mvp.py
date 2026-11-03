@@ -625,6 +625,13 @@ class StockingAndStatusWording(unittest.TestCase):
         home = (self.out / "index.html").read_text()
         self.assertIn("No recent catchable trout or kokanee stocking", home)
         self.assertIn("stocked with catchable trout or kokanee", (self.out / "near/tacoma/index.html").read_text())
+        rs = (self.out / "recently-stocked/index.html").read_text()
+        self.assertIn("<h1>Recently stocked lakes in Washington</h1>", rs)
+        self.assertIn("catchable trout and kokanee", re.search(r'<p class="rs-intro">(.*?)</p>', rs).group(1))
+        for p in self.out.rglob("*.html"):                                       # descriptions describe the real logic
+            d = re.search(r'<meta name="description" content="([^"]*)"', p.read_text())
+            if d:
+                self.assertNotRegex(d.group(1), r"(?i)catchable(-size)? trout(?! (and|or) kokanee)", p)
 
     def test_all_clear_says_official_sources(self):
         home = (self.out / "index.html").read_text()
