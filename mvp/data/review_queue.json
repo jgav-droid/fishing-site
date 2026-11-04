@@ -12,6 +12,16 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://www.seattle.gov/parks/parks/green-lake-park",
+   "water_ids": [
+    "wa-w-green-lake-king"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-04T19:46:29+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
    "water_ids": [
     "wa-w-lake-meridian"
