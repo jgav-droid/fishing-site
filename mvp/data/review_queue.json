@@ -2,6 +2,36 @@
  "items": [
   {
    "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
+   "water_ids": [
+    "wa-w-battle-ground-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:57:59+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
+   "water_ids": [
+    "wa-w-klineline-pond"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:58:12+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/green-lake-king",
+   "water_ids": [
+    "wa-w-green-lake-king"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:58:18+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://www.seattle.gov/parks/parks/green-lake-park",
    "water_ids": [
     "wa-w-green-lake-king"
@@ -32,6 +62,26 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
+   "water_ids": [
+    "wa-w-martha-alderwood-manor"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:58:59+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/ward-lake",
+   "water_ids": [
+    "wa-w-ward-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:59:06+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://cityoflakewood.us/american-lake-park/",
    "water_ids": [
     "wa-w-american-lake"
@@ -42,12 +92,52 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/american-lake",
+   "water_ids": [
+    "wa-w-american-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:59:21+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/mineral-lake",
+   "water_ids": [
+    "wa-w-mineral-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:59:32+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lake-bradley",
+   "water_ids": [
+    "wa-w-lake-bradley"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T19:59:38+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://www.nwtoxicalgae.org/",
    "water_ids": [
     "wa-w-spanaway-lake"
    ],
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-02T15:54:25+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
+   "water_ids": [
+    "wa-w-tanwax-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
   }
  ]
