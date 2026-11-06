@@ -12,6 +12,16 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
+   "water_ids": [
+    "wa-w-lacamas-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-06T06:47:06+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/klineline-pond",
    "water_ids": [
     "wa-w-klineline-pond"
@@ -82,6 +92,16 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://cityoflacey.org/city-government/city-departments/parks-and-recreation/parks-and-facilities/municipal-parks/woodland-creek-community-park",
+   "water_ids": [
+    "wa-w-longs-pond"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-06T06:47:56+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://cityoflakewood.us/american-lake-park/",
    "water_ids": [
     "wa-w-american-lake"
@@ -139,6 +159,16 @@
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_unreachable",
+   "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+   "water_ids": [
+    "wa-w-lake-meridian"
+   ],
+   "error": "HTTP 403 HTTP 403 Forbidden",
+   "detected_at": "2026-11-06T06:48:59+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
 }
