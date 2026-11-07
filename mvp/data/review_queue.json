@@ -149,6 +149,16 @@
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_unreachable",
+   "url": "https://www.seattle.gov/parks/parks/green-lake-park",
+   "water_ids": [
+    "wa-w-green-lake-king"
+   ],
+   "error": "HTTP None The read operation timed out",
+   "detected_at": "2026-11-07T13:04:06+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
 }
