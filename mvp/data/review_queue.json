@@ -2,16 +2,6 @@
  "items": [
   {
    "kind": "access_source_changed",
-   "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
-   "water_ids": [
-    "wa-w-battle-ground-lake"
-   ],
-   "baseline_at": "2026-10-31",
-   "detected_at": "2026-11-11T06:20:45+00:00",
-   "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
    "water_ids": [
     "wa-w-battle-ground-lake"
@@ -169,6 +159,16 @@
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_unreachable",
+   "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+   "water_ids": [
+    "wa-w-lake-meridian"
+   ],
+   "error": "HTTP 403 HTTP 403 Forbidden",
+   "detected_at": "2026-11-11T19:38:54+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
 }
