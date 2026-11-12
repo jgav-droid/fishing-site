@@ -2,16 +2,6 @@
  "items": [
   {
    "kind": "access_source_changed",
-   "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
-   "water_ids": [
-    "wa-w-battle-ground-lake"
-   ],
-   "baseline_at": "2026-10-31",
-   "detected_at": "2026-11-12T07:11:19+00:00",
-   "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
    "water_ids": [
     "wa-w-battle-ground-lake"
@@ -82,6 +72,26 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://snohomishcountywa.gov/5281/Passes",
+   "water_ids": [
+    "wa-w-martha-alderwood-manor"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-12T19:56:43+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
+   "url": "https://snohomishcountywa.gov/Facilities/Facility/Details/Martha-Lake-88",
+   "water_ids": [
+    "wa-w-martha-alderwood-manor"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-12T19:56:49+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/martha-alderwood-manor",
    "water_ids": [
     "wa-w-martha-alderwood-manor"
@@ -148,16 +158,6 @@
    ],
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-02T15:54:25+00:00",
-   "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_changed",
-   "url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
-   "water_ids": [
-    "wa-w-spanaway-lake"
-   ],
-   "baseline_at": "2026-10-31",
-   "detected_at": "2026-11-11T06:22:45+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
   },
   {
