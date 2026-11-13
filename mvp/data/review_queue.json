@@ -162,6 +162,16 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
+   "water_ids": [
+    "wa-w-spanaway-lake"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-13T06:48:22+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
    "water_ids": [
     "wa-w-tanwax-lake"
@@ -169,6 +179,16 @@
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_unreachable",
+   "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
+   "water_ids": [
+    "wa-w-lake-meridian"
+   ],
+   "error": "HTTP 403 HTTP 403 Forbidden",
+   "detected_at": "2026-11-13T06:48:44+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
 }
