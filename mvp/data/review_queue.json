@@ -22,6 +22,17 @@
   },
   {
    "kind": "access_source_changed",
+   "url": "https://clark.wa.gov/public-works/parking-fees",
+   "water_ids": [
+    "wa-w-lacamas-lake",
+    "wa-w-klineline-pond"
+   ],
+   "baseline_at": "2026-10-31",
+   "detected_at": "2026-11-16T22:03:27+00:00",
+   "note": "Official page text changed since the access review; re-verify the lake's access facts."
+  },
+  {
+   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/lacamas-lake",
    "water_ids": [
     "wa-w-lacamas-lake"
