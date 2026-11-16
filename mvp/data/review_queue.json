@@ -152,16 +152,6 @@
   },
   {
    "kind": "access_source_changed",
-   "url": "https://www.piercecountywa.gov/1336/Spanaway-Park",
-   "water_ids": [
-    "wa-w-spanaway-lake"
-   ],
-   "baseline_at": "2026-10-31",
-   "detected_at": "2026-11-13T06:48:22+00:00",
-   "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/tanwax-lake",
    "water_ids": [
     "wa-w-tanwax-lake"
