@@ -2,16 +2,6 @@
  "items": [
   {
    "kind": "access_source_changed",
-   "url": "https://parks.wa.gov/find-parks/state-parks/battle-ground-lake-state-park",
-   "water_ids": [
-    "wa-w-battle-ground-lake"
-   ],
-   "baseline_at": "2026-10-31",
-   "detected_at": "2026-11-18T20:32:48+00:00",
-   "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_changed",
    "url": "https://wdfw.wa.gov/fishing/locations/lowland-lakes/battle-ground-lake",
    "water_ids": [
     "wa-w-battle-ground-lake"
@@ -180,26 +170,6 @@
    "baseline_at": "2026-10-31",
    "detected_at": "2026-11-05T20:00:00+00:00",
    "note": "Official page text changed since the access review; re-verify the lake's access facts."
-  },
-  {
-   "kind": "access_source_unreachable",
-   "url": "https://cityoflakewood.us/american-lake-park/",
-   "water_ids": [
-    "wa-w-american-lake"
-   ],
-   "error": "HTTP 403 HTTP 403 Forbidden",
-   "detected_at": "2026-11-20T07:20:09+00:00",
-   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
-  },
-  {
-   "kind": "access_source_unreachable",
-   "url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
-   "water_ids": [
-    "wa-w-lake-bradley"
-   ],
-   "error": "HTTP None timed out",
-   "detected_at": "2026-11-20T07:20:09+00:00",
-   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
 }
