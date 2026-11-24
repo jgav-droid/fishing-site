@@ -1,38 +1,38 @@
 {
  "stocking": {
-  "last_attempt": "2026-11-24T09:53:44+00:00",
+  "last_attempt": "2026-11-24T22:27:12+00:00",
   "status": "ok",
   "error": null,
-  "last_success": "2026-11-24T09:53:44+00:00",
+  "last_success": "2026-11-24T22:27:12+00:00",
   "rows_in_window": 158,
-  "dataset_rows_updated_at": 1795507756
+  "dataset_rows_updated_at": 1795541433
  },
  "wdfw_emergency_rules": {
-  "last_attempt": "2026-11-24T09:54:34+00:00",
+  "last_attempt": "2026-11-24T22:28:04+00:00",
   "status": "ok",
   "error": null,
-  "last_success": "2026-11-24T09:54:34+00:00",
+  "last_success": "2026-11-24T22:28:04+00:00",
   "lakes_checked": 20
  },
  "ecology_toxic_algae": {
-  "last_attempt": "2026-11-24T09:54:35+00:00",
+  "last_attempt": "2026-11-24T22:28:06+00:00",
   "status": "ok",
   "error": null,
-  "last_success": "2026-11-24T09:54:35+00:00",
+  "last_success": "2026-11-24T22:28:06+00:00",
   "listed_sites": 3
  },
  "wa_state_parks_alerts": {
-  "last_attempt": "2026-11-24T09:54:37+00:00",
+  "last_attempt": "2026-11-24T22:28:10+00:00",
   "status": "ok",
   "error": null,
-  "last_success": "2026-11-24T09:54:37+00:00"
+  "last_success": "2026-11-24T22:28:10+00:00"
  },
  "access_source_pages": {
-  "last_attempt": "2026-11-24T09:57:08+00:00",
+  "last_attempt": "2026-11-24T22:30:31+00:00",
   "status": "ok",
   "error": null,
-  "last_success": "2026-11-24T09:57:08+00:00",
+  "last_success": "2026-11-24T22:30:31+00:00",
   "pages_checked": 49,
-  "pages_changed": 18
+  "pages_changed": 17
  }
 }
