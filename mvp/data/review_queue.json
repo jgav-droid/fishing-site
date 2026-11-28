@@ -183,12 +183,32 @@
   },
   {
    "kind": "access_source_unreachable",
+   "url": "https://www.seatacwa.gov/Community-and-recreation/Parks-and-trails/Angle-Lake-Park",
+   "water_ids": [
+    "wa-w-angle-lake"
+   ],
+   "error": "HTTP 403 HTTP 403 Forbidden",
+   "detected_at": "2026-11-28T07:52:00+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
+  },
+  {
+   "kind": "access_source_unreachable",
    "url": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-meridian-park",
    "water_ids": [
     "wa-w-lake-meridian"
    ],
    "error": "HTTP 403 HTTP 403 Forbidden",
-   "detected_at": "2026-11-27T21:20:50+00:00",
+   "detected_at": "2026-11-28T07:52:00+00:00",
+   "note": "Could not fetch (404/redirect/timeout); URL may have moved."
+  },
+  {
+   "kind": "access_source_unreachable",
+   "url": "https://www.puyallupwa.gov/2503/Bradley-Lake-Park",
+   "water_ids": [
+    "wa-w-lake-bradley"
+   ],
+   "error": "HTTP None timed out",
+   "detected_at": "2026-11-28T07:52:00+00:00",
    "note": "Could not fetch (404/redirect/timeout); URL may have moved."
   }
  ]
